@@ -5,13 +5,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my personal site hosted on GitHub Pages.
   I’ll share projects, notes, and experiments here.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://your-username.github.io" # replace with your GitHub Pages URL
+url: "https://mikliryc.github.io" # replace with your GitHub Pages URL
 
 # Build settings
 theme: jekyll-theme-minimal # you can change to another supported Jekyll theme
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
 
 # Optional settings
 markdown: kramdown
