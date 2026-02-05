@@ -8,7 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mikliryc.github.io" # replace with your GitHub Pages URL
 
 # Build settings
-theme: jekyll-theme-minimal # you can change to another supported Jekyll theme
+theme: jekyll-theme-midnight # you can change to another supported Jekyll theme
 
 # Optional settings
 markdown: kramdown
