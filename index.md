@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Home
 ---
 
@@ -8,4 +8,4 @@ title: Home
 This is the homepage of **MikLiryc.github.io**.  
 Here I’ll share my projects, notes, and experiments.
 
-Stay tuned for updates!
+Check out the [About page](/about/) to learn more.
