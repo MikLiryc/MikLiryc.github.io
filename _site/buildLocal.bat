@@ -1,10 +1,20 @@
-@echo off
-REM Build and serve Jekyll site
-
-echo Building site...
+#!/bin/bash
+echo "Building site..."
 bundle exec jekyll build
 
-echo Starting local server...
+if [ $? -ne 0 ]; then
+    echo "❌ Build failed. Press any key to exit."
+    read
+    exit 1
+fi
+
+echo "Starting local server..."
 bundle exec jekyll serve
 
-pause
+if [ $? -ne 0 ]; then
+    echo "❌ Server failed to start. Press any key to exit."
+    read
+    exit 1
+fi
+
+read -p "Press any key to exit..."
