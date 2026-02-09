@@ -1,14 +1,28 @@
-# _config.yml
-
 title: Cyril's GitHub Page
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Welcome to my personal site hosted on GitHub Pages.
   I’ll share projects, notes, and experiments here.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mikliryc.github.io" # replace with your GitHub Pages URL
+baseurl: ""
+url: "https://mikliryc.github.io"
 
-# Build settings
-theme: jekyll-theme-slate # you can change to another supported Jekyll theme
-
-# Optional settings
+theme: jekyll-theme-slate
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title/
+
+sass:
+  style: compressed
+
+plugins: []
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - buildLocal.bat
+  - README.md
+  - my_commits.txt
+  - legacy_index.md
+  - .git
+  - .idea
+  - .jekyll-cache
+  - _site

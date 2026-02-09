@@ -1,0 +1,92 @@
+﻿---
+---
+
+  /* Resume-like overrides (yowu.dev-ish)
+     - clean typography
+     - narrow readable width
+     - strong section rhythm
+     - subtle code badges
+  */
+
+.page-content,
+.container,
+.wrapper,
+main {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html { font-size: 16px; }
+
+body {
+  line-height: 1.7;
+  letter-spacing: -0.01em;
+  text-rendering: geometricPrecision;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.75rem;
+  padding-top: 0.25rem;
+  border-top: 1px solid rgba(127, 127, 127, 0.25);
+}
+
+h3 {
+  font-size: 1.05rem;
+  margin-top: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgba(127, 127, 127, 0.25);
+  margin: 1.6rem 0;
+}
+
+blockquote {
+  margin: 0.9rem 0 1.2rem;
+  padding: 0.75rem 1rem;
+  border-left: 3px solid rgba(127, 127, 127, 0.35);
+  background: rgba(127, 127, 127, 0.06);
+}
+
+ul, ol { padding-left: 1.25rem; }
+li { margin: 0.25rem 0; }
+li > ul { margin-top: 0.35rem; }
+
+code {
+  font-size: 0.92em;
+  padding: 0.15em 0.4em;
+  border-radius: 6px;
+  background: rgba(127, 127, 127, 0.14);
+}
+
+pre {
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  background: rgba(127, 127, 127, 0.08);
+  overflow: auto;
+}
+
+pre code {
+  padding: 0;
+  background: transparent;
+}
