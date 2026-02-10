@@ -1,11 +1,9 @@
 title: Cyril's GitHub Page
 description: >-
-  Welcome to my personal site hosted on GitHub Pages.
-  I’ll share projects, notes, and experiments here.
+  _config.yml 파일에 있음
 baseurl: ""
 url: "https://mikliryc.github.io"
 
-theme: jekyll-theme-slate
 markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title/
