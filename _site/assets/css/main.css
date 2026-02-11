@@ -1,99 +1,152 @@
-html, body {
+--- --- html,
+body {
   height: 100%;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
+  background: #181c22;
 }
 
 body {
-  min-height: 100vh;
-  background: #181c22;
   color: #f3f3f3;
   font-family: "Noto Sans KR", "Apple SD Gothic Neo", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.resume-container {
-  max-width: 900px;
+  min-height: 100vh;
   width: 100%;
-  margin: 40px auto;
-  background: #23272e;
-  border-radius: 12px;
-  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.1);
-  padding: 40px 36px 48px 36px;
+  box-sizing: border-box;
+}
+
+.page-center {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 56px 24px 56px 24px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 1;
 }
 
-h1 {
-  font-size: 2.3rem;
-  font-weight: 800;
+.resume-section {
+  max-width: 900px;
+  width: auto;
+  background: #23272e;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.13);
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 48px 36px 48px;
+  box-sizing: border-box;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  font-weight: 900;
   margin-bottom: 0.2em;
-}
-
-h2 {
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin-top: 2.5em;
-  margin-bottom: 0.7em;
-  border-bottom: 1px solid #444;
-  padding-bottom: 0.2em;
-}
-
-h3 {
-  font-size: 1.08rem;
-  font-weight: 600;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
+  text-align: left;
 }
 
 .subtitle {
   color: #bdbdbd;
-  font-size: 1.1em;
+  font-size: 1.15em;
   margin-bottom: 1.2em;
+  text-align: left;
 }
 
-.section {
-  margin-bottom: 2.5em;
-  width: 100%;
-}
-
-.date-col {
+.summary-quote {
+  font-size: 1.08em;
   color: #bdbdbd;
+  border-left: 4px solid #4fa3ff;
+  margin: 0 0 1.2em 0;
+  padding: 0.5em 0 0.5em 1.2em;
+  background: #20232a;
+  text-align: left;
+}
+
+.contact-info {
+  font-size: 1.01em;
+  color: #bdbdbd;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+
+.section-title {
+  font-size: 1.45rem;
+  font-weight: 900;
+  color: #4fa3ff;
+  margin-bottom: 1.2em;
+  text-align: left;
+  letter-spacing: 0.01em;
+}
+
+.section-content {
+  font-size: 1.08em;
+  text-align: left;
+}
+
+.exp-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.exp-period {
+  min-width: 120px;
+  color: #bdbdbd;
+  font-size: 1.08em;
   font-weight: 600;
-  width: 160px;
-  font-size: 1.04em;
+  margin-right: 32px;
+  text-align: right;
+  padding-top: 2px;
 }
 
-.topic-col {
-  font-size: 1.13em;
-  font-weight: 700;
+.exp-main {
+  flex: 1;
+  text-align: left;
 }
 
-.project-col {
-  color: #bdbdbd;
-  font-size: 0.98em;
+.exp-company-row {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 16px;
   margin-bottom: 0.2em;
 }
 
-.contents-col ul {
+.exp-company {
+  font-size: 1.13em;
+  font-weight: 800;
+  color: #fff;
+}
+
+.exp-role {
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #4fa3ff;
+  margin-left: 8px;
+}
+
+.exp-project {
+  font-size: 1.01em;
+  color: #bdbdbd;
+  margin-bottom: 0.2em;
+}
+
+.exp-list {
   margin: 0.2em 0 0.7em 0;
   padding-left: 1.2em;
 }
 
-.contents-col li {
+.exp-list li {
   margin-bottom: 0.18em;
 }
 
-.hr {
-  border: 0;
-  border-top: 1.5px solid #444;
-  margin: 24px 0 24px 0;
+.exp-keywords {
+  margin-top: 0.5em;
 }
 
 .tag {
@@ -106,6 +159,18 @@ h3 {
   margin: 0 2px 4px 0;
 }
 
+.date-col {
+  color: #bdbdbd;
+  font-weight: 600;
+  font-size: 1.04em;
+}
+
+.hr {
+  border: 0;
+  border-top: 1.5px solid #444;
+  margin: 24px 0 24px 0;
+}
+
 a {
   color: #8ec6ff;
   text-decoration: none;
@@ -115,10 +180,27 @@ a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 950px) {
-  .resume-container {
-    max-width: 100vw;
-    padding: 16px 4vw;
+@media (max-width: 1100px) {
+  .page-center {
+    padding: 32px 16px 32px 16px;
+  }
+  .resume-section {
+    padding: 24px 24px 24px 24px;
+  }
+}
+@media (max-width: 700px) {
+  .page-center {
+    padding: 16px 8px 16px 8px;
+  }
+  .exp-group {
+    flex-direction: column;
+  }
+  .exp-period {
+    text-align: left;
+    margin-bottom: 0.5em;
+  }
+  .resume-section {
+    padding: 20px 16px 20px 16px;
   }
 }
 

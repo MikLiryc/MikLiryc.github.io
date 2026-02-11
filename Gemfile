@@ -3,5 +3,4 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3"
 gem "csv"
 gem "bigdecimal"
-gem "minimal-mistakes-jekyll"
-
+gem "kramdown-parser-gfm"

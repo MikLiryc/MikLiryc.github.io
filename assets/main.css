@@ -1,151 +1,183 @@
-@charset "UTF-8";
---- --- .page__inner-wrap,
-.page, .page-content, .wrapper, main {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 32px;
-  padding-right: 32px;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 16px;
-}
-
-body {
-  line-height: 1.7;
-  letter-spacing: -0.01em;
-  text-rendering: geometricPrecision;
-}
-
-h1, h2, h3 {
-  letter-spacing: -0.02em;
-  line-height: 1.25;
-}
-
-h1 {
-  font-size: 2.2rem;
-  margin-top: 1.2rem;
-  margin-bottom: 0.6rem;
-}
-
-h2 {
-  font-size: 1.35rem;
-  margin-top: 2.2rem;
-  margin-bottom: 0.75rem;
-  padding-top: 0.25rem;
-  border-top: 1px solid rgba(127, 127, 127, 0.25);
-}
-
-h3 {
-  font-size: 1.05rem;
-  margin-top: 1.4rem;
-  margin-bottom: 0.5rem;
-}
-
-a {
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid rgba(127, 127, 127, 0.25);
-  margin: 1.6rem 0;
-}
-
-blockquote {
-  margin: 0.9rem 0 1.2rem;
-  padding: 0.75rem 1rem;
-  border-left: 3px solid rgba(127, 127, 127, 0.35);
-  background: rgba(127, 127, 127, 0.06);
-}
-
-ul, ol {
-  padding-left: 1.25rem;
-}
-
-li {
-  margin: 0.25rem 0;
-}
-
-li > ul {
-  margin-top: 0.35rem;
-}
-
-code {
-  font-size: 0.92em;
-  padding: 0.15em 0.4em;
-  border-radius: 6px;
-  background: rgba(127, 127, 127, 0.14);
-}
-
-pre {
-  padding: 0.9rem 1rem;
-  border-radius: 10px;
-  background: rgba(127, 127, 127, 0.08);
-  overflow: auto;
-}
-
-pre code {
-  padding: 0;
-  background: transparent;
-}
-
-/* Resume table styles */
-table {
-  border-collapse: collapse;
-  width: 100%;
+﻿html, body {
+  height: 100%;
+  min-height: 100vh;
   margin: 0;
-}
-
-table td {
   padding: 0;
-  vertical-align: top;
+  background: #181c22;
 }
-
-table ul {
-  margin: 0.25rem 0;
-  padding-left: 1.25rem;
-}
-
-table ul li {
-  margin: 0.2rem 0;
-}
-
-/* Resume-like readable width (yowu.dev 스타일)
-.page__inner-wrap, .page, .page-content, .wrapper, main {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 32px;
-  padding-right: 32px;
+body {
+  color: #f3f3f3;
+  font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
   box-sizing: border-box;
 }
-
-// 테이블, 리스트, 구분선 등도 본문 폭에 맞게
-.page__content table,
-.page__content ul,
-.page__content ol,
-.page__content hr {
-  max-width: 100%;
+.page-center {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 56px 24px 56px 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
 }
-
-// 테이블 좌우 여백 및 가독성 개선
-.page__content table {
-  margin-left: 0;
-  margin-right: 0;
+.resume-section {
+  width: 900px;
+  background: #23272e;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.13);
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 48px 36px 48px;
+  box-sizing: border-box;
 }
-
-// 모바일 대응
-@media (max-width: 700px) {
-  .page__inner-wrap, .page, .page-content, .wrapper, main {
-    max-width: 100vw;
-    padding-left: 8px;
-    padding-right: 8px;
+.main-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 0.2em;
+  text-align: left;
+}
+.subtitle {
+  color: #bdbdbd;
+  font-size: 1.15em;
+  margin-bottom: 1.2em;
+  text-align: left;
+}
+.summary-quote {
+  font-size: 1.08em;
+  color: #bdbdbd;
+  border-left: 4px solid #4fa3ff;
+  margin: 0 0 1.2em 0;
+  padding: 0.5em 0 0.5em 1.2em;
+  background: #20232a;
+  text-align: left;
+}
+.contact-info {
+  font-size: 1.01em;
+  color: #bdbdbd;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+.section-title {
+  font-size: 1.45rem;
+  font-weight: 900;
+  color: #4fa3ff;
+  margin-bottom: 1.2em;
+  text-align: left;
+  letter-spacing: 0.01em;
+}
+.section-content {
+  font-size: 1.08em;
+  text-align: left;
+}
+.exp-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+.exp-period {
+  min-width: 120px;
+  color: #bdbdbd;
+  font-size: 1.08em;
+  font-weight: 600;
+  margin-right: 32px;
+  text-align: right;
+  padding-top: 2px;
+}
+.exp-main {
+  flex: 1;
+  text-align: left;
+}
+.exp-company-row {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 0.2em;
+}
+.exp-company {
+  font-size: 1.13em;
+  font-weight: 800;
+  color: #fff;
+}
+.exp-role {
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #4fa3ff;
+  margin-left: 8px;
+}
+.exp-project {
+  font-size: 1.01em;
+  color: #bdbdbd;
+  margin-bottom: 0.2em;
+}
+.exp-list {
+  margin: 0.2em 0 0.7em 0;
+  padding-left: 1.2em;
+}
+.exp-list li {
+  margin-bottom: 0.18em;
+}
+.exp-keywords {
+  margin-top: 0.5em;
+}
+.tag {
+  display: inline-block;
+  background: #333;
+  color: #eee;
+  border-radius: 6px;
+  font-size: 0.95em;
+  padding: 2px 10px;
+  margin: 0 2px 4px 0;
+}
+.date-col {
+  color: #bdbdbd;
+  font-weight: 600;
+  font-size: 1.04em;
+}
+.hr {
+  border: 0;
+  border-top: 1.5px solid #444;
+  margin: 24px 0 24px 0;
+}
+a {
+  color: #8ec6ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 1100px) {
+  .page-center {
+    padding: 32px 16px 32px 16px;
+  }
+  .resume-section {
+    width: calc(100vw - 32px);
+    max-width: 900px;
+    padding: 24px 24px 24px 24px;
   }
 }
-*/
+@media (max-width: 700px) {
+  .page-center {
+    padding: 16px 8px 16px 8px;
+  }
+  .exp-group {
+    flex-direction: column;
+  }
+  .exp-period {
+    text-align: left;
+    margin-bottom: 0.5em;
+  }
+  .resume-section {
+    width: calc(100vw - 16px);
+    max-width: 900px;
+    padding: 20px 16px 20px 16px;
+  }
+}
 
-/*# sourceMappingURL=main.css.map */
