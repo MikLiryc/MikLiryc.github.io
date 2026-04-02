@@ -19,9 +19,14 @@ exclude:
   - buildLocal.bat
   - README.md
   - my_commits.txt
-  - legacy_index.md
+  - my_commits_01.gitlog
+  - my_commits_02.gitlog
+  - my_commits_03.gitlog
+  - "GoMap tile 최적화"
   - .git
   - .idea
   - .jekyll-cache
   - _site
+  - "*.gitlog"
+  - "*.ps1"
 

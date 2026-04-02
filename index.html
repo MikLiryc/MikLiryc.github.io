@@ -21,15 +21,17 @@
   <div class="resume-section">
     <h2 class="section-title">PROFESSIONAL SUMMARY</h2>
     <div class="section-content">
-      4년 차 유니티 클라이언트 개발자로 <b>확장성 있는 아키텍처 설계</b>, <b>개발 프로세스 효율화(툴링)</b>, <b>성능 최적화</b>에 강점이 있습니다.<br><br>
-      대형 모바일 프로젝트에서 <b>전투·LBS·시스템 코어</b>를 개발하며, 이슈를 "수정"으로 끝내지 않고 <b>재현 → 원인 분석 → 구조 개선</b>으로 안정화하는 방향을 선호합니다.<br><br>
-      현재는 Unity 클라이언트 개발에 집중하여 <b>FSM 아키텍처</b>, <b>Cinemachine 기반 연출 시스템</b>, <b>LBS 맵 시스템</b> 등 핵심 기능을 설계·구현하고 있습니다.<br><br>
-      <span class="tag">Unity</span> <span class="tag">C#</span> <span class="tag">Architecture</span> <span class="tag">Optimization</span> <span class="tag">Tools</span> <span class="tag">LBS</span> <span class="tag">Timeline</span> <span class="tag">Cinemachine</span>
+      3년 이상의 Unity 클라이언트 개발 경험을 보유한 개발자로, 대형 모바일 프로젝트에서 <b>전투 시스템</b>, <b>LBS(위치 기반 서비스)</b>, <b>AR 소환게임</b>, <b>다이얼로그 시스템</b> 등 핵심 콘텐츠를 설계·구현해왔습니다.<br><br>
+      <b>확장성 있는 아키텍처 설계</b>, <b>에디터 툴링을 통한 개발 효율화</b>, <b>렌더링 성능 최적화</b>에 강점이 있으며, 이슈를 단순 수정이 아닌 <b>재현 → 원인 분석 → 구조 개선</b>까지 이어가는 방식을 선호합니다.<br><br>
+      <span class="tag">Unity</span> <span class="tag">C#</span> <span class="tag">FSM</span> <span class="tag">Timeline/Cinemachine</span> <span class="tag">LBS</span> <span class="tag">AR Foundation</span> <span class="tag">GraphView</span> <span class="tag">Object Pooling</span> <span class="tag">Mesh Combine</span>
     </div>
   </div>
 
+  <!-- ═══════════════════════════════════════ WORK EXPERIENCE ═══════════════════════════════════════ -->
   <div class="resume-section">
     <h2 class="section-title">WORK EXPERIENCE</h2>
+
+    <!-- ────── 파트장 기간 ────── -->
     <div class="exp-group">
       <div class="exp-period">2024.11 ~ 현재</div>
       <div class="exp-main">
@@ -37,22 +39,22 @@
           <span class="exp-company">(주)스노우파이프</span>
           <span class="exp-role">클라이언트 파트장</span>
         </div>
-        <div class="exp-project">Transformers Alliance (Mobile)</div>
+        <div class="exp-project">Transformers Alliance — LBS 기반 모바일 게임 (Unity)</div>
         <ul class="exp-list">
-          <li>Cinemachine 기반 전투 시스템 및 연출 파이프라인 구조 설계, 개발</li>
-          <li>전투 시스템 리팩토링을 통해 유지보수성 및 안정성 개선</li>
-          <li>Unity Input System 기반 LBS 맵 테스트 시뮬레이터 개발로 GPS 의존성 제거 및 테스트 효율화</li>
-          <li>GOMap SDK Satellite 모드 대응: OSM 3D 지도 대신 Static Image API로 위성 지도 이미지 렌더링</li>
-          <li>FSM 기반 전투 시스템 아키텍처 설계 및 구현</li>
-          <li>UI 폰트 일괄 교체 툴 개발로 대량 프리팹 작업 자동화 및 휴먼 에러 최소화</li>
-          <li>Object Pooling, Mesh Combine을 통한 렌더링 성능 개선</li>
+          <li><b>전투 연출 파이프라인 구조화:</b> Cinemachine + Timeline 기반 전투 연출을 Intro → Confrontation → SkillReady/Fail/StrongSkill → HealthCheck 상태 흐름으로 재설계하여 연출 코드 유지보수성 대폭 향상</li>
+          <li><b>다이얼로그 시스템 개발:</b> Stack 기반 다이얼로그 흐름 관리, 텍스트 한 글자씩 출력 + 커맨드 키워드 파서(BGM/SFX/CameraShake/Animation) 구현, Memento 패턴 상태 저장/복원, 긴급 통신 수신 연출 연결</li>
+          <li><b>AR 소환게임 연출 고도화:</b> AR Foundation 바닥 인식 정밀도 개선, 균열 탐색 → 미니게임 → 트랜스포머 소환 전체 단계별 연출 플로우 연결, 카메라 각도에 따른 포탈 위치 동적 조정</li>
+          <li><b>LBS 맵 테스트 시뮬레이터:</b> Unity Input System 기반 에디터 테스트 환경 구축으로 GPS 의존성 제거, GOMap Satellite 모드 대응 (Static Image API 렌더링)</li>
+          <li><b>폰트 일괄 교체 자동화 툴:</b> Nested Prefab override 처리 포함, 변경 없는 프리팹 저장 방지 로직으로 대량 프리팹 작업 자동화</li>
           <li>신규 멤버 온보딩 및 코드 리뷰 프로세스 정립</li>
         </ul>
         <div class="exp-keywords">
-          <span class="tag">Unity</span> <span class="tag">C#</span> <span class="tag">Cinemachine</span> <span class="tag">GOMap SDK</span> <span class="tag">Input System</span> <span class="tag">FSM</span> <span class="tag">Object Pooling</span>
+          <span class="tag">Cinemachine</span> <span class="tag">Timeline</span> <span class="tag">AR Foundation</span> <span class="tag">Input System</span> <span class="tag">GOMap SDK</span> <span class="tag">Memento</span>
         </div>
       </div>
     </div>
+
+    <!-- ────── 팀원 기간 ────── -->
     <div class="exp-group">
       <div class="exp-period">2022.12 ~ 2024.11</div>
       <div class="exp-main">
@@ -60,54 +62,53 @@
           <span class="exp-company">(주)스노우파이프</span>
           <span class="exp-role">클라이언트 팀원</span>
         </div>
-        <div class="exp-project">Transformers Alliance (Mobile)</div>
+        <div class="exp-project">Transformers Alliance — LBS 기반 모바일 게임 (Unity)</div>
         <ul class="exp-list">
-          <li>전투 시스템 FSM 아키텍처 설계 및 리팩토링 (Intro → Confrontation → Battle → Result)</li>
-          <li>Addressables 기반 동적 리소스 로딩 시스템 구축 및 메모리 최적화</li>
-          <li>Vector2d 좌표계 기반 LBS 맵 시스템 개발</li>
-          <li>메쉬 병합 기반 렌더링 최적화 (DrawCall 감소)</li>
-          <li>데이터 테이블 구조 개선: Dictionary/SortedList 기반 대용량 데이터 리팩토링</li>
-          <li>GraphView 기반 다이얼로그 에디터 툴 개발</li>
-          <li>UI 가상화(EnhancedScroller) 적용으로 대량 리스트 성능 개선</li>
-          <li>베지어 곡선 기반 투사체 시스템 구현</li>
-          <li>슬로우 모션 연출 시스템 (Time.timeScale 제어)</li>
-          <li>ATB(Active Time Battle) 행동바 시스템 개발</li>
-          <li>UI 컴포넌트 일괄 교체 툴 개발</li>
+          <li><b>전투 시스템 전체 개발:</b> FSM(Intro → Battle → Result) 아키텍처 설계, ATB 행동바, 데미지 표시, 버프 생성/소멸, 원거리 투사체(Trail + Muzzle/Hit FX), 슬로우 모션 연출, 재전투 루프, 전투 결과 보상 UI 등 전투 전반</li>
+          <li><b>LBS 시스템 개발:</b> GPS 기반 위치 서비스, GoMap 타일 위의 Static/Dynamic 오브젝트 풀링 및 생명주기 관리, 스태미나 시스템, Collider 기반 인터랙션, Coroutine 분산 로딩으로 CPU 스파이크 방지</li>
+          <li><b>GoMap 타일 렌더링 최적화:</b> Material별 Mesh Combine 적용으로 Batches 97%+ 감소, FPS 대폭 향상 (<a href="#detail-gomap">상세 →</a>)</li>
+          <li><b>도감 시스템 개발:</b> 트랜스포머 도감 상세보기(3D 모델 회전·변신·감상모드), 미획득 트랜스포머 실루엣 처리(쉐이더), 도감 등록 홀로그램 연출, 필터/정렬 기능</li>
+          <li><b>미션 시스템 개발:</b> 챕터 미션/기간 미션/반복 미션 3종 구현, 미션 알림 RedDot 시스템, 보상 수령 플로우, 서버 패킷 연동</li>
+          <li><b>소환게임 개발:</b> 스파크 물리 발사 메커닉, 성공/실패 확률 기반 연출, 트랜스포머 획득 타임라인 연출, AR 진입 흐름, 쇼크웨이브 이펙트</li>
+          <li><b>지휘통제실(기지) 개발:</b> 트랜스포머 상세보기 팝업, 스킬/파워칩 프리셋 관리, InfiniteScrollView 가상화, 정렬/필터/검색 기능, 파워업 연출</li>
+          <li><b>에디터 툴 개발:</b> GraphView 다이얼로그 에디터(노드 연결·엑셀 데이터 동기화), 애니메이션 이벤트 체커, UI 컴포넌트(Button→OneClickButton) 일괄 교체 툴</li>
+          <li><b>사운드 시스템 리팩토링:</b> BGM Fade In/Out/Blend, AudioMixer 기반 볼륨 관리, 사운드 리소스 테이블 연동</li>
+          <li><b>햅틱 진동 시스템:</b> Android Native Wrapper 개발, 테이블 데이터 기반 진동 강도 조정, 애니메이션 이벤트/타임라인 시그널 연동</li>
+          <li><b>공용 시스템:</b> ObjectPool 개선, ScriptableObject 기반 설정 분리, SafeArea 대응, UI Open/Close 공용 연출, 소셜 로그인(Google/Apple) 모듈 연동</li>
         </ul>
         <div class="exp-keywords">
-          <span class="tag">Unity</span> <span class="tag">C#</span> <span class="tag">FSM</span> <span class="tag">Addressables</span> <span class="tag">Vector2d</span> <span class="tag">Mesh Combine</span> <span class="tag">GraphView</span> <span class="tag">EnhancedScroller</span>
+          <span class="tag">FSM</span> <span class="tag">Object Pooling</span> <span class="tag">Mesh Combine</span> <span class="tag">InfiniteScrollView</span> <span class="tag">GraphView</span> <span class="tag">Addressables</span> <span class="tag">SQLite</span>
         </div>
       </div>
     </div>
   </div>
 
+  <!-- ═══════════════════════════════════════ PROJECTS ═══════════════════════════════════════ -->
   <div class="resume-section">
     <h2 class="section-title">PROJECTS</h2>
-    
+
     <div class="exp-group">
       <div class="exp-period">2026.01 ~ 2026.02</div>
       <div class="exp-main">
-        <div class="exp-project">빌드 안정화 및 공용 툴 개발</div>
-        <div class="exp-role">Project: Transformers Alliance (Mobile)</div>
+        <div class="exp-project">UI 폰트 일괄 교체 자동화 툴 · 빌드 안정화</div>
         <ul class="exp-list">
-          <li>지난 빌드 이후 체크된 각종 버그 수정 및 구조 안정화</li>
-          <li>UI팀이 수동으로 폰트 에셋을 교체하지 않아도 되도록 UI 폰트 에셋 교체/관리 자동화 툴 개발</li>
-          <li>변경 없는 프리팹 저장 방지 로직 추가 (폰트 일괄 교체 툴 고도화)</li>
+          <li>Nested Prefab의 override 문제를 해결하는 프리팹 내부 폰트 에셋 일괄 교체 에디터 툴 개발</li>
+          <li>변경 없는 프리팹은 저장하지 않도록 방어 로직 추가 (불필요한 VCS diff 방지)</li>
+          <li>ProjectView에서 폴더 단위 선택 후 하위 프리팹 일괄 처리 기능</li>
+          <li>빌드 버그 수정 및 전반적 안정화 작업</li>
         </ul>
       </div>
     </div>
 
     <div class="exp-group">
-      <div class="exp-period">2026.01</div>
+      <div class="exp-period">2025.12 ~ 2026.01</div>
       <div class="exp-main">
-        <div class="exp-project">LBS 맵 테스트 시뮬레이터</div>
-        <div class="exp-role">Unity Input System 기반 에디터 테스트 환경</div>
+        <div class="exp-project">전투 타임라인 연출 구조 재설계</div>
         <ul class="exp-list">
-          <li><b>문제:</b> GPS 의존으로 인한 에디터 내 재현 불가, 실기기 테스트 필수로 인한 테스트 루프 지연</li>
-          <li><b>해결:</b> Input System Action 기반 이동/줌/상태 테스트 환경 구축</li>
-          <li>타일 로딩/생성/파괴 진행 상태를 콜백으로 수집해 디버깅 편의 개선</li>
-          <li><b>성과:</b> GPS 의존성 제거, 에디터 내 재현 가능한 테스트 환경 확보로 개발 효율화</li>
-          <li>Satellite 동적 로딩/타일 로직 보정</li>
+          <li>기존 단선형 연출 흐름을 <b>Intro → Confrontation → SkillReady/Fail/StrongSkill → HealthCheck</b> 상태 기반으로 구조화</li>
+          <li>전투 도중 타임라인 전환 시 한 프레임 카메라 위치 튐 현상 수정 (트랜지션 루틴 정리)</li>
+          <li>재전투 시 화면 튀는 현상 수정, 아군/적군 HealthCheck 위치 예외 케이스 안정화</li>
+          <li>인트로 3종(아군/적군/전체) → 대치 장면까지 연출 구조 변경</li>
         </ul>
       </div>
     </div>
@@ -115,61 +116,56 @@
     <div class="exp-group">
       <div class="exp-period">2025.11 ~ 2025.12</div>
       <div class="exp-main">
-        <div class="exp-project">전투 연출 파이프라인 리팩토링</div>
-        <div class="exp-role">Timeline/Cinemachine 기반 상태 관리 시스템</div>
+        <div class="exp-project">다이얼로그 시스템 (통신 시스템)</div>
         <ul class="exp-list">
-          <li><b>문제:</b> 연출 프리팹과 PlayableDirector 관리가 불명확하여 유지보수 어려움</li>
-          <li>상태 전환 시 한 프레임 튐 등 체감 이슈 발생</li>
-          <li>강스킬/HealthCheck 구간의 카메라/트랜스포머 위치 예외 케이스 처리 불안정</li>
-          <li><b>해결:</b> Intro → Confrontation → Skill Ready/Fail/StrongSkill → HealthCheck 흐름을 상태 기반으로 구조화</li>
-          <li>연출 프리팹을 상태 단위로 관리하여 "누가 무엇을 언제 잡는지" 명확화</li>
-          <li>전환 타이밍 트랜지션 루틴 정리로 한 프레임 튐 현상 완화</li>
-          <li><b>성과:</b> 연출 코드 유지보수성 향상, 강스킬/HealthCheck 구간 예외 케이스 안정화</li>
+          <li><b>텍스트 출력 엔진:</b> 한 글자씩 시간 간격에 맞춰 표시하는 DialogSequencer 개발, DeltaTime 보정으로 다양한 FPS 대응</li>
+          <li><b>커맨드 키워드 파서:</b> 텍스트 내 &lt;BGM&gt;, &lt;SFX&gt;, &lt;CameraShake&gt;, &lt;Animation&gt; 등 인라인 커맨드 인식 및 실행</li>
+          <li><b>Stack 기반 다이얼로그 관리:</b> 진행 중 다른 다이얼로그 진입 시 현재 상태를 스택에 저장, 복귀 시 Restore (Memento 패턴)</li>
+          <li><b>통신 수신 시스템:</b> 긴급 호출 연출(글리치 + 진동 + 사운드), 부재중 전화 카운트, LBS Hud 알림 연동</li>
+          <li><b>미션 연결:</b> 다이얼로그 내 미션 수락/선택지 분기, 미션 완료 후 통화 종료 처리</li>
+          <li><b>배경/트랜스포머 라이브 렌더:</b> RenderTexture 삭제 후 Layer 기반 직접 렌더링으로 전환, 화면 비율 대응</li>
+          <li>오디오 분석 기반 립싱크(입 움직임 연출) 연결</li>
         </ul>
       </div>
     </div>
 
     <div class="exp-group">
-      <div class="exp-period">2025.12</div>
+      <div class="exp-period">2025.10 ~ 2025.12</div>
       <div class="exp-main">
-        <div class="exp-project">AR 평면 인식 정밀도 개선 및 글리치 쉐이더 구현</div>
-        <div class="exp-role">Unity AR Foundation 기반</div>
+        <div class="exp-project">AR 소환게임 연출 고도화</div>
         <ul class="exp-list">
-          <li>AR 평면 인식 정밀도 개선</li>
-          <li>글리치 쉐이더 구현 (시각적 효과 강화)</li>
+          <li><b>균열 탐색 시스템:</b> 화면 기반 균열 위치 추적, 조준 성공 시 확장 연출, 사운드/진동 연동</li>
+          <li><b>미니게임 진입/퇴장 연출:</b> Crack 확장 → AR 진입 → 바닥 인식 → 포탈 생성 → 트랜스포머 소환 전체 연출 플로우 연결</li>
+          <li><b>카메라 각도 기반 포탈 위치 조정:</b> 카메라 10~60도 사이에서 포탈 min~max 거리 자동 보간</li>
+          <li>에디터에서도 바닥을 임시로 생성하여 AR 없이 테스트 가능하도록 구현</li>
+          <li>속성 별 소환게임 배경/이펙트 차별화, 에너존볼 관련 Fixed 데이터 적용</li>
         </ul>
       </div>
     </div>
 
     <div class="exp-group">
-      <div class="exp-period">2025.11</div>
+      <div class="exp-period">2025.09 ~ 2025.10</div>
       <div class="exp-main">
-        <div class="exp-project">오디오 분석 기반 립싱크 및 Memento 패턴 상태 저장 시스템</div>
+        <div class="exp-project">미션전투 시스템 · 수량 체크 시스템</div>
         <ul class="exp-list">
-          <li>오디오 분석 기반 립싱크 시스템 구현</li>
-          <li>Memento 패턴 상태 저장 시스템 (Undo/Redo 기능)</li>
+          <li>미션전투 Ready/Start/Finish 패킷 연결, 포션 사용 횟수 제한 및 재전투 횟수 제한 로직</li>
+          <li>TF 변경 팝업 진입 시 조건 표시 및 필터링 기능 추가</li>
+          <li>보관함 수량 체크(CapacityRestrictionManager): 진입 시점별 체크 로직, 여러 종류를 한번에 확인하는 기능</li>
+          <li>데미지 폰트 Object Pooling 적용, 상태별 폰트 애니메이션, 화면 밖으로 나가지 않는 랜덤 위치 생성</li>
         </ul>
       </div>
     </div>
 
     <div class="exp-group">
-      <div class="exp-period">2025.10</div>
+      <div class="exp-period">2025.07 ~ 2025.09</div>
       <div class="exp-main">
-        <div class="exp-project">데미지 폰트 풀링 및 난수 시드 동기화</div>
+        <div class="exp-project">미션 시스템 신규 개발 (3종)</div>
         <ul class="exp-list">
-          <li>데미지 폰트 Object Pooling 적용으로 GC Alloc 감소</li>
-          <li>난수 시드 동기화로 재현 가능한 테스트 환경 구축</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="exp-group">
-      <div class="exp-period">2025.08 ~ 2025.09</div>
-      <div class="exp-main">
-        <div class="exp-project">Dictionary/SortedList 기반 대용량 데이터 리팩토링</div>
-        <ul class="exp-list">
-          <li>데이터 테이블 구조 개선: Dictionary/SortedList 기반으로 변경</li>
-          <li>대용량 데이터 조회 성능 향상 (O(n) → O(log n))</li>
+          <li><b>챕터 미션:</b> 스텝 기반 진행, 자동 다음 스텝 전환, 완료 시 다음 챕터 이동, 서버 패킷 연동</li>
+          <li><b>기간 미션:</b> StartDt/EndDt 관리, 만료 체크, 미수령 보상 텍스트 처리</li>
+          <li><b>반복 미션 (일간/주간):</b> 갱신 시간 계산, 백그라운드 타이머, Lookup Dictionary 기반 데이터 관리</li>
+          <li>MissionContentItem 상태별 버튼 이미지, EventNotification 연동, RedDot 알림</li>
+          <li>UIPanelLink 탭 구조 (연락처/미션/통신) 설계</li>
         </ul>
       </div>
     </div>
@@ -177,10 +173,12 @@
     <div class="exp-group">
       <div class="exp-period">2025.06 ~ 2025.07</div>
       <div class="exp-main">
-        <div class="exp-project">GraphView 다이얼로그 에디터 및 UI 가상화</div>
+        <div class="exp-project">GraphView 다이얼로그 에디터 툴</div>
         <ul class="exp-list">
-          <li>Unity GraphView 기반 다이얼로그 에디터 툴 개발</li>
-          <li>UI 가상화(EnhancedScroller) 적용으로 대량 리스트 성능 개선</li>
+          <li>Unity GraphView API를 활용한 비주얼 다이얼로그 에디터 개발</li>
+          <li>DialogProfile, DialogBlock, DialogChoiceNode 등 노드 타입 구현, 포트 연결 시 자동 데이터 동기화</li>
+          <li>엑셀 파일(XlsxFileReader)에서 테이블 데이터를 읽어 노드로 자동 생성하는 기능</li>
+          <li>에셋 데이터 변경 시 실시간 반영, GraphAsset 열 때 Standalone 씬 자동 전환</li>
         </ul>
       </div>
     </div>
@@ -188,10 +186,13 @@
     <div class="exp-group">
       <div class="exp-period">2025.04 ~ 2025.05</div>
       <div class="exp-main">
-        <div class="exp-project">베지어 투사체 및 슬로우 모션 연출</div>
+        <div class="exp-project">전투 연출 시스템 · 애니메이션 툴 · 진동 시스템</div>
         <ul class="exp-list">
-          <li>베지어 곡선 기반 투사체 시스템 구현</li>
-          <li>슬로우 모션 연출 시스템 (Time.timeScale 제어)</li>
+          <li><b>카메라 쉐이크 시스템:</b> RandomSeed를 사용하지 않는 CustomCinemachinePerlin 개발, CameraShakeConfig 설정 분리</li>
+          <li><b>햅틱 진동:</b> Android Native Wrapper 코드 작성, 테이블 데이터 기반 진동 강도 조정, 전투/인트로/권능의사당 연동</li>
+          <li><b>타임라인 커스텀 시그널:</b> Parameter를 넣어 보낼 수 있는 IParameterizedSignalReceiver 구현</li>
+          <li><b>애니메이션 이벤트 통합:</b> ScriptableObject 기반 이벤트 데이터로 ShowFx, ShowProjectileFx, PlaySound, CameraShake, Haptic을 하나의 이벤트 시스템으로 통합</li>
+          <li><b>애니메이션 에디터 툴:</b> 트랜스포머 선택 후 실시간 이벤트 확인/저장, Ctrl+S 단축키 저장, 데이터를 ScriptableObject로 확인 가능</li>
         </ul>
       </div>
     </div>
@@ -199,22 +200,28 @@
     <div class="exp-group">
       <div class="exp-period">2025.02 ~ 2025.03</div>
       <div class="exp-main">
-        <div class="exp-project">ATB 행동바 및 UI 컴포넌트 일괄 교체 툴</div>
+        <div class="exp-project">전투 행동바(ATB) · UI 컴포넌트 교체 툴 · 사운드</div>
         <ul class="exp-list">
-          <li>ATB(Active Time Battle) 행동바 시스템 개발</li>
-          <li>UI 컴포넌트 일괄 교체 툴 개발</li>
+          <li><b>ATB 행동바:</b> SkillData Speed에 따라 코스트 보정 계산, 누적 코스트 기반 아이콘 위치 산정, 아군/적군 아이콘 연출</li>
+          <li><b>OneClickButton 교체 툴:</b> 기존 Button 스크립트 멤버를 CooldownButton으로 자동 교체, SerializedField reference 자동 재연결, Nested Prefab 대응</li>
+          <li><b>BGM 시스템:</b> Fade In/Out 기능, BGM 변경 시 Blend, SoundSettingConfig로 설정 관리</li>
+          <li>전투 배경 씬을 에셋번들에서 Additive 로드, LightingData 및 Renderer 세팅 캐싱</li>
         </ul>
       </div>
     </div>
 
     <div class="exp-group">
-      <div class="exp-period">2024.10 ~ 2024.12</div>
+      <div class="exp-period">2024.10 ~ 2025.01</div>
       <div class="exp-main">
-        <div class="exp-project">전투 FSM 아키텍처 설계 및 Addressables 최적화</div>
+        <div class="exp-project">전투 시스템 풀 리뉴얼</div>
         <ul class="exp-list">
-          <li>전투 시스템 FSM 아키텍처 설계 및 리팩토링</li>
-          <li>Addressables 기반 동적 리소스 로딩 시스템 구축</li>
-          <li>메모리 최적화 및 로딩 시간 단축</li>
+          <li><b>FSM 전투 아키텍처:</b> Intro 등장 연출 → Confrontation 대치 → Skill 사용 → Result 전체 상태 머신 설계</li>
+          <li><b>전투 진입 UI:</b> 시뮬레이션 기능, 트랜스포머 교체, 포션 사용, 스킬 프리셋 변경 후 CharacterInfo 동기화</li>
+          <li><b>전투 연출:</b> 스킬 시작 시 적 방향 이동, 강스킬 타임라인 Audio Track 바인딩, 승/무/패 종료 타임라인</li>
+          <li><b>데미지 시스템:</b> Action 단위 데미지 표시, 크리티컬/일반/빗나감 폰트 Material 변경, TotalDamage 표시</li>
+          <li><b>원거리 투사체:</b> BulletController 궤적(Trail) 유지, Muzzle/Hit FX, 피격 애니메이션 연동</li>
+          <li>BattleStandalone 씬으로 인트로 없이 독립 전투 테스트 가능, BattleMonitor 디버깅 윈도우</li>
+          <li>전투 결과 화면 레벨업 연출, 포션 사용 시 체력 동기화, 재전투 반복 시 프레임 드롭 수정</li>
         </ul>
       </div>
     </div>
@@ -222,10 +229,14 @@
     <div class="exp-group">
       <div class="exp-period">2024.04 ~ 2024.09</div>
       <div class="exp-main">
-        <div class="exp-project">Vector2d 좌표계 및 메쉬 병합 기반 렌더링 최적화</div>
+        <div class="exp-project">LBS 맵 시스템 · GoMap 타일 렌더링 최적화</div>
         <ul class="exp-list">
-          <li>Vector2d 좌표계 기반 LBS 맵 시스템 개발</li>
-          <li>메쉬 병합 기반 렌더링 최적화 (DrawCall 감소)</li>
+          <li><b>LBS 시스템 설계:</b> GPS 기반 현재 위치 지도 표시, Static/Dynamic 오브젝트 생명주기 관리, Object Pool 적용</li>
+          <li><b>오브젝트 관리:</b> Dynamic Object 풀링 시스템 개발, Collider 기반 인터랙션, 거리 체크 후 알림 텍스트, 충돌체 사이 최소 거리 유지 로직</li>
+          <li><b>입력 시스템:</b> Legacy Input → Unity Input System 교체 (카메라 회전, 핀치 줌, 마우스 스크롤)</li>
+          <li><b>GoMap 렌더링 최적화:</b> Material별 Mesh Combine 스크립트 개발, 타일 단위 메시 병합으로 Batches/FPS 대폭 개선 (<a href="#detail-gomap">상세 →</a>)</li>
+          <li>Coroutine 기반 분산 오브젝트 생성/해제로 순간적 CPU/메모리 스파이크 방지</li>
+          <li>스태미나 시스템, 전투/소환게임 진입 연결, LBS Hud UI 통합</li>
         </ul>
       </div>
     </div>
@@ -233,55 +244,304 @@
     <div class="exp-group">
       <div class="exp-period">2024.01 ~ 2024.03</div>
       <div class="exp-main">
-        <div class="exp-project">제네릭 데이터 매니저 및 소셜 로그인 모듈 연동</div>
+        <div class="exp-project">도감 시스템 · 도감 등록 연출</div>
         <ul class="exp-list">
-          <li>제네릭 기반 데이터 매니저 구조 설계</li>
-          <li>소셜 로그인 모듈 연동 (Google, Facebook, Apple)</li>
+          <li><b>도감 UI:</b> 진영별 트랜스포머 리스트, 필터(진영/속성), Infinite ScrollView 중앙 정렬</li>
+          <li><b>도감 상세보기:</b> 3D 트랜스포머 모델 회전/변신 기능, 감상모드(터치 상하좌우 판별), Idle 3~6회 후 랜덤 Idle 자동 전환</li>
+          <li><b>도감 등록 홀로그램 연출:</b> Transformer/Weapon 머테리얼 Holo 전환, 타임라인 시그널 기반 구간별 파라미터 제어</li>
+          <li><b>미획득 트랜스포머:</b> 쉐이더 _NotObtain 파라미터로 실루엣 처리, FogSetting 분리 적용</li>
+          <li>도감 백과 페이지: 슬롯 활성/비활성, 완성도 효과 툴팁, 기록 완성도 상승 팝업</li>
+          <li>Lighting 환경 설정을 ScriptableObject(LightingSettingConfig)로 분리하여 씬 전환 시 자동 적용</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-group">
+      <div class="exp-period">2023.07 ~ 2023.12</div>
+      <div class="exp-main">
+        <div class="exp-project">미션 시스템 (1차) · 튜토리얼 · 사운드 리팩토링</div>
+        <ul class="exp-list">
+          <li><b>미션 시스템:</b> 반복 미션(일간/주간), 업적 미션, 스페셜 미션 3종 구현, 서버 연동, 보상 수령, RedDot 알림, EventNotification 처리</li>
+          <li><b>튜토리얼:</b> LBS Tutorial Controller 개발, 단계별 터치 유도/블로커/다이얼로그 연결, 전투 편성 튜토리얼, Jump Step 디버깅 기능</li>
+          <li><b>사운드 시스템 리팩토링:</b> SoundManager PlaySound 로직 변경, BGM용 AudioSource 분리, SoundResourceData 테이블 연동</li>
+          <li>다이얼로그 시스템 기초: Actor Highlight/Dimm, 캐릭터 진영별 썸네일, 보상 기능, 로그 기능</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-group">
+      <div class="exp-period">2023.03 ~ 2023.06</div>
+      <div class="exp-main">
+        <div class="exp-project">기지(지휘통제실) · 도구함 · 소환게임 · 가챠 UI</div>
+        <ul class="exp-list">
+          <li><b>기지(UIPanelBarrack):</b> 트랜스포머 리스트, 상세보기(TFDetailPopup), 스킬/파워칩 프리셋 관리, 파워업 연출, 포션 사용</li>
+          <li><b>정렬/필터 통합:</b> SortOptionView를 공용으로 분리, 정렬 방향 화살표 애니메이션, Localize 텍스트 기반 이름 검색</li>
+          <li><b>도구함(ItemBox):</b> 포션 사용, 버프 사용, 아이템 정보/버리기 팝업, 최대 보유량 체크 후 상점 이동</li>
+          <li><b>소환게임 완성:</b> 스파크 물리(마찰력/가속도), 쇼크웨이브 신호등, 성공/실패 연출, 트랜스포머 등장 타임라인, 도감 등록 연출 연결</li>
+          <li><b>파워칩 시스템:</b> 파워칩 부여(Install), 상세보기 3D 오브젝트, 반짝이 연출, S등급 특수 연출</li>
+          <li>InfiniteScrollView 재활용 로직, Toast 메시지 팝업, CommonButton 공용화</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-group">
+      <div class="exp-period">2022.12 ~ 2023.03</div>
+      <div class="exp-main">
+        <div class="exp-project">소환 미니게임 프로토타입 · 로그인 시스템</div>
+        <ul class="exp-list">
+          <li><b>소환 미니게임:</b> 스파크 발사 메커닉(각도 45~135도 제한, 최소 파워, 가속도), 3D 배경 교체, 위치 감지 가이드 라이트, 획득 연출(PlayableAsset 교체)</li>
+          <li><b>소셜 로그인:</b> Google/Apple 로그인 프로세스 구현, 닉네임 입력 Validation, Account Switch 에디터 툴</li>
+          <li>인앱 결제 StoreManager 로직 추가</li>
+          <li>SafeArea 대응, UI 기본 Open/Close 연출 시스템</li>
         </ul>
       </div>
     </div>
   </div>
 
+  <!-- ═══════════════════════════════════════ SKILLS ═══════════════════════════════════════ -->
   <div class="resume-section">
     <h2 class="section-title">SKILLS</h2>
     <div class="section-content">
-      <b>Languages & Engine</b><br>
-      C# (Advanced), HLSL (Basic), Unity 2022/2023, Git
+      <b>Languages &amp; Engine</b><br>
+      C# (Advanced) · Unity 2022/2023/6 · HLSL (Basic) · Git
       <br><br>
-      <b>Architecture & Design Patterns</b><br>
-      FSM, Command, Observer, Memento, Dictionary, Queue/Stack, SortedList, Graph(Node–Edge)
+      <b>Architecture &amp; Design Patterns</b><br>
+      FSM · Command · Observer · Memento · Object Pooling · Singleton · Stack-based Flow · Interface-driven Communication
       <br><br>
       <b>Performance Optimization</b><br>
-      Object Pooling, Mesh Combine, DrawCall Batching, GC Alloc Reduction, UI Virtualization (EnhancedScroller)
+      Mesh Combine · Object Pooling · Coroutine 분산 로딩 · GC Alloc 최소화 · UI 가상화 (InfiniteScrollView)
       <br><br>
-      <b>Tools & Pipeline</b><br>
-      Unity Editor Scripting (GraphView, Custom Inspector), Addressables, GOMap SDK, Unity Input System
+      <b>Systems &amp; SDKs</b><br>
+      Cinemachine · Timeline · Unity Input System · AR Foundation · GOMap SDK · Addressables · SQLite · DOTween
+      <br><br>
+      <b>Tools &amp; Pipeline</b><br>
+      Unity Editor Scripting (GraphView, Custom Inspector, MenuItem) · 애니메이션 이벤트 에디터 · 프리팹 컴포넌트 일괄 교체 툴 · XlsxFileReader
     </div>
   </div>
 
+  <!-- ═══════════════════════════════════════ TECHNICAL HIGHLIGHTS ═══════════════════════════════════════ -->
   <div class="resume-section">
     <h2 class="section-title">TECHNICAL HIGHLIGHTS</h2>
     <div class="section-content">
       <b>2026</b><br>
-      <span class="date-col">02월</span>: 폰트 일괄 교체 툴 고도화 (변경 없는 프리팹 저장 방지 로직 추가)<br>
-      <span class="date-col">01월</span>: Input System 기반 맵 테스트 시뮬레이터, Satellite 동적 로딩/타일 로직 보정, 빌드 안정화<br>
+      <span class="date-col">02월</span>: 폰트 일괄 교체 툴 고도화, 변경 없는 프리팹 저장 방지<br>
+      <span class="date-col">01월</span>: 전투 타임라인 구조 재설계 (Ready→Fail→StrongSkill→HealthCheck), Input System 맵 테스트 시뮬레이터, Satellite 동적 로딩, 전용재화 테이블 추가<br>
       <br>
       <b>2025</b><br>
-      <span class="date-col">12월</span>: AR 평면 인식 정밀도 개선, 글리치 쉐이더 구현<br>
-      <span class="date-col">11월</span>: 오디오 분석 기반 립싱크, Memento 패턴 상태 저장 시스템, 전투 연출 파이프라인 리팩토링<br>
-      <span class="date-col">10월</span>: 데미지 폰트 풀링, 난수 시드 동기화<br>
-      <span class="date-col">08~09월</span>: Dictionary/SortedList 기반 대용량 데이터 리팩토링<br>
-      <span class="date-col">06~07월</span>: GraphView 다이얼로그 에디터, UI 가상화(EnhancedScroller)<br>
-      <span class="date-col">04~05월</span>: 베지어 투사체, 슬로우 모션 연출<br>
-      <span class="date-col">02~03월</span>: ATB 행동바, UI 컴포넌트 일괄 교체 툴<br>
+      <span class="date-col">12월</span>: AR 소환게임 전단계 연출 플로우 연결, 균열 탐색 시스템, 통신 시스템 수신 알림/긴급 호출, 미션전투 결과 UI<br>
+      <span class="date-col">11월</span>: 다이얼로그 시스템 (텍스트 엔진·커맨드 파서·Restore), 립싱크, 전투 연출 파이프라인 리팩토링, CameraShakeConfig 분리<br>
+      <span class="date-col">10월</span>: 미션전투 진입 조건/포션 제한, 수량 체크 시스템(CapacityRestriction), 데미지 폰트 풀링 및 애니메이션<br>
+      <span class="date-col">09월</span>: 전투준비 UI(BattleReadyPopup), 스킬/파워칩 프리셋 동기화, 미션 UI 개편(UIPanelLink), SafeArea 안드로이드 추가 offset<br>
+      <span class="date-col">08월</span>: 미션 시스템 신규 (챕터/기간/반복 3종), MissionManager 데이터 관리 구조 변경<br>
+      <span class="date-col">07월</span>: 다이얼로그 기반 개발 (DialogSequencer, UIPanelDialog, 키워드 인식), GraphView 에디터 노드 연결 자동화<br>
+      <span class="date-col">06월</span>: GraphView 다이얼로그 에디터, 엑셀 데이터 동기화, 소환게임 Raycast→RaycastAll 수정, 우편 페이지 제한<br>
+      <span class="date-col">05월</span>: TFConstants 파일 분리 정리, 도감 미획득 쉐이더, Legacy 코드 정리, 애니메이션 에디터 툴 리뉴얼<br>
+      <span class="date-col">04월</span>: 햅틱 진동 시스템(Android Native), CustomCinemachinePerlin, 타임라인 Parameterized Signal, 애니메이션 이벤트 ScriptableObject 통합<br>
+      <span class="date-col">03월</span>: ATB 행동바, OneClickButton 교체 툴, Built-In 테이블 데이터 분리, LBS FocusCameraController 분리<br>
+      <span class="date-col">02월</span>: 전투 진입 UI(시뮬레이션, TF 교체, 포션), BattleStandalone 독립 테스트 씬, 전투 결과 레벨업 연출<br>
       <br>
       <b>2024</b><br>
-      <span class="date-col">10~12월</span>: 전투 FSM 아키텍처 설계, Addressables 최적화<br>
-      <span class="date-col">04~09월</span>: Vector2d 좌표계, 메쉬 병합 기반 렌더링 최적화<br>
-      <span class="date-col">01~03월</span>: 제네릭 데이터 매니저, 소셜 로그인 모듈 연동<br>
+      <span class="date-col">10~12월</span>: 전투 시스템 풀 리뉴얼(AutoBattleScene), 타임라인 연출 연결, Animator Override, 원거리 투사체, 행동바<br>
+      <span class="date-col">07~09월</span>: GoMap 타일 CombineMesh 최적화 (Batches 97%↓), LBS Coroutine 분산 로딩, Object Pool 개선<br>
+      <span class="date-col">04~06월</span>: LBS 시스템 전체 설계 (GPS, Static/Dynamic Object, Stamina, Input System 교체, Nearby Object 충돌 방지)<br>
+      <span class="date-col">01~03월</span>: 도감 등록 홀로그램 연출, 도감 백과 페이지, UI Open/Close 연출 공용화(DoTween), 오프닝 비디오 연출<br>
       <br>
+      <b>2023</b><br>
+      <span class="date-col">07~12월</span>: 미션 시스템(반복/업적/스페셜), 튜토리얼, 사운드 리팩토링, 다이얼로그 기초<br>
+      <span class="date-col">03~06월</span>: 지휘통제실, 도구함, 소환게임 완성, 파워칩 시스템, 정렬/필터 공용화, 가챠 UI<br>
+      <span class="date-col">01~02월</span>: 소환 미니게임 프로토타입, 소셜 로그인(Google/Apple), 인앱 결제 기초<br>
     </div>
   </div>
+  <!-- ═══════════════════════════════════════ WORK DETAILS ═══════════════════════════════════════ -->
+  <div class="resume-section" id="detail-gomap">
+    <h2 class="section-title">WORK DETAILS</h2>
+
+    <!-- ──── GoMap GoTile 렌더 최적화 ──── -->
+    <h3 style="color:#fff; margin-bottom:0.3em;">GoMap GoTile 렌더 최적화</h3>
+    <div style="color:#bdbdbd; font-size:0.95em; margin-bottom:1.2em;">
+      2024.07 ~ 2024.09 · Transformers Alliance (Unity)
+    </div>
+
+    <!-- 발단 -->
+    <h4 style="color:#4fa3ff; margin:1.2em 0 0.4em;">발단</h4>
+    <p style="color:#ddd; line-height:1.7;">
+      프로젝트의 Lobby 씬에서 GoMap을 활용하여 현재 위치 중심의 지도를 표시한다. 지도는 GoTile 오브젝트로 이루어진 타일들로 구성되며, 각 타일에는 해당 위치의 도로·강·건물에 해당하는 오브젝트가 생성된다. 화면에 렌더되는 타일 수가 많아질수록 퍼포먼스가 떨어지는 현상이 발생하였다.
+    </p>
+
+    <!-- 현상 파악 -->
+    <h4 style="color:#4fa3ff; margin:1.4em 0 0.4em;">현상 파악</h4>
+    <p style="color:#bdbdbd; font-size:0.93em; margin-bottom:0.8em;">
+      봉은사역 부근 기준, 유니티 에디터에서 360도 회전하며 측정한 최소/최대 Batches 결과:
+    </p>
+    <table style="width:100%; border-collapse:collapse; margin-bottom:1.2em; font-size:0.95em;">
+      <thead>
+        <tr style="border-bottom:2px solid #4fa3ff;">
+          <th style="padding:8px 12px; text-align:center; color:#999;"></th>
+          <th style="padding:8px 12px; text-align:center; color:#fff;">Batches</th>
+          <th style="padding:8px 12px; text-align:center; color:#fff;">SetPass calls</th>
+          <th style="padding:8px 12px; text-align:center; color:#fff;">CPU</th>
+          <th style="padding:8px 12px; text-align:center; color:#fff;">FPS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid #333;">
+          <td style="padding:8px 12px; text-align:center; color:#bdbdbd; font-weight:600;">최소 Batches</td>
+          <td style="padding:8px 12px; text-align:center; color:#ddd;">1,333</td>
+          <td style="padding:8px 12px; text-align:center; color:#ddd;">267</td>
+          <td style="padding:8px 12px; text-align:center; color:#ddd;">main 8.4ms / render 6.0ms</td>
+          <td style="padding:8px 12px; text-align:center; color:#ddd;">118.5</td>
+        </tr>
+        <tr>
+          <td style="padding:8px 12px; text-align:center; color:#bdbdbd; font-weight:600;">최대 Batches</td>
+          <td style="padding:8px 12px; text-align:center; color:#ff6b6b; font-weight:700;">7,324</td>
+          <td style="padding:8px 12px; text-align:center; color:#ddd;">302</td>
+          <td style="padding:8px 12px; text-align:center; color:#ddd;">main 14.5ms / render 11.9ms</td>
+          <td style="padding:8px 12px; text-align:center; color:#ff6b6b; font-weight:700;">68.8</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="color:#bdbdbd; font-size:0.93em; line-height:1.6;">
+      화면을 돌리기만 했을 뿐인데 Batches가 6,000개 가량 차이가 발생. 도로·강·빌딩 등 오브젝트가 밀집된 타일이 시야에 들어올 때 성능에 유의미한 영향을 주고 있었다.
+    </p>
+
+    <!-- 진행 -->
+    <h4 style="color:#4fa3ff; margin:1.4em 0 0.4em;">접근 방법</h4>
+    <p style="color:#ddd; line-height:1.7; margin-bottom:0.8em;">
+      Unity의 Batches(Draw Call)는 렌더되는 오브젝트의 <b>mesh × material</b> 수에 비례한다. 따라서 동일 Material을 사용하는 오브젝트들(도로끼리, 강끼리, 빌딩끼리)의 Mesh를 <b>타일 단위로 하나로 병합</b>하면, 수천 개의 Batches를 Material 종류 수만큼으로 줄일 수 있다고 판단하였다.
+    </p>
+    <div style="background:#1a1d23; border-radius:8px; padding:16px 20px; overflow-x:auto; margin-bottom:1.2em;">
+      <pre style="margin:0; color:#ddd; font-size:0.88em; line-height:1.55; font-family:'Fira Code','Consolas',monospace;"><span style="color:#c792ea;">public class</span> <span style="color:#82aaff;">CombineMesh</span> : MonoBehaviour
+{
+    <span style="color:#c792ea;">private</span> Dictionary&lt;<span style="color:#ffcb6b;">string</span>, CombineMeshData&gt; _combineMeshDictionary = <span style="color:#c792ea;">new</span>();
+
+    <span style="color:#c792ea;">private void</span> <span style="color:#82aaff;">Start</span>()
+    {
+        MeshFilter[] meshFilters = GetComponentsInChildren&lt;MeshFilter&gt;();
+        MeshRenderer[] meshRenderers = GetComponentsInChildren&lt;MeshRenderer&gt;();
+
+        <span style="color:#546e7a;">// Material 별로 Dictionary에 분류</span>
+        ClassifyRenderers(meshFilters, meshRenderers);
+
+        <span style="color:#546e7a;">// Material별로 Mesh 병합 후 새 오브젝트 생성</span>
+        <span style="color:#c792ea;">foreach</span> (<span style="color:#c792ea;">var</span> combineMeshData <span style="color:#c792ea;">in</span> _combineMeshDictionary)
+        {
+            <span style="color:#c792ea;">var</span> go = <span style="color:#c792ea;">new</span> GameObject(combineMeshData.Value._sharedMaterial.name);
+            go.transform.SetParent(transform);
+            MeshFilter mf = go.AddComponent&lt;MeshFilter&gt;();
+            MeshRenderer mr = go.AddComponent&lt;MeshRenderer&gt;();
+            mr.sharedMaterial = combineMeshData.Value._sharedMaterial;
+            mf.mesh = <span style="color:#c792ea;">new</span> Mesh();
+            mf.mesh.indexFormat = UnityEngine.Rendering.IndexFormat.UInt32;
+            mf.mesh.CombineMeshes(combineMeshData.Value._combineInstanceList.ToArray());
+        }
+    }
+}</pre>
+    </div>
+
+    <!-- 결과 -->
+    <h4 style="color:#4fa3ff; margin:1.4em 0 0.4em;">결과</h4>
+
+    <!-- 결과 테이블 1: 최소 Batches 방향 -->
+    <p style="color:#bdbdbd; font-size:0.93em; margin-bottom:0.5em; font-weight:600;">▸ 최소 Batches 방향 (오브젝트가 적은 시야)</p>
+    <div style="display:flex; gap:24px; align-items:flex-start; flex-wrap:wrap; margin-bottom:1.5em;">
+      <div style="flex:1; min-width:280px;">
+        <img src="/assets/images/gomap_after_min.png" alt="최적화 후 - 최소 Batches 방향" style="width:100%; border-radius:8px; border:1px solid #333;">
+      </div>
+      <div style="flex:1; min-width:320px;">
+        <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
+          <thead>
+            <tr style="border-bottom:2px solid #4fa3ff;">
+              <th style="padding:6px 10px; text-align:center; color:#999;"></th>
+              <th style="padding:6px 10px; text-align:center; color:#fff;">Batches</th>
+              <th style="padding:6px 10px; text-align:center; color:#fff;">SetPass</th>
+              <th style="padding:6px 10px; text-align:center; color:#fff;">CPU</th>
+              <th style="padding:6px 10px; text-align:center; color:#fff;">FPS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid #333;">
+              <td style="padding:6px 10px; text-align:center; color:#bdbdbd;">기존</td>
+              <td style="padding:6px 10px; text-align:center; color:#ddd;">1,333</td>
+              <td style="padding:6px 10px; text-align:center; color:#ddd;">267</td>
+              <td style="padding:6px 10px; text-align:center; color:#ddd; font-size:0.88em;">8.4 / 6.0ms</td>
+              <td style="padding:6px 10px; text-align:center; color:#ddd;">118.5</td>
+            </tr>
+            <tr style="border-bottom:1px solid #333;">
+              <td style="padding:6px 10px; text-align:center; color:#bdbdbd;">최적화 후</td>
+              <td style="padding:6px 10px; text-align:center; color:#82aaff; font-weight:700;">187</td>
+              <td style="padding:6px 10px; text-align:center; color:#ddd;">134</td>
+              <td style="padding:6px 10px; text-align:center; color:#ddd; font-size:0.88em;">6.9 / 4.2ms</td>
+              <td style="padding:6px 10px; text-align:center; color:#82aaff; font-weight:700;">144.9</td>
+            </tr>
+            <tr>
+              <td style="padding:6px 10px; text-align:center; color:#bdbdbd; font-weight:700;">변화량</td>
+              <td style="padding:6px 10px; text-align:center; color:#ff6b6b; font-weight:700;">−1,146</td>
+              <td style="padding:6px 10px; text-align:center; color:#ff6b6b;">−133</td>
+              <td style="padding:6px 10px; text-align:center; color:#ff6b6b; font-size:0.88em;">−1.5 / −1.8ms</td>
+              <td style="padding:6px 10px; text-align:center; color:#4ecdc4; font-weight:700;">+26.4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 결과 테이블 2: 최대 Batches 방향 -->
+    <p style="color:#bdbdbd; font-size:0.93em; margin-bottom:0.5em; font-weight:600;">▸ 최대 Batches 방향 (오브젝트가 밀집된 시야)</p>
+    <div style="display:flex; gap:24px; align-items:flex-start; flex-wrap:wrap; margin-bottom:1.5em;">
+      <div style="flex:1; min-width:280px;">
+        <img src="/assets/images/gomap_after_max.png" alt="최적화 후 - 최대 Batches 방향" style="width:100%; border-radius:8px; border:1px solid #333;">
+      </div>
+      <div style="flex:1; min-width:320px;">
+        <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
+          <thead>
+            <tr style="border-bottom:2px solid #4fa3ff;">
+              <th style="padding:6px 10px; text-align:center; color:#999;"></th>
+              <th style="padding:6px 10px; text-align:center; color:#fff;">Batches</th>
+              <th style="padding:6px 10px; text-align:center; color:#fff;">SetPass</th>
+              <th style="padding:6px 10px; text-align:center; color:#fff;">CPU</th>
+              <th style="padding:6px 10px; text-align:center; color:#fff;">FPS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid #333;">
+              <td style="padding:6px 10px; text-align:center; color:#bdbdbd;">기존</td>
+              <td style="padding:6px 10px; text-align:center; color:#ff6b6b; font-weight:700;">7,324</td>
+              <td style="padding:6px 10px; text-align:center; color:#ddd;">302</td>
+              <td style="padding:6px 10px; text-align:center; color:#ddd; font-size:0.88em;">14.5 / 11.9ms</td>
+              <td style="padding:6px 10px; text-align:center; color:#ff6b6b; font-weight:700;">68.8</td>
+            </tr>
+            <tr style="border-bottom:1px solid #333;">
+              <td style="padding:6px 10px; text-align:center; color:#bdbdbd;">최적화 후</td>
+              <td style="padding:6px 10px; text-align:center; color:#82aaff; font-weight:700;">182</td>
+              <td style="padding:6px 10px; text-align:center; color:#ddd;">125</td>
+              <td style="padding:6px 10px; text-align:center; color:#ddd; font-size:0.88em;">6.7 / 4.2ms</td>
+              <td style="padding:6px 10px; text-align:center; color:#82aaff; font-weight:700;">149.1</td>
+            </tr>
+            <tr>
+              <td style="padding:6px 10px; text-align:center; color:#bdbdbd; font-weight:700;">변화량</td>
+              <td style="padding:6px 10px; text-align:center; color:#ff6b6b; font-weight:700;">−7,142</td>
+              <td style="padding:6px 10px; text-align:center; color:#ff6b6b;">−177</td>
+              <td style="padding:6px 10px; text-align:center; color:#ff6b6b; font-size:0.88em;">−7.8 / −7.7ms</td>
+              <td style="padding:6px 10px; text-align:center; color:#4ecdc4; font-weight:700;">+80.3</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 결론 요약 박스 -->
+    <div style="background:#1a2332; border-left:4px solid #4fa3ff; border-radius:0 8px 8px 0; padding:16px 20px; margin-bottom:1em;">
+      <div style="color:#fff; font-weight:700; margin-bottom:0.4em;">📊 최적화 결과 요약</div>
+      <ul style="color:#ddd; margin:0; padding-left:1.2em; line-height:1.7;">
+        <li>Batches: <b style="color:#82aaff;">7,324 → 182</b> (97.5% 감소) — 전체 시야에서 <b>180~220</b> 수준으로 안정</li>
+        <li>FPS: <b style="color:#4ecdc4;">68.8 → 149.1</b> (2.2배 향상)</li>
+        <li>CPU render time: <b style="color:#4ecdc4;">11.9ms → 4.2ms</b> (64.7% 감소)</li>
+        <li>실기 테스트: 화면 회전 시 프레임 드랍(30→25~28FPS)이 해소, <b style="color:#4ecdc4;">30FPS 안정 유지</b></li>
+      </ul>
+    </div>
+
+  </div>
+
 </div>
 </body>
 </html>
