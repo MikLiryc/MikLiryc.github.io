@@ -29,4 +29,6 @@ exclude:
   - _site
   - "*.gitlog"
   - "*.ps1"
+  - "temp_*.txt"
+  - plan.md
 

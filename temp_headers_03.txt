@@ -1,0 +1,3352 @@
+﻿commit 9ea20a0dc073353cff400add6fad3d3b112459c5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 8 18:59:53 2024 +0900
+    [김재현/LBS] DynamicObject Life cycle 관련 코드 적용 및 정리
+commit be745a85b6ad5138ecd473541fc06237a92d0401
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 30 12:03:08 2024 +0900
+    [김재현/LBS] ReadyBattlePacket 변경사항 적용
+commit 0250298871cf6ced050c81b5484a8b65b065c383
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 30 11:29:34 2024 +0900
+    [김재현/LBS] LBS Life cycle manager 코드 수정 및 공용 Timer 생성
+commit dc32832acd2a42f7d21d6260b2da94e2bd5243d4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 26 18:55:51 2024 +0900
+    [김재현/LBS] GetStaticObject 패킷 서버와 동기화
+commit aff181d9819b3bb024b31f886bffed24bda60253
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 25 19:00:34 2024 +0900
+    [김재현/LBS] ServerCommon에 추가된 NewStaticObjectVo 에 맞춰 스크립트 수정
+commit e8687f3128a50239304c1e19f3bd587c6e117b18
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 25 15:38:42 2024 +0900
+    [김재현/LBS] Dynamic object + nearby object 관련 코드 수정
+commit d8410c7ec8bd66d42f9dba6e903b21201983f48b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 25 10:52:37 2024 +0900
+    [김재현/LBS] LBS 오브젝트 및 데이터 관리 로직 수정
+commit a8835e56d6e40307d03852abc126caa4cc4e814a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 23 19:04:41 2024 +0900
+    [김재현/LBS] LBS 데이터를 StaticObjectManager에서 분리 및 Collider trigger 처리 로직 수정
+commit dd7f325c41beb3c769c0ec8758be0ab6fe845263
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Apr 22 17:01:47 2024 +0900
+    [김재현/LBS] LBS Static object, Dynamic object에 Object pool 적용
+commit 5dfe05f7d3fb1a67bbc2954839d3e9cb8ae13bbc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Apr 22 14:01:09 2024 +0900
+    [김재현/LBS] LBS 관련 클래스 및 필드 네이밍 정리, Assetbundle 오브젝트 폴더정리
+commit 7f3ee96a27a309b973486014074dba1f9c983da0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 19 15:12:32 2024 +0900
+    [김재현/LBS] 싱글턴으로 존재하던 LocationTableManager를 static 클래스 LocationDataManager로 변경, 로직 정리
+commit a90c87d75f75b4d988174be0790a94f121014336
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 19 11:15:58 2024 +0900
+commit 525453f4e1a680c5c81b8869dd0008cf78255e5d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 19 11:15:47 2024 +0900
+    [김재현/LBS] 서버와 공유하는 신규 로직에 맞춰 클라이언트 데이터 테스트 및 동기화 작업
+commit da47c457f10b3f524e7ebd9a6d232c3ee0fd1e95
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Apr 17 11:17:46 2024 +0900
+    [김재현/Warning] Unity Editor warning 관련 수정사항
+commit 8c5b2799973a1e1c9c808b1917bfc4468eeac918
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 16 19:02:41 2024 +0900
+commit f00cf63b6c5a189c1929f1eed4ccbd3d4343fa19
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 16 16:39:46 2024 +0900
+    [김재현/로그] 테스트용 로그 삭제
+commit ea1b87351a8678769f1a0150141cfcb95959ce4a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 16 16:27:48 2024 +0900
+commit 022c4b7d1d6cabe7159096ad4ceb41c33956b778
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 16 16:26:53 2024 +0900
+    [김재현/빌드] LIVE가 아닐 경우 development Build = true, HTTP 옵션을 AlwaysAllowed로 변경
+commit 9eb8a2e0ceb95034b3e23df0b98a1db0ddef1367
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 16 16:26:16 2024 +0900
+    [김재현/Warning] 클래스들이 상속받은 부모의 field를 덮어쓰고 있다는 Warning 로그 수정
+commit 5259ad6939e02066c14e285bee335b9ab32d0609
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 16 11:06:00 2024 +0900
+    [김재현/우편] MailManager 에 필요없는 로그 및 Warning 로그 삭제
+commit 0fd0e05eadb32878f79ee5d6a1f5574029aa829e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Apr 15 17:44:10 2024 +0900
+    [김재현/에셋] AmplifyShaderEditor 버전업, AndroidLogcat 버전업 (1.4.0 -> 1.4.1)
+commit b9d3e5fb46bac5d701b22c18b7f4f4f1166fb8bb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Apr 15 15:03:28 2024 +0900
+commit 04932c0f899c54fae92c44c7c1824512171ddc43
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Apr 15 14:47:51 2024 +0900
+commit 7141f10aaa423f7386252bc85ee8db90c9d63772
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 9 17:17:50 2024 +0900
+    [김재현/빌드] Beautify PPS 폴더 삭제
+commit d183e37e0fbbd958771331e5bb358408e6d1f5ff
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 4 15:57:19 2024 +0900
+    [김재현/빌드] 유니티 2023.2.16f1 버전 플러그인 전부 제거한 버전 빌드 테스트 완료
+commit 2944301b3d6f2eed22b96a0f74af2cd2c92d9633
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 2 18:38:08 2024 +0900
+    [김재현/보상] UICommonReceiveReward 팝업의 코루틴이 종료되기 전에 닫힐 경우 계속 남아있는 문제 수정
+commit 199b9ffe8ccf12f5a3597932830034b0202131d7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 2 18:28:47 2024 +0900
+    [김재현/미션] 레드마인 #21831 스페셜미션 연속 진행 이슈 수정
+commit 2d10f919d8394d12dd79bdab6ada3d9843debde7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 2 18:27:45 2024 +0900
+    [김재현/기지] 레드마인  #21832 TF 상세보기 등급 애니메이션이 제대로 돌아오지 않는 문제 수정
+commit 55271202cdf411133d1ddda025e2902d7ebe364b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 2 15:32:53 2024 +0900
+    [김재현/미션] 레드마인 #21729 미션 Intro/OutroDialogId가 0일 경우에는 체크하지 않도록 예외처리 추가
+commit cfb44a0cd6cd5b4ee2be5b8eea5a7ec2ea0643e8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 2 13:03:49 2024 +0900
+    [김재현/LBS] LBS 화면에서 줌 시도 시 Min 값까지 도달하지 않고 Min + 2으로 고정되어 계속 줌인이 적용되는 문제 수정
+commit b5fd5d4fd687e162968f1507ef4d792638b00d14
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 2 12:45:57 2024 +0900
+    [김재현/소환게임] 소환게임 성공 후 등장 연출의 트랜스포머 애니메이션이 제시간에 시작되지 않는 현상 수정
+commit 1b627abfc1ba40f574c67c88c588649638fcf65f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Apr 1 16:27:24 2024 +0900
+    [김재현/도감] 도감 등록 연출 프리팹의 배경 오브젝트를 Static으로 설정
+commit 9718520838e32aec9745a31328a603e2a1536adc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Apr 1 14:42:01 2024 +0900
+    [김재현/도감] 무기가 없는 트랜스포머의 도감 등록 연출 시 무기관련 머테리얼 코드가 작동하지 않도록 수정
+commit da03f8024f429d790ee892f741b3e8fcf8ed8300
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Apr 1 14:34:43 2024 +0900
+    [김재현/Log] 전투 공격 딜레이 체크용 로그 삭제
+commit daa5dcd71bc294fd2512ad261b611376b370059f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Apr 1 12:30:56 2024 +0900
+    [김재현/도감] 도감 등록 연출 홀로그램연출 중 진영별 심볼에 홀로그램 연출이 적용되어있지 않은 문제 수정
+commit 735ef778a96e07aa5b5fcdbde4686317e020bc4f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Apr 1 11:51:35 2024 +0900
+    [김재현/도감] 도감 등록 연출의 홀로그램 연출이 Transformer / Weapon 두개로 분리되어있던 부분을 통합
+commit 659e920c8d0a228d9af5614b8128f80f0e64ab08
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 29 19:11:12 2024 +0900
+    [김재현/도감] 도감 등록 연출 홀로그램 연출의 속도를 60프레임 기준으로 계산하여 실제 기기에서 테스트 시 제대로 동작하지 않는 문제 수정
+commit fd5054a1a0cd553156a75e2473779164db4fb358
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 29 17:16:13 2024 +0900
+    [김재현/도감] 빌드 테스트 후 NullReferenceException 수정
+commit 0fafb693358f4280b7e47e0f2126fcaf09ec7e38
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 29 13:00:02 2024 +0900
+    [김재현/도감] 도감 백과 페이지에서 기록완성도가 모두 찼을 경우 (마지막 스텝일 경우) 수량을 표기하지 않도록 수정
+commit 8243ed0c40516472e8d2d5f128d33a03293e86fb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 29 12:50:07 2024 +0900
+    [김재현/치트] NearBy 트랜스포머를 변경하는 치트 추가
+commit 81f6cd1b076addd8a551cb251e578f32d2244725
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 29 11:25:51 2024 +0900
+    [김재현/도감] 도감 기록 완성도 아이콘 관련 문제 수정
+commit 2d7e01e5c8b739607c0013d6698d12b33ce6aaeb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 29 11:03:39 2024 +0900
+commit 9ef77e7ce5cd935131920aa648a693a4e2c161ad
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 29 11:00:53 2024 +0900
+    [김재현/미션] 스페셜 미션 배너 아이템의 버튼에 OnClickSFX가 적용되지 않는 문제 수정
+commit 5ff80f71211368d238ef801c39f7d54adb9b60dd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 28 18:44:18 2024 +0900
+    [김재현/도감] 도감 등록 연출중 첫번째 무기 홀로그램 연출이 적용이 되지 않는 문제 수정
+commit e7d679efe992a55e169e26690fd29e0dc46197c7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 28 18:10:06 2024 +0900
+commit 84857a7edc4a11f7d4a97a504fbf3e300c577532
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 28 18:08:00 2024 +0900
+    [김재현/UI] CommonReceiveReward 팝업이 꺼지지 않는 문제 수정
+commit a60f2b0a7d5e09ecac05bf9640a5b30513ba5c45
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 28 18:01:06 2024 +0900
+    [김재현/사운드] Toggle 클릭 사운드 추가
+commit e186bfc329379a865e3ee652c9b284176ab327c9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 28 18:00:27 2024 +0900
+    [김재현/보상] 보상 팝업의 연출이 끝나지 않은 상태에서 꺼지는 현상 수정
+commit 11b13cddb238049dd9b33f4b4a57dfe0794090e6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 28 16:10:53 2024 +0900
+    [김재현/오프닝] 오프닝 Intro 영상 프레임수 변경으로 인한 BGM 출력 타이밍 조정
+commit 31665f9ba651138e33dc6f3c882357921b8e621c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 28 14:58:14 2024 +0900
+    [김재현/도감] 도감 백과 페이지 카메라에 잡히는 트랜스포머 상태 별 애니메이션 적용, 스크립트 연결이 빠져있는 부분 재연결
+commit ce30c3d8b317ef6f7b6f646ab3feff3debcec4b7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 27 18:01:21 2024 +0900
+    [김재현/도감] 도감 백과 페이지의 작은 트랜스포머 모델링이 Release가 되지 않는 현상 수정
+commit 109f8d2d8e09ce043dd311a74b746a47add67efe
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 27 17:20:46 2024 +0900
+    [김재현/도감] 도감 등록 연출에서 애니메이션 사운드 이벤트가 발생하지 않는 문제때문에 애니메이터 구조 변경
+commit 97ad2ae9c5b71519754575ce05556cf84fddc3b3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 27 17:01:08 2024 +0900
+    [김재현/UI] 서버로딩 팝업이 중복 생성되는 문제 수정
+commit 7dd41ea43dc63919afe2a3e9aa7f13ccc666f5d2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 27 16:43:28 2024 +0900
+    [김재현/오프닝] 오프닝 연출 종료 방식 변경 (UIManager 에서 직접 호출), ServerLoadingUI가 여러번 불리는 경우 레퍼런스를 잃어버리는 문제 수정
+commit c4de78f4f778c15761c4dbde14e99e80f220177a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 27 15:35:35 2024 +0900
+    [김재현/오프닝] 오프닝 비디오 Skip 기능 및 Intro Completed 타이밍 조정
+commit e84e6aa892166d6b91e12ed00b200c61baa75114
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 27 14:56:47 2024 +0900
+    [김재현/도감] TF 도감 CampType 별 Fog값 적용
+commit 6d9a3d9366a571b83e3394c7bb3d0ebb5dbc8f14
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 27 14:15:27 2024 +0900
+    [김재현/도감] 도감 백과 페이지 UI 및 트랜스포머 오브젝트 설정 수정
+commit 7e44b033de2093803df1f511acfea4f396f3ad46
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 26 18:11:43 2024 +0900
+    [김재현/도감] TF 도감 리스트 아이템의 캠프 아이콘의 불투명도를 유지하도록 코드 수정
+commit ab9b71d12174b3e82a372b1b6f7bf53884c80425
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 26 17:20:15 2024 +0900
+    [김재현/오프닝] 오프닝 시점에 오프닝영상을 재생하는 기능 추가, 사운드 Fade기능 추가
+commit 5e73e62adcf43992ac2e74ead0ff6d5fb11945be
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 25 18:44:00 2024 +0900
+    [김재현/도감] 도감 상세정보 페이지 앵커 및 스크립트 연결 재설정
+commit 148c47e0a45923d44895421831ba66bf409bc5bb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 25 17:21:52 2024 +0900
+    [김재현/UI] BattleTFSelectListPopup에  Open 연출이 추가되면서 튜토리얼에서 발생하는 문제 수정
+commit 70b95126182cc4f095b0806d9ed6dc1e7bcc8c2c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 25 12:57:23 2024 +0900
+    [김재현/도감] AlbumTransformerAnimationController에 애니메이션 이벤트 PlaySound를 받는 리시버가 없던 문제 수정
+commit 7b1aa97f03db63faad8a2e28d430b0f7fce532f1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 25 12:39:34 2024 +0900
+    [김재현/다이얼로그] 다이얼로그 로그 아이템 아이콘 이미지 표시 기능 복구
+commit 2e80369c1f85cda2aadfd4ad7e33278ae680d1be
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 25 12:02:20 2024 +0900
+    [김재현/사운드] AnimationTool 씬에서 데이터 테이블 load를 정상적으로 하지 않아 사운드가 출력되지 않는 문제 수정
+commit dff510c8129a0c423a946ef1cb5294b5ccc0b73e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 22 17:52:31 2024 +0900
+    [김재현/도감] 도감 백과 화면중 비활성화되어있는 버튼을 클릭했을 시 토스트 메시지가 노출되도록 수정
+commit cdbd99ae791f68aafc85fd5a1b15b95af09eb98f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 22 17:10:50 2024 +0900
+    [김재현/도감] 연출 시작 부분에 지정한 사운드를 플레이할 수 있도록 기능 추가
+commit c1013e17005a2ffd299362e5fa019f8bfca76fc5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 22 16:37:02 2024 +0900
+    [김재현/도감] 도감 등록연출 시그널 중 트랜스포머/무기 + 홀로그램/기본 변경 시그널의 프레임을 조정할 수 있도록 파라미터 추가
+commit ec905b586d1f77b71b2c65f52b9dd74358d3ca90
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 22 15:28:31 2024 +0900
+    [김재현/도감] 도감 등록 연출 종료 이벤트가 연결되어있지 않던 문제 수정
+commit a6228851363ed7e377f4bc570987053e992236bd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 21 17:49:25 2024 +0900
+    [김재현/도감] 도감 등록 연출 섹션별 Parameter 값을 트랜스포머가 가지고 있도록 수정
+commit eaa4c0e97981fa8e87005092d0dd1b28712eab87
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 21 11:48:57 2024 +0900
+    [김재현/도감] 도감의 트랜스포머 회전 기능을 감상모드에서만 작동하도록 수정, 감상모드 퇴장 시 트랜스포머 원위치 기능 추가
+commit 0992522a8cc68b2f4506fde8088936945ae16b63
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 20 16:44:50 2024 +0900
+    [김재현/UI] UI Open/Close 연출을 일괄적으로 수정함에 따라 스크립트 수정, UIPanel들에 적용
+commit c8d844f27e352587319667f4d43b2a3bc1c94cf5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 20 16:02:05 2024 +0900
+    [김재현/도감] #df65c1b 의 Fog 값에 맞추어 도감에서 로비로 돌아올 때 라이팅 세팅값 수정
+commit 62744f6aa2987490572720e7ce264394fb745053
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 20 16:00:05 2024 +0900
+commit b6e64cbec3dcbcdb9de10e5c198e2fb48ff99a0c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 20 15:59:23 2024 +0900
+    [김재현/UI] UI 컨트롤을 위한 CommonUIOpenFX 스크립트 수정, DoTween 오류 수정, 최신버전 (1.2.765)로 업데이트
+commit 13ef991a9ba207deaef327c4e5c01b449b6a6627
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 19 18:53:22 2024 +0900
+    [김재현/도감] 도감용 환경 세팅 Skybox 머테리얼, 로비용 환경 세팅 Skybox 머테리얼 네이밍 변경
+commit 9dc2dbb3311d366879dfd6e1d8bfd041cb68181c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 19 18:37:30 2024 +0900
+    [김재현/도감] 도감 Timeline의 AnimationTrack이 하나 사라짐에 따라 코드 수정, TF도감 스크롤뷰 앵커 조정
+commit c535e7fb20e4f39ec672b0f74e003367b80dd3d2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 19 12:44:56 2024 +0900
+    [김재현/소환게임] 소환게임 Option 설정 삭제, 소환게임 바로 성공시키는 치트 버튼추가
+commit d0bc8aa4fb25403c971cb06b00dbe97a2e348bff
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 19 11:34:59 2024 +0900
+    [김재현/UI] 도감, 상점, 미션, 세팅 UI에 아래에서 위로 올라오는 진입 / 퇴장 연출 추가
+commit b007a91b10dd2c5bad7286243673c1e806149d98
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 18 18:29:07 2024 +0900
+    [김재현/기지] 트랜스포머 상세보기 팝업에서 SubMenu를 닫은 후 Popup에 재진입 시 SubMenu가 켜져있는 경우가 발생하여 수정
+commit 8fdb1528db44f90fa1de3be8c47b4238d4937db3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 18 18:25:43 2024 +0900
+    [김재현/도감] 무기가 있는 트랜스포머의 무기 머테리얼을 교체할 때 무기의 Origianl material이 아닌 Transformer의 Original material이 적용되는 문제 수정
+commit 9cb884990999c61368d00ebada1659cbab498151
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 18 18:17:05 2024 +0900
+    [김재현/도감] 트랜스포머가 변신한 이후에도 랜덤 Idle 트리거가 사라지지 않아 Idle01 / Idle02가 실행되는 문제 수정
+commit eccd6d1c817605e3e12039f1753a435bc23a29af
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 18 14:27:09 2024 +0900
+    [김재현/도감] 쇼크웨이브, 범블비 도감 프리팹 제작 및 애니메이터 연결, 옵티머스 프라임 머테리얼 네이밍 정리
+commit 26ff74a575e568d698e6060c2f49f3e3c3aa8a10
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 18 11:30:11 2024 +0900
+    [김재현/도감] 도감 최초등록 보상 디셉티콘 배경 세팅 및 적용
+commit 08c71a00163c4d981a9d130e03fe20a701fb92a5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 15 18:11:05 2024 +0900
+    [김재현/도감] 도감 최초등록 연출 추가 (옵티머스만 가능)
+commit 2c0d1b7a6bdaecdfb68f6fc90259b5ca1e5233b3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 14 17:10:04 2024 +0900
+    [김재현/도감] 도감 랜덤 대기 모션 기능의 Min Max가 제대로 설정되지 않는 버그 수정
+commit 6238aaeba61966e30c0ab6af01d5095c8b8c23b5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 14 16:52:10 2024 +0900
+    [김재현/도감] 변신중 회전이 안되게 막아놓은 코드 삭제
+commit 1c0a1668188a5086cc0caff6d32fd5b36cd43628
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 14 15:42:08 2024 +0900
+    [김재현/도감] 도감 대기모션 반복횟수의 범위를 수동으로 변경하여 테스트할 수 있도록 debug 코드 추가
+commit dab8da933da66854c61a62af495c050449ad35b8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 14 15:18:06 2024 +0900
+    [김재현/도감] 도감 Idle 모션 3~6회 진행 후 랜덤 Idle 모션이 나오도록 기능 수정
+commit f29c7b335aa512b4d4427d7f6cabdbd014a8789f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 13 19:35:03 2024 +0900
+    [김재현/도감] UI Close 시 도감용 InputSystem이 다시 활성화되는 문제 수정, ObjectPool 초기화 시점 조정
+commit 0a3a29c4bb2925944c279b6647ed4513dba020c3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 13 19:07:39 2024 +0900
+    [김재현/도감] 도감 UI 오류 수정
+commit 83c2fa2cfc87fff0948f9265b7859b7c356900ab
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 13 18:12:21 2024 +0900
+    [김재현/도감] 도감 UI 로컬텍스트키 적용, 스크립트 상 기존 미적용되었던 텍스트 적용
+commit 9c18c6b3df78f92805e25a7f8e7160f79345b119
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 13 15:15:59 2024 +0900
+commit 22ad5358e20ec37509cb816323188f9315607a1b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 13 15:15:46 2024 +0900
+    [김재현/로그인] TestBuildSceneController 스크립트 삭제 및 폴더 삭제
+commit 90ca1a6e876568ae99b9f2dcca7a11b9e0142ce5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 13 15:12:49 2024 +0900
+commit b79771214ef5eaf8b3723316954d45b95bc438d4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 13 15:11:55 2024 +0900
+    [김재현/로그인] 로그인 UI에 MoveToTestScene 버튼 삭제, TestBuildScene 삭제
+commit 1964695caf0066dec93e1fa856564bf4d0ec37c8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 13 15:07:37 2024 +0900
+    [김재현/도감] 백과 테스트를 위한 모든 슬롯 오픈 치트 버튼 추가
+commit 15cd0156b661c554d1ea70837a687319a6145fef
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 13 14:53:33 2024 +0900
+    [김재현/도감] 다른 캐릭터들 제작완성될때까지 임시로 오토봇 - 옵티머스, 디셉티콘 - 메가트론이 나오도록 설정
+commit fd29efa27083a5c191e03bb345ab54a278e78fd3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 13 14:43:26 2024 +0900
+    [김재현/도감] 메가트론 도감 백과 화면 프리팹 설정 및 스크립트 수정
+commit 378c112d4887e9b1e4d0441409948ebcb1f58a32
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 13 12:50:40 2024 +0900
+    [김재현/도감] 도감 백과 화면 옵티머스 프라임 카메라 세팅 적용
+commit e59ce2b70ac583f299dcb50bca0627413609dee2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 12 18:44:03 2024 +0900
+    [김재현/도감] 기록완성도 상승 팝업 스크립트 연결 끊긴 부분 수정
+commit 4a2895bec87eb036e5c346ab14042e92f968f2e6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 12 18:43:46 2024 +0900
+    [김재현/도감] 도감 백과화면 기본기능 연결
+commit 48f76740d6e3407a0c96d5fb1f69eb172e0aa876
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 12 12:37:28 2024 +0900
+    [김재현/도감] 도감 기본 배경 프리팹 수정 및 스크립트 기반 환경라이트 세팅 기능 추가
+commit 80bf010510083f2d81f2264da25de7025017b28a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 11 14:44:49 2024 +0900
+    [김재현/UI] UIPanelFade가 삭제되었는데도 UIEnum 에서 빠지지 않아 생기는 문제 수정 (충돌 시 무시)
+commit 3fb52870b565c90bb3af345fce97fa51b352c218
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 11 14:37:02 2024 +0900
+    [김재현/도감] 메가트론 도감 기본 애니메이션 적용, 오토봇은 옵티머스, 디셉티콘은 메가트론이 나오도록 설정
+commit 155d64d3da0b8a680281e7f0ae8c23b4e7f08c48
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 11 10:43:57 2024 +0900
+    [김재현/도감] UI 네이밍 변경 enum 적용
+commit 3dd4a7bbbc9a7fa42242fad1147bcc788c2e15d5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 8 16:30:29 2024 +0900
+commit c0468414b7fb2a7d56b9071c04d3642f14c90a40
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 8 16:30:18 2024 +0900
+    [김재현/시네머신] Cinemachine 에서 사용할 수 있는 default playables 트랙 기능 추가
+commit a691ce43d4a417d4b3baae4359da537a393f332d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 8 14:04:17 2024 +0900
+    [김재현/도감] UIAlbumRegistrationRewardPopup 오타 수정
+commit 4da4ebe3a486951da56a0c52fd9770849c79c189
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 8 11:54:38 2024 +0900
+    [김재현/도감] UI 세부 수정, 기록 완성도 상승 팝업이 계속해서 노출되는 현상 수정
+commit 9256567afc40c9219c7a16aecb2a237cb9774d0f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 8 11:15:23 2024 +0900
+    [김재현/도감] 도감 정보 팝업 TextMask 이미지 사이즈 조정
+commit 44ba24795ae1ea00221331c23bcedea1e45afeb3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 7 18:54:49 2024 +0900
+    [김재현/도감] 테이블 업데이트 이후 오류 수정
+commit 4998b44bab744a677c56e1ff0d316230c5d6370c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 7 18:47:01 2024 +0900
+    [김재현/도감] 도감 백과 관련 스크립트 수정, 테이블 변경사항에 맞춰 스크립트 수정
+commit bb062afe7ed7953b7debff71b17c422fec4c5027
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 7 18:46:05 2024 +0900
+commit bb474963b3dd07031a2d493a211afd8e1f149a56
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 7 18:45:35 2024 +0900
+    [김재현/테이블] 도감용 테이블 업데이트, DB 최신화
+commit fba9104bf0692416e2b2be0e9b5ae3de722f7f05
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 7 11:30:26 2024 +0900
+    [김재현/도감] 도감 상세보기 화면에서 현재 트랜스포머 Animation 상태를 확인 할 수 있도록 수정
+commit 3887b2d947cdb3d2e340dc0d1c8571de68a1075e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 6 17:51:10 2024 +0900
+    [김재현/도감] dev-BattleRefactoring 브랜치에서 StateMachineBehaviour 관련 코드 CherryPick
+commit 6ab9693dcb034856ab1280032c70959876c9a202
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 6 17:30:42 2024 +0900
+    [김재현/도감] 도감 UI 전환 암전효과 추가, 백과 상세정보 화면 제작
+commit 0f5c240dc34aab2db1bf83743fd5f355596c505a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 6 15:47:00 2024 +0900
+    [김재현/도감] 도감 UI에서 CommonUIOpenFX 컴포넌트 삭제
+commit fda46465b0b07e7b33ce167d2c5438a22b7b34f1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 6 15:34:57 2024 +0900
+    [김재현/도감] 도감 트랜스포머 변신 후 뒤로가기 -> 재진입 시 차량으로 변신한 상태에서 Bot 모드로 변신하는 문제 수정
+commit ba2072a252006e66f4388e8dbedc9ac81de2af27
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 6 15:20:58 2024 +0900
+    [김재현/도감] Fade in/out 팝업 스크립트 수정, UIUtil에서 사용할 수 있도록 수정
+commit 448dc1f29d96283ddc7453a55fd06dcbc3a1fb46
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 6 13:10:10 2024 +0900
+    [김재현/도감] 도감용 옵티머스 프라임 애니메이션 및 애니메이터 기초 연결
+commit d26fed46889036e2969b7cf915d44de86382bf29
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 6 12:50:32 2024 +0900
+    [김재현/도감] 도감 UI 툴 및 Fade 팝업 임시 커밋
+commit 290c0c0099c2b17be177eab14230452e49ed1d86
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 5 16:52:34 2024 +0900
+    [김재현/UI] UI 전환 시 사용할 Fade in / out 연출기능 추가
+commit 9bb6e8804d9c6208af55574b651bf299abcc7ea8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 5 15:25:12 2024 +0900
+commit c78d39a5986edc771480ccb810ebf33e1bc22273
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 5 15:24:57 2024 +0900
+    [김재현/UI] UI 기본 오픈 효과에 FadeOut 추가, CustomInspector적용
+commit 13133a99b3e2d6787d20ef7b7c6641348da33590
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 5 12:03:06 2024 +0900
+    [김재현/도감] 소환게임 종료 후 도감 최초등록 연출이 나오는 시점 변경 (스파크 골 -> 등장 연출 직후)
+commit 66004ed9b7f6c577fd6906398687f5d73caac10c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 4 17:14:29 2024 +0900
+    [김재현/도감] 감상모드 터치 컨트롤 상하/좌우 움직임 판별 로직을 시간 기준에서 움직인 거리 기준으로 변경
+commit a8e342b1da744aed429248dcb6997d1e1a127a02
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 4 15:51:29 2024 +0900
+    [김재현/도감] TF 도감 상세보기 및 감상모드에서 터치 움직임 구현
+commit a986d47a3e2a4dd95fef593a9934dc0983a3ea82
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 28 16:16:18 2024 +0900
+    [김재현/파워칩] 파워칩 인스톨 시 Thumbnail 오브젝트를 Load해오는 방식이 잘못되어 발생하는 오류 수정
+commit 006436a6a9200e50b078d35beba8a761f8dba788
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 28 14:33:57 2024 +0900
+commit 5d3f00b2ff67f3446067ef0099000f418e7a0eb6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 28 12:54:10 2024 +0900
+    [김재현/로그] 로그인 중 게이트키퍼 접속 실패 시 로그 추가
+commit f608ab3678e3a5711673dab132f5a84d76980b84
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 27 18:35:42 2024 +0900
+    [김재현/LBS] 소환게임 완료 후 LBS 카메라 위치가 진입 시 위치와 달라 화면이 순간적으로 움직이는 문제 수정
+commit eb6aec19c3f3876e6e19aaee58a442d6684455ae
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 27 17:10:37 2024 +0900
+    [김재현/튜토리얼] 튜토리얼 도중 LBS 카메라 회전 및 Zoom In/Out 비활성화
+commit dccc95ed7e9aebb39a1317e097364ec04840a42f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 27 16:01:52 2024 +0900
+    [김재현/튜토리얼] 튜토리얼 도중 재접속 시 발생하는 전투 팀덱 관련 문제 수정
+commit e45795cdc89011791c787e376708d8d0f8a6bf6b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 27 14:31:44 2024 +0900
+    [김재현/LBS] Lobby Scene에서 다른 scene으로 이동할 때 발생하는 MissingReference 에러 수정
+commit f82f440059ad6d18a97aa8ac78fcf02f363744ee
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 26 16:57:28 2024 +0900
+    [김재현/도감] TF 도감 백과 화면 Slot 활성/비활성 상태 제작, 조건에 따라 자동 설정되도록 수정
+commit cab30b1778d72223236ae6fa7a8498fbf08f7b67
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 26 15:47:33 2024 +0900
+    [김재현/도감] TF 도감 백과 화면의 좌상단 아이콘을 클릭 시 노출되는 도감 완성도 효과 툴팁 추가
+commit 8c17be406fc13f03a0fdc029efbd07d0cfce6ce7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 26 14:43:51 2024 +0900
+    [김재현/도감] 테이블 데이터 기반 도감 필터 데이터 생성 및 화면 노출
+commit c6c5116c6621ea3761b75761778abb6c8d2a48a5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 23 18:56:38 2024 +0900
+    [김재현/도감] 도감 필터 기반 기능 구현
+commit 33a1ce1a0709b4b3138af454f4a4da9517fe915a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 23 14:59:08 2024 +0900
+commit 8b716a919e081517acb441b581d10b8b526e9557
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 23 14:58:24 2024 +0900
+    [김재현/도감] 도감 진입 시 [기록 완성도 상승 체크] 및 [최초 등록 보상 체크] 추가
+commit 688b1b9a4c0525778816015eba19f94adf3c8251
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 22 18:11:09 2024 +0900
+    [김재현/파워칩] 파워칩 테이블의 product2의 ProductType이 none일경우 스킵하도록 수정
+commit a2de2df407ddfc9ac8eb1c33e17133f8fd01010c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 22 17:57:42 2024 +0900
+    [김재현/도감] 트랜스포머 도감 백과 팝업 제작 및 데이터 세팅
+commit 65051e5ac66742887ab4eb5bd657a84135636d52
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 22 17:57:09 2024 +0900
+    [김재현/UI] UI가 닫힐때 마지막으로 켜져있던 UI가 꺼져있다면 자동으로 켜주는 기능 추가
+commit 0c9b925bb5390c8baaaf3dcf93d3038e3be9d244
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 22 15:56:09 2024 +0900
+commit 0ffc750b0f53d492b410112986b72dae102b898c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 21 16:43:27 2024 +0900
+    [김재현/UI] UIManager에서 열려있는 UI를 관리하는 방식 변경
+commit c184ded0c13fb3bec52a1f3e316b71c499588f98
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 21 16:40:32 2024 +0900
+    [김재현/도감] TF 도감 리스트 팝업 제작 및 연결, 최초 등록 보상 적용
+commit 5af62282307ce4cec38ee26c3dc34a4085cffca0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 21 11:46:28 2024 +0900
+    [김재현/도감] UIPanelAlbum, Detail popup 등 도감 진입 앞부분 UI 커밋
+commit ee60fe39bf7a5109133c159b0a67ed6e1ac44149
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 20 16:56:23 2024 +0900
+commit a3cb72ac10b0e517a70ceaff272233cb71d9bbe5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 19 16:01:13 2024 +0900
+    [김재현/앨범] TF 상세보기 팝업 신규 시안에 맞춰 수정
+commit 63759c8de57476d2738eb7bbb3ef6d79f81f3967
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 1 17:48:11 2024 +0900
+commit f08ed6d9d392a790372e67d1e84bd3e8a18de6cd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 1 17:36:32 2024 +0900
+    [김재현/미션] 잠금되어있는 업적미션은 진행도 알림 팝업에 뜨지 않도록 수정
+commit 9a786aabe507d2e859097307a85e8385a0b8b55e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 1 17:26:17 2024 +0900
+    [김재현/미션] 미션 패널UI 닫을 때, LBS HUD의 Notifier 재설정하는 이벤트를 발생시키도록 수정
+commit 9d8770edc9340a38308c54fdc89c1b8a3b980950
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 1 16:39:23 2024 +0900
+    [김재현/빌드] Mission 브랜치 머지 후 재빌드를 위한 빌드 버전 업데이트 (0.5.1 -> 0.5.2)
+commit b941b285fe68d52b816d1ae6d9e7efb493a7579f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 1 16:37:11 2024 +0900
+commit 6dd680546cefb24580a34893aa8f6796f19c0dc6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 1 16:26:01 2024 +0900
+    [김재현/테이블]  PowerChipGroup -> PowerChipInstallRate 로 테이블명 변경
+commit 628b5d8b952b9ad34064a57c3934a4e7ec8a8fb2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 1 15:33:32 2024 +0900
+    [김재현/빌드] 2024-02-01 버전 빌드용 BuildVersionConfig 업데이트 ( 0.5.0 / 0.0.2   ->   0.5.1 / 0.5.0)
+commit f4e523d9d50545089e36a2fe8bf462c14025c589
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 1 15:11:16 2024 +0900
+commit 1f86792d133b7c7c1b7531a05ffceb851bed234a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 1 15:11:07 2024 +0900
+commit a1587a209928a865d71b4e6c2f5e20d80d957d25
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 1 15:11:00 2024 +0900
+    [김재현/테이블] Transformers Entity 사라진 필드 삭제
+commit 2088f5532308d776c9596c11c566501215916ebf
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 1 11:26:15 2024 +0900
+    [김재현/미션] UINotificationItem 에서 체크 시 Lock 되어있는 업적 미션은 패스하도록 수정
+commit f3260d402bcbe2cee0b03e82a4be358a0e386f27
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 31 18:01:36 2024 +0900
+    [김재현/도감] 기존 시안 기준 도감 스텝별 효과 UI, Codex UI 기본 작업
+commit 550f389109ed25c6f219dff6c06dc3426d1373a4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 31 12:44:23 2024 +0900
+    [김재현/미션] 미션 개선사항 적용
+commit 2b5b14f006e8f1d0d6da16d3bae1435131d73c36
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 31 11:16:51 2024 +0900
+commit 735ffca27c3dd7abc3980c66df2a06cdc4f31c1c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 31 11:16:40 2024 +0900
+    [김재현/테이블] 2024-01-31 11:00 ta-design DataTable 폴더 기준 테이블 업데이트, DB 최신화
+commit cb5e7fb2ae0cd6501853bc6f409bb14f0ac80d2c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 31 10:57:14 2024 +0900
+    [김재현/테이블] 도감 관련 테이블 변경으로 인한 스크립트 수정
+commit 40555819f54ed95bf5d3a646063dfa37b76112ed
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 30 18:37:45 2024 +0900
+commit 3beabb6040e44b0abace9b4cab4e8c9e53f3a07c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 30 18:35:54 2024 +0900
+    [김재현/테이블] 도감용 테이블 및 관련 스크립트 추가/수정, DB 최신화
+commit c300db791a56d692371678fd97323617af14c7db
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 30 15:42:39 2024 +0900
+    [김재현/도감] 트랜스포머 도감 상세보기 오브젝트에 Directional light 추가
+commit 8d21490b600cf6206175e24a37c684b6c741b653
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 30 15:20:46 2024 +0900
+    [김재현/도감] 트랜스포머 도감 상세화면 기본 베이스 제작
+commit 128fc4e81a14611520ecc7ba5b6fb5cbebd9a5f4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 29 18:04:53 2024 +0900
+    [김재현/도감] 도감 기본 프리팹 제작 작업
+commit 8435a0c530bc8cef46fd314c58812509ad66926f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 26 16:45:38 2024 +0900
+commit f87567102f29b8647ba50fe877747b607c3d75ce
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 26 16:06:31 2024 +0900
+    [김재현/미션] 미션 보상 수령 후, 화면 새로고침 시 다른 미션의 진행 상황 (EventNotification)이 갱신되지 않는 문제 수정
+commit 583623f48a655abecc8226649a3d83be3e0edc29
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 26 15:09:48 2024 +0900
+    [김재현/미션] 업적 미션 완료 체크로직 변경
+commit a3cfcefcdad26c937a81b9cb5ecfeb4e49239df0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 25 18:47:52 2024 +0900
+    [김재현/미션] Lock 되어있는 업적 미션까지 체크하여 RedDot을 띄우는 문제 수정
+commit f07d7574cc2eaa3eb6f2d233c8ac0bb2060f1b25
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 25 15:50:21 2024 +0900
+    [김재현/미션] 스페셜 미션 Step 팝업에서 보상 배경이 변경되지 않는 문제 수정
+commit 1aed339ecddb8c33215b350cf34819ea682c1e69
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 25 15:43:52 2024 +0900
+    [김재현/미션] 스페셜 미션 Step 팝업에서 보상을 받았을 경우, 미션 갱신이 되지 않는 문제 수정
+commit 2cacb2c5ed8540741cdc835ffafbbfa931258e94
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 25 15:37:29 2024 +0900
+    [김재현/미션] 스페셜 미션 전투 보상 배경 이미지 적용
+commit 1fed67545d13edc5d01933099ad0cbca1119f96d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 25 14:54:48 2024 +0900
+    [김재현/미션] 미션 패널 Object pool 에러 수정, 스페셜 미션 특수 보상 배경 수정
+commit cd804a5b46f517adea478096a0c16d6eaefd3135
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 25 12:56:15 2024 +0900
+    [김재현/테이블] 테이블 최신화, DB 최신화
+commit 5a3e029700ffa1abb472da11e9233a7b225f7828
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 24 12:47:33 2024 +0900
+    [김재현/테이블] 도감용 TFAlbum, TFReference, TFText 테이블 업데이트, DB 최신화
+commit f06913d124f585d515c569b866197f1bc6e01def
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 23 15:28:24 2024 +0900
+    [김재현/테이블] 도감 관련 테이블 수정사항 및 관련 코드 수정, DB 최신화
+commit 3c9a33ef8a02b14730f313e42371407d37978361
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 25 11:55:08 2024 +0900
+    [김재현/도감] 기본 도감 데이터 세팅 작업, TF 도감 리스트업 작업
+commit c5108558d9c0beecd871684e4303808353284e3e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 24 12:47:33 2024 +0900
+    [김재현/테이블] 도감용 TFAlbum, TFReference, TFText 테이블 업데이트, DB 최신화
+commit b2384f34ddfb325a173497cf831b4bdcdcb8aefb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 23 15:28:24 2024 +0900
+    [김재현/테이블] 도감 관련 테이블 수정사항 및 관련 코드 수정, DB 최신화
+commit e9c06b8f1d6e519ea2bec6e99309c4f5522b9e37
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 19 10:33:07 2024 +0900
+    [김재현/전투] 정상적으로 사용하지 않고있는 코드 설명 추가
+commit e3723f59b0930a905e5897f04cbb72a34377711b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 18 17:49:04 2024 +0900
+    [김재현/다이얼로그] 주석걸어두었던 다이얼로그 리워드 코드 활성화
+commit 3c9ce427b1ae1e344f054031bf13957f1cb30e80
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 18 15:09:36 2024 +0900
+    [김재현/테이블] Mission 테이블 SpecialMissionSteps의 RewardImage -> BackgroundUiImage 로 네이밍 변경, DB최신화
+commit 6a4eb53f89d3092e15b15c282dbe24b6b5fb3935
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 18 15:06:17 2024 +0900
+commit ad79315dc3388c9743bc0a40df0ffafad9e2e954
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 18 14:46:42 2024 +0900
+    [김재현/미션] UISpecialMissionStepInfoPopup의 소환게임/전투 진입 시 지급할 TF/파워칩 이미지 적용
+commit e2172374fb58f7a44aaec4dd5b4fcd242f18be18
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 17 15:48:59 2024 +0900
+    [김재현/전투] 일반공격 딜레이 확인용 테스트 코드 추가
+commit f9d699e90fd1df5761bd06babd42bc01cec306d2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 17 15:24:58 2024 +0900
+    [김재현/전투] 전투 일반공격 후딜레이 기능 추가 및 테스트 기능 추가
+commit d3e5715a91945d004a92e51f471732b45637bc7e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 17 14:00:34 2024 +0900
+    [김재현/미션] UI 프리팹 작업 전까지 오류를 막기위해 임시 주석처리
+commit 8702c2dd71a4cac8b58440bc275d564ea5f795eb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 17 11:35:29 2024 +0900
+commit 4c1ece8f2bf617774250df5201d5b2c8c9a1870e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 17 11:35:21 2024 +0900
+    [김재현/AR][#21686] AR 모드에서 닫기 취소를 했을 경우 닫기 버튼이 사라지는 문제 수정
+commit 4a0def0d90f2deedae21f7657739dd72cfae5dfe
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 16 17:58:30 2024 +0900
+    [김재현/전투] 전투 데이터 변경으로 인한 튜토리얼 진행 불가 버그 수정, 튜토리얼 진입 시 아군 팀덱을 초기화해주는 코드 추가
+commit b35960f9b2b6399814a2ea534e48f5e1a98a07fb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 16 17:33:26 2024 +0900
+    [김재현/미션] 주간반복미션 초기화 시간이 제대로 계산되지 않는 문제 수정
+commit d43f706162bb73cd9db0de931e93c63b339b9ccf
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 16 17:28:25 2024 +0900
+    [김재현/미션] 반복미션 초기화 시간 및 스페셜 미션 보상 종료 시간 체크 로직 추가
+commit abc51f4a9f33af7ddc6ef333e4d131e2bcbd8ad4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 16 16:15:05 2024 +0900
+    [김재현/미션] 스페셜 미션 전투 진입기능 추가 및 전투 데이터 변경
+commit 80f781d896e23dd14d67ea34f60ab42bec89c491
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 12 17:19:16 2024 +0900
+    [김재현/전투] StartBattle 에서 BattleData 가 초기화되는 문제 수정
+commit 8a4f8209fd18cfca30e51d7730084d1bf0288d83
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 12 16:43:22 2024 +0900
+    [김재현/미션] 업적 미션 EventNotification에서 IsFinishStep이 제대로 세팅되지 않는 문제 수정
+commit 3675cb0bced0faf794c9fe28031ef5271b4db3fb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 12 16:32:11 2024 +0900
+    [김재현/전투] BattleData가 초기화 되어, Alliance team 이 사라지는 문제 수정, Allience -> Alliance 오타수정
+commit 526760e6f600a98d50886b490003d0be08ca2d75
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 12 16:07:59 2024 +0900
+    [김재현/미션] SpecialMissionBannerItem의 Complete, Finish 아이콘 변경, InfoPopup의 보상 버튼텍스트 2가지로 변경
+commit baa8da3fad9aad5dfb5f43218ca3b6845b229dd8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 12 15:40:28 2024 +0900
+    [김재현/미션] SpecialMissionBannerItem의 연출 수정
+commit add5d45300e8a355d239cc2b88a1c40bee2980a2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 12 15:08:57 2024 +0900
+    [김재현/미션] 업적 미션 연출 연동 작업, SpecialMission 전투 기회 보상 개발 중 코드 정리
+commit d2c16e7ab3b80bf5d79da718f4556d4d05bcc4d8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 12 12:00:11 2024 +0900
+    [김재현/미션] 스페셜 미션 레드닷이 갱신되지 않는 문제 수정
+commit 96bc7662ca308e229cbdae27a7e83c0a4a882da7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 11 18:57:46 2024 +0900
+    [김재현/미션] 스페셜 미션 레드닷 기능 추가
+commit a071c2aabf523e8323c501bac33800d51b01c31f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 11 16:29:10 2024 +0900
+    [김재현/미션] 스페셜 미션 관련 텍스트 키 추가
+commit 42531b1596d505df7df20fec14ad2c299989842f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 11 14:20:11 2024 +0900
+    [김재현/미션] 미션 보상 - 소환게임 진입 시 알림팝업 노출 추가
+commit 053c537b02c00368a120973f1b8982fe4ebc57d0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 11 11:48:15 2024 +0900
+    [김재현/미션] 스페셜 미션 소환게임 진입 및 보상 까지 작업 완료
+commit f757646e5a4ed0d8220e99685c1c1b18463844dc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 9 17:05:52 2024 +0900
+    [김재현/미션] 업적 미션 Challenge의 경우 배경 이미지 변경 기능 추가
+commit 6a9754fa6798642224bda51af8f9873e18a48892
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 9 16:09:28 2024 +0900
+    [김재현/미션] 스페셜 미션 작업 진행중
+commit f11a8691015a44f05cb6e833b0df634d00ed713b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 5 18:28:07 2024 +0900
+commit c0b7042e0d8c8243182b5cc91cb9f5617e66f978
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 5 18:27:20 2024 +0900
+    [김재현/다이얼로그] 튜토리얼 진행 도중 다이얼로그 보상요청을 하는 문제 수정
+commit 98b150788d9e351b05ad9420a38ffdae1bd101ad
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Jan 4 11:58:04 2024 +0900
+    [김재현/미션] 업적 미션 시안에 맞춰 수정, 스페셜 미션 기반 작업 진행
+commit 1f7bbf11d2092f3ce5a0479cfe49986bb37b6af7
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Tue Jan 2 18:51:45 2024 +0900
+    [김재현/다이얼로그] 서버 오류시 isRewardRequestOnGoing을 다시 false 로 돌려주는 코드 추가
+commit 32f7976771ae7ad049b9d5cd4f9151da4de1a2b1
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Tue Jan 2 18:41:26 2024 +0900
+    [김재현/Table] Dialog 머지 후 DB 최신화, 자동 로그인 기능 활성화
+commit 52eb09084241e8632502da04e2dd9696d8257601
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Tue Jan 2 18:31:28 2024 +0900
+commit 6493afc0e18847b77bcb1fc226367bfd90ed4703
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Tue Jan 2 18:02:05 2024 +0900
+    [김재현/스크롤뷰] 스크롤 뷰 내 cell의 갯수가 화면을 벗어나지 않을 경우 (한 화면안에 다 보일 경우) 스크롤 뷰를 움직이지 않게 하는 property 추가
+commit 382b883cbd6dfdd7b1869da8d65df2ae66278793
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Tue Jan 2 18:01:14 2024 +0900
+    [김재현/소환게임] ConsumeSpark 타이밍을 스파크가 벽에 부딛혔을 때에서 스파크를 던지는 즉시로 변경
+commit 9f37bf3b8d9d69423630ff3fa168ed8a9dc01a08
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Tue Jan 2 18:00:34 2024 +0900
+    [김재현/미션] 업적 미션 EventNotification 관련 처리, 레드닷, 업데이트 관련 코드 수정 및 추가
+commit eedea373f231eba43eb7fefb06413844f565cb25
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Tue Jan 2 13:36:50 2024 +0900
+    [김재현/미션] 업적 미션 관련 스크립트 작업, prefab 베이스 생성 및 서버 연동 작업
+commit 17c516b6b35df902973f6b810085b632fe9b4e6c
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Fri Dec 29 12:12:56 2023 +0900
+    [김재현/UI] 소환게임 성공/획득 후 UIDetailPopup의 _actionOpenEnd 가 초기화 되지 않아, LBSHud의 Open이 여러번 호출되는 문제 수정
+commit 983310ddcdfab5056288856c3d75a9defc3291ab
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Fri Dec 29 11:38:33 2023 +0900
+    [김재현/레드닷] 오류 확인을 위한 Log 수정
+commit 8a17788b4bf20fc9796ee1cc6ef4034e2bf070d7
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Fri Dec 29 11:28:03 2023 +0900
+    [김재현/레드닷] 오류 확인을 위해 log 추가
+commit 195c5d632ac163514ebbd8e13b604b4fd7c22945
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Fri Dec 29 11:22:45 2023 +0900
+    [김재현/로딩] LobbySceneController ChangeScene 에서 yield return null 을 yield break
+commit 60d352520dc6e01e21995788ac2e5bd6df8d0a04
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Fri Dec 29 10:34:41 2023 +0900
+    [김재현/레드닷] NotificationItem 버그 확인및 테스트를 위해 try catch 추가
+commit f162e30152d62851e019e5f66ff641e00a090313
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 28 18:48:44 2023 +0900
+    [김재현/LBS] 이미 삭제된 (Release 된) LBS hud 에 이벤트가 날아가 발생하는 에러 수정
+commit a1fd9e20e5004837225a8bb12e97b60e173a3b39
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 28 17:52:04 2023 +0900
+    [김재현/배럭] TF 파워업 후 DetailPopup을 닫았을 경우, 스크롤 뷰의 데이터가 업데이트되지 않는 문제 수정
+commit 52a27e5558f8cc6ac6cae8fbe18243a59efba807
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 28 16:55:45 2023 +0900
+    [김재현/로딩] 로딩 팝업 기능 추가, 로딩 중 소환게임 스파크 터치가 되지 않도록 수정
+commit d9199f726a00fa5adf4b785109e627fa93c1d492
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 28 12:21:41 2023 +0900
+commit 6bdc9c6fb9c67ead183430e05b71593363fef4ef
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 28 12:20:05 2023 +0900
+    [김재현/미션][#21687] 반복미션 페이지 초기화 주기를 알리는 텍스트 UI 영역 가변되도록 개선
+commit e54aaca00c284c0e2399f98eb6356f7042c3c19a
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 28 11:41:06 2023 +0900
+    [김재현/배럭] InfiniteScrollView 변경 이후, DetailPopup이 닫힐 때 (전송, Install) 보유 리스트 및 수량 텍스트가 업데이트 되지 않는 문제 수정
+commit 54b3548b3062e806fbb1b479e970acaed2c61870
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Wed Dec 27 17:56:27 2023 +0900
+    [김재현/배럭] 트랜스포머 회복 후 스크롤 뷰가 업데이트 되지 않는 문제 수정
+commit 2325cd120677d1686588fa934f6357b0ccf74426
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Wed Dec 27 17:05:46 2023 +0900
+    [김재현/쉐이더] 쉐이더 호출 테스트
+commit 8722907bf35078ceda03f9d531f5d1059e410b7f
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Wed Dec 27 16:39:19 2023 +0900
+    [김재현/파워칩] 파워칩 쉐이더 오류 임시 수정 테스트
+commit 2a07b77c7c9c8ce62b3baabc02966c1b8f78f939
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Wed Dec 27 12:21:26 2023 +0900
+    [김재현/미션] 튜토리얼 진행중 미션 버튼이 눌리지 않도록 수정
+commit c0fe8494fa5308a47ba67d64047dc43ebd4a73a7
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Wed Dec 27 11:24:39 2023 +0900
+    [김재현/미션] 미션 알림 연출이 제대로 노출되지 않는 현상 수정
+commit aa15eebecc1f4763de4617a02da4a8e5d84dff1f
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Tue Dec 26 14:47:26 2023 +0900
+    [김재현/미션] 업적 미션 List, Reward 서버연동용 요청 스크립트 작성
+commit bd90971fbec55de52d55832cd433344a13ac5dcd
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Tue Dec 26 14:37:34 2023 +0900
+    [김재현/미션] 미션 알림 팝업 완료 연출 연동
+commit c41cc55cecc17a0db17183f9ee841ba161fb25e9
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Tue Dec 26 10:23:25 2023 +0900
+    [김재현/에셋번들] 서버에서 받아오는 에셋 번들 다운로드 주소 (AssetServerHost)에 공백이 있을 경우를 대비해서, Trim 진행
+commit 24c669291d5f869616ee65a11419bd2659d8e5d4
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Fri Dec 22 17:01:49 2023 +0900
+    [김재현/에셋번들] LoadAsset 호출 시 타입 선언 오류 수정
+commit a34e0fda275885d21fc39cdef987e848ab09d6d8
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Fri Dec 22 16:39:23 2023 +0900
+    [김재현/서버타임] 서버타임 저장 타이밍 변경
+commit cb8c2fc6057845092c90c1637cc9eb2b6c48a977
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Fri Dec 22 16:13:26 2023 +0900
+    [김재현/미션] SubMissionBox -> RepeatMissionBox 로 프리팹 이름 수정
+commit a573f8dc94a3ca8f0b71527ecfb599fa9bb2cd35
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Fri Dec 22 14:44:15 2023 +0900
+    [김재현/빌드] 전투 치트 중 함수 자체가 #if UNITY_EDITOR 로 감싸져 있어 컴파일 에러가 발생하는 문제 수정
+commit 416044317483141f1d11af0fd9c9e165155f86c0
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Fri Dec 22 14:18:37 2023 +0900
+    [김재현/빌드] 번들 빌드 시 NPOI 레퍼런스 오류로 인해 삭제
+commit 5ee1e4972df2305ce3b04c2249e0df7d98934d0a
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Fri Dec 22 12:39:27 2023 +0900
+    [김재현/미션] MissionManager의 추가 생성을 막기 위한 스크립트 수정
+commit f93ae42b76edec6f5f00f8ee217ec6d6e7063935
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Fri Dec 22 11:32:54 2023 +0900
+    [김재현/미션] 미션 보상을 받을 때, 카운트가 되는 아이템일 경우, 인벤토리 빈공간을 체크하는 로직 추가
+commit fdeb70db8b9ca8562e08fa2dc2858be19b1e5215
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 21 18:02:36 2023 +0900
+    [김재현/미션] UIMissionEventNotification 테스트용 키 추가
+commit ed76565e9c3b2b35f050ea2e8059daa45b31764d
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 21 17:46:54 2023 +0900
+    [김재현/미션] 미션 알림 팝업 관련 UI 버그 수정
+commit 8400b6b7afcc405316e0c192e87e7fe6266c7161
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 21 16:25:17 2023 +0900
+    [김재현/미션] 미션 UI 버그 수정, MissionEventNotification 스크립트 연결
+commit f17cb0b2747d05f0eb0d14760700feac26ea8769
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 21 13:58:56 2023 +0900
+    [김재현/미션] 미션용 프리팹 스크립트 연결작업
+commit 8e76d5731ca09f64d34f6aeeb9ca6e8983c59483
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 21 12:10:28 2023 +0900
+commit cc19c8d918d17bf98138f7ccd3babac20f36abae
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 21 12:10:21 2023 +0900
+    [김재현/위치정보] 기본 시작지점 봉은사역 (현재 회사 위치)로 변경, 기존 압구정 위치 기록
+commit b8cf2f333e87f53257c92ef3bbf8666650005e32
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 21 11:54:30 2023 +0900
+    [김재현/미션] Mission event notificaiton 처리시 MissionManager가 다시 생성되는 문제 수정
+commit d5adfe879ec154d68db6f23d1f7b6390ff17c534
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 21 11:44:35 2023 +0900
+    [김재현/미션] MissionManager - fixedMissionDictionary 초기화 타이밍을 LoginState로 명시적으로 호출하도록 수정
+commit 7cd2d59d9739e32418cc6b78c3e998d9fe737d5a
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 21 11:17:51 2023 +0900
+    [김재현/미션] 간헐적으로 미션 완료 후 RepeatMissionDictionary가 null로 체크되는 현상 수정
+commit e639f9bf8e87f324718d89de76bbd8a6e386d043
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 21 10:53:24 2023 +0900
+    [김재현/미션] Next reset time 체크하는 로직 오류 수정, 당일 4시 이전에 접속했을 경우, reset time이 제대로 세팅되지 않는 문제 수정
+commit 0808592ecb604c6b50c7e0ed8f1a269ca81d7a93
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Wed Dec 20 16:52:24 2023 +0900
+    [김재현/미션] 미션 초기화 로직 중 현재 Scene을 판별하는 부분을 위해 Scene 네이밍 정리 진행
+commit fe0098a6f2b4e3658eb69776b8a4c5f848842abd
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Wed Dec 20 16:20:37 2023 +0900
+    [김재현/미션] 서버 초기화 시간 (매일 새벽 4시)가 지나면  체크로직 추가
+commit e0360781b7038a2dfa0b23eb50d80910e357d7c0
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Wed Dec 20 15:00:20 2023 +0900
+    [김재현/미션] LBS 화면에서 미션 변경사항 체크 할수 있도록 RedDot 추가 및 이벤트 추가
+commit f39588e741ec024854f21a9965f4a73606be77f0
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Wed Dec 20 14:02:58 2023 +0900
+    [김재현/미션] 미션 관련 Localize Text key 적용
+commit a55fb4d1c66a8cabfe08f5798464f4d8b252d1d3
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Wed Dec 20 12:37:27 2023 +0900
+    [김재현/미션] UIMisisonEventNotification 프리팹 및 스크립트 오타 수정
+commit dc474369dbead66319adea12d6f469d2f95487d4
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Wed Dec 20 12:26:05 2023 +0900
+    [김재현/미션] 미션 진행상황 알림용 NotificationPopup 추가, 알림용 RedDot 시스템 개편
+commit fa869155174127c75364857a7e4602285c1f28fb
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Tue Dec 19 15:41:42 2023 +0900
+    [김재현/미션] RepeatMissionPage 오류 수정
+commit 9c5a43832117878d9a0b88d27c17abf4e267f034
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Tue Dec 19 15:22:40 2023 +0900
+    [김재현/미션] 전투 미션 관련 스크립트 작업
+commit 02550442b0efa06dfa62e7409eab72b24bbd8c76
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Fri Dec 15 16:55:02 2023 +0900
+    [김재현/미션] Mission condition enum 변경사항 적용 및 db 최신화
+commit 7f5f4cb8fe377d98cbb3d9dd829265dac14073ab
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Fri Dec 15 16:48:57 2023 +0900
+    [김재현/미션] 반복미션 오브젝트 스크립트및 서버 연결, 랜덤미션 애니메이션 연출 기능 연결
+commit 1557d21366ce0fb24d9792d7ebb97795c83aba5f
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Thu Dec 14 15:49:56 2023 +0900
+    [김재현/미션] GetRepeatMissionList 패킷 서버통신 추가 및 데이터 세팅 로직 변경
+commit b15cb1c644b29a0cf8fffcd67bf61de4a17fd895
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Wed Dec 13 11:22:29 2023 +0900
+    [김재현/미션] Random mission 프리팹 애니메이션 작업을 위해 RandomMissionBox 프리팹 생성 및 커밋
+commit 6c7eaddf0425cf03f40ef2c2262b932d783c0acb
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Tue Dec 12 18:44:10 2023 +0900
+    [김재현/미션] UIPanelMission 프리팹 및 내부 SubMissionBox 프리팹 수정, Enum 추가
+commit e59048638693afb53a0ad6edac139d7cdc3210aa
+Author: Jaehyun Cyril Kim <jaykim1994@gmail.com>
+Date:   Tue Dec 12 17:37:57 2023 +0900
+    [김재현/미션] 반복 미션 관련 작업 진행
+commit f0caef8f2faf6b6454ad731588a0c9ad60232e9f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Aug 28 19:12:35 2023 +0900
+    [김재현/다이얼로그] 다이얼로그 화자의 Camp type 에 따라 썸네일 배경 색 및 이름 옆 진영 색상 표기기능 추가
+commit 68691e794924919a4591e5247f32f4f443353f79
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Aug 28 18:55:24 2023 +0900
+    [김재현/다이얼로그] 다이얼로그 테이블 최신화, 다이얼로그 보상 기능 추가
+commit 4dd9895441b483f385ee23469e6880292b9ea31d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Aug 28 18:54:58 2023 +0900
+    [김재현/다이얼로그] 다이얼로그 로그 기능 추가
+commit dffa25b37a9e12049b090fd75e990189d480cdb5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Aug 25 10:51:34 2023 +0900
+commit 4689d3805990229f13bf72df34754c8626c8051c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Aug 25 10:51:11 2023 +0900
+commit efcb134c243183f9bffd1b8674d77eb50289b4c2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Aug 25 10:50:40 2023 +0900
+commit 25a02302cf5d28e982c8b8d6259467b2aee7d633
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Aug 25 10:49:42 2023 +0900
+commit d8e3cfd7853cb75af9ece9c605cba47a929606ce
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 24 19:06:01 2023 +0900
+    [김재현/사운드] Rachet 소환게임 등장 모션 중 누락된 사운드 키 추가
+commit 03d1022e2d43edd4f1e27ee996fe7699cfb037f5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 24 18:29:05 2023 +0900
+commit 57e3cb06d6e127cdadd9e1107e36286b134e4b3c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 24 18:28:56 2023 +0900
+commit 0132d6eb8023ad539f254ccbff847d63f067cc33
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 24 18:28:34 2023 +0900
+commit 246493a106b480e4703239aa2d4cab82d8fcb209
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 24 18:28:17 2023 +0900
+commit 8501442ffa6dacea5c8bd0e9b35227c8e0ba91d9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 24 18:27:38 2023 +0900
+    [김재현/사운드] Setting Panel 터치 사운드 누락부분 추가
+commit 249e093acd56784218c2604f1b6979baac34e67a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 24 17:56:54 2023 +0900
+commit ccac86b8a6955e96b7a9e5f3fcc6e90fb4bb6aef
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 24 17:56:09 2023 +0900
+commit a5be8d1fa728e080f7e05fea1d8bb162844666cc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 24 17:55:53 2023 +0900
+commit 6ea5c498e37a904e90aaf1c0e8f21ca3863bd942
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 24 17:54:31 2023 +0900
+commit f9456439aca6246ce53e9e398da8468fcb45e126
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 24 17:50:21 2023 +0900
+commit 1d070b6297f5aff64cd45e653fa2a3c283c7479d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 24 17:29:36 2023 +0900
+    [김재현/리소스] 프리팹들 (Panel, Popup)들의 Open/Close 사운드 이펙트 키 변경
+commit a60282e24571100f199d398e1aea797b116c1f34
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Aug 22 19:03:46 2023 +0900
+    [김재현/에셋] GameResourceManager 에서 에셋 로드 시 에셋 이름을 Lower case 로 비교하도록 변경
+commit a3b35969506e24993704f360c5f7f5f1dfeec796
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Aug 22 12:10:55 2023 +0900
+commit f08a3dda5e50e9890a7e20e3f7643e76d8c94149
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Aug 22 12:10:35 2023 +0900
+commit 98e0d9f8a303f91d0fab52c658bfa4edf95e382c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Aug 22 12:10:20 2023 +0900
+commit c4ea145832aa7a82731a2a79e40b2ae6f028c698
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Aug 22 12:09:34 2023 +0900
+commit 6f8e701f84f340119c767366b739a5ea47bfb1ac
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Aug 22 12:08:51 2023 +0900
+    [김재현/서버] develop/alpha 게이트키퍼 테스트 완료, URL 주소 변경
+commit f49411ecb1db1a021cfdad34b672983671bb79ac
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Aug 22 11:58:03 2023 +0900
+commit d81f6a220f18bcd9b365695ac819295b9e0ceb1f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Aug 22 11:57:00 2023 +0900
+commit 4f230061d308051951d8593e4d0a03f87fb7fafa
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Aug 22 11:56:06 2023 +0900
+    [김재현/서버] Dev_Server_List 받아오는 URL 주소 변경 (gatekeeper는 추가 작업 필요)
+commit d16cf0f8105e7b811b7cfc9b811d0678f3d16d44
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 17 19:05:54 2023 +0900
+    [김재현/다이얼로그] 다이얼로그 이력 (Log) 패널 이름 변경, 프리팹 삭제 (DialogPopup이 들고 있게 수정)
+commit a3d365e8b103955df3763d66098f9c7de9ec70ca
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 17 17:21:16 2023 +0900
+    [김재현/소환게임] TFSummonGameStageList 검색 시 predicate 안에서 (int) 캐스팅이 적용되지 않아 검색이 제대로 되지 않는 문제 수정
+commit 041588ca9d2410e846aacf85919d244154567332
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 17 17:18:35 2023 +0900
+    [김재현/소환게임] 충격파 발생시 사운드 이펙트 추가
+commit 8c9c6d144cf522f43ea2b3fb4f57448c5cf4398f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 17 17:00:02 2023 +0900
+    [김재현/UI] UIPanel, UIPopup 의 ButtonClickSFX 키 변경, 스크립트에서 호출하는 SFX key 변경, 테이블 업데이트
+commit f9622004aea70ae39ab72b0215114e3c97c80cda
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 17 10:52:57 2023 +0900
+commit 7d4958cd3f50ceace9d19c56ff04a807744d8d7c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Aug 16 19:39:02 2023 +0900
+    [김재현/테이블] 테이블의 데이터 중 enum 값을 find 해오지 못하는 문제 수정
+commit 5aef16d4d38b1e746fa433d9d85b328dde048714
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Aug 11 19:22:12 2023 +0900
+    [김재현/사운드] 사운드 관련 테이블 내부 수정, 관련 스크립트 수정
+commit bc4850561bd2062905bb4daf9ca7c48b0aec0799
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Aug 11 17:21:23 2023 +0900
+    [김재현/에디터] AccountSwitchEditor 실행 시 DockerNameList 텍스트 파일이 없을 경우 에러가 발생하는 문제 수정, 가이드 추가
+commit 0b554119148a14519fedda990ea92a53ec645d75
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Aug 11 16:30:54 2023 +0900
+    [김재현/사운드] SoundResourceData 테이블 최신화 및 Const 사운드 파일명을 key 값으로 변경
+commit 1c347f5f139aa5f90bc50e1371f229bed483348b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Aug 11 15:42:10 2023 +0900
+    [김재현/UI] LBS Hud 의 Restart 버튼 스크립트 처리 추가 (기본 비활성화)
+commit a69a8e5d487f1700a5a50dfb804a4a7a3a309a4f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Aug 7 15:23:11 2023 +0900
+    [김재현/테이블] SoundResourceData를 찾지 못했을 때  exception -> LogError로 변경
+commit 6ea386196c27bbbc38f7225d342ffc6727735efa
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Aug 4 18:59:54 2023 +0900
+    [김재현/에디터] AccountSwitchEditor 일부 추가 수정
+commit 6e0cc21867573d10ce9ce6a47f78d08ae1f750fc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Aug 4 18:39:06 2023 +0900
+commit ffccb538bbe80649e3cb7cc2d7f60dce738529d8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Aug 4 18:38:58 2023 +0900
+    [김재현/에디터] AccountSwitchEditor 수정
+commit d92b48279fb63dac0d570f3215fd19ef1d85cd13
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Aug 3 17:09:30 2023 +0900
+    [김재현/사운드] SoundManager 및 Sound 관련 시스템 로직변경
+commit e649811b85cdb8f341f37635d79f24dd27975f85
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Aug 2 16:09:37 2023 +0900
+    [김재현/튜토리얼] Close 메서드명 변경에 따른 에러 처리
+commit ea15792731a546df96276477ce18435064954a94
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Aug 2 09:57:30 2023 +0900
+commit 88fc75a4830fcd936b9e5bafc63ec90b57cd3e72
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Aug 1 17:52:20 2023 +0900
+    [김재현/기지][#21519] TF, 파워 칩 상세 정보에서 목록으로 돌아올 때, 목록 스크롤이 최상단으로 초기화 되는 현상 수정
+commit f4d12744563986bfafec36ac2a5bc5a148a86ffc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 31 18:53:15 2023 +0900
+commit 4fb0a583465b757a339ecb220ed37c741c5b0ab8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 31 18:53:00 2023 +0900
+    [김재현/튜토리얼] 튜토리얼 도중 전투 트랜스포머 선택 팝업의 Target0, 2가 삭제되어 다시 등록 및 위치 조정
+commit 05df0834a6f22a9f4b002dd67d477098ae176fcb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 31 17:20:39 2023 +0900
+    [김재현/TODO] TODO 로 작성되어있던 작업 목록 일부 정리 및 수정
+commit d47db13d9f8d6501496d08e29e3ded1d5ac002ec
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 31 17:12:15 2023 +0900
+    [김재현/테이블] TableManager에서 직접 Find 해오는 로직 (Basic status, add status 등) 몇몇 메서드 생성, Spark 충돌 판정 로직 수정
+commit a8142b9cff8dc3d9d0038e5a138902e00a6c0c01
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 31 16:03:31 2023 +0900
+    [김재현/로그인] UIPanelLogin 프리팹 및 애니메이터 수정
+commit 5c5552905211090da5ffc08c8b4076fca4aa2eba
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 31 12:29:10 2023 +0900
+commit 5b889aa33dd1bbaf8b47e820452773597cdd1681
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 31 12:28:52 2023 +0900
+commit d7749bcb0aa42b7e51f36cbf57915623327acde2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 31 11:58:35 2023 +0900
+    [김재현/파워칩][#21509] 파워칩 교체 화면에서 파워칩 일러스트가 잘못 표시되는 현상 수정
+commit 7664207c1dce60c7ea485b050fff458f0576c3be
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 28 16:37:05 2023 +0900
+    [김재현/소환게임] 소환게임에서 스파크를 모두 소모한 이후, 상점에서 구매했음에도 바로 UI 및 스파크 오브젝트가 재생성되지 않는 문제 수정
+commit a3df1512371f1590ecc10130cffdded9da185ac7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 27 15:54:58 2023 +0900
+    [김재현/로그인] Incremental GC 테스트 및 재시작 시 Permission 체크 로직 수정
+commit c818f9d31355c753b4d4360116c2e96051e68cc0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 27 14:34:22 2023 +0900
+commit 9a22f3676dfb365ff47a1394ddf8367c7d07aee6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 27 14:33:47 2023 +0900
+    [김재현/로그인] Restart 로직 재수정
+commit 17f57d6648331c832ef37c8167cc523794238293
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jul 25 15:41:43 2023 +0900
+    [김재현/정렬][#21378] 트랜스포머 -> 파워칩 교체 화면에서 정렬 기능이 작동하지 않는 문제 수정
+commit ffc5970ebcba176ffcc5e7a3f1f68314f534f54d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jul 25 15:11:48 2023 +0900
+    [김재현/오타] mesageText -> messageText 오타 수정
+commit af02b9c9f5cd13c4461a13661e921fe81dd7a27e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jul 25 13:00:26 2023 +0900
+    [김재현/로그인] 서버 통신 오류/타임아웃 시 Restart 시키는 로직 변경 (Restart Scene 이용, 기존 데이터 날리고 다시 세팅)
+commit 72bf55acc95959ae239d5a76f71d8dc5df93085d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 24 20:37:47 2023 +0900
+    [김재현/테이블] 로딩 팁 텍스트 1번 수정사항 ApplicationManager 에 적용
+commit aff5a353dc1b62dc3487631712e998780d9dfe1c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 24 18:26:50 2023 +0900
+commit efd19d7c86429b7b3a220115341785fcdf324d62
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 24 18:22:00 2023 +0900
+    [김재현/로딩] 로딩 팁 텍스트 작업 및 로딩 최소 delay 적용
+commit 7843ed95725c79e8173c25c50bb892acd7a1fc24
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 24 16:19:46 2023 +0900
+commit fd7739d0404b61d869f603b08d01f68df740fdfe
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 24 16:19:22 2023 +0900
+    [김재현/상세보기] TF 파워칩 부여 이후 파워가 실시간으로 조정되지 않는 문제 수정
+commit 717b00e0064737c288cb4ef44a024d1f718efee5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 24 15:35:17 2023 +0900
+    [김재현/상세보기] Grade view가 켜져있을 때 SubMenu 버튼이 눌리는 현상 수정
+commit 9b220b09099777eee614aef7db44e7761c3ffcf7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 21 14:57:14 2023 +0900
+    [김재현/로그인] 로그인 시 빌드 버전 및 빌드 타입 텍스트 추가
+commit 640ff31c8bdd47eab8c5603719cbc22875403017
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 21 14:32:42 2023 +0900
+commit 3b4b82475c75ec5f75cbee8f66083c1209d95864
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 21 14:32:06 2023 +0900
+    [김재현/소환게임] 상점 팝업 Close 시 None 타입 objectPool을 clear 하는 이유로, 기존 스파크와 연결이 끊기는 문제 수정
+commit 56b6690dddff06287427d5f111bfc13c5f3fa899
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 21 14:03:23 2023 +0900
+    [김재현/튜토리얼] 다이얼로그가 끝난 후 즉시 쇼크웨이브를 발동시키는 로직 수정 (Effect의 Duration 만큼 기다렸다 실행)
+commit 3b84e58d22fe9065f513462126ed8410a4fb6982
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 21 12:02:44 2023 +0900
+    [김재현/로그인] 닉네임 설정 시 Min 글자 갯수보다 작으면 confirm 버튼이 아예 눌리지 않도록 설정
+commit 63360bd02f1e585de8bf42ae9332fd9b6aa881af
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 20 19:26:32 2023 +0900
+commit 60637a115412b77c34f86c686802e21f38211f24
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 20 19:12:51 2023 +0900
+    [김재현/튜토리얼] 튜토리얼 도중 다이얼로그를 뚫고 스파크 발사가 되는 현상 수정, 다이얼로그가 끝난 후 즉시 쇼크웨이브를 발사하도록 수정
+commit 01cd6e17d0e324491184d605fb1d5120ffce2eaf
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 20 18:58:01 2023 +0900
+    [김재현/도구함] UIUsePotionPopup Close 할 때 InputField.Select()가 호출되어 모바일에서 키패드가 잠시 노출되는 현상 수정
+commit 1d520fd1852776cac78ecb399df31794e564d0dc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 20 13:03:18 2023 +0900
+commit cd9b24c7ee80b36bf4d6df4c1fd15b81f5762928
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 20 13:03:13 2023 +0900
+    [김재현/테이블] 테이블 최신화, db 최신화
+commit f2e75ed3c55ea42cd44a42731a474ec15ed47123
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 19 19:51:51 2023 +0900
+commit 1c3f2a9f1ae43a0a194e6762525075fe20378933
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 19 19:51:13 2023 +0900
+    [김재현/치트] TF 상세보기 debug 패널 세팅 중 tfInfo null 체크 추가
+commit 9cf2081641f7a8c5eb76f4d81fa5b0593a2e6f38
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 19 18:26:29 2023 +0900
+    [김재현/타임아웃] 서버 타임아웃 텍스트 ApplicationManager의 localize dict에도 추가
+commit 5f9f82e12758fe329dd80624b0773b4ca4d7fe26
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 19 17:21:05 2023 +0900
+commit 2bcf0e4cd9ec9b8a1db03c19f47bd6971f097d8b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 19 17:19:22 2023 +0900
+commit 924442b60cfb09e885626df29521e7bfeb415365
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 19 16:40:40 2023 +0900
+    [김재현/상세보기][#21380] TF파워업을 연속으로 진행시 이미 올라간 수치가 나타나는 표시오류 수정
+commit 4850c1dee1255012d256f15a7dc2bbbae99ff511
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 19 16:01:19 2023 +0900
+    [김재현/상세보기] 트랜스포머 획득 장소 텍스트 로컬라이즈 적용
+commit 7a5a1b651c2c8e669cce6dac8fbee7d84f8b79c2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 19 16:00:11 2023 +0900
+    [김재현/전투력][#21379] 전투력 수치를 표시할 때 쉼표 표기 누락 부분 추가
+commit 2d83e9858aad01fa84355c2de755070146ee8c15
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 19 14:53:58 2023 +0900
+commit fca97db538f56a557e703197e71d455f7431cf1e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 19 12:59:53 2023 +0900
+    [김재현/상세보기][#21362] 트랜스포머 상세보기 상단의 트랜스포머 획득 지역 텍스트 표시란 제거
+commit 5668fb5bf4a9fb9b4d8f958ce14a8d620ed1a08d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jul 18 17:38:06 2023 +0900
+    [김재현/상세보기] TFDetailPopup 의 치트 버튼 (정보 버튼) null 체크 추가, 버튼 색상 변경
+commit bd76330d15a6bb525021e0aa3f9037b90ab599a7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jul 18 15:13:44 2023 +0900
+    [김재현/서버통신][#21342]  소환 게임 서버 통신 문제 생겼을 때, 상황 전달이 안되는 문제 수정
+commit 7ec53be87bc5b0fa6aac34559633558755d94594
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jul 18 15:05:50 2023 +0900
+    [김재현/테이블] TFText 테이블 최신화, DB 최신화, Entities 최신화
+commit 3ac7a9481932d505e5edeb52ea710c1633936305
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jul 18 14:48:00 2023 +0900
+commit c9262e9597b2ae28236d2f7cf0d3cdeede7f2c65
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 14 18:43:01 2023 +0900
+    [김재현/최대 보유량][#21307, #21332] 최대 보유수량 관련 버그 수정
+commit 25d234c18f82de9856c54c7c34de6bb78e5532e8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 14 17:21:25 2023 +0900
+commit f61e9931bed22eab760c6c76cafbc64bb0504393
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 14 17:20:35 2023 +0900
+commit d0fbbabe83c536fac725380b4ad281441fe8a34e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 14 16:08:29 2023 +0900
+    [김재현/최대보유량][#21307, #21308] 최대 보유량 초과 시 상점으로 보내주는 팝업 버그 수정
+commit b4e22aa6b39708fd4f26f38e38cfe6f0aed767ed
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 14 15:51:27 2023 +0900
+    [김재현/치트] 라이브 빌드의 경우, Test 버튼들 비활성화
+commit adf3faef94908f06e2da0d20cbaac92e5b53f0d4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 14 14:10:36 2023 +0900
+commit e3a1912d141293491478da833ed0be49d684b067
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 14 13:00:45 2023 +0900
+    [김재현/소환게임][#21329] 소환게임 확률 Max치가 변경되어, 항상 성공이 되는 현상
+commit 6c7912b8d5b9f8efca6c19a3fd6d9cf1d8c84188
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 13 21:41:22 2023 +0900
+commit adf61aed08de53cfb596cc32a2612f399f5538ac
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 13 21:40:57 2023 +0900
+    [김재현/최대보유량] 현재 보유량이 4999개 인데 전투, 소환게임 진입을 막는 현상 수정
+commit 44fada6554c6d84deccaf442422106559df66d38
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 13 20:52:37 2023 +0900
+commit 53803dcadd13138f7817d8327e8e4604b63e3239
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 13 20:52:33 2023 +0900
+    [김재현/타이틀] Title Scene 에 EventSystem이 없어 클릭이 안되는 문제 수정
+commit a389f7df787af3f6744cdc8741ee6a6b9e3feb35
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 13 19:19:05 2023 +0900
+commit aee31c7468590dcc512ce7b4f93b7c46c3b6fca1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 13 19:18:29 2023 +0900
+    [김재현/소환게임] 스파크 부족 시 메시지 팝업 기능 수정 및 Text 키 추가
+commit f02b0e611d9323e711ae2604abfb033c1f632a11
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 13 14:57:05 2023 +0900
+    [김재현/튜토리얼][#21310] 튜토리얼 진행 시 Barrack, 풀 회복약 버튼 터치 안내 위치가 맞지 않는 현상
+commit 67e895f5d4f18091c77d68b5206ba9a185583d45
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 12 20:39:55 2023 +0900
+commit 417bbb5ff85de5dcb644aa886a03d5fb4e7de3cb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 12 20:39:31 2023 +0900
+commit 857eeeb37ec72f3d73b6380940fe5919bd257a1b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 12 20:16:21 2023 +0900
+    [김재현/SystemMessage] UISystemMessage 에서 사용할 기본 Confirm, Close 텍스트 지정
+commit 20883e3d6e4755b0c894cf37f321ebb57ecd8a05
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 12 18:01:24 2023 +0900
+    [김재현/최대보유량] Extension Limit 와 비교 후 상점으로 이동하는 코드 추가
+commit 0b00833a1bd11ca1e0d24e67ba7e8cf3a0f59508
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 12 17:08:35 2023 +0900
+commit 39e41f64e1f03e61b888f8c90a71e8bcff878846
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 12 17:06:17 2023 +0900
+commit c847707ed1b3074224276c43a2c46fafbc2a6cbd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 12 17:05:30 2023 +0900
+    [김재현/테이블] ExtensionType Enum 명 통일
+commit 4b6946a682355ae6a5b645ae58468a743b67bb60
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 12 16:59:36 2023 +0900
+    [김재현/최대보유량] 전투 시작시 (UI 에서 버튼 클릭시) MaxCap 체크 후 막는 방식으로 변경
+commit 1239ba036493e67d5adcfcea16a077023453e153
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 12 15:24:51 2023 +0900
+    [김재현/테이블] ExtensionType으로 테이블 검색이 안되는 문제 수정
+commit 21e2c03d01e38a29d5c8527e9751604bbaa4cfc9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 12 15:19:43 2023 +0900
+commit fca87d096444a12c90f3eeab1ac6086f249cc994
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 12 15:19:35 2023 +0900
+    [김재현/테이블] 도구함, 기지 최대 보유량 관련 테이블, Entity, DB 최신화
+commit 9f2591870ea28db5ce19b430d4eec24a737b11ac
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 12 15:16:10 2023 +0900
+    [김재현/상세보기][#21291] TF 상세보기 SubMenu 클릭 시 버튼 위치가 어긋나 있는 현상 수정
+commit 30f2ea8d73305c6f3a0ae97b83dc7c898c938ebd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 12 15:07:56 2023 +0900
+    [김재현/기지,도구함][#21252] ExtensionType 대소문자 통일
+commit 2efcd3f3dc7360239053551744ce369f1cf8fe92
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 12 13:04:10 2023 +0900
+    [김재현/기지,도구함][#21252] 보유 수량 / 최대 보유 수량 표시 방식 로직 수정
+commit 729e643ef2e0331899a02cc25ecce1fa8154ad52
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 10 18:55:27 2023 +0900
+    [김재현/Entities] GlobalData 데이터를 더이상 사용하지 않아 삭제
+commit cc235384e1f7e6bcabc88386e2f24d30c811f358
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 10 17:25:49 2023 +0900
+    [김재현/AR][#21225] AR 스캐닝 시작, 프로그레시브 바 출력 시 사운드 추가
+commit 03763b63619df4e3abb6bbf49bec5dc4291ab6a9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 10 16:53:40 2023 +0900
+    [김재현/기지] UIPanelBarrack 및 UITabButton의 현재보유량/최대보유량 텍스트 로직 수정
+commit b5708bb824a94dcd043d95c0c54656105ffa04d8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 10 15:47:33 2023 +0900
+commit 64029ea0f26deffd455dd199175b918102d6b530
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 10 15:47:12 2023 +0900
+commit f82b3a71591e8df505c3eab0a88b220129ed09e4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 10 15:46:56 2023 +0900
+    [김재현/로그인] MaxCapacity 관련 LoginPacket 수정
+commit b9beaa78f7ade3083e68b453eeeb7eee7f8b2f0e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 10 15:26:11 2023 +0900
+    [김재현/도구함] 도구함 현재 보유량/최대 보유량 작업 (서버 연동 미완)
+commit 37acbbe6a6f3ad8e13f78d5d9942e6e2a1363d17
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 10 12:58:55 2023 +0900
+commit 4ea9cca9481a015cbd658997edee247ca3913b54
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 10 12:58:35 2023 +0900
+    [김재현/AR][#21225] AR 모드 사운드 추가
+commit ee72d88773f279e601ed70207a7ae4d8a3e420f6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 7 19:51:13 2023 +0900
+    [김재현/인트로] 권한요청 팝업 뜨는 시간 조정
+commit c92db6e30bc353a4af69152dbf00809e7ac0fad8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 7 19:04:03 2023 +0900
+    [김재현/로그인] 닉네임 입력 팝업이 처음부터 켜져있는 문제 수정, 한글이 입력되지 않는 현상 수정
+commit 0c4dd982c7be399144927f4a887ee0556ae8704b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 7 18:43:26 2023 +0900
+    [김재현/로그인] 닉네임 타이핑 시 Validation 방식 변경
+commit b8176fdefa921de971a40a8532d09f4ef334aeac
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 7 17:56:11 2023 +0900
+    [김재현/로그인] NicknameValidator 의 Unity_Editor 단락 삭제
+commit 6aeec3418a628e5fc7e54f4454cdcdde64e5254a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 7 17:52:24 2023 +0900
+    [김재현/로그인] NicknameValidator 스크립트 통합
+commit 406ae3bac0754f181d71cf2bc7bedc294f5a1828
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 7 17:47:53 2023 +0900
+    [김재현/로그인] 로그인 닉네임 입력 시 중복으로 입력되는 현상 수정 테스트
+commit 56b74fbfbaf0801983412ec0de2a39e13945d051
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 7 17:00:27 2023 +0900
+commit bb39be66cf1564cac887b153669d4b2efc8eeb0d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 7 16:52:01 2023 +0900
+    [김재현/사운드][#21227] 소환게임 Clear 이후 LBS 진입을 할 때 BGM이 꺼지는 현상 수정
+commit 054c5a17707c730a17a4d35ce848573134908f18
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 7 15:23:51 2023 +0900
+commit e681969b95e30caf14197c0ce7df38d00f270872
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 7 15:23:30 2023 +0900
+commit 9642e6492718af93c1b626a88d9befdda1a34842
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 7 15:23:02 2023 +0900
+commit 12d9246bd2d0d6b4c741cd96aaebba0b4adfe646
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 7 15:22:20 2023 +0900
+    [김재현/사운드] AudioMixer 이름과 비교하는 부분에서 누락된 로직 추가
+commit 3f20e209493042051895168eeb96b267873fb926
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 7 15:02:33 2023 +0900
+    [김재현/튜토리얼] 튜토리얼 진행 시 벡터시그마 복원 페이지 초기화 (RequestMyInfo)가 작동하지 않도록 막혀있던 부분 제한해제
+commit 5ad5f7f96d26ccc6cfb2a88a931e00c926d41384
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 7 15:01:40 2023 +0900
+    [김재현/상세보기][#21223] 등급 화면이 켜져있을 때 스테이터스, 능력, 스킬 탭이 눌리는 현상 수정
+commit 7553edd5476610f546759424b9a7123af6360b57
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 6 19:17:35 2023 +0900
+commit 1a2021a10415ff1882bc539bbef8e41cdc2ada7b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 6 19:17:13 2023 +0900
+    [김재현/파워칩] 파워칩 반짝이 연출 + S 등급 연출 적용 범위 확대
+commit 0c7e3021555fd2ea1dc13dc0519ebce7b958ada7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 6 18:30:28 2023 +0900
+    [김재현/파워칩] 파워칩 썸네일 반짝이 연출 추가, S 등급 특수 연출 추가
+commit de4084cfef890c0a4aacd27ec2f17ed375918bf3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 6 17:55:46 2023 +0900
+commit 1f4a15997d0e78a7c298c0605cf6abc2ccfb8440
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 6 17:54:20 2023 +0900
+commit dd578d4d936a105acd45d0dbe9e4fbc163e1ef94
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 6 17:53:11 2023 +0900
+    [김재현/사운드] BGM 플레이용 AudioSource 분리 후 기존에 사용하던 Release 코드 삭제, 테이블 데이터 불러오는 코드 수정
+commit 91c9a60842054c02e72a70596bf2db9579279137
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 6 17:46:28 2023 +0900
+    [김재현/소환게임] 기존 스파크 Idle 사운드, AudioSource 컴포넌트 제거로 인한 MissingComponent 에러 수정
+commit e1e5a41e46e651a039e0ff40d8272f3949a3140c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 6 14:06:01 2023 +0900
+commit 5f1dd4954a22afee7cb3c4ba89a2a479a0186860
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 6 14:04:57 2023 +0900
+    [김재현/상세보기][#21223] 트랜스포머 등급 스캔 결과 화면에서 버튼이 눌리는 현상 수정
+commit b93727ae86b2d6169737809429591956a8741ec1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 6 12:45:10 2023 +0900
+commit 2634717325a5b618e8e536104a9009292116d429
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 6 12:28:55 2023 +0900
+commit f92606647cb7c00c9596df448e9d82771e09de5e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 6 12:27:53 2023 +0900
+commit 4a049ec4d35864f89f48f1e4eb750751fbbfe65b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 5 20:47:10 2023 +0900
+    [김재현/사운드] SoundManager PlaySound 로직 수정
+commit b62ff6ecb7ff253d496c614a4192f66ba5e2a84c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 5 14:15:39 2023 +0900
+    [김재현/상세보기][#21194] Live 버전이 아닐때만 작동하도록 수정 (Alpha 버전에서 사용할 수 있도록 수정)
+commit 2bed057b84de3e5e88462aa4b32b86476e57719c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 5 14:13:44 2023 +0900
+    [김재현/상세보기][#21194] 상세 정보 화면에서 레벨과 공격력 등 표시되지 않는 정보를 확인할 수 있는 기능 추가
+commit a323eefa201ae03112090c4d53802e5d8e0e586e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jul 4 18:22:11 2023 +0900
+commit 458a55dd17710e33b4750f560a5b585e4fcd1dd8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jul 4 18:21:55 2023 +0900
+    [김재현/기지][#21197] 기기에서 테스트 시 키보드가 보이는 현상 수정
+commit ff065c9bf37f5a1bd2d8eb9415242924a106349b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jul 4 17:32:53 2023 +0900
+commit b63f615999350fd1e17bc5fdecd3a854f0758313
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jul 4 17:32:37 2023 +0900
+    [김재현/로그인] 로그인 시 닉네임 글자수 제한 기능 추가
+commit e94b2e1a2be812d9452c821e4692b09ff7390081
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jul 4 12:37:13 2023 +0900
+    [김재현/상세보기][#21190] TF 상세보기의 Grade view 연출 진행 시 Animator 프로퍼티를 사용하지 않고 있는 문제 수정
+commit cf6ffc35ff399b097a9c5d95a122a5140820ac5f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 3 18:37:18 2023 +0900
+commit f44c4f54ddfc5d3bef07f407d25a7bd132f6b43c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 3 18:36:18 2023 +0900
+    [김재현/UI연출][#21151] DetailPopup에서 사용하던 Open/Close 연출을 공용으로 분리
+commit 1fae9da437f771bf89c772be1a70906ad615ef40
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 3 14:22:58 2023 +0900
+commit 18967ab01aad8869825f49536d11bd1afe2dde86
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 3 14:13:04 2023 +0900
+    [김재현/상세보기][#21158] x (닫기) 버튼이 눌리지 않는 문제 수정
+commit f6f936f1cab6238fc9016be9dceb9626f7a69424
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 3 11:33:54 2023 +0900
+commit ac75f0b4bb8409708f29366518ba36ca26c1850e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 3 11:33:08 2023 +0900
+    [김재현/소환게임][#21166] 소환게임 스파크 소모시점 변경
+commit 1d09a2ae26add581897e37decfd77e1f5e68f56c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 30 18:07:55 2023 +0900
+commit 392e6cb957b57f4549c47ad7a5f42aec1d632e92
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 30 17:29:21 2023 +0900
+    [김재현/보상] 보상 exp 갯수가 100보다 작을 경우, delta 가 0이 되어 무한루프 도는 현상 수정
+commit 31099c0108f6089349d54fafbf88140d21745b68
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 30 16:34:25 2023 +0900
+    [김재현/기지][#21151] 도구함 - 회복 아이템 사용 화면에서 닫기 버튼 클릭 시 도구함 목록으로 화면 이동 플로우 변경
+commit 941e3fc9fe6745c5c3a9b32a365eb7e65877b83d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 30 16:23:53 2023 +0900
+    [김재현/기지][#21151] 트랜스포머 상세보기 태그스킬 게이지의 표시를 시안과 동일하게 수정
+commit bf5082f81e8872a3846c3f2f525aa2e911fbba4d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 30 15:43:05 2023 +0900
+    [김재현/기지][#21151] 스킬슬롯 오픈 후 파워업 -> IsUnlock 이 false 로 내려오는 현상 수정
+commit ab7571fe77e26a81d0e33cda8f69336d38b63da9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 30 14:32:50 2023 +0900
+    [김재현/기지][#21151] 파워칩 상세보기 -> 부여 -> 닫기 클릭 시 다시 상세보기 페이지로 돌아오도록 Flow 수정
+commit ebd968faacc43d745ad6b1fc7aca97410859a227
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 30 12:30:28 2023 +0900
+commit b0af9f80d75bbc0d2a712a7fc139de74c8167895
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 18:36:36 2023 +0900
+    [김재현/정렬] Sort 시, 튜토리얼 도중일 경우, Card Id 순으로 정렬하도록 수정
+commit bcfbbb62df4146f0dd1eccd56551415eee42fdc0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 18:31:40 2023 +0900
+commit dd687011445bbc0599d6ea48d1f43bd50abd0e6d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 18:31:23 2023 +0900
+    [김재현/기지] 튜토리얼일 경우, TF 리스트를 Card Id 순으로 정렬
+commit 5edffb7a6d2bb9aae61424369e33c58da3b9bf44
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 18:00:54 2023 +0900
+commit a919378af94df903a46f67b0162bd38dfecb87db
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 17:56:11 2023 +0900
+    [김재현/테이블] 기획 Git bcc1eda 기준 테이블 최신화, DB 최신화
+commit 2c0eba170731130466a9f06a4da41797cc05ceeb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 17:45:30 2023 +0900
+commit a47b2ba87ada230ff4d738e94dfdad22d396596f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 17:31:15 2023 +0900
+    [김재현/소환게임] 소환연출 도중 캠프 마크의 머티리얼이 변경되지 않던 부분 수정
+commit c2e4bd38b7b8d2ec5b85510d4a28bbf5b26e5b5e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 17:00:10 2023 +0900
+    [김재현/시스템] callback 만 넣어도 되도록 isTwoButtonType 과 callback 파라미터 위치 변경
+commit a592897938ee4590ef96a71e9158835c49ab3ffc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 16:58:05 2023 +0900
+commit 552408e2b1946f71ccfd665c514c2a9942485240
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 16:58:00 2023 +0900
+    [김재현/시스템] UISystemMessage 수정
+commit b9c029a6b13a37e82285f0b5b2bb9bc6f04ae7af
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 16:03:11 2023 +0900
+    [김재현/정렬] 정렬 시 모든 조건이 동일 할 경우, CardId를 기준으로 정렬시키는 로직 추가
+commit a157baf11cc6013db7280fa424b38fc5d7965fca
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 15:31:43 2023 +0900
+    [김재현/소환게임] 소환 연출중 진영 마크의 머티리얼도 Holo- 버전으로 변경되는 문제 수정
+commit 1279ba7f07ae552ace3f65a0af98fc0a7c61cf90
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 15:19:15 2023 +0900
+commit 603fdabbd648cb70b7e88241d5c3f0a5188b7693
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 15:18:52 2023 +0900
+    [김재현/튜토리얼] 튜토리얼 진행 도중 뒤에 있는 버튼들이 눌려 오류를 발생시키는 문제를 막기위해 LBS Tutorial Controller 에 블로커 추가
+commit 79f9122f8dff39bf81468bd12ffb196427bccb22
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 29 14:13:28 2023 +0900
+commit d46d58a0631165ebfc8b1041466bd6339ea853a8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 27 15:16:09 2023 +0900
+    [김재현/파워칩] 파워칩 상세보기 페이지에 반짝이 머티리얼 적용
+commit b3287cd5afc4d17424e0a9bf55095559dff12abc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 27 13:57:18 2023 +0900
+    [김재현/보상] IProductBaseVo 변수명 변경에 따른 코드 수정
+commit 196aac3e2d7ce9f05b5ce61e4c6a6b7a57a01a39
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 27 12:41:57 2023 +0900
+    [김재현/보상] 소환게임 보상 팝업 로직 수정
+commit bb0ecb5810f49179939e31b183d2aa8e97b747fc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 26 18:09:28 2023 +0900
+    [김재현/기지][#21058] 등급 돋보기 버튼 연타 후 닫기 버튼이 클릭이 되지 않는 현상 수정
+commit e7de66c580ad7e30937c1dc9854dabcb285733f3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 23:01:36 2023 +0900
+commit 28304fc482c0507708b8e3a1ffa03e01a296c08f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 22:50:03 2023 +0900
+    [김재현/튜토리얼] 포션 사용 터치유도 오브젝트 포지션 수정
+commit cb867597f0d7e665e4ed23a453fd8e3e804b3e29
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 22:35:18 2023 +0900
+commit d2f908ce7f3d5b500a9751a5d63775f7a537bd73
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 22:34:24 2023 +0900
+commit f23dae8d023125ca3d23de6183679c6227d6455f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 22:26:40 2023 +0900
+    [김재현/로그] 최초 번들 다운로드 시 bundleList json파일 없는 오류 수정
+commit fee07ce102029a01cdfe2b34f47afeacb3fb382a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 21:50:11 2023 +0900
+commit 93282905d6ec0cd592287cbe97407177909e523e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 21:49:50 2023 +0900
+    [김재현/튜토리얼] 다이얼로그 Highlight 된 캐릭터가 최상단으로 올 수 있도록 수정
+commit f6ca94fcdf9ee4d1736ed2ceb4422110e61d5e53
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 19:34:24 2023 +0900
+commit d028cb6d1c94a8afe6b80704a6cc743ba0aa482e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 19:32:50 2023 +0900
+commit f78531073187fe26d235436e957056f3fb92f2db
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 18:52:26 2023 +0900
+    [김재현/튜토리얼] BattleTFSelectList 팝업에서 터치 위치 지정용 오브젝트 추가
+commit 7d7ae392442a62ff4347ef5c2a4d2cdbae9ba6b8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 18:39:34 2023 +0900
+commit 0312b3064d03e60973f1ff29a6196e3d7b19f320
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 18:37:54 2023 +0900
+    [김재현/튜토리얼] 튜토리얼 버그 수정
+commit 33a15d6208289e4f90158ee1da91efb0e28c1bd8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 00:57:13 2023 +0900
+    [김재현/다이얼로그] 다이얼로그 Actor 이미지 사이즈 조정, Frame 안보이게 처리
+commit 1f83d6f533e4dc4a6642dfbf93753ad8cf8ad110
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 00:01:02 2023 +0900
+commit aeb459e68a385e79d99e90b8d4b100fe44c857d4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 23 00:00:57 2023 +0900
+    [김재현/튜토리얼] AccountInfo enum타입 오타 수정, TFText 키값 변경 적용, Db 최신화
+commit 5ff9255aa42f4d3b176bcefb2372ff52964dc1d0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 22 21:46:57 2023 +0900
+    [김재현/튜토리얼] 다이얼로그 캐릭터 Highlight & dimm & hide 로직 수정
+commit d6de889b4f05796329e63146cc16d427f78b0175
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 22 20:34:34 2023 +0900
+commit ac4f9bf24a8ae04099cb174ae08f6d016b4cfe5c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 22 20:33:56 2023 +0900
+    [김재현/튜토리얼] 다이얼로그에 Actor 이름이 표시되지 않는 문제 수정
+commit a1ef532dbd0d4d07f45557b3d2adc3ef44292b2b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 22 20:14:48 2023 +0900
+    [김재현/튜토리얼] 이미지 적용, TutorialController에서 Missing 오류가 나는 문제 수정
+commit 25d0215c5f12f30866d486d875b179375cd9adb3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 22 18:41:45 2023 +0900
+commit 9eedde870ccf2e8b61399980a3010fed0e8bccb1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 22 18:03:25 2023 +0900
+    [김재현/튜토리얼] Dialog group Id 테이블에 맞게 정리
+commit 3b4a8eb216cf20f3bc4bde400b573575620c07c9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 22 17:41:23 2023 +0900
+commit 37ab23a97b6da028d109d38c262ea4c782823c74
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 22 17:24:21 2023 +0900
+commit 5eb352a25bdaf02534dfbb5c0eb823a3eb2dd28b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 22 17:24:11 2023 +0900
+    [김재현/튜토리얼] 태그스킬 사용 후 태그스킬 슬롯 비활성화 로직 추가
+commit 9e5d01c112efce400b5a0c514767adfb262beff0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 22 16:57:56 2023 +0900
+    [김재현/튜토리얼] Profile 스텝 작업 완료
+commit 6abc8c063a389c5615c9401119186ff6e519790d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 22 02:11:42 2023 +0900
+    [김재현/튜토리얼] 1:1 전투 진입 이벤트 정리
+commit 4603acb4be336bdb8d6231ef73bb4c8beb82227a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 21 23:12:47 2023 +0900
+commit 77e971c8da9d66e0240c518325a6c71d85b739b2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 21 23:11:55 2023 +0900
+    [김재현/테이블] 엑셀 테이블 및 Db 최신화, 파워 계산 공식 수정
+commit 0b0f523a4e044b951c718a3b66d23b07c4ccdcb7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 21 21:33:11 2023 +0900
+    [김재현/튜토리얼] 전투 편성팝업 연출이후 이벤트 발생시키도록 수정
+commit 1c437f9115b171dadc096f953e449cb074a0401f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 21 17:22:35 2023 +0900
+    [김재현/튜토리얼] 소환게임 종료 까지 작업 완료
+commit faea176a4af85bc3d82a2b79af598464ab661fae
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 20 18:58:17 2023 +0900
+    [김재현/튜토리얼] 버튼 이벤트가 2번 들어가는 현상 수정
+commit 0f7249c18170a3532c40af379e824841eac58b80
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 20 16:26:02 2023 +0900
+commit 0aeae2dd727f34958d5d0d864e427f9bc9c4a09d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 20 16:24:48 2023 +0900
+    [김재현/튜토리얼] 포션 사용 및 벡터시그마 진입 진행중 머지
+commit 36404eb47c15094f2261dc846c00bb85539e8dbe
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 20 11:42:03 2023 +0900
+commit da88dae39b08c4501dafef1cf1e4834824035b6f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 19 22:50:49 2023 +0900
+commit 843d83c82fd52ba536611d61cbeee383be5630ab
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 19 22:50:03 2023 +0900
+commit 2de6e90894d6a6f29882b0e63f66b888fb90e4ab
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 19 22:49:40 2023 +0900
+    [김재현/AR] Ar -> 전투 -> Ar 진입 시 ARDataManager 의 _spawnedFieldCrackObjects 리스트내부의 데이터가 사라지는 현상 임시 수정
+commit 7257abce8fa7ee1f2dc170dc7f7d4d5be37dc6f2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 19 20:43:16 2023 +0900
+commit 3b4d1526d340336b6966402534f4f93723cc6649
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 19 18:10:15 2023 +0900
+commit 9a19de65846011710a8d7b3799cfbc9075aadd55
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 19 18:09:57 2023 +0900
+commit 0ba5ab058ed593d5173916a30b734696b1e71858
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 19 18:06:01 2023 +0900
+    [김재현/소환게임] 상점 버튼 임시 비활성화
+commit 00d43d1fa71d313e4bbfcd0f59a3c93a0a43b58e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 19 18:04:09 2023 +0900
+    [김재현/UI] UI 오류 수정
+commit bede3e310ed2d689f9f4fc9dd7068814c919d952
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 19 17:20:28 2023 +0900
+    [김재현/튜토리얼] 포션 사용 팝업 까지 작업된 부분 커밋
+commit 71fd1b3ba78580859ce996c06bb36119f2b6e3ac
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 19 17:14:44 2023 +0900
+    [김재현/테이블] DataTable 기준으로 테이블, DB 최신화
+commit b7fae77cb254481c0c5e95e8c076b5f5e6a37c12
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 19 16:21:04 2023 +0900
+commit eed7def144ef41aae7fc2629e4ffd340dfb3a656
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 19:26:01 2023 +0900
+    [김재현/정렬] 정렬 페이지 연출진행 시 버튼들을 화면 밖에서 시작하도록 수정
+commit 2df56f032a771b66748b6704402c08201159ec57
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 19:16:58 2023 +0900
+commit 1b34fc723e2a958e2c14c560e414e0badb7a275f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 19:15:51 2023 +0900
+commit 94863c74fe66a5d0ce5734ccce6dcb2128cab3de
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 19:15:12 2023 +0900
+commit d1919ba4faa03f4aadf02f0368c899490a89321a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 18:58:17 2023 +0900
+    [김재현/아이템박스] Text -> TextMeshPro 로 변경되면서 스크립트 연결이 끊긴 부분 재연결, 남아있던 Text(Legacy) TMP로 변경
+commit 1c75eb0c74c0d7a19fd84f8a043e9825ae494dda
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 18:57:30 2023 +0900
+    [김재현/기지] 스킬이 장착되어있지 않은데도, 다른 트랜스포머의 스킬이 스킬 슬롯에 표시되는 현상 수정
+commit f6b0d57adda103e4f8ecae492a5bc9796be322db
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 18:03:01 2023 +0900
+    [김재현/기지] 포션 사용 팝업에 Localize 적용, 닫기 버튼을 긴 하나의 버튼으로 변경
+commit 8ba4ee17e93e93932d8f470286db7f6e39028ee2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 17:56:55 2023 +0900
+    [김재현/정렬] 정렬 페이지 연출의 위치가 어긋나는 현상 수정
+commit ba83a4fa782a1c04f4cd2190356e3d2001e99bdb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 16:37:09 2023 +0900
+    [김재현/기지] 파워칩 부여시 텍스트 검색이 되지 않는 문제 수정
+commit 86f17e0557baa3a8a5973914a684767b11a5b999
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 15:49:24 2023 +0900
+commit d3f029301995c1672b8109228f4b26d976cedbc6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 15:48:53 2023 +0900
+commit c785e5a807c7bea81409e4cc5cd6f157bad1ec5a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 15:48:28 2023 +0900
+    [김재현/기지] 파워칩 검색시 파워칩 이름이 아닌 트랜스포머 이름으로 검색되는 현상 수정
+commit d4bea7427d433c0d29f641faba70d8607f8cf8f7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 14:40:48 2023 +0900
+    [김재현/기지] 텍스트 검색 진행시, LocalizeText의 이름 텍스트보다 검색한 값이 길 경우 Argument range 에러를 발생시키는 버그 수정
+commit 530a2b6be79b5c20e58c74533dbda1ac0e21b0ef
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 14:33:55 2023 +0900
+    [김재현/기지] UIPanelBarrack의 ScrollRect의 위치를 초기화하는 경우 설정
+commit d59025604ac572d7e1fb79c730f7d6a9990628e0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat Jun 17 14:19:19 2023 +0900
+    [김재현/튜토리얼] 1:1 전투 진입 전까지 버그 수정 및 구조 정리, 테스트용 Jump step 기능 추가
+commit c2cc47a4fddb58a60ce33c1f4f310a64b7adc43a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 16 16:43:12 2023 +0900
+    [김재현/튜토리얼] 전투 진입까지 튜토리얼 플로우 제작 완료
+commit a3c25d8a3a966bcc4d7ece37f8c7e13aab585cb4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 16 12:14:12 2023 +0900
+commit fa33d1a2c64f414d69c6a6ecad5ee7fc89e12239
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 16 12:11:07 2023 +0900
+commit 169d679eed2217d2d031e8dceb1278c1f44aa748
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 15 20:04:09 2023 +0900
+    [김재현/다이얼로그] 다이얼로그 라인 스킵 시 Actor 연출 종료, 연출 시간 조정
+commit ded83f2d9aec658bfd7b33c21c6df3729d333b97
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 15 16:41:10 2023 +0900
+    [김재현/다이얼로그] Callback 받을 수 있도록 수정
+commit 9fdfb3a74179c62c71b7de00895501cabe81715a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 15 16:14:06 2023 +0900
+commit df8703516b352e60ead17724350c083ddcbea103
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 15 16:12:48 2023 +0900
+    [김재현/테이블] 파워 계산 공식이 변경됨에 따라 TFPowerFormula 테이블 및 DB 최신화
+commit 8b9a3726dfac671e12be87c74e4b76899c44082f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 15 16:05:41 2023 +0900
+    [김재현/기지, 아이템 박스] LayoutGroup 과 Content size fitter 때문에 UI가 어긋나는 문제 수정
+commit a179b09a92bbb9d28fe597f1f915f084ee94701b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 15 15:15:30 2023 +0900
+commit 98f23b2c8341603e290188b372abd6c565086fb1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 15 15:14:04 2023 +0900
+commit bf520b0281dd17da25e67af5c8974d421a52bb3e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 15 15:13:14 2023 +0900
+    [김재현/다이얼로그] Dialog 코드 정리 및 기능 재건축
+commit 29b4406e0b0022cd51ed0a415d154ed8bad1e11c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 15 12:22:13 2023 +0900
+    [김재현/소환게임] 소환 연출시 홀로그램 이펙트 오류 수정, 소환게임 재진입 시 LBS Directional light 가 꺼져있는 문제 수정
+commit 1a5b8fc9caa4cc6dac3a20dd702d7e266ed6196a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 15 11:51:49 2023 +0900
+commit 6e71a471191611712c6b126cc8519eaa5b308818
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 15 11:51:35 2023 +0900
+commit b162f23b58e5bd3f9af384c2727afa99093c0f74
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 15 11:50:51 2023 +0900
+commit 6190064f47ce1fb86944083ad3c5484587c092bd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 15 11:49:21 2023 +0900
+commit 51735edf26dd1ff58c792cee937f791023359e54
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 14 17:47:58 2023 +0900
+commit 4f48bafa05520d469a24bfaa13e4845dc6bd9b96
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 14 17:41:31 2023 +0900
+commit a0a5c5b48363142c4933cf31080983e55d17ee82
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 13 18:26:42 2023 +0900
+    [김재현/테이블] Dialog 테이블 최신화 및 Entities 수정
+commit 63a54a0478c9af7985c4ee715657e177950b17d0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 13 18:06:57 2023 +0900
+    [김재현/소환게임] 소환 연출이 끝난 후, Success Animator가 계속 켜져있어 다시 실행되는 문제 수정
+commit fb02dc1729b2385ebf74c4a5bd4d4f6ceb65f5e5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 13 16:58:26 2023 +0900
+    [김재현/소환게임] 실패 연출 진입 시 화면이 갑자기 이동되는 현상 수정
+commit c054226395229d61f3a9cb9ad63698972ffdc7bf
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 13 16:05:49 2023 +0900
+    [김재현/기지] 스페셜 스킬 슬롯 Unlock 연출 연결
+commit e973ace9f981c4569fdc5c545a1b251f7cad1861
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 13 12:47:29 2023 +0900
+    [김재현/기지] 정렬 버튼 아이콘 네이밍 수정 (파워칩 등급 아이콘 추가)
+commit fbcb467b3c5e994b1562b46e551ec57ac1f85a82
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 12 19:07:50 2023 +0900
+    [김재현/정렬] SortOptionIcon을 받아오는 UIUtil 메서드 누락
+commit ac9d356c582d2f4719e781678048cf1e3c037eac
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 12 16:52:55 2023 +0900
+    [김재현/정렬] 현재 선택한 정렬 방식에 따라서 정렬 버튼 아이콘 변경
+commit 9e89a0a2c9c06d4c2aa188ec77e359deb5c8014c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 12 14:56:55 2023 +0900
+    [김재현/기지] 기지 -> 보유 TF, 파워칩 리스트 화면 앵커 조정
+commit 16137b6a05114c7e9909f64027d66bbe4d59f410
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 12 13:57:10 2023 +0900
+    [김재현/아이템박스] 포션 비활성화용 dimmed 처리 추가
+commit d19d5d69c969e62b9b20b20cb498a82accefcd98
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 12 11:24:50 2023 +0900
+commit 7de7ddd77f3562ba96da53b2461d55c427bde57c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 12 11:24:12 2023 +0900
+commit 318b4e2ebbc08709fbeb7d595ca09bf1bc8ae371
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 9 21:09:51 2023 +0900
+    [김재현/연출] 파워업 연출 시 하얀색 이미지 (Big 이미지)가 Arcee에서 변경되지 않았던 부분 수정
+commit 72773f545fc41366abe843f88711d343cac7e68c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 9 21:00:14 2023 +0900
+    [김재현/UI] 포션 아이템 텍스트 overflow 설정 수정, SortOptionView의 이름순 정렬 Localize key 변경, SkillChargeInfoHandler (스킬 차지 횟수) 로직 수정
+commit 92390e2c6725c45a6cbc5bf8d05a2e645a8bdd2c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 9 19:25:31 2023 +0900
+    [김재현/Table] GetTransformer 메서드 네임 변경
+commit 04d616da82826af4c23f8e195aaf81ac538b71f1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 9 17:08:23 2023 +0900
+commit a51d09921e297fafdac439bb07f513f63914a3d5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 9 17:08:03 2023 +0900
+    [김재현/소환게임] Test용 values가 인게임에서 수정하기 전에는 적용이 되지 않는 문제 수정
+commit 168cc13d0b6dc9cdb24ddca82ca6d11477d011d8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 9 16:50:40 2023 +0900
+commit 6ada4b6d69c8ec915f2b56bf78be2898cb6ae011
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 9 16:50:15 2023 +0900
+    [김재현/소환게임] Test용 Values 설정
+commit 45f9bba7316f66a007af087c32d2cb8dd51a359d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 9 16:24:38 2023 +0900
+    [김재현/기지] 스크립트 에러 수정
+commit be1f0a84287348d8708f52ff7c8eac7e3b0f8909
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 9 16:22:31 2023 +0900
+commit 961887724c44b53bfe219df55b7e02641e068eea
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 9 16:15:10 2023 +0900
+commit 6ed54c0aaee8d6cdf69d5a14f8fd3954bdcb36ed
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 9 16:06:15 2023 +0900
+    [김재현/소환게임] 실패 연출 애니메이터가 롤백되어 재수정
+commit b74086de4c69e8f88b41dd94d7ec89d6111ca3d5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 9 15:24:32 2023 +0900
+    [김재현/소환게임] 성공 확률에 따라 stage 난이도를 설정하는 코드 수정
+commit b8e2470525b6d6f7a3b1c9f85185f60c92c548b6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 9 15:14:28 2023 +0900
+    [김재현/소환게임] Test용 values 중 acceleration speed가 적용되지 않는 문제 수정, 소환 성공 확률 10만단위로 수정
+commit 491d1b0b09dd44c23ca1d6d6d832d2d59ce90926
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 8 20:56:37 2023 +0900
+commit fe64d8978a943619860ea233d52dd79c0137f15c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 8 20:52:44 2023 +0900
+    [김재현/소환게임] 스파크 drag 값 최대치 4->2로 조정
+commit 469f4cc9e780d72f90357e37df7ed51d3fc6b8c1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 8 20:47:38 2023 +0900
+    [김재현/소환게임] 쇼크웨이브 알림 신호등 기능 추가
+commit 302181ff97667cf88d1abf3ea3c9b0c15a221c0e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 8 20:14:20 2023 +0900
+    [김재현/소환게임] 소환게임 옵션 조정 기능 추가
+commit aa891dd37afc64a524d85f44bc48161237eae878
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 8 15:49:43 2023 +0900
+    [김재현/아이템박스] 포션 사용 후 ItemBox 리프레시 적용
+commit 6f9e385f98e0aa39fd32709f4a26c44b23902c62
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 8 14:43:26 2023 +0900
+    [김재현/소환게임] 성공, 실패 연출 스크립트 연결
+commit 935bd473dbb435f202197b34138346d94f1d2dc1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 8 12:45:28 2023 +0900
+commit 804ad01f7fee9f1bfbee6e3ccea7aab07ee6f0b4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 8 12:42:28 2023 +0900
+    [김재현/기지] 파워칩 부여 (Install) UI 플로우 정리 및 Install 연출 적용, SelectSkillSlotPopup 연결 수정
+commit 3f0b027ab3417669ca4daa76fd876b6d0a25cab7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 7 18:22:01 2023 +0900
+    [김재현/상세보기] 파워업 연출 적용
+commit 0aa778bc4f1a1340cec8206ead40195ceecfe1f1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 7 15:19:53 2023 +0900
+    [김재현/소환게임] 쇼크웨이브 신호등 색상 emissive material 분리, 스파크 사이즈 0.8배로 조정, Wall 포지션 수정
+commit fe86622ca2d3b43d083084eb2b3a96707bf31558
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 7 14:01:40 2023 +0900
+commit b7fb28d82e9ae7307d430a3040ec650a51ee3794
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 7 12:56:56 2023 +0900
+    [김재현/소환게임] 소환게임 진입 시 LBS directional light 비활성화 추가
+commit 746ae193faf9d0e80b28bece59876dd342df3bc5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 7 12:21:38 2023 +0900
+    [김재현/소환게임] 소환게임 신규 모델링 연결 및 스크립트 정리
+commit dc9b91bedbfdfd02b38395efa1bc0d8707d28c09
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 6 17:00:30 2023 +0900
+    [김재현/Sorting] 정렬 버튼 화살표 애니메이션 적용, UIPanelBarrack의 썸네일들 사이즈 조절 (현종님 요청)
+commit dcb2a8dcd7394e7e80606bb320d79625a8d513ef
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 6 15:26:22 2023 +0900
+commit dfdf823efbb1ae523bbab1fc5e4b9436c38f1e58
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 6 15:20:53 2023 +0900
+    [김재현/기지] HP/SP 슬라이더가 터치로 움직이는 문제 수정, 기지의 파워칩 리스트에서 정렬이 작동하지 않는 문제 수정
+commit 84e24629472d3a582735048dc26a6b169a942030
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 6 14:12:36 2023 +0900
+commit 0348b989775c9f8e84bd1443494942ee560299d1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 6 14:12:01 2023 +0900
+    [김재현/Sorting] 기존에 각 패널에서 사용하던 SortOptionView 를 하나로 통합, 애니메이션 및 포지션 고정
+commit 0385b84207d6d71ac8cb908f25975339d9240ff7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 5 21:50:49 2023 +0900
+    [김재현/아이템박스] 포션 사용이 되지 않는 문제 수정, TransformerThumbnail 회복 연출 추가
+commit f25a4c2a584699dcb657d55e7a9f2c3147303ff9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 5 21:09:44 2023 +0900
+    [김재현/아이템박스] ItemThumbnail 의 count 텍스트 content size fitter 가 한 프레임 늦게 작동하는 문제로, 사이즈 고정
+commit 441ac3174b8b383dc09d4aef32d9f5b444e137db
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 5 20:31:27 2023 +0900
+    [김재현/기지] Localize key 가 그대로 노출되는 부분 수정
+commit b11b79a3412418a0e4f7445405cf597cc1df2f46
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 5 20:15:40 2023 +0900
+    [김재현/기지] TF 포션 사용 이슈 3가지 수정
+commit 7f20c3ab2c5680fd731dfc25f3e453243f1a9bf1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 5 18:56:54 2023 +0900
+commit faa0c9cae54654c5f6f1bfb08beb8eaf49770e6d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 5 18:56:29 2023 +0900
+    [김재현/기지] UIPanelBarrack, UIThumbnailListPopup 등 Sort Option Sub View를 사용하는 컨텐츠들에 On/Off 스크립트 추가
+commit 69d98c668ed91bf00877ab0cf65486003c13ff47
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 5 14:34:05 2023 +0900
+    [김재현/기지] 파워칩 상세보기 팝업, ThumbnailListPopup UI 수정, TFDetailPopup 의 Grade가 최대치일 경우 파란 별 연출 추가
+commit 7525727a8f87965290f9674a06a41efca2b56945
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 2 18:47:00 2023 +0900
+commit 5f56f89ea22346106c865030a6c79d96f82066dd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 2 18:46:13 2023 +0900
+commit a5b7119baf579bb8a71ff766ebccac3615d15380
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 2 18:45:26 2023 +0900
+    [김재현/기지] 파워업, 포션 사용 수정
+commit 9528ec34c80b362d9e2e209c4e2f67767f86415d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 2 17:49:48 2023 +0900
+    [김재현/소환게임] Debug 용 ForceSuccess boolean 값 추가
+commit 86486ebe3f02cf075d07fd4a87f10510c403870e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 2 16:30:56 2023 +0900
+commit d3b0b494311fd92acec25b703d8699e6cf0096e0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 1 18:15:36 2023 +0900
+    [김재현/파워칩] 파워칩 상세보기 작업
+commit 1d2f45dae2ec75d214de10da021511bc0d7b426b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 1 16:35:54 2023 +0900
+    [김재현/소환게임] UIPanelTFSummonGame 수정, RewardPopup 수정
+commit b64151158e30d8a66e3e9629c3e5e2768f2310f0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 1 15:44:04 2023 +0900
+commit 2c2d08b80ae57b7b17f23b5061c59fc87e753544
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 1 15:43:35 2023 +0900
+    [김재현/기지] TF 기지 - 파워칩 부여 기능 수정, DetailPopup의 PageButton 기능 추가
+commit 114263e65a7ad322eaddc06c308d34d819383c6b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 31 22:59:11 2023 +0900
+commit 5498ad6fdf0af6e1b1917835d3d9c50d6aa0bcf9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 31 22:59:04 2023 +0900
+    [김재현/Table] TagSkill 테이블에 OpinionID 추가
+commit 426b936c7ec6739305c374aa331399183a85b1cc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 31 22:58:20 2023 +0900
+    [김재현/기지] 상세보기 UI 수정, 스페셜 스킬 Info 팝업, 파워칩 썸네일 수정
+commit 09ee7d2170f633e7754a533af75b486d4168e3e3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 31 17:52:41 2023 +0900
+    [김재현/Table] Generic 으로 만들었던 GetProduct() 메서드에서 Parameter 에러가 나서 다시 수정
+commit 2b53cf2227402431feb1993a1ea2f892b51fd180
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 31 17:01:23 2023 +0900
+commit 66fe0547ffd5fbb906075cdcbebf043c12033caf
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 31 16:55:11 2023 +0900
+commit 61dfa237101470f00a53b525badc4d01cc16dd95
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 31 16:46:40 2023 +0900
+commit 320f4c0dfe3eb5284e9675b4e61cf867c4826faf
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 31 16:42:58 2023 +0900
+    [김재현/Table] TableManager에서 Find로 데이터를 찾아오는 부분 공용으로 변경, Product Icon 로드해주는 UIUtil 추가
+commit d8321e8786524d093c5b407faece3c11fbb040f2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 31 15:25:28 2023 +0900
+    [김재현/소환게임] UIPanel에서 스파크를 가지고 있지 않은데, 기본으로 세팅되는 문제 수정
+commit f464171b3f075463743b52f526a401c7a42c0108
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 30 22:01:40 2023 +0900
+    [김재현/소환게임] AR-소환게임으로 진입하는 UI 임시로 바로 성공하도록 수정, 세부 사항 수정
+commit 9b661a4c0ab7c74ed1eaa7535babcbd42be0e6f5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 30 18:47:28 2023 +0900
+commit c3ca84b17178082a8cfc47b32df2b4ab70c9f25b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 30 18:47:07 2023 +0900
+    [김재현/도구함] 아이템박스 UI 프리팹 및 스크립트 수정
+commit 942fa4b8acc6024267a470dbdfbd10785c10adc3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 30 18:40:55 2023 +0900
+commit 0c97c2c4959b283416e66af7282280260c689129
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 30 18:40:20 2023 +0900
+commit ef79940a33909f7374c2665f472c5f8bb64374dc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 30 18:33:05 2023 +0900
+commit 20bc10f1740e94450874cc7f7fe8958f7fe2c1e5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 30 18:32:25 2023 +0900
+    [김재현/기지] UISkillInfoPopup 수정
+commit 25ffa201de9b9f2f80ae9a99675bf5360f455f4f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 30 17:14:39 2023 +0900
+commit 75eb5f084a9f61c5dab1055f63ffc051f530b294
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 30 16:40:11 2023 +0900
+    [김재현/시스템] SpriteStretch.cs 에 타겟 이미지가 없거나, 타겟이미지의 스프라이트가 없을 경우, 그냥 Canvas 사이즈로 조절
+commit 3202a79fc351df6f1ec08879b4dfa5662075239a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 29 21:12:36 2023 +0900
+    [김재현/UI] 상세보기 세팅중  SpecialSkill 이 없을 경우, null 로 세팅
+commit e92eac005d6c669f5b53a4201d62443f992020c4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 30 14:09:43 2023 +0900
+    [김재현/시스템] 서버 통신시 Live 서버가 아닐 경우, 통신 로그 추가
+commit a02db8e5ad21d87d7b8a67014f81203d681ef438
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 29 20:26:16 2023 +0900
+commit 582a7964430b86fa0f221b49d447604e8446f269
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 29 20:26:08 2023 +0900
+    [김재현/소환게임] 스파크 소멸 연출 추가
+commit 4a42bd948376c9af9b8931da2e170c45449eb18c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 29 20:19:27 2023 +0900
+    [김재현/소환게임] 소환 연출중 Plane 모드일 경우 Signal을 받지 못하는 문제 수정
+commit 1efb942f6a8cde5644aede2975aca637e55a0094
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 29 20:13:06 2023 +0900
+    [김재현/소환게임] 연출 도중의 스킵 파트 삭제
+commit 7affb1479cff0632bd08e9a8e1353f53c559d9db
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 29 16:48:58 2023 +0900
+    [김재현/UI] 포션 사용 팝업 정리
+commit 764e8d405dd8e3c8abe038da4dcf95cc1debf405
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 29 12:01:47 2023 +0900
+    [김재현/기지] UI 수정 작업 및 스크립트 정리
+commit 2c48e74852713e0d41335326b257d1f1cbf75272
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 26 22:30:20 2023 +0900
+    [김재현/TF상세보기] 노말스킬, 태그스킬 파트 (Ability View) 세팅
+commit 1e2f56dd7a7675c0813154621f0277701c868419
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 29 19:02:38 2023 +0900
+commit f7ed23b3c9bf7de319ebea72910bd7d910e93dc3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 29 19:01:54 2023 +0900
+    [김재현/소환게임] 캐릭터 등장연출 애니메이션을 코드로 설정할 수 있도록 추가
+commit a8fdebb118b4294adb30e015b9ff2ef44ad6516f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 29 14:23:14 2023 +0900
+    [김재현/스파크] 스파크 1,2,3단 회전 애니메이션 적용
+commit 5c922817d6c97b240b97c67b63a0f1bb010db8b1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 26 17:45:58 2023 +0900
+    [김재현/기지] TransformerThumbnail에 데이터 세팅할 수 있도록 수정
+commit 1a2527d24814beae280ea8173543dec15d7bfd5e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 26 11:43:25 2023 +0900
+commit f527b5408f618688ee8c70b36110a69736d2dffb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 23:43:46 2023 +0900
+commit 37c846faea6ca209cd37dc3a1924f848b928e8fe
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 23:43:16 2023 +0900
+    [김재현/소환게임] Furious Mode를 꺼주는 signal 추가, 임시로 작업되어있는 옵티머스 프라임만 생성되게 수정
+commit 5315ced0e366540c877c85b38c79e96082062355
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 15:20:41 2023 +0900
+    [김재현/기지] TabButton 에 현재 보유 개수, 최대 개수 표기
+commit 01dae3879b30dcdae792c945db8d84220ce95610
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 15:20:41 2023 +0900
+    [김재현/기지] TabButton 에 현재 보유 개수, 최대 개수 표기
+commit 004642ea7b54334dbb6abaeb353980987273392d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 21:21:06 2023 +0900
+commit 7f267cdb0e0aaae39088f383630cace8a9cfae80
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 21:16:53 2023 +0900
+    [김재현/소환게임] 획득 연출부에 캐릭터 오브젝트 생성할 수 있도록 수정, TFReferenceData, Product_Spark 테이블 최신화
+commit 716df0ed3c0708e1d34870aa4e436eff9b8c6854
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 18:16:13 2023 +0900
+    [김재현/소환게임] 소환게임에서 공통으로 사용하는 데이터들을 GameManager에 클래스로 묶음
+commit 0f5499d9138846f0bb5451204e398bd91e7c06e2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 16:27:49 2023 +0900
+commit 0dea90022f5cb5147c499a3ef214ba647bcf8eee
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 16:24:53 2023 +0900
+    [김재현/소환게임] _Test로 분류해뒀던 스크립트들 Test 삭제 및 폴더 이동
+commit e8dde1585e6369a61084c98fe74fd294a234ec87
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 12:16:36 2023 +0900
+commit c3d42477a348fb20c626445b1104ea365014824a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 12:08:25 2023 +0900
+    [김재현/계정] LoginState에서 AccountInfo를 받아올 때 AccountLevel, AccountExp를 받아올 수 있도록 패킷 수정
+commit 97f91856b93332162ffe2457da521316fdb3063d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 11:57:52 2023 +0900
+    [김재현/소환게임] 소환게임 리워드 관련 데이터 클래스 추가, UI 수정
+commit c9d70089c5becc6ac208e3d46f7535d44c56fc1c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 01:11:23 2023 +0900
+    [김재현/UI] ProductThumbnail 클래스 명 변경, UIExitConfirmPopup 공용으로 사용할 수 있도록 수정
+commit ca9a21959d61b7dce9cfe62dedae52b9f62ffc15
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 01:10:03 2023 +0900
+commit d3e4eb997a7952d2808e8276a5b50e8a52948a40
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 25 01:01:02 2023 +0900
+commit c8ef1156e598ca147c4e7521601e700ed8124733
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 24 15:55:13 2023 +0900
+commit 9144383935d053515f9e9a41c25d8e13815ffbbc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 24 15:55:02 2023 +0900
+    [김재현/UI] 테스트용 KawaseBlur.cs 삭제, UI 프리팹들 폴더 정리/이동
+commit 552d7e045587d805a410c14b4ce21753feeccec9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 24 15:00:21 2023 +0900
+    [김재현/소환게임] 보유중인 스파크가 없을 경우, 자동으로 상점으로 넘어가도록 수정 (추후 선택 팝업 추가 예정)
+commit 29c89d665baf0148d6c4eb21c79f237bc8929201
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 24 14:58:17 2023 +0900
+commit e646f31d924887190df0b8f64295c8946424d01e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 24 12:35:53 2023 +0900
+    [김재현/소환게임] 기존 스크립트 삭제, _Test 스크립트로 임시 작업중
+commit b9dbece26be5b00bab1b6083888c51a7dcbf2fec
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 24 12:29:27 2023 +0900
+commit 3af6b6176102124120a2cfc880c10a88ceb4aae6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 24 12:28:57 2023 +0900
+    [김재현/Table] 신규 추가된 Product_GachaTicket 테이블 및 Entity 클래스 추가
+commit dd4215011c3d2f2b75a80ecd63abc6ae7868e109
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 24 12:28:25 2023 +0900
+    [김재현/UI] ToastMessage 스크립트 누락부분 추가
+commit 2d67ea8183413c79d572f414fd3ed9ea46dc420c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 24 12:25:14 2023 +0900
+    [김재현/UI] 자동으로 사라지는 토스트 메시지 팝업 제작
+commit 222a6c6fe23b21c0f20b1dc6d05a7ccbb23fdebb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 23 16:16:00 2023 +0900
+commit b34f4a49f238b10f671a719f207e470910365dfe
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 23 16:10:31 2023 +0900
+commit 7dc08019df39f668bf3a16fad26be5a42889c61d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 23 16:07:27 2023 +0900
+commit d7c24dfe4a62ed2da66054f0a3d5ebf3253ed36d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 23 15:56:30 2023 +0900
+    [김재현/Table] TFPowerFormula entity 필드명 변경
+commit c580db7f130e73955ccf9e2106f82d608631316e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 23 15:55:34 2023 +0900
+    [김재현/소환게임] 소환게임 종료 시 Unload 기능 추가 (delete events, release objects), SuccessDirector 생성용 dictionary 추가
+commit 4d006c610246b2c4b5878f2a0be636a2f68e757c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 23 15:29:22 2023 +0900
+commit 2f33ded015c378c0c19e481d56bc6893ca95c6e6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 23 15:28:37 2023 +0900
+    [김재현/기지] TF 파워업 시 파워 계산 공식 변경
+commit 630f9e2ae55a0d3346c4b9b8f72f94827f2d0d0b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 23 09:43:12 2023 +0900
+commit b514ba531c3de5c6c61200f04969d0eaf9bc1b75
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 22 19:15:06 2023 +0900
+    [김재현/Cheat] 치트 버튼 눈에 잘 띄게 수정
+commit f5da1cb18e62f198970caca9d082cd0a899ff9c3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 22 19:01:30 2023 +0900
+commit 5e504d2b80578ab158094ed3e554c308e2ff81ef
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 22 19:01:07 2023 +0900
+    [김재현/UI] 치트 UI 및 스크립트 수정, UIProductInfoPopup 수정, UITransferPopup 오류 수정
+commit 3d36055bfc71b8d7d6b1554c165204846e22fe2e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 22 18:37:38 2023 +0900
+    [김재현/소환게임] 쇼크웨이브 추가, 소환게임 UI 에서 스파크 변경 가능하도록 수정, 스파크 오브젝트 추가
+commit 8ed470393d8ebf39eb14c96c7c29bc1948d4b062
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 22 14:58:46 2023 +0900
+commit bf898187606500185165d8de255644eccd41fa53
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 22 14:36:41 2023 +0900
+commit a5f995750460f7f7844a5ee40a41cc6456b4e490
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun May 21 17:26:58 2023 +0900
+commit a55840ba9b1133693d171fcb3033e10e635f6d22
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun May 21 17:13:17 2023 +0900
+    [김재현/UI] 로그인 화면의 배경이 비율에 맞지 않게 찌그러지는 현상 수정,
+commit 8593dcd6ff65faf9d5aca729490bfe39dc5f7440
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sat May 20 17:49:19 2023 +0900
+    [김재현/소환게임] TFSummonGame 씬 분리 및 기존 스크립트와 Test용 스크립트 분리 (TFSummonGame namespace)
+commit ba7ac618a4507fe43f5506e7b0e5993e232ac720
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 19 17:03:56 2023 +0900
+    [김재현/Table] TFReferenceData, TFSummonGame 테이블 변경 적용
+commit 950461feaaadd2c54b6e125fb14c90c86f3d1028
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 18 17:56:40 2023 +0900
+    [김재현/Packet] TransformerInfoVo의 Favorite -> IsFavorite 으로 변경
+commit 2df0e17de5ea972ae903dfbd0effe5ed4eae1864
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 18 16:32:03 2023 +0900
+    [김재현/ObjetPool] 중복 Release 에러 발생 시 오류 내용에 오브젝트 이름도 포함
+commit c2565f17d7b13131268adcbf0929567f67816ee7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 18 16:29:37 2023 +0900
+commit e90850bbe464f1ad98730fdf4af3607b9d49d9d2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 18 12:48:43 2023 +0900
+commit 0758ccae5c882684be9edd9ea69dde9fcf8dd108
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 18 12:05:42 2023 +0900
+commit 2fde895fbb8875769d098c131c5005369fb5e262
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 18 12:04:42 2023 +0900
+    [김재현/파워칩] 기지의 파워칩 리스트에서 PowerChipThumbnail 에 등급 별 색상 적용
+commit 56df83da03a46d88a9952b4890953de5067fe66a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 18 10:40:50 2023 +0900
+    [김재현/소환게임] Spark 마찰력 및 멈출 경우 리셋 하는 기능 추가
+commit 2473314e152862f3089801016e290afd1122d760
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 17 20:42:50 2023 +0900
+commit ef93d129df84f11beb924f03570ead3308fe8a81
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 17 20:11:40 2023 +0900
+commit d447029d7bbc871e82a0558e40aae33fe6ab3bea
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 17 18:17:05 2023 +0900
+    [김재현/UI] Money 아이템 갯수를 받아오는 코드 수정
+commit 412825e3cec5cbe04fe3944da0df1c856f8fb298
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 17 17:51:44 2023 +0900
+    [김재현/UI] 기존에 주석처리해뒀던 아이템 이미지 불러오는 코드들 Atalas에서 정상적으로 불러오는 로직으로 수정
+commit 5d11acaac13f48fe0642c1a0955587eb6458bc04
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 17 17:25:16 2023 +0900
+commit cf6bd298f87691eccebb910b8c0efa7f9eaf9519
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 17 17:13:16 2023 +0900
+    [김재현/UI] 파워칩 썸네일 사이즈 조절, 파워칩 오류 수정
+commit 4525d26e7be361880ae9de0b02745b330300807f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 17 16:37:22 2023 +0900
+commit ee90849366e706b742fd9d9222f0c4b3620eb7ae
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 17 15:21:32 2023 +0900
+    [김재현/UI] 파워업 팝업 오류 수정 및 구조 수정
+commit 21c973bdcc72c918ce6c6a62c61a9ed77ffb4595
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 16 19:08:56 2023 +0900
+    [김재현/UI] 파워칩 썸네일에서 트랜스포머 이름 텍스트 삭제
+commit 1acb1b0e9a2f38c6bfc4bbb30de981f652edf754
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 16 18:41:31 2023 +0900
+    [김재현/UI] UITabButton 관련 에러 수정 및 기타 Enum 네임 변경
+commit 2d8f59afe3b668c08cd6e7ec3367760c04f57405
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 15 14:46:43 2023 +0900
+commit aead680c8fb0be6413c53db7f07025e87f6c624b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun May 14 23:40:44 2023 +0900
+commit 9f933feaeae07ce4180764178759d17ef45ef5d3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 12 22:14:24 2023 +0900
+    [김재현/UI] UIPanelGacha.cs 수정
+commit 691c95d23be805d614ca81d587f51052b108cbe1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 12 21:50:38 2023 +0900
+    [김재현/UI] 가챠 UI 프리팹 작업 및 스크립트 작업
+commit 6a7928a381d9497f880b0ffc79f3a9ce5b03ebb4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 12 17:40:38 2023 +0900
+commit fba95e3aab1eb0fb0d3b5db4c2fe7c5c8a77a124
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 12 15:16:39 2023 +0900
+commit a729b48505b58b8658582fce6a01aa68120530f7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 12 14:30:10 2023 +0900
+    [김재현/UI] GachaPageTab에 Canvas 추가 (Sort order 컨트롤 용)
+commit ddaf50387722612f6ed872b691965792a1de80e9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 11 23:00:52 2023 +0900
+    [김재현/UI] 가챠 UI 및 GachaPageTab 프리팹 수정
+commit e9fa9e4cf07a87e9f9f0b69e7f592d38d673a976
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 11 21:19:06 2023 +0900
+    [김재현/UI] 임시로 LBS HUD의 우산 (Weather Icon) 에 Gacha 연결
+commit cd1359a7b39a502fb0c8fb046a0eba5303a55110
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 11 21:01:46 2023 +0900
+commit 72bc07543dd0def9ebe56600a18bd2c9114887e9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 11 20:59:57 2023 +0900
+    [김재현/UI] UIPanelGacha 및 UIGachaConfirmPopup 연결, Entities namespace 누락된 부분 추가
+commit a94b6e652a61d5b4edb74a0fff84acb205c61f52
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 11 15:19:33 2023 +0900
+commit 481cc284e7bdf1d1e7bd6df9086ac32a9987716e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 11 15:16:41 2023 +0900
+    [김재현/Table] 테이블 데이터 TimeSpan / DateTime 파싱 오류 수정
+commit b9305e193fd16a2585823d27ff21ddc9abe4704f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 11 15:13:30 2023 +0900
+    [김재현/UI] 가챠 UI 작업중 임시 커밋
+commit 96682662f5041158e85134e4a257c7150ff3abe4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 10 22:25:27 2023 +0900
+    [김재현/UI] UIPanelGacha 에 HorizontalScrollSnap 적용, 현재 페이지에 따라 상단의 탭 버튼 컨트롤 추가
+commit 489aacb8414d20d09f2ff9ce6c020468e2553714
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 10 17:33:23 2023 +0900
+    [김재현/UI] 가챠 UI 스크립트 작업중
+commit 1f57e63a3bcd6ec086921753a0e59126786c6810
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 10 15:38:15 2023 +0900
+    [김재현/Table] PowerChips 최신 테이블 데이터 적용, SkillData 컬럼 오류 수정
+commit 14def5a3f5b9e822e177d81430653aa594641e72
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 10 15:34:48 2023 +0900
+    [김재현/ObjectPool] 오브젝트 풀에서 UI를 release 한 이후 다시 가져오지 못하는 문제 수정, _poolDict에서 UI를 가져올 수 있도록 수정
+commit b328e16cde8793adc5d73ac835bfb7d045d61d89
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 9 20:03:38 2023 +0900
+    [김재현/UI] CustomContentSizeFitter의 max 값에 0이 기본으로 적용되어있어, component를 추가할 시 0, 0 사이즈로 줄어드는 문제 수정
+commit 7678ba019d7b693125160ed00fdb5b7e23c01893
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 9 14:48:51 2023 +0900
+    [김재현/UI] 상품 구매 팝업 이름 변경, UIPanelShop 구조 수정, CustomContentSizeFitter 스크립트 추가
+commit 447bf14070459c5b68b617ca042bd17f79bb4f3b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 9 11:38:34 2023 +0900
+    [김재현/UI] UIBaseComponent 의 Close() 내부에 UIManager.ReleaseUI() 함수 호출하도록 변경
+commit ed8d6e334ce9e7436edcfc159ab4e200cea88178
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 9 11:37:47 2023 +0900
+    [김재현/Table] ItemBox, Product_ 관련 테이블 최신화
+commit bae9b09f0efeb92517862be981e9ca44269a3447
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 9 11:36:05 2023 +0900
+commit 55f743ad1d86d51710ba1b7008d39b5009de5a9d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 9 11:35:44 2023 +0900
+    [김재현/Barrack, ItemBox] UI 수정 및 테이블 변경사항에 따라 코드 수정
+commit 50db858f01a15537562f48af2831f9eb265da471
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 3 18:41:59 2023 +0900
+commit ca366d515b0ed84c27116ec03c71e82bf71bbee0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 3 18:41:21 2023 +0900
+    [김재현/기지, 파워칩] 파워칩 부여 관련 서버 에러나는 문제 수정
+commit 279eb88c6ee62e06d9eb52089f5060078b63a409
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 3 14:45:28 2023 +0900
+    [김재현/기지] 소지하고있는 트랜스포머/파워칩이 존재하지 않을 경우, 에러가 나는 문제 수정
+commit f0c337fe8ed164186dd3041a4f5d7a77847d5ca3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 3 14:07:25 2023 +0900
+    [김재현/카메라] UICam 을 기존 메인 카메라에 Stack 으로 쌓아서 사용할 수 있도록 UICameraManager 스크립트 추가
+commit c6043681cb21396d4b43709929034b03cd4aee3b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 3 11:41:44 2023 +0900
+commit 71f074f4e62b5114bad3c4e4383f73d7ce35434f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 2 19:38:16 2023 +0900
+    [김재현/Table] DateTime 을 TimeSpan으로 반환하는 형태로 수정했던 부분 재수정
+commit bb4d3eab3ad3a314d2ba775bc2e1dbe5513663a4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 2 19:28:35 2023 +0900
+    [김재현/Table] 테이블에서 Time 을 받아올 때 TimeSpan 으로 받아오도록 수정
+commit d8d1bec928cd786a905ec251c6fc06764137639b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 2 19:24:34 2023 +0900
+    [김재현/아이템박스] Blessing 사용 관련 UI 및 시스템 작업 완료
+commit c9dc8758ac6c68aa5c522e90bb086a8f87fdc84f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 28 18:47:15 2023 +0900
+    [김재현/서버 통신] Product List 받아오는 패킷 수정에 따라 추후 수정 예정
+commit 02cb86a0bf48e90290fa961278f6d3279abe8f13
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 28 18:38:02 2023 +0900
+    [김재현/아이템 박스] 포션 사용 기능 개발, 버프 사용 기능 개발 시작, UI 작업
+commit 5c1726636d4cbd11fc1e7e138fa1f580e1c88d3c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 28 17:57:18 2023 +0900
+commit 2104e1a127731f1a402c3013af922ab00299bb47
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 28 17:56:07 2023 +0900
+    [김재현/서버 통신] TableConstants, SharedConstants 최신화
+commit 4fdbd9672ca9348b9b888fa2385c2e7cd17f2c5b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 27 21:45:37 2023 +0900
+    [김재현/아이템박스] 아이템 박스에서 포션 사용 기능 추가 및 UI 작업사항 커밋
+commit 89625181feab17ee84eede0d50ea771caded5d15
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 27 15:54:35 2023 +0900
+    [김재현/Table] TFBasicStatus 변경으로 인한 데이터 처리 수정
+commit 0205b9d7417b342291f0787a25aca548805be6d6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 27 15:50:48 2023 +0900
+commit 5dce92ded3d4dce850a40ec643a81b1ddfa3a7af
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 27 11:33:35 2023 +0900
+commit 3fd5056e9f50af63b31aa10061e32378d4783017
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Apr 26 20:46:55 2023 +0900
+    [김재현/아이템박스] 아이템 박스 UI, 아이템 정보, 아이템 버리기 팝업 UI 작업
+commit 1b7ce631c4141148d1d8c4128f646ea995ad53a9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Apr 26 18:50:50 2023 +0900
+commit 918e35dfbd82e7e5e1d42be4fc1f49182809f7f7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Apr 26 18:50:37 2023 +0900
+    [김재현/Table] 테이블 관련 데이터 최신화
+commit 5d489d3f6fd6e024e3f6cfb467858642110d6256
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 25 18:41:05 2023 +0900
+commit 32564651b40ba03277e7274745e15d07b6d2c114
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 25 18:39:22 2023 +0900
+    [김재현/아이템박스] 기초 UI 및 프리팹들 생성, 필요한 Entities 추가 생성
+commit efc578ceae26171ea013b385c3ad5e813a813e41
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 25 17:04:13 2023 +0900
+    [김재현/UI] TransformerThumbnail, PowerChipThumbnail 프리팹 이름 Constants 에 추가
+commit df7f47f965978eefa54d452f535a05bdcd96edec
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Apr 24 18:53:16 2023 +0900
+    [김재현/UI] UIPanelBarrack의 Search  기능 및 연출 변경에 따라 코드 수정, ThumbnailListPopup에도 적용
+commit d645deab82ed178648f89004f9f6d45508a1c8de
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun Apr 23 16:52:04 2023 +0900
+    [김재현/파워칩] 파워칩 부여 (Install) 기능 구현 및 UI 세부 수정, EventManager 이벤트 중복 실행 기능 추가
+commit 44a9e05b4d8460268ffbfac7fc728ae870202684
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 21 18:04:42 2023 +0900
+commit 50ee21b8c7bcaac0ab23deffe5015018517db07b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 21 18:04:10 2023 +0900
+    [김재현/Table] 스페셜 스킬 테이블에 TFId 추가
+commit 7276cd67044df68e164a6517766d3e1058894d96
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 21 15:37:28 2023 +0900
+    [김재현/기지 UI] UI팀 요청으로, 이미지 및 텍스트 그라디언트, 아웃라인 기능 추가
+commit 6692cdc671d779d2d2ecfa59dd7e8c8de307b399
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 20 20:30:54 2023 +0900
+    [김재현/파워칩] 파워칩 UI 작업 및 구조 수정
+commit 5832f41b74a68fe71d52514eaa65592a618abbd7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 18 19:52:56 2023 +0900
+    [김재현/스킬, 파워칩] Tag 스킬 테이블이 하나로 합쳐짐에 따라 Enum 추가
+commit c89f06c8241e5b5e81a5313806df42b7c2cd1ea6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 18 19:44:17 2023 +0900
+    [김재현/파워칩] 파워칩 UI 및 시스템 작업
+commit ef0826355b1e7d3ba3214400aa33e3184e7db557
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 14 17:11:12 2023 +0900
+    [김재현] TestBuildScene의 MainGame 버튼 (로그인으로 넘어가는 버튼)을 QA/LIVE 일 때는 비활성화 하도록 수정
+commit 38c1d67207cd5603b0bc2a29e4127b2e5a5e6aa1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 14 16:49:40 2023 +0900
+commit d75f35c7e47cfc701cb7b5eb07679e46cb8d836f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 14 16:48:18 2023 +0900
+    [김재현/기지, Table] 기지 UI 작업
+commit 9d7e520ba166ee54fbc02514308b114f3eb3d668
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 13 15:03:42 2023 +0900
+    [김재현/Table] enum 변수명 변경해서 사용하던 부분 원복
+commit 2cf13b5b8af5e69a6d98984627385fda425f4c40
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 13 14:58:22 2023 +0900
+    [김재현/Table] SQLite Enum parse 기능 추가로 인해 기존에 사용하던 enum parse 부분 삭제
+commit b9dbb1a7dcea68c27ce352536080162412c31452
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 13 14:47:19 2023 +0900
+commit 2183834cbba2d531263c5be58caf49f708500228
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 13 11:30:07 2023 +0900
+    [김재현/기지] Search, filter 기능을 위해 UI 프리팹 수정
+commit 567b598ee6e419ef5e902148d6c82c41c86374f3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Apr 12 22:58:32 2023 +0900
+    [김재현/기지] 공용으로 사용할 수 있는 FilterManager 기능 추가
+commit 62dda3439948294ef4702b03966f253aaf5565af
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Apr 12 17:35:01 2023 +0900
+commit 347b2563e6db037437256a58204e300d4cd7b71d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Apr 12 17:32:09 2023 +0900
+    [김재현] Barrack 작업분 커밋, 테이블 데이터 load 시 enum 값을 못읽어 오는 문제 수정 (Parser 추가)
+commit 84887104417e6dd42a1b1bf7f405d38e412c7734
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 11 14:00:43 2023 +0900
+commit b57fac58bf1af8e310d3e4c69161c5e1b8dced2c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 11 13:59:03 2023 +0900
+commit efd130a8a3f317feeb1318340b0a3de7f0d48629
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 11 12:59:00 2023 +0900
+    [김재현] TF 상세보기 UI 작업 및 Popup 기능들 추가
+commit 10f2dab7c4e151cd07211dd59e7edc216335c07e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 11 12:06:45 2023 +0900
+commit 616d1a355d55f73712de886729f6e21d4ab8223b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 7 12:57:40 2023 +0900
+    [김재현] ScrollSnap 관련 에러 수정, Popup enum 추가
+commit 1b01b9746219f97890d6e88cf02cb41e8282cafd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 7 12:52:33 2023 +0900
+    [김재현] IScrollSnap 스크립트 누락분 추가
+commit 75c2fec4129563339fd531aab751a58227acecf6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 7 12:49:16 2023 +0900
+    [김재현] UI 작업 및 서버 패킷 추가, UIExtension의 ScrollSnap 추가
+commit a6ef373c82f0ab9933645e8959b4b08be46829c7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 6 12:50:06 2023 +0900
+commit 9dbe16ec28875b9d5b4cd32000ab36bb7d8ae704
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 6 12:47:32 2023 +0900
+    [김재현] TransformerInfo에 Grade들, 즐겨찾기 여부 추가
+commit 3dc75bff8ac8ad98f2327a338df51a055228cb79
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 6 12:45:55 2023 +0900
+commit 106871086d6bec0ac0a18044f385085884526e65
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Apr 5 19:55:24 2023 +0900
+    [김재현] 상세보기 페이지 리소스 네이밍 수정, UITFDetailPopup 프리팹 수정
+commit ab5191041ce11d73185379c7cdd4b6fc2ec4940f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Apr 5 12:36:39 2023 +0900
+    [김재현] BarrackData 클래스 이름 변경 -> BarrackDataManager
+commit 0a6378c3c86b454b1d32f1c87b219c0fff4dd7bc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Apr 5 12:28:34 2023 +0900
+commit cea9be2a5adc79e73229915ead6e3b42eb4e11ba
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 4 16:22:43 2023 +0900
+    [김재현] Barrack UI 및 Data관리 로직 분리, GameManager 에서 관리 할 수 있도록 수정
+commit 626576d2481675c86788cd1750efa7895c9014ac
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Apr 3 18:30:06 2023 +0900
+    [김재현] TransformerStat 세팅 중 TransformerId 대신 CardId 를 이용해 테이블을 검색하는 부분 수정
+commit 962ecfbf4fe6e5d6ddf719769124424861e596f1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Apr 3 18:05:38 2023 +0900
+    [김재현] TF 배럭 기작업분 커밋
+commit bd6078a79e64c244665a09e616bdddfb3d5e3c69
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 30 18:21:24 2023 +0900
+    [김재현] TFBasicStatus 기존 테이블의 오타에 따라 Health 가 Heath로 표기되어있던 부분 수정
+commit 7611582d33d94a6ce42d1350f37ab72280fb57a0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 30 17:01:32 2023 +0900
+    [김재현] DB 최신화, TFReferenceTable 용 entities class 생성
+commit b17c123f1ea6a9ecb347aa4f7108d9c55142239b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 28 16:32:11 2023 +0900
+    [김재현] LoginState에 맞게 Login 스텝 정리
+commit 7cbf9c2d18bf1321b4dd857ab05f2437cd1c2d1c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 28 11:17:34 2023 +0900
+commit 5faead91167445e38362e25c6c550f11d8b7f626
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 28 11:14:33 2023 +0900
+    [김재현] 병영 제작 기반 데이터 셋  추가, 서버 통신 패킷 추가
+commit 8c1fb38692367559fdc791467109aa0d51217d91
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 23 16:02:51 2023 +0900
+    [김재현] 로딩 화면 없이 Lobby state 를 변경하는 코드 병합
+commit 6edeef8429a8a9c27adea620ca0a8bae6c2a5421
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 23 15:01:09 2023 +0900
+commit c76aa25c2001b241aa18b14c05cc7721e62562ab
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 23 15:00:51 2023 +0900
+    [김재현] TF 소환 게임 GDC 관련 Define 삭제, MinigameScene 삭제 BuildSetting 적용, TestBuildScene 텍스트 변경
+commit 6526cb190e0a959283d684b9f1b91f19a5f1e2be
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 23 14:15:42 2023 +0900
+    [김재현] TF 상세보기 팝업 코드 수정, TestBuildSceneController에서 MinigameScene으로 연결되는 부분 Lobby 씬을 사용하도록 수정
+commit 227435a7e35bc4a8c141c524e3acb797a758f4d3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 23 12:56:49 2023 +0900
+commit 8dbf16718af7dc7efece95037b5d22b942368fe9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 23 12:56:42 2023 +0900
+    [김재현] TF 소환 게임 코드 정리
+commit fc014e99e51aa380425487aaa6a88169c4c01813
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 22 16:37:16 2023 +0900
+    [김재현] TF 소환 게임 코딩 컨벤션에 맞춰 수정
+commit a4fdddb2f2bcff5ec0247cf0339ab96746176884
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 22 15:44:47 2023 +0900
+    [김재현] TF 소환 게임 Event 삭제 추가
+commit 84651947646ab68473384799a9985152271823cf
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 22 15:40:21 2023 +0900
+    [김재현] TF 소환 게임 코드 정리
+commit 2af188ee46a5ac570261ea61bb3c89a32535a5fa
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun Mar 19 19:45:10 2023 +0900
+    [김재현] TF 소환 게임 MinPower 100으로 수정
+commit 7f33f8b032c5ba899b2f8abfb7be33a9073a2c36
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun Mar 19 19:39:38 2023 +0900
+    [김재현] TF 소환 게임 최소 발사 파워 강제로 80으로 고정
+commit 0b4df0bd9b5fa6c56da437cae871bb98f5439b3d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun Mar 19 19:12:15 2023 +0900
+    [김재현] Live 빌드와 GDC 빌드에서는 SRDebugger가 작동하지 않도록 수정
+commit 17b5c8174b532742a047703e9f59b4225e060451
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun Mar 19 19:05:48 2023 +0900
+    [김재현] TF 소환 게임 테스트용 log 삭제
+commit e8d49b4457c4d3eb109120eb75d0b8b49587276a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun Mar 19 19:04:55 2023 +0900
+    [김재현] TF 소환 게임 발사각 45도 ~ 135도 사이가 아니면 발사가 되지 않도록 수정 (중앙 = 90도)
+commit c5288e848b2427aabb62bee77ac360f6860c923d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun Mar 19 18:32:02 2023 +0900
+    [김재현] TF 소환 게임 - 세부보기 팝업 Open, Close 사운드 추가, 소환게임 진입 시 팝업 닫히는 소리가 나던 문제 수정
+commit 6c9086ec6c7e8334891b7c32c6e60a5f0cd07173
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun Mar 19 18:15:55 2023 +0900
+    [김재현] TF 소환 게임 버튼 사운드 추가, Detail View 애니메이션 및 백그라운드 작업 추가 (LBS 씬으로 연결되게)
+commit d252cc62fc1af6b6649e4a38da4eb6e39cf6c05f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun Mar 19 16:35:53 2023 +0900
+commit 6152a2633b6be3233f80ddd66c1fd2c6550b310a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun Mar 19 16:35:49 2023 +0900
+    [김재현] 상세보기 UI 세부 조정, 사운드 작업 누락된 부분 추가
+commit a0015489d8010927ac0aa3f9d4359de47d831070
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun Mar 19 16:01:34 2023 +0900
+    [김재현] TF 소환 성공 후 상세보기 팝업으로 연결되는 기능 추가
+commit fafe8368021c149db30a68043269cbdd94be8541
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 17 22:38:45 2023 +0900
+commit a762a46e5861dd249fa38141581fb82b7d48652e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 17 22:38:11 2023 +0900
+    [김재현] TF 소환 게임 추가 수정사항 적용
+commit c1a1a37c86012c69ed1b701d5e3b1f7c6bd4bf80
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 17 18:28:21 2023 +0900
+    [김재현] TF 소환 게임 재진입 시 포탈 문이 닫혀있지 않은 문제 수정
+commit 4351caba89e34c818ef361e24a89608bb7d9adc5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 17 15:48:16 2023 +0900
+    [김재현] TF 소환게임 종료 후 LBS화면으로 나왔을 때 맵이 로딩되지 않는 문제 수정
+commit 54dda2141a24936c47e47ba22614613b8c23c570
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 17 15:31:16 2023 +0900
+    [김재현] TF 소환 게임 Animation 수정
+commit f525be1d0041f648f442f7184b9755849fb4cb6a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 17 14:40:18 2023 +0900
+    [김재현] 소환게임 Spark 생성 오류 수정, Portal FX 컨트롤 위치 수정
+commit 94a0088dcc341261529136948587ede9b729b062
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 16 19:42:33 2023 +0900
+    [김재현] TF 소환 게임 사운드 추가, SKip 버튼 변경
+commit 181cf068a770bcbcfee66b92d2e96a37496aad6d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 16 18:49:44 2023 +0900
+    [김재현] TF 소환게임 이펙트 정상화, 카메라 설정
+commit 25a9c516ddd83703925a6c94dfcd804e275e86cf
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 16 21:31:40 2023 +0900
+    [김재현] 소환게임 UI 애니메이터 수정, Goal 이펙트 재생성
+commit 601726f2a9f2f74918651700c557112a8350591a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 16 19:42:33 2023 +0900
+    [김재현] TF 소환 게임 사운드 추가, SKip 버튼 변경
+commit 2e8ef8dd80b5f8bd5ab79a2f46549a6c182acaf9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 16 18:49:44 2023 +0900
+    [김재현] TF 소환게임 이펙트 정상화, 카메라 설정
+commit b064558d5502b533d923e8539b6f51216bd3f618
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 14 19:20:29 2023 +0900
+commit aaf7a8c834cd8779a111000d7b124378f1cd9a2f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 14 19:19:58 2023 +0900
+    [김재현] 소환게임 UI 사이즈 조절
+commit b38eaeba4bc85e7648615684dbece5ca8abc5311
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 14 16:36:45 2023 +0900
+    [김재현] TFSummonGame 관련 코드 정리, Spark fail 시 벽에 부딛히는 이펙트 생성
+commit c7c4403a743ff499fb0a671db7de4b27a68e6556
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 13 20:57:46 2023 +0900
+    [김재현] TFSummonGame 정상화
+commit d200cbeda5183c48c1835f163e501686b107abb2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 10 19:22:22 2023 +0900
+commit dc600393356929fb50aa8a87e24ce1d4caec2cf8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 10 18:42:17 2023 +0900
+    [김재현] GDC 대응 획득 성공확률 전부 100%로 설정
+commit 536b6edd63c9dd15ca7260160ef7be208c2f78b4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 10 17:38:56 2023 +0900
+commit 25c44ded1b81c6503b8d6255bf17c39ca94a49fa
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 10 17:37:45 2023 +0900
+    [김재현] GDC 버전 TFSummonGame 오류 수정
+commit 3da6b0163301e0ba90f68a64cba0f29004071723
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 10 11:55:27 2023 +0900
+commit 11ee82e3ddd7e278fcc3f5a2b88677181b13cc16
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 9 19:16:31 2023 +0900
+    [김재현] TF 소환 게임 UI SparkThumbnail 클릭 시 인벤토리가 닫힐 수 있도록 수정
+commit 375dc76a28087052cc3ab1f5232ec0088647bc60
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 9 12:42:19 2023 +0900
+    [김재현] MinigameScene 폐기 절차 - LobbyScene 으로 연결되게 수정, 기타 세부 수정
+commit d1de1e19e63bd3cd93a5ce96d63a210cbfd68809
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 8 17:21:56 2023 +0900
+    [김재현] MinigameScene 폐기절차 - LobbyScene으로 통합
+commit 6cf9d8365d20240ca84af6c7bc3e3c2412566a62
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 8 11:51:56 2023 +0900
+commit 06224236793848b2e1399563a3d1ade2fc19c95f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 8 11:49:27 2023 +0900
+    [김재현] LobbyScene, MinigameScene 병합 전 Unity에서 실행이 불가능한 문제 임시 수정 (병합 작업 완료 후 되돌릴 예정)
+commit 4b2a3c118baad63685540393df4a9ccd9770d661
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 8 11:00:09 2023 +0900
+commit 65fe87182739a7cc3de6f40362c7c7babc2fdfd8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 7 19:51:01 2023 +0900
+    [김재현] TF 소호나 게임 Idle 애니메이션 적용
+commit 83e9fdc98c92348bf3177993ba445efc7a6104f5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 7 19:39:12 2023 +0900
+commit d4afaabef610c9e52380b623742d1c6a7c51f4c6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 7 18:35:40 2023 +0900
+commit 46a3a7987b8feabe688fecc72dbabd9ddef7e98f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 6 18:43:32 2023 +0900
+commit 2c2adc574a1418cd86c96aa2b39d44269527f3a0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 6 18:43:17 2023 +0900
+    [김재현] TF 획득 연출 도중 BG FX 활성화 / 비활성화 기능 추가
+commit a168a02f16e062e83d107b8510d3fb93a7095b20
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 6 16:53:26 2023 +0900
+commit b5befb7d8214472acb0479915511d2a67becd789
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 6 16:51:13 2023 +0900
+    [김재현] TF 획득 성공 / 실패 연출 스킵기능 추가, MinigameScene 내부 사용하지 않는 오브젝트 정리
+commit b88ac2fd4d59a1f9f0f091a4652e6b0067258102
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 2 19:31:03 2023 +0900
+    [김재현] Apple 로그인 버튼 연결
+commit 14ef0c9f32296b55d4307f3b2e3dc03a2986a18e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 28 17:19:38 2023 +0900
+    [김재현] TF 소환 게임 - UI 추가
+commit 7c22993d68b0ca875b5bfe64e8eef8d5e876b114
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 28 17:14:47 2023 +0900
+    [김재현] TF 획득 게임 - 범블비 이펙트 적용, 폴더 구조 수정
+commit 433e4e4bcdf5f207df87696a9e8f5e577cb70c9b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 27 18:19:11 2023 +0900
+    [김재현] TF 획득 게임 성공 / 실패 연출 추가 및 연결
+commit 67ea1d12f593ec2af38fa48f55fafa7cf7d72531
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 27 15:32:47 2023 +0900
+commit 89028ca290d479444540dae804b190b90ac4fd65
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 27 15:06:00 2023 +0900
+    [김재현] 아트팀 요청 - TFON 렌더링 파이프라인 에셋 추가, Beautify에셋 추가
+commit a11ec6cf2ffbfd5c47ef226a45e9d4665acb4160
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 27 14:59:20 2023 +0900
+    [김재현] TF 획득 게임 좌우측 가이드 라이트 수정, 폴더구조 변경
+commit 9eaa7d67f3b1b0c8d7a5ccf5515260f22d041930
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 27 11:46:16 2023 +0900
+    [김재현] Lobby scene에 TF summon game 관련 오브젝트들 추가
+commit a4d42d8bb212a9ac7c5e5d78c44ab3d0fb947268
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 23 18:47:42 2023 +0900
+    [김재현] TF 획득 게임 스파크가 벽에 부딛히는 이펙트 생성기능 추가
+commit 7e09d7806eb35d22ebb3aaf8e27b555db7c12112
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 23 14:19:27 2023 +0900
+    [김재현] UnityEditor용 스크립트 AnimatorController를 사용해서 테스트했던 부분 주석처리
+commit f53d10f43cc2be7937690008113a06f65f159521
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 23 11:08:43 2023 +0900
+    [김재현] 미니게임 네이밍 변경, TF 획득 연출 기능 추가
+commit 3638870db9171406f97fc93b94f8b20a4c72fcf9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 22 15:26:00 2023 +0900
+commit 3d9235fb7104c8e932250f4f40f4fc45bab3fc07
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 21 18:11:55 2023 +0900
+    [김재현] TF 획득 연출 테스트 및 추후 추가될 다른 타입에 대비해 PlayableAsset 교체 테스트
+commit fa0305641aa44b4222c4386a8e7b639078d3af7f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 21 14:58:32 2023 +0900
+    [김재현] TF 획득 게임 성공 시 획득 연출 기능 추가
+commit fef99317567c8ab9c1100997f1e23aa692b6e124
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 17 17:10:02 2023 +0900
+    [김재현] System 토스트 message 프리팹 수정
+commit 9d4396b9c539535be93e453c9b7e1f33f16bed80
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 17 16:09:54 2023 +0900
+    [김재현] UIDialogPopup 이미지 수정 및 기능 수정, 내부 텍스트, 버튼 사이즈에 맞게 자동 사이즈 조절되게 수정
+commit b701d7e93ab114c3cd549942ef21b874d60d5a5f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 17 11:43:45 2023 +0900
+commit 662cea4548db7b85ec35b74a7fa04513b71b5d88
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 17 11:17:53 2023 +0900
+    [김재현] 에셋번들 로딩 화면에 빌드 버전 텍스트 추가
+commit cefdebbdb4a69c8e4b17f2578618a7fa94fbedc2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 16 19:18:24 2023 +0900
+    [김재현] Login Panel, Loading 프리팹 수정
+commit 8d74c0c280db49ed0bdd43e1aefaea76d88862ed
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 16 17:05:56 2023 +0900
+commit 2598579f448ae147a1a966ee755a00a027934183
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 16 15:46:27 2023 +0900
+    [김재현] UIPanelLogin 프리팹 수정, 은아님 작업사항에 맞춰 기존 기능 연결
+commit e92dea9f52f36eaa682219f2aa31153c864c5dcb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 16 11:58:46 2023 +0900
+    [김재현] TEST - 각 부서에서의 테스트를 위해 임시로 다시 UIPanel, Spark 생성 부분 주석처리, SerializedField로 연결
+commit bae2730fc5217d07075e760c3c9caa3ad6ec9683
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 16 11:49:46 2023 +0900
+    [김재현] StreamingAsset 번들 빌드 시 Target file name 이 아닌 폴더 경로를 바라보고 있어 오류가 발생하는 문제 수정
+commit 17a25fd9ad5d84bc309faabfd10e25e5d4f95c54
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 15 18:41:30 2023 +0900
+    [김재현] 미니게임 코멘트 따라 수정, TODO 작업
+commit 22d7de073b62a8d3b04bf587af11d8a179580b56
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 15 14:48:18 2023 +0900
+commit ad032e2aefdd06bc73a9a86041bc228a8f2ff67f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 14 15:18:39 2023 +0900
+commit 4712f07e49776f46a72228cfd69b9b44fab8ab6a
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 13 14:29:45 2023 +0900
+commit bf395279eb9e45e99827e5ec61630d36866b9152
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 13 14:29:26 2023 +0900
+    [김재현] 이사님 피드백 따라 수정
+commit b42dbb4ebec8cad506fbe99cfe2b370e0f99bc4d
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 13 11:31:24 2023 +0900
+commit 7abe618bc1eceadf889481f3debbdc46c2e2fcd2
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 10 16:59:42 2023 +0900
+    [김재현] 현종PD님 요청 - Spark 이동 시 가속도가 붙어 점점 빨라질 수 있도록 가속도 변수 추가, Edit 버튼으로 수정 가능
+commit e7b1419adcbff83eb12b5981e4407d27eab11279
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 8 17:26:57 2023 +0900
+    [김재현] 미니게임 위치 인식 라이트 추가, Animation 임시 추가, Test 용 파라미터 중 변경되지 않을 값 삭제
+commit 042b88dbd75c9d48f9103dbf181ea44ce5851cec
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 7 19:31:56 2023 +0900
+    [김재현] 스파크 이동거리에 따라 작동하는 GuidingLight 임시 적용 (추가 개발 필요)
+commit 8762836dc3d7d1260d5d6b42e4b3834e9427c280
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 7 11:10:12 2023 +0900
+commit e8dc651fd365d3c111babde484fe487a3ef0f883
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 6 19:23:31 2023 +0900
+    [김재현] 미니게임 3D resource 적용, 거리 감지 라이팅 파티클 추가
+commit f4073af068d97a3893d8fa0c95bbb7807036df21
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 6 14:17:09 2023 +0900
+    [김재현] 3D 리소스 추가 및 MinigameScene 수정
+commit 9f48e134b2181cf11e800f3368d59ceb18605ea5
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 6 14:05:09 2023 +0900
+commit f0f2a2ee1b8a2313474c3e654084b284644f54fe
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 3 17:33:15 2023 +0900
+    [김재현] 미니게임 배경 3D 오브젝트 리소스로 MinigameScene내의 배경 교체 작업 (미완)
+commit 920d47a4d4ff9d9c8ab579806057f418b26bce93
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 2 18:17:29 2023 +0900
+    [김재현] 인앱결제 주석 추가
+commit 2b1fe1eb280032b2b00ca476fed04bdeeba2fc12
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 2 18:16:57 2023 +0900
+    [김재현] 스크립트 이름 변경 및 주석 추가
+commit ca6df73775d8db7539ab49068b15355cbfb3e132
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 2 18:15:32 2023 +0900
+    [김재현] 인앱 결제용 StoreManager 로직 추가
+commit 289110ddb8b33a29fd66c443c0b1e5fdc9004dc9
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 1 13:01:28 2023 +0900
+    [김재현] 코멘트에 따라 수정
+commit a1659bc90fed83250f53893b498a07d0d946da4d
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 31 19:16:21 2023 +0900
+    [김재현] SafeRect 기본 설정 변경, MinigameScene, TestBuildScene 의 ui 들에 SafeRect 적용
+commit b1f55a4d98a383918bf39d8c162e3fd0c6cf2e00
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 31 15:58:00 2023 +0900
+commit ba036acca9b471d6261700b55f1253de2616b8ce
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 30 18:39:42 2023 +0900
+    [김재현] 실기 테스트를 위해 prefab 파일 경로 임시 변경, 미니게임 설정 추가
+commit 86ea1bedf081da65ca2420800a2ded61098db1a1
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 30 12:07:07 2023 +0900
+    [김재현] Spark 발사 방식 변경, 임의로 획득 확률 표기기능 추가
+commit 8f2ab4dd79449364e7db75a5edb17692f05eb0e2
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 30 10:09:43 2023 +0900
+commit 1e581d262c78a376b0d233b298937fc13884e093
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 26 17:00:17 2023 +0900
+commit 4225e2379a1127feba9e4dbf46253b492bf972a5
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 25 17:22:32 2023 +0900
+    [김재현] MinigameController, MinigameTestScene 네이밍 변경
+commit 35f5da8a2fcf9697506076446a8efbe18bb7163c
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 20 15:52:59 2023 +0900
+    [김재현] AssetBundleResource 다운로드 기능이 없어 일단 Instantiate 로 변경
+commit 9573133fcb111b4d65d6d026ad06505a60dad6d4
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 19 15:23:31 2023 +0900
+    [김재현] 미니게임 Spark (공)에서 보내는 정보는 Event로 처리하도록 변경
+commit d0b9d28c98aef028562757784087ed23dbd14b45
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 18 18:44:15 2023 +0900
+    [김재현] 미니게임 소스 수정
+commit 5cd2bdb7bfcd85c6156b76e041260cef4c2ec18f
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 18 16:45:38 2023 +0900
+    [김재현] 미니게임 팝업 프리팹으로 떼어내고, MinigameController와 UI의 연결을 Interface로 변경
+commit b20fb7601bb1d34f5d4b2f961c023672c41046f2
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 16 17:15:42 2023 +0900
+    [김재현] 미니게임 소스 정리, Spark 세팅 수정
+commit 0c5a5cfb3d76b998b52d001827107b8b66750999
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 16 16:58:53 2023 +0900
+    [김재현] 미니게임 소스 정리 및 커밋
+commit 4a44fd067feb12a8b598fdf95419b99dd95d2224
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 19 15:25:02 2023 +0900
+    [김재현] EventManager 에서 Event를 호출하는 메서드 이름 오타 수정
+commit 9e21a08f03d48f6940c10e30768ede787950b8e2
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 13 15:52:59 2023 +0900
+    [김재현] AccountSwitchEditor 스크립트 위치 변경
+commit c882470cbdcdab28dd1630da325450c6da79e3d3
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 13 14:23:27 2023 +0900
+    [김재현] Account switch editor 툴바 상단 메뉴 변경
+commit 2922b52fb78fc8deba91ec5eb2e137ce5bc66155
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 11 11:09:07 2023 +0900
+    [김재현] 소셜 로그인 실기 테스트를 위한 설정 수정
+commit 43452354f3119168e354010ce84ab9c07cebd082
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 9 18:08:47 2023 +0900
+    [김재현] 실기 테스트를 위한 빌드 에러 수정
+commit 3a74d37487081e1c4e90b79dcf8c05cda1fa8606
+Author: Cyril Kim <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 9 17:47:05 2023 +0900
+    [김재현] 소셜 로그인 프로세스 정리 및 Defualt 계정 변경용 에디터 추가
+commit bdf9a5360b593354853ccec5022e04fc14252786
+Author: Cyril Kim <jay.kim1994@gmail.com>
+Date:   Tue Dec 27 19:12:38 2022 +0900
+    [김재현] Merge conflict 수정 (UIBase -> UIBaseComponent, class -> interface)
+commit 7901dc1b97f7febb112093ede39a37d92c2d9b40
+Author: Cyril Kim <jay.kim1994@gmail.com>
+Date:   Tue Dec 27 19:10:34 2022 +0900
+    [김재현] Merge conflict 수정
+commit 569640cb7e732b696556d0ffc2fa02dd05e555cd
+Author: Cyril Kim <jay.kim1994@gmail.com>
+Date:   Tue Dec 27 19:09:12 2022 +0900
+commit e37402aab2e0b11a10f9c6da5992101fa2eabdff
+Author: Cyril Kim <jay.kim1994@gmail.com>
+Date:   Tue Dec 27 19:06:23 2022 +0900
+    [김재현] 로그인 플로우 Interface 적용하는 방식 적용
+commit 41a84b400267b9b17db028dfde02eb80574bda9d
+Author: Cyril Kim <jay.kim1994@gmail.com>
+Date:   Tue Dec 27 15:18:13 2022 +0900
+    [김재현] Social login 기반 제작
+commit 065e4a530605fafab5e3545a49195fe39d6614f1
+Author: Cyril Kim <jay.kim1994@gmail.com>
+Date:   Tue Dec 27 15:17:32 2022 +0900
+commit 3e0771a447d5ddbb6086d88b47c49beaed17a954
+Author: Cyril Kim <jay.kim1994@gmail.com>
+Date:   Mon Dec 26 19:07:33 2022 +0900
+    [김재현] 로그인플로우 TitleSceneController 로 넘기고, UIPanelLogin과 Event로 통신하도록 수
+commit f8daee4d2db7b9d19f7157e0bb7ce7661d23ee2a
+Author: Cyril Kim <jay.kim1994@gmail.com>
+Date:   Fri Dec 23 18:48:16 2022 +0900
+    [김재현] 로그인 플로우 작업
+commit ba72a1d44c65a88a2a0682846fe0cf898bf4e407
+Author: Cyril Kim <jay.kim1994@gmail.com>
+Date:   Fri Dec 23 15:52:26 2022 +0900
+    [김재현] ReqLogin 오류 수정
+commit 5910c93f7cf325bedc7b2dbc956f5250a59322b6
+Author: Cyril Kim <jay.kim1994@gmail.com>
+Date:   Fri Dec 23 15:50:51 2022 +0900
+    [김재현] LoginPacket 오류 수정

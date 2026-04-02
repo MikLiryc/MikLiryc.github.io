@@ -7,8 +7,24 @@
   <link rel="stylesheet" href="/assets/main.css">
 </head>
 <body>
+
+<!-- ── Sticky TOC ── -->
+<nav class="toc">
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#summary">Summary</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#detail-gomap">Detail: GoMap</a></li>
+    <li><a href="#detail-battle">Detail: 전투</a></li>
+    <li><a href="#detail-dialogue">Detail: 다이얼로그</a></li>
+    <li><a href="#detail-ar">Detail: AR 소환</a></li>
+  </ul>
+</nav>
+
 <div class="page-center">
-  <div class="resume-section">
+  <div class="resume-section" id="about">
     <h1 class="main-title">김재현 (Cyril)</h1>
     <div class="subtitle">Unity Client Developer</div>
     <blockquote class="summary-quote">"견고한 시스템 설계와 집요한 최적화로 가치 있는 플레이 경험을 만듭니다."</blockquote>
@@ -18,17 +34,17 @@
     </div>
   </div>
 
-  <div class="resume-section">
+  <div class="resume-section" id="summary">
     <h2 class="section-title">PROFESSIONAL SUMMARY</h2>
     <div class="section-content">
       3년 이상의 Unity 클라이언트 개발 경험을 보유한 개발자로, 대형 모바일 프로젝트에서 <b>전투 시스템</b>, <b>LBS(위치 기반 서비스)</b>, <b>AR 소환게임</b>, <b>다이얼로그 시스템</b> 등 핵심 콘텐츠를 설계·구현해왔습니다.<br><br>
-      <b>확장성 있는 아키텍처 설계</b>, <b>에디터 툴링을 통한 개발 효율화</b>, <b>렌더링 성능 최적화</b>에 강점이 있으며, 이슈를 단순 수정이 아닌 <b>재현 → 원인 분석 → 구조 개선</b>까지 이어가는 방식을 선호합니다.<br><br>
-      <span class="tag">Unity</span> <span class="tag">C#</span> <span class="tag">FSM</span> <span class="tag">Timeline/Cinemachine</span> <span class="tag">LBS</span> <span class="tag">AR Foundation</span> <span class="tag">GraphView</span> <span class="tag">Object Pooling</span> <span class="tag">Mesh Combine</span>
+      <b>확장성 있는 아키텍처 설계</b>, <b>에디터 툴링을 통한 개발 효율화</b>, <b>렌더링 성능 최적화</b>에 강점이 있으며, <b>에셋번들 관리</b>, <b>SQLite 데이터 파이프라인</b> 등 프로젝트 인프라 영역까지 폭넓게 담당합니다. 이슈를 단순 수정이 아닌 <b>재현 → 원인 분석 → 구조 개선</b>까지 이어가는 방식을 선호합니다.<br><br>
+      <span class="tag">Unity</span> <span class="tag">C#</span> <span class="tag">FSM</span> <span class="tag">Timeline/Cinemachine</span> <span class="tag">LBS</span> <span class="tag">AR Foundation</span> <span class="tag">GraphView</span> <span class="tag">Object Pooling</span> <span class="tag">Mesh Combine</span> <span class="tag">Asset Bundle</span> <span class="tag">SQLite</span>
     </div>
   </div>
 
   <!-- ═══════════════════════════════════════ WORK EXPERIENCE ═══════════════════════════════════════ -->
-  <div class="resume-section">
+  <div class="resume-section" id="experience">
     <h2 class="section-title">WORK EXPERIENCE</h2>
 
     <!-- ────── 파트장 기간 ────── -->
@@ -36,16 +52,20 @@
       <div class="exp-period">2024.11 ~ 현재</div>
       <div class="exp-main">
         <div class="exp-company-row">
-          <span class="exp-company">(주)스노우파이프</span>
+          <span class="exp-company">스노우파이프</span>
           <span class="exp-role">클라이언트 파트장</span>
         </div>
         <div class="exp-project">Transformers Alliance — LBS 기반 모바일 게임 (Unity)</div>
         <ul class="exp-list">
-          <li><b>전투 연출 파이프라인 구조화:</b> Cinemachine + Timeline 기반 전투 연출을 Intro → Confrontation → SkillReady/Fail/StrongSkill → HealthCheck 상태 흐름으로 재설계하여 연출 코드 유지보수성 대폭 향상</li>
-          <li><b>다이얼로그 시스템 개발:</b> Stack 기반 다이얼로그 흐름 관리, 텍스트 한 글자씩 출력 + 커맨드 키워드 파서(BGM/SFX/CameraShake/Animation) 구현, Memento 패턴 상태 저장/복원, 긴급 통신 수신 연출 연결</li>
-          <li><b>AR 소환게임 연출 고도화:</b> AR Foundation 바닥 인식 정밀도 개선, 균열 탐색 → 미니게임 → 트랜스포머 소환 전체 단계별 연출 플로우 연결, 카메라 각도에 따른 포탈 위치 동적 조정</li>
+          <li><b>전투 연출 파이프라인 구조화:</b> Cinemachine + Timeline 기반 전투 연출을 Intro → Confrontation → SkillReady/Fail/StrongSkill → HealthCheck 상태 흐름으로 재설계하여 연출 코드 유지보수성 대폭 향상 (<a href="#detail-battle">상세 →</a>)</li>
+          <li><b>다이얼로그 시스템 개발:</b> Stack 기반 다이얼로그 흐름 관리, 텍스트 한 글자씩 출력 + 커맨드 키워드 파서(BGM/SFX/CameraShake/Animation) 구현, Memento 패턴 상태 저장/복원, 긴급 통신 수신 연출 연결 (<a href="#detail-dialogue">상세 →</a>)</li>
+          <li><b>AR 소환게임 연출 고도화:</b> AR Foundation 바닥 인식 정밀도 개선, 균열 탐색 → 미니게임 → 트랜스포머 소환 전체 단계별 연출 플로우 연결, 카메라 각도에 따른 포탈 위치 동적 조정 (<a href="#detail-ar">상세 →</a>)</li>
           <li><b>LBS 맵 테스트 시뮬레이터:</b> Unity Input System 기반 에디터 테스트 환경 구축으로 GPS 의존성 제거, GOMap Satellite 모드 대응 (Static Image API 렌더링)</li>
           <li><b>폰트 일괄 교체 자동화 툴:</b> Nested Prefab override 처리 포함, 변경 없는 프리팹 저장 방지 로직으로 대량 프리팹 작업 자동화</li>
+          <li><b>전투력 변화 연출 시스템:</b> 스킬/파워칩 프리셋 변경 시 실시간 전투력 변화량 UP/DOWN 연출, 시스템 팝업 분리로 다양한 진입점에서 재사용</li>
+          <li><b>수량 체크 시스템 (CapacityRestriction):</b> 진입 시점별 보관함 수량 제한, 복수 종류 동시 체크, 초과 시 안내 팝업 및 서버 연동</li>
+          <li><b>전용재화 시스템:</b> 기존 Shard 삭제 후 전용재화 테이블 전환, 관련 UI/패킷 전면 교체</li>
+          <li><b>Unity 6 엔진 업그레이드:</b> 6000.0.29f1 → 6000.0.59f2 마이그레이션 수행, 호환성 이슈 해결</li>
           <li>신규 멤버 온보딩 및 코드 리뷰 프로세스 정립</li>
         </ul>
         <div class="exp-keywords">
@@ -59,33 +79,60 @@
       <div class="exp-period">2022.12 ~ 2024.11</div>
       <div class="exp-main">
         <div class="exp-company-row">
-          <span class="exp-company">(주)스노우파이프</span>
+          <span class="exp-company">스노우파이프</span>
           <span class="exp-role">클라이언트 팀원</span>
         </div>
         <div class="exp-project">Transformers Alliance — LBS 기반 모바일 게임 (Unity)</div>
         <ul class="exp-list">
-          <li><b>전투 시스템 전체 개발:</b> FSM(Intro → Battle → Result) 아키텍처 설계, ATB 행동바, 데미지 표시, 버프 생성/소멸, 원거리 투사체(Trail + Muzzle/Hit FX), 슬로우 모션 연출, 재전투 루프, 전투 결과 보상 UI 등 전투 전반</li>
+          <li><b>전투 시스템 전체 개발:</b> FSM(Intro → Battle → Result) 아키텍처 설계, ATB 행동바, 데미지 표시, 버프 생성/소멸, 원거리 투사체(Trail + Muzzle/Hit FX), 슬로우 모션 연출, 재전투 루프, 전투 결과 보상 UI 등 전투 전반 (<a href="#detail-battle">상세 →</a>)</li>
           <li><b>LBS 시스템 개발:</b> GPS 기반 위치 서비스, GoMap 타일 위의 Static/Dynamic 오브젝트 풀링 및 생명주기 관리, 스태미나 시스템, Collider 기반 인터랙션, Coroutine 분산 로딩으로 CPU 스파이크 방지</li>
           <li><b>GoMap 타일 렌더링 최적화:</b> Material별 Mesh Combine 적용으로 Batches 97%+ 감소, FPS 대폭 향상 (<a href="#detail-gomap">상세 →</a>)</li>
           <li><b>도감 시스템 개발:</b> 트랜스포머 도감 상세보기(3D 모델 회전·변신·감상모드), 미획득 트랜스포머 실루엣 처리(쉐이더), 도감 등록 홀로그램 연출, 필터/정렬 기능</li>
           <li><b>미션 시스템 개발:</b> 챕터 미션/기간 미션/반복 미션 3종 구현, 미션 알림 RedDot 시스템, 보상 수령 플로우, 서버 패킷 연동</li>
-          <li><b>소환게임 개발:</b> 스파크 물리 발사 메커닉, 성공/실패 확률 기반 연출, 트랜스포머 획득 타임라인 연출, AR 진입 흐름, 쇼크웨이브 이펙트</li>
+          <li><b>소환게임 개발:</b> 스파크 물리 발사 메커닉, 성공/실패 확률 기반 연출, 트랜스포머 획득 타임라인 연출, AR 진입 흐름, 쇼크웨이브 이펙트 (<a href="#detail-ar">상세 →</a>)</li>
           <li><b>지휘통제실(기지) 개발:</b> 트랜스포머 상세보기 팝업, 스킬/파워칩 프리셋 관리, InfiniteScrollView 가상화, 정렬/필터/검색 기능, 파워업 연출</li>
           <li><b>에디터 툴 개발:</b> GraphView 다이얼로그 에디터(노드 연결·엑셀 데이터 동기화), 애니메이션 이벤트 체커, UI 컴포넌트(Button→OneClickButton) 일괄 교체 툴</li>
           <li><b>사운드 시스템 리팩토링:</b> BGM Fade In/Out/Blend, AudioMixer 기반 볼륨 관리, 사운드 리소스 테이블 연동</li>
           <li><b>햅틱 진동 시스템:</b> Android Native Wrapper 개발, 테이블 데이터 기반 진동 강도 조정, 애니메이션 이벤트/타임라인 시그널 연동</li>
-          <li><b>공용 시스템:</b> ObjectPool 개선, ScriptableObject 기반 설정 분리, SafeArea 대응, UI Open/Close 공용 연출, 소셜 로그인(Google/Apple) 모듈 연동</li>
+          <li><b>권능의사당 (Temple of Power):</b> 파워칩 생산시설 Additive Scene 개발, 3D 오브젝트 쉐이더 초기화, 생산/수확 타임라인 연출</li>
+          <li><b>에셋번들 관리 시스템:</b> Scene 번들 빌드, Timeline Signal↔SignalReceiver 재연결, 게임 재시작 시 번들 Unload, 다운로드 진행률 팝업</li>
+          <li><b>테이블 데이터 파이프라인:</b> SQLite 기반 DB 관리, work_ 접두사 테이블 교체 자동화, List&lt;enum&gt; 파싱, 엑셀→DB 변환 파이프라인</li>
+          <li><b>보상 팝업 시스템:</b> UICommonReceiveReward 공용 팝업, EXP 카운트업 연출, 코루틴 안전 종료 처리</li>
+          <li><b>상점/가챠 시스템:</b> UIPanelShop/UIPanelGacha 개발, 상품 구매 팝업, HorizontalScrollSnap 배너</li>
+          <li><b>공용 시스템:</b> ObjectPool 개선, ScriptableObject 기반 설정 분리, SafeArea 대응, UI Open/Close 공용 연출, 소셜 로그인(Google/Apple) 프로세스, 닉네임 Validation, Account Switch 에디터 툴, 인앱 결제(StoreManager IAP) 기초</li>
         </ul>
         <div class="exp-keywords">
-          <span class="tag">FSM</span> <span class="tag">Object Pooling</span> <span class="tag">Mesh Combine</span> <span class="tag">InfiniteScrollView</span> <span class="tag">GraphView</span> <span class="tag">Addressables</span> <span class="tag">SQLite</span>
+          <span class="tag">FSM</span> <span class="tag">Object Pooling</span> <span class="tag">Mesh Combine</span> <span class="tag">InfiniteScrollView</span> <span class="tag">GraphView</span> <span class="tag">Addressables</span> <span class="tag">SQLite</span> <span class="tag">Asset Bundle</span> <span class="tag">IAP</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ────── 피구왕 통키 M ────── -->
+    <div class="exp-group">
+      <div class="exp-period">2021.04 ~ 2022.11</div>
+      <div class="exp-main">
+        <div class="exp-company-row">
+          <span class="exp-company">스노우파이프</span>
+          <span class="exp-role">클라이언트 팀원</span>
+        </div>
+        <div class="exp-project">피구왕 통키 M — 피구왕 통키 IP 기반 모바일 게임 (Unity) · 라이브 서비스</div>
+        <ul class="exp-list">
+          <li><!-- TODO: 내용 추가 --></li>
+        </ul>
+        <div class="exp-keywords">
+          <!-- TODO: 키워드 태그 추가 -->
         </div>
       </div>
     </div>
   </div>
 
   <!-- ═══════════════════════════════════════ PROJECTS ═══════════════════════════════════════ -->
-  <div class="resume-section">
+  <div class="resume-section" id="projects">
     <h2 class="section-title">PROJECTS</h2>
+
+    <!-- ────── Transformers Alliance ────── -->
+    <div class="project-group-wrapper">
+      <div class="project-group-title">Transformers Alliance<span class="project-group-sub">2022.12 ~ 현재 · LBS 기반 모바일 게임 (Unity)</span></div>
 
     <div class="exp-group">
       <div class="exp-period">2026.01 ~ 2026.02</div>
@@ -193,6 +240,7 @@
           <li><b>타임라인 커스텀 시그널:</b> Parameter를 넣어 보낼 수 있는 IParameterizedSignalReceiver 구현</li>
           <li><b>애니메이션 이벤트 통합:</b> ScriptableObject 기반 이벤트 데이터로 ShowFx, ShowProjectileFx, PlaySound, CameraShake, Haptic을 하나의 이벤트 시스템으로 통합</li>
           <li><b>애니메이션 에디터 툴:</b> 트랜스포머 선택 후 실시간 이벤트 확인/저장, Ctrl+S 단축키 저장, 데이터를 ScriptableObject로 확인 가능</li>
+          <li><b>전투력 변화 연출:</b> 스킬/파워칩 프리셋 변경 시 전투력 UP/DOWN/NoChange 상태별 연출, 시스템 팝업 분리로 다양한 진입점에서 재사용</li>
         </ul>
       </div>
     </div>
@@ -206,6 +254,18 @@
           <li><b>OneClickButton 교체 툴:</b> 기존 Button 스크립트 멤버를 CooldownButton으로 자동 교체, SerializedField reference 자동 재연결, Nested Prefab 대응</li>
           <li><b>BGM 시스템:</b> Fade In/Out 기능, BGM 변경 시 Blend, SoundSettingConfig로 설정 관리</li>
           <li>전투 배경 씬을 에셋번들에서 Additive 로드, LightingData 및 Renderer 세팅 캐싱</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-group">
+      <div class="exp-period">2025.01 ~ 2025.02</div>
+      <div class="exp-main">
+        <div class="exp-project">권능의사당 (Temple of Power) 개발</div>
+        <ul class="exp-list">
+          <li>파워칩 생산시설 Additive Scene 기반 개발, 3D 오브젝트 쉐이더 초기화 처리</li>
+          <li>생산/수확 타임라인 연출, 시설 업그레이드 UI</li>
+          <li>파워칩 생산 슬롯 관리, 완료 알림 연동</li>
         </ul>
       </div>
     </div>
@@ -296,14 +356,55 @@
         </ul>
       </div>
     </div>
+
+    <div class="exp-group">
+      <div class="exp-period">2024 ~ 2025</div>
+      <div class="exp-main">
+        <div class="exp-project">에셋번들 시스템 안정화</div>
+        <ul class="exp-list">
+          <li>Scene 번들 빌드 자동화, Timeline Signal↔SignalReceiver 번들 로드 후 재연결</li>
+          <li>게임 재시작 시 번들 Unload 처리로 메모리 누수 방지</li>
+          <li>다운로드 진행률 팝업, 번들 버전 비교 및 선택적 업데이트</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-group">
+      <div class="exp-period">전 기간</div>
+      <div class="exp-main">
+        <div class="exp-project">SQLite 테이블 데이터 파이프라인</div>
+        <ul class="exp-list">
+          <li>엑셀→SQLite 변환 파이프라인 구축, work_ 접두사 테이블 교체 자동화</li>
+          <li>List&lt;enum&gt; 파싱 지원, 복합 데이터 타입 직렬화/역직렬화</li>
+          <li>게임 데이터 전체를 SQLite DB로 관리, 런타임 쿼리 최적화</li>
+        </ul>
+      </div>
+    </div>
+    </div><!-- /Transformers Alliance -->
+
+    <!-- ────── 피구왕 통키 M ────── -->
+    <div class="project-group-wrapper">
+      <div class="project-group-title">피구왕 통키 M<span class="project-group-sub">2021.04 ~ 2022.11 · 피구왕 통키 IP 기반 모바일 게임 (Unity) · 라이브 서비스</span></div>
+
+    <div class="exp-group">
+      <div class="exp-period">2021.04 ~ 2022.11</div>
+      <div class="exp-main">
+        <div class="exp-project">피구왕 통키 M — 라이브 서비스 (Unity)</div>
+        <ul class="exp-list">
+          <li><!-- TODO: 내용 추가 --></li>
+        </ul>
+      </div>
+    </div>
+    </div><!-- /피구왕 통키 M -->
+
   </div>
 
   <!-- ═══════════════════════════════════════ SKILLS ═══════════════════════════════════════ -->
-  <div class="resume-section">
+  <div class="resume-section" id="skills">
     <h2 class="section-title">SKILLS</h2>
     <div class="section-content">
       <b>Languages &amp; Engine</b><br>
-      C# (Advanced) · Unity 2022/2023/6 · HLSL (Basic) · Git
+      C# (Advanced) · Unity 2022 / 2023 / 6 · HLSL (Basic) · Git
       <br><br>
       <b>Architecture &amp; Design Patterns</b><br>
       FSM · Command · Observer · Memento · Object Pooling · Singleton · Stack-based Flow · Interface-driven Communication
@@ -312,46 +413,13 @@
       Mesh Combine · Object Pooling · Coroutine 분산 로딩 · GC Alloc 최소화 · UI 가상화 (InfiniteScrollView)
       <br><br>
       <b>Systems &amp; SDKs</b><br>
-      Cinemachine · Timeline · Unity Input System · AR Foundation · GOMap SDK · Addressables · SQLite · DOTween
+      Cinemachine · Timeline · Unity Input System · AR Foundation · GOMap SDK · Addressables · Asset Bundle Management · SQLite 데이터 파이프라인 · DOTween · IAP (In-App Purchase)
       <br><br>
       <b>Tools &amp; Pipeline</b><br>
-      Unity Editor Scripting (GraphView, Custom Inspector, MenuItem) · 애니메이션 이벤트 에디터 · 프리팹 컴포넌트 일괄 교체 툴 · XlsxFileReader
+      Unity Editor Scripting (GraphView, Custom Inspector, MenuItem) · 애니메이션 이벤트 에디터 · 프리팹 컴포넌트 일괄 교체 툴 · XlsxFileReader · 엑셀→SQLite 변환 파이프라인
     </div>
   </div>
 
-  <!-- ═══════════════════════════════════════ TECHNICAL HIGHLIGHTS ═══════════════════════════════════════ -->
-  <div class="resume-section">
-    <h2 class="section-title">TECHNICAL HIGHLIGHTS</h2>
-    <div class="section-content">
-      <b>2026</b><br>
-      <span class="date-col">02월</span>: 폰트 일괄 교체 툴 고도화, 변경 없는 프리팹 저장 방지<br>
-      <span class="date-col">01월</span>: 전투 타임라인 구조 재설계 (Ready→Fail→StrongSkill→HealthCheck), Input System 맵 테스트 시뮬레이터, Satellite 동적 로딩, 전용재화 테이블 추가<br>
-      <br>
-      <b>2025</b><br>
-      <span class="date-col">12월</span>: AR 소환게임 전단계 연출 플로우 연결, 균열 탐색 시스템, 통신 시스템 수신 알림/긴급 호출, 미션전투 결과 UI<br>
-      <span class="date-col">11월</span>: 다이얼로그 시스템 (텍스트 엔진·커맨드 파서·Restore), 립싱크, 전투 연출 파이프라인 리팩토링, CameraShakeConfig 분리<br>
-      <span class="date-col">10월</span>: 미션전투 진입 조건/포션 제한, 수량 체크 시스템(CapacityRestriction), 데미지 폰트 풀링 및 애니메이션<br>
-      <span class="date-col">09월</span>: 전투준비 UI(BattleReadyPopup), 스킬/파워칩 프리셋 동기화, 미션 UI 개편(UIPanelLink), SafeArea 안드로이드 추가 offset<br>
-      <span class="date-col">08월</span>: 미션 시스템 신규 (챕터/기간/반복 3종), MissionManager 데이터 관리 구조 변경<br>
-      <span class="date-col">07월</span>: 다이얼로그 기반 개발 (DialogSequencer, UIPanelDialog, 키워드 인식), GraphView 에디터 노드 연결 자동화<br>
-      <span class="date-col">06월</span>: GraphView 다이얼로그 에디터, 엑셀 데이터 동기화, 소환게임 Raycast→RaycastAll 수정, 우편 페이지 제한<br>
-      <span class="date-col">05월</span>: TFConstants 파일 분리 정리, 도감 미획득 쉐이더, Legacy 코드 정리, 애니메이션 에디터 툴 리뉴얼<br>
-      <span class="date-col">04월</span>: 햅틱 진동 시스템(Android Native), CustomCinemachinePerlin, 타임라인 Parameterized Signal, 애니메이션 이벤트 ScriptableObject 통합<br>
-      <span class="date-col">03월</span>: ATB 행동바, OneClickButton 교체 툴, Built-In 테이블 데이터 분리, LBS FocusCameraController 분리<br>
-      <span class="date-col">02월</span>: 전투 진입 UI(시뮬레이션, TF 교체, 포션), BattleStandalone 독립 테스트 씬, 전투 결과 레벨업 연출<br>
-      <br>
-      <b>2024</b><br>
-      <span class="date-col">10~12월</span>: 전투 시스템 풀 리뉴얼(AutoBattleScene), 타임라인 연출 연결, Animator Override, 원거리 투사체, 행동바<br>
-      <span class="date-col">07~09월</span>: GoMap 타일 CombineMesh 최적화 (Batches 97%↓), LBS Coroutine 분산 로딩, Object Pool 개선<br>
-      <span class="date-col">04~06월</span>: LBS 시스템 전체 설계 (GPS, Static/Dynamic Object, Stamina, Input System 교체, Nearby Object 충돌 방지)<br>
-      <span class="date-col">01~03월</span>: 도감 등록 홀로그램 연출, 도감 백과 페이지, UI Open/Close 연출 공용화(DoTween), 오프닝 비디오 연출<br>
-      <br>
-      <b>2023</b><br>
-      <span class="date-col">07~12월</span>: 미션 시스템(반복/업적/스페셜), 튜토리얼, 사운드 리팩토링, 다이얼로그 기초<br>
-      <span class="date-col">03~06월</span>: 지휘통제실, 도구함, 소환게임 완성, 파워칩 시스템, 정렬/필터 공용화, 가챠 UI<br>
-      <span class="date-col">01~02월</span>: 소환 미니게임 프로토타입, 소셜 로그인(Google/Apple), 인앱 결제 기초<br>
-    </div>
-  </div>
   <!-- ═══════════════════════════════════════ WORK DETAILS ═══════════════════════════════════════ -->
   <div class="resume-section" id="detail-gomap">
     <h2 class="section-title">WORK DETAILS</h2>
@@ -542,7 +610,461 @@
 
   </div>
 
+  <!-- ══════════════════════════════ 전투 시스템 파이프라인 상세 ══════════════════════════════ -->
+  <div class="resume-section" id="detail-battle">
+    <h2 class="section-title">WORK DETAILS</h2>
+
+    <h3 style="color:#fff; margin-bottom:0.3em;">전투 시스템 파이프라인 (FSM + Timeline 연출)</h3>
+    <div style="color:#bdbdbd; font-size:0.95em; margin-bottom:1.2em;">
+      2024.10 ~ 2026.02 · Transformers Alliance (Unity)
+    </div>
+
+    <!-- 발단 -->
+    <h4 style="color:#4fa3ff; margin:1.2em 0 0.4em;">발단</h4>
+    <p style="color:#ddd; line-height:1.7;">
+      프로젝트의 전투 시스템은 최초 단선형 코루틴 기반으로 구현되어 있었다. 인트로 연출 → 전투 → 결과까지의 흐름이 하나의 긴 코루틴 체인으로 이루어져 있어, 새로운 연출을 추가하거나 예외 상태(재전투, 중도 이탈 등)를 처리할 때마다 기존 코드 전반을 수정해야 했다. 특히 <b>Cinemachine + Timeline</b>을 활용한 카메라 연출이 점점 복잡해지면서, 상태 전환 시 카메라 위치가 한 프레임 튀는 문제와 재전투 루프에서의 프레임 드롭이 심각한 수준에 이르렀다.
+    </p>
+
+    <!-- 현상 파악 -->
+    <h4 style="color:#4fa3ff; margin:1.4em 0 0.4em;">현상 파악</h4>
+    <ul style="color:#ddd; line-height:1.8; padding-left:1.2em;">
+      <li>인트로 → 대치 → 스킬 사용 장면 전환 시, Timeline 전환 직후 <b>1프레임 카메라 위치 튐</b> 발생</li>
+      <li>재전투 반복 시 이전 전투의 오브젝트/이벤트 리소스가 완전히 정리되지 않아 <b>프레임 드롭</b> 누적</li>
+      <li>스킬 성공/실패/강스킬 분기가 if-else 체인으로 처리되어, 신규 스킬 타입 추가 시 <b>20+ 개소 수정</b> 필요</li>
+      <li>전투 진입 UI(팀 편성, 포션, 시뮬레이션)와 전투 로직 간 <b>강결합</b>으로 독립 테스트 불가</li>
+    </ul>
+
+    <!-- 접근 방법 -->
+    <h4 style="color:#4fa3ff; margin:1.4em 0 0.4em;">접근 방법</h4>
+    <p style="color:#ddd; line-height:1.7; margin-bottom:0.8em;">
+      전투 전체 흐름을 <b>FSM(Finite State Machine)</b> 아키텍처로 재설계하였다. 각 상태는 독립적인 클래스로 분리되어, 진입(Enter) → 실행(Execute) → 퇴장(Exit) 생명주기를 갖는다. 상태 간 전환은 BattleManager가 중앙에서 관리하며, 각 상태는 자신의 Timeline/Cinemachine 설정만 책임진다.
+    </p>
+    <div style="background:#1a1d23; border-radius:8px; padding:16px 20px; overflow-x:auto; margin-bottom:1.2em;">
+      <pre style="margin:0; color:#ddd; font-size:0.88em; line-height:1.55; font-family:'Fira Code','Consolas',monospace;"><span style="color:#546e7a;">// ── 전투 상태 머신 구조 (의사 코드) ──</span>
+
+<span style="color:#c792ea;">public abstract class</span> <span style="color:#82aaff;">BattleState</span>
+{
+    <span style="color:#c792ea;">protected</span> BattleManager _manager;
+    <span style="color:#c792ea;">public virtual void</span> <span style="color:#82aaff;">Enter</span>() { }    <span style="color:#546e7a;">// Timeline 바인딩, 카메라 세팅</span>
+    <span style="color:#c792ea;">public virtual void</span> <span style="color:#82aaff;">Execute</span>() { }  <span style="color:#546e7a;">// 매 프레임 로직</span>
+    <span style="color:#c792ea;">public virtual void</span> <span style="color:#82aaff;">Exit</span>() { }    <span style="color:#546e7a;">// 리소스 정리, 카메라 복원</span>
+}
+
+<span style="color:#546e7a;">// 상태 흐름:</span>
+<span style="color:#546e7a;">// Intro(아군/적군/전체) → Confrontation(대치)</span>
+<span style="color:#546e7a;">//   → SkillReady → [Success] StrongSkill / [Fail] SkillFail</span>
+<span style="color:#546e7a;">//     → HealthCheck → [HP 잔여] Confrontation (반복)</span>
+<span style="color:#546e7a;">//                   → [HP 0] Result(승/무/패)</span>
+
+<span style="color:#c792ea;">public class</span> <span style="color:#82aaff;">BattleManager</span>
+{
+    <span style="color:#c792ea;">private</span> BattleState _currentState;
+
+    <span style="color:#c792ea;">public void</span> <span style="color:#82aaff;">ChangeState</span>(BattleState newState)
+    {
+        _currentState?.Exit();
+        _currentState = newState;
+        _currentState.Enter();
+    }
+}</pre>
+    </div>
+    <!-- FSM State Flow Diagram -->
+    <p style="color:#bdbdbd; font-size:0.93em; margin-bottom:0.5em; font-weight:600;">▸ FSM 상태 흐름도</p>
+    <div style="background:#1a1d23; border-radius:8px; padding:24px 20px; overflow-x:auto; margin-bottom:1.4em;">
+      <div style="display:flex; flex-direction:column; align-items:center; gap:0; font-family:'Fira Code','Consolas',monospace; font-size:0.82em;">
+        <!-- Row 1: Intro -->
+        <div style="display:flex; gap:12px; align-items:center; justify-content:center;">
+          <div style="background:#2d5a3d; border:2px solid #4ecdc4; border-radius:8px; padding:8px 16px; color:#4ecdc4; font-weight:700; text-align:center;">
+            Intro<br><span style="font-size:0.8em; color:#8eddd6;">(아군/적군/전체)</span>
+          </div>
+        </div>
+        <div style="color:#666; font-size:1.2em; line-height:1.2;">▼</div>
+        <!-- Row 2: Confrontation -->
+        <div style="display:flex; gap:12px; align-items:center; justify-content:center;">
+          <div style="background:#2d3d5a; border:2px solid #4fa3ff; border-radius:8px; padding:8px 16px; color:#4fa3ff; font-weight:700;">
+            Confrontation (대치)
+          </div>
+        </div>
+        <div style="color:#666; font-size:1.2em; line-height:1.2;">▼</div>
+        <!-- Row 3: SkillReady -->
+        <div style="display:flex; gap:12px; align-items:center; justify-content:center;">
+          <div style="background:#3d3d2d; border:2px solid #ffcb6b; border-radius:8px; padding:8px 16px; color:#ffcb6b; font-weight:700;">
+            SkillReady
+          </div>
+        </div>
+        <!-- Branch -->
+        <div style="display:flex; gap:0; align-items:flex-start; justify-content:center; margin-top:4px;">
+          <div style="display:flex; flex-direction:column; align-items:center; width:140px;">
+            <div style="color:#4ecdc4; font-size:0.85em;">Success ↙</div>
+          </div>
+          <div style="width:20px;"></div>
+          <div style="display:flex; flex-direction:column; align-items:center; width:140px;">
+            <div style="color:#ff6b6b; font-size:0.85em;">↘ Fail</div>
+          </div>
+        </div>
+        <div style="display:flex; gap:32px; align-items:flex-start; justify-content:center;">
+          <div style="background:#2d4a2d; border:2px solid #4ecdc4; border-radius:8px; padding:8px 14px; color:#4ecdc4; font-weight:700; text-align:center;">
+            StrongSkill<br><span style="font-size:0.8em; color:#8eddd6;">(강스킬 연출)</span>
+          </div>
+          <div style="background:#4a2d2d; border:2px solid #ff6b6b; border-radius:8px; padding:8px 14px; color:#ff6b6b; font-weight:700; text-align:center;">
+            SkillFail<br><span style="font-size:0.8em; color:#ff9999;">(일반 스킬)</span>
+          </div>
+        </div>
+        <!-- Merge -->
+        <div style="display:flex; gap:0; align-items:flex-start; justify-content:center; margin-top:2px;">
+          <div style="display:flex; flex-direction:column; align-items:center; width:140px;">
+            <div style="color:#666; font-size:1em;">↘</div>
+          </div>
+          <div style="width:20px;"></div>
+          <div style="display:flex; flex-direction:column; align-items:center; width:140px;">
+            <div style="color:#666; font-size:1em;">↙</div>
+          </div>
+        </div>
+        <!-- Row 5: HealthCheck -->
+        <div style="display:flex; gap:12px; align-items:center; justify-content:center;">
+          <div style="background:#3d2d5a; border:2px solid #c792ea; border-radius:8px; padding:8px 16px; color:#c792ea; font-weight:700;">
+            HealthCheck
+          </div>
+        </div>
+        <!-- Branch -->
+        <div style="display:flex; gap:0; align-items:flex-start; justify-content:center; margin-top:4px;">
+          <div style="display:flex; flex-direction:column; align-items:center; width:140px;">
+            <div style="color:#4fa3ff; font-size:0.85em;">HP &gt; 0 ↙</div>
+          </div>
+          <div style="width:20px;"></div>
+          <div style="display:flex; flex-direction:column; align-items:center; width:140px;">
+            <div style="color:#ff6b6b; font-size:0.85em;">↘ HP = 0</div>
+          </div>
+        </div>
+        <div style="display:flex; gap:32px; align-items:flex-start; justify-content:center;">
+          <div style="background:#2d3d5a; border:2px dashed #4fa3ff; border-radius:8px; padding:8px 14px; color:#4fa3ff; font-weight:700; text-align:center; font-size:0.9em;">
+            ↑ Confrontation<br><span style="font-size:0.8em; color:#82aaff;">(반복)</span>
+          </div>
+          <div style="background:#5a4a2d; border:2px solid #ffcb6b; border-radius:8px; padding:8px 14px; color:#ffcb6b; font-weight:700; text-align:center;">
+            Result<br><span style="font-size:0.8em; color:#ffe0a0;">(승/무/패)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p style="color:#ddd; line-height:1.7; margin-bottom:0.8em;">
+      주요 설계 포인트:
+    </p>
+    <ul style="color:#ddd; line-height:1.8; padding-left:1.2em;">
+      <li><b>카메라 튐 해결:</b> 각 State의 Exit()에서 Cinemachine Brain의 블렌드를 명시적으로 완료시킨 뒤, 다음 State의 Enter()에서 새 Virtual Camera를 활성화하는 <b>트랜지션 루틴</b>을 정리</li>
+      <li><b>재전투 안정화:</b> Result 상태에서 Retry 선택 시 모든 전투 오브젝트를 ObjectPool로 반환하고 BattleData를 초기 상태로 리셋한 뒤 Intro 상태로 재진입</li>
+      <li><b>ATB 행동바:</b> SkillData의 Speed 값에 따라 코스트를 보정 계산하고, 누적 코스트 기반으로 아군/적군 아이콘 위치를 실시간 산정</li>
+      <li><b>독립 테스트:</b> BattleStandalone 씬을 만들어 인트로 없이 특정 상태부터 바로 진입할 수 있도록 구현, BattleMonitor 디버깅 윈도우로 실시간 상태 확인</li>
+      <li><b>애니메이션 이벤트 통합:</b> ScriptableObject 기반으로 ShowFx, ShowProjectileFx, PlaySound, CameraShake, Haptic을 하나의 이벤트 시스템으로 통합하여 애니메이터에서 일관되게 호출</li>
+    </ul>
+
+    <!-- 결과 -->
+    <h4 style="color:#4fa3ff; margin:1.4em 0 0.4em;">결과</h4>
+    <div style="background:#1a2332; border-left:4px solid #4fa3ff; border-radius:0 8px 8px 0; padding:16px 20px; margin-bottom:1em;">
+      <div style="color:#fff; font-weight:700; margin-bottom:0.4em;">🎮 전투 시스템 리뉴얼 결과</div>
+      <ul style="color:#ddd; margin:0; padding-left:1.2em; line-height:1.7;">
+        <li><b>연출 추가 비용:</b> 기존 20+ 개소 수정 → 새로운 State 클래스 1개 추가로 해결</li>
+        <li><b>카메라 튐 현상:</b> 트랜지션 루틴 정리로 <b style="color:#4ecdc4;">완전 해소</b></li>
+        <li><b>재전투 프레임 드롭:</b> ObjectPool 반환 + 상태 리셋으로 <b style="color:#4ecdc4;">10회 이상 반복해도 안정</b></li>
+        <li><b>독립 테스트:</b> BattleStandalone 씬으로 전투만 즉시 테스트 가능 → QA 시간 <b style="color:#4ecdc4;">절반 이하로 감소</b></li>
+        <li><b>코드 복잡도:</b> if-else 분기 15+ → 상태 클래스 7개로 분리, 각 클래스 평균 100줄 이하</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════ 다이얼로그 시스템 상세 ══════════════════════════════ -->
+  <div class="resume-section" id="detail-dialogue">
+    <h2 class="section-title">WORK DETAILS</h2>
+
+    <h3 style="color:#fff; margin-bottom:0.3em;">다이얼로그 시스템 (통신 시스템)</h3>
+    <div style="color:#bdbdbd; font-size:0.95em; margin-bottom:1.2em;">
+      2025.06 ~ 2025.12 · Transformers Alliance (Unity)
+    </div>
+
+    <!-- 발단 -->
+    <h4 style="color:#4fa3ff; margin:1.2em 0 0.4em;">발단</h4>
+    <p style="color:#ddd; line-height:1.7;">
+      게임 내 '통신' 시스템으로 사용되는 다이얼로그 시스템은 단순한 텍스트 출력을 넘어, 다양한 연출 요소를 텍스트와 동기화해야 하는 복잡한 요구사항을 가지고 있었다. 텍스트 출력 도중 배경음 전환, 효과음 재생, 카메라 셰이크, 캐릭터 애니메이션 등이 특정 글자 위치에서 실행되어야 하며, 대화 중 긴급 통신이 수신되면 현재 대화를 보존하고 복귀할 수 있어야 했다.
+    </p>
+
+    <!-- 현상 파악 -->
+    <h4 style="color:#4fa3ff; margin:1.4em 0 0.4em;">현상 파악</h4>
+    <ul style="color:#ddd; line-height:1.8; padding-left:1.2em;">
+      <li>기존 텍스트 출력은 단순 코루틴 기반으로, <b>FPS에 따라 글자 출력 속도가 달라지는</b> 문제 발생</li>
+      <li>BGM/SFX 등 연출을 텍스트와 동기화하려면 <b>각 라인마다 별도의 하드코딩</b>이 필요했음</li>
+      <li>대화 A 진행 중 대화 B 진입 → 대화 B 종료 후 <b>대화 A의 상태(텍스트 위치, 화자, 배경)가 유실</b></li>
+      <li>기획자가 연출을 추가하려면 프로그래머에게 <b>매번 코드 수정을 요청</b>해야 하는 비효율</li>
+    </ul>
+
+    <!-- 접근 방법 -->
+    <h4 style="color:#4fa3ff; margin:1.4em 0 0.4em;">접근 방법</h4>
+    <p style="color:#ddd; line-height:1.7; margin-bottom:0.8em;">
+      세 가지 핵심 모듈로 시스템을 설계하였다: <b>텍스트 엔진(DialogSequencer)</b>, <b>커맨드 파서(CommandParser)</b>, <b>상태 관리(Memento)</b>.
+    </p>
+
+    <p style="color:#bdbdbd; font-size:0.93em; margin-bottom:0.5em; font-weight:600;">▸ 1. DialogSequencer — DeltaTime 보정 텍스트 엔진</p>
+    <div style="background:#1a1d23; border-radius:8px; padding:16px 20px; overflow-x:auto; margin-bottom:1.2em;">
+      <pre style="margin:0; color:#ddd; font-size:0.88em; line-height:1.55; font-family:'Fira Code','Consolas',monospace;"><span style="color:#546e7a;">// 글자 출력 타이밍을 DeltaTime으로 보정하여 FPS 독립적으로 동작</span>
+<span style="color:#c792ea;">private float</span> _elapsed;
+<span style="color:#c792ea;">private float</span> _charInterval = <span style="color:#f78c6c;">0.03f</span>;
+
+<span style="color:#c792ea;">private void</span> <span style="color:#82aaff;">UpdateSequence</span>()
+{
+    _elapsed += Time.deltaTime;
+    <span style="color:#c792ea;">while</span> (_elapsed >= _charInterval && _currentIndex < _text.Length)
+    {
+        <span style="color:#c792ea;">char</span> c = _text[_currentIndex];
+        <span style="color:#c792ea;">if</span> (c == <span style="color:#c3e88d;">'&lt;'</span>)
+        {
+            <span style="color:#546e7a;">// 커맨드 태그 감지 → CommandParser에 위임</span>
+            _currentIndex = _commandParser.Execute(_text, _currentIndex);
+        }
+        <span style="color:#c792ea;">else</span>
+        {
+            _displayText.Append(c);
+            _currentIndex++;
+        }
+        _elapsed -= _charInterval;
+    }
+}</pre>
+    </div>
+
+    <p style="color:#bdbdbd; font-size:0.93em; margin-bottom:0.5em; font-weight:600;">▸ 2. 인라인 커맨드 파서</p>
+    <p style="color:#ddd; line-height:1.7; margin-bottom:0.8em;">
+      기획자가 엑셀 테이블에서 직접 텍스트 안에 커맨드를 삽입할 수 있도록 설계하였다. 파서는 &lt; &gt; 태그를 만나면 커맨드를 추출하여 해당 시스템에 실행을 위임한다.
+    </p>
+    <div style="background:#1a1d23; border-radius:8px; padding:16px 20px; overflow-x:auto; margin-bottom:1.2em;">
+      <pre style="margin:0; color:#ddd; font-size:0.88em; line-height:1.55; font-family:'Fira Code','Consolas',monospace;"><span style="color:#546e7a;">// 지원 커맨드 예시 (엑셀 테이블에서 직접 작성 가능)</span>
+<span style="color:#c3e88d;">"적이 접근하고 있습니다!&lt;CameraShake:Heavy&gt; 경계를 &lt;SFX:Alert01&gt;유지하세요."</span>
+<span style="color:#c3e88d;">"&lt;BGM:BattleTheme02&gt;전투 준비를 시작합니다."</span>
+<span style="color:#c3e88d;">"&lt;Animation:Salute&gt;임무를 완수했습니다, 사령관."</span>
+<span style="color:#c3e88d;">"&lt;Wait:1.5&gt;잠시 후...&lt;Wait:0.5&gt;통신이 복구되었습니다."</span>
+
+<span style="color:#546e7a;">// CommandParser 구조</span>
+<span style="color:#c792ea;">public class</span> <span style="color:#82aaff;">CommandParser</span>
+{
+    <span style="color:#c792ea;">private</span> Dictionary&lt;<span style="color:#ffcb6b;">string</span>, ICommandHandler&gt; _handlers;
+
+    <span style="color:#c792ea;">public int</span> <span style="color:#82aaff;">Execute</span>(<span style="color:#ffcb6b;">string</span> text, <span style="color:#c792ea;">int</span> startIndex)
+    {
+        <span style="color:#546e7a;">// &lt;Tag:Param&gt; 형식 파싱 → 핸들러 실행 → 닫힌 괄호 다음 인덱스 반환</span>
+        (string tag, string param, int endIndex) = ParseTag(text, startIndex);
+        <span style="color:#c792ea;">if</span> (_handlers.TryGetValue(tag, <span style="color:#c792ea;">out var</span> handler))
+            handler.Execute(param);
+        <span style="color:#c792ea;">return</span> endIndex;
+    }
+}</pre>
+    </div>
+
+    <p style="color:#bdbdbd; font-size:0.93em; margin-bottom:0.5em; font-weight:600;">▸ 3. Stack 기반 Memento 패턴 상태 관리</p>
+    <p style="color:#ddd; line-height:1.7; margin-bottom:0.8em;">
+      긴급 통신 수신 시 현재 대화 상태를 <b>DialogMemento</b> 객체로 캡처하여 스택에 Push한다. 긴급 통신 종료 후 Pop하여 이전 대화의 정확한 위치에서 복원한다.
+    </p>
+    <div style="background:#1a1d23; border-radius:8px; padding:16px 20px; overflow-x:auto; margin-bottom:1.2em;">
+      <pre style="margin:0; color:#ddd; font-size:0.88em; line-height:1.55; font-family:'Fira Code','Consolas',monospace;"><span style="color:#c792ea;">public class</span> <span style="color:#82aaff;">DialogMemento</span>
+{
+    <span style="color:#c792ea;">public int</span> DialogGroupId;
+    <span style="color:#c792ea;">public int</span> CurrentLineIndex;
+    <span style="color:#c792ea;">public int</span> CurrentCharIndex;
+    <span style="color:#c792ea;">public string</span> CurrentSpeaker;
+    <span style="color:#c792ea;">public string</span> CurrentBGM;
+    <span style="color:#c792ea;">public</span> ActorState[] ActorStates;  <span style="color:#546e7a;">// 화자별 위치/표정 상태</span>
+}
+
+<span style="color:#c792ea;">public class</span> <span style="color:#82aaff;">DialogManager</span>
+{
+    <span style="color:#c792ea;">private</span> Stack&lt;DialogMemento&gt; _stateStack = <span style="color:#c792ea;">new</span>();
+
+    <span style="color:#c792ea;">public void</span> <span style="color:#82aaff;">PushAndStartNew</span>(<span style="color:#c792ea;">int</span> newDialogGroupId)
+    {
+        _stateStack.Push(CaptureCurrentState());   <span style="color:#546e7a;">// 현재 상태 보존</span>
+        StartDialog(newDialogGroupId);               <span style="color:#546e7a;">// 새 다이얼로그 시작</span>
+    }
+
+    <span style="color:#c792ea;">public void</span> <span style="color:#82aaff;">PopAndRestore</span>()
+    {
+        <span style="color:#c792ea;">if</span> (_stateStack.Count > <span style="color:#f78c6c;">0</span>)
+            RestoreState(_stateStack.Pop());          <span style="color:#546e7a;">// 이전 상태 복원</span>
+    }
+}</pre>
+    </div>
+
+    <!-- GraphView 에디터 -->
+    <p style="color:#bdbdbd; font-size:0.93em; margin-bottom:0.5em; font-weight:600;">▸ 4. GraphView 다이얼로그 에디터</p>
+    <p style="color:#ddd; line-height:1.7; margin-bottom:0.8em;">
+      기획자의 작업 효율을 위해 Unity GraphView API 기반의 비주얼 다이얼로그 에디터를 개발하였다. DialogProfile, DialogBlock, DialogChoiceNode 등 노드 타입을 구현하고, 포트 연결 시 자동으로 데이터가 동기화된다. XlsxFileReader를 통해 엑셀 테이블 데이터를 읽어 노드로 자동 생성하는 기능도 포함하였다.
+    </p>
+
+    <!-- 결과 -->
+    <h4 style="color:#4fa3ff; margin:1.4em 0 0.4em;">결과</h4>
+    <div style="background:#1a2332; border-left:4px solid #4fa3ff; border-radius:0 8px 8px 0; padding:16px 20px; margin-bottom:1em;">
+      <div style="color:#fff; font-weight:700; margin-bottom:0.4em;">💬 다이얼로그 시스템 결과</div>
+      <ul style="color:#ddd; margin:0; padding-left:1.2em; line-height:1.7;">
+        <li><b>기획자 자율성:</b> 커맨드 키워드를 엑셀에서 직접 작성 가능 → 프로그래머 요청 없이 <b style="color:#4ecdc4;">연출 추가·변경 즉시 반영</b></li>
+        <li><b>FPS 독립 텍스트 출력:</b> DeltaTime 보정으로 30~120FPS 전 구간에서 <b style="color:#4ecdc4;">일관된 출력 속도</b></li>
+        <li><b>중첩 대화 안정성:</b> Memento 패턴으로 3단 이상 중첩 대화에서도 <b style="color:#4ecdc4;">정확한 상태 복원</b> 보장</li>
+        <li><b>긴급 통신 연출:</b> 글리치 + 진동 + 사운드 조합의 수신 연출 → 부재중 카운트 → LBS Hud 알림 연동까지 <b style="color:#4ecdc4;">원스톱 플로우</b></li>
+        <li><b>GraphView 에디터:</b> 노드 기반 비주얼 편집으로 대화 분기 흐름을 <b style="color:#4ecdc4;">직관적으로 관리</b>, 엑셀 데이터 자동 동기화</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════ AR 소환게임 상세 ══════════════════════════════ -->
+  <div class="resume-section" id="detail-ar">
+    <h2 class="section-title">WORK DETAILS</h2>
+
+    <h3 style="color:#fff; margin-bottom:0.3em;">AR 소환게임 연출 시스템</h3>
+    <div style="color:#bdbdbd; font-size:0.95em; margin-bottom:1.2em;">
+      2023.03 ~ 2025.12 · Transformers Alliance (Unity)
+    </div>
+
+    <!-- 발단 -->
+    <h4 style="color:#4fa3ff; margin:1.2em 0 0.4em;">발단</h4>
+    <p style="color:#ddd; line-height:1.7;">
+      소환게임은 LBS 맵에서 에너존을 발견한 뒤, 스파크를 물리적으로 발사하여 성공하면 AR 화면으로 진입하여 트랜스포머를 소환하는 핵심 콘텐츠이다. 프로토타입 단계에서는 단순 발사 → 결과 표시 흐름이었으나, 균열 탐색 → 미니게임 → AR 바닥 인식 → 포탈 생성 → 트랜스포머 소환까지의 <b>전체 단계별 연출</b>이 필요해졌고, 각 단계 간 자연스러운 전환과 카메라 각도에 따른 동적 배치가 핵심 과제가 되었다.
+    </p>
+
+    <!-- 현상 파악 -->
+    <h4 style="color:#4fa3ff; margin:1.4em 0 0.4em;">현상 파악</h4>
+    <ul style="color:#ddd; line-height:1.8; padding-left:1.2em;">
+      <li>AR Foundation의 바닥 인식(Plane Detection) 정밀도가 낮아 <b>포탈 위치가 부자연스럽게 배치</b>되는 현상 발생</li>
+      <li>카메라를 아래로 향하면 포탈이 너무 가깝고, 위로 향하면 너무 멀어져 <b>연출 일관성이 깨지는</b> 문제</li>
+      <li>균열 탐색 → AR 진입 → 소환 완료까지의 플로우가 분리되어 있어 <b>장면 간 끊김</b>이 체감됨</li>
+      <li>에디터에서 AR 테스트가 불가능하여 <b>디바이스 빌드 없이는 연출 확인 불가</b></li>
+    </ul>
+
+    <!-- 접근 방법 -->
+    <h4 style="color:#4fa3ff; margin:1.4em 0 0.4em;">접근 방법</h4>
+
+    <p style="color:#bdbdbd; font-size:0.93em; margin-bottom:0.5em; font-weight:600;">▸ 전체 연출 플로우</p>
+    <div style="background:#1a1d23; border-radius:8px; padding:24px 20px; overflow-x:auto; margin-bottom:1.4em;">
+      <div style="display:flex; flex-direction:column; align-items:center; gap:0; font-family:'Fira Code','Consolas',monospace; font-size:0.82em;">
+        <div style="background:#2d5a3d; border:2px solid #4ecdc4; border-radius:8px; padding:8px 16px; color:#4ecdc4; font-weight:700;">
+          균열 탐색 (Crack Search)
+        </div>
+        <div style="color:#666; font-size:1.2em; line-height:1.2;">▼</div>
+        <div style="background:#3d3d2d; border:2px solid #ffcb6b; border-radius:8px; padding:8px 16px; color:#ffcb6b; font-weight:700;">
+          조준 성공 → 균열 확장 연출
+        </div>
+        <div style="color:#666; font-size:1.2em; line-height:1.2;">▼</div>
+        <div style="background:#2d3d5a; border:2px solid #4fa3ff; border-radius:8px; padding:8px 16px; color:#4fa3ff; font-weight:700;">
+          스파크 발사 미니게임
+        </div>
+        <div style="color:#666; font-size:1.2em; line-height:1.2;">▼</div>
+        <div style="background:#3d2d5a; border:2px solid #c792ea; border-radius:8px; padding:8px 16px; color:#c792ea; font-weight:700;">
+          AR 진입 → 바닥 인식 (Plane Detection)
+        </div>
+        <div style="color:#666; font-size:1.2em; line-height:1.2;">▼</div>
+        <div style="background:#5a4a2d; border:2px solid #ffcb6b; border-radius:8px; padding:8px 16px; color:#ffcb6b; font-weight:700;">
+          포탈 생성 (카메라 각도 기반 위치 보간)
+        </div>
+        <div style="color:#666; font-size:1.2em; line-height:1.2;">▼</div>
+        <div style="background:#2d5a3d; border:2px solid #4ecdc4; border-radius:8px; padding:8px 16px; color:#4ecdc4; font-weight:700;">
+          트랜스포머 소환 타임라인 연출
+        </div>
+      </div>
+    </div>
+
+    <p style="color:#bdbdbd; font-size:0.93em; margin-bottom:0.5em; font-weight:600;">▸ 1. 스파크 물리 발사 메커닉</p>
+    <div style="background:#1a1d23; border-radius:8px; padding:16px 20px; overflow-x:auto; margin-bottom:1.2em;">
+      <pre style="margin:0; color:#ddd; font-size:0.88em; line-height:1.55; font-family:'Fira Code','Consolas',monospace;"><span style="color:#546e7a;">// 스파크 발사 각도·파워 제한, 물리 기반 궤적 계산</span>
+<span style="color:#c792ea;">public class</span> <span style="color:#82aaff;">SparkLauncher</span>
+{
+    <span style="color:#c792ea;">private const float</span> MIN_ANGLE = <span style="color:#f78c6c;">45f</span>;
+    <span style="color:#c792ea;">private const float</span> MAX_ANGLE = <span style="color:#f78c6c;">135f</span>;
+    <span style="color:#c792ea;">private const float</span> MIN_POWER = <span style="color:#f78c6c;">0.3f</span>;
+
+    <span style="color:#c792ea;">public void</span> <span style="color:#82aaff;">Launch</span>(Vector2 direction, <span style="color:#c792ea;">float</span> power)
+    {
+        <span style="color:#c792ea;">float</span> angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        angle = Mathf.Clamp(angle, MIN_ANGLE, MAX_ANGLE);
+        power = Mathf.Max(power, MIN_POWER);
+
+        <span style="color:#546e7a;">// 마찰력·가속도 적용한 궤적 시뮬레이션</span>
+        Vector3 velocity = CalculateVelocity(angle, power);
+        _rigidbody.AddForce(velocity, ForceMode.Impulse);
+    }
+}</pre>
+    </div>
+
+    <p style="color:#bdbdbd; font-size:0.93em; margin-bottom:0.5em; font-weight:600;">▸ 2. 카메라 각도 기반 포탈 위치 동적 보간</p>
+    <div style="background:#1a1d23; border-radius:8px; padding:16px 20px; overflow-x:auto; margin-bottom:1.2em;">
+      <pre style="margin:0; color:#ddd; font-size:0.88em; line-height:1.55; font-family:'Fira Code','Consolas',monospace;"><span style="color:#546e7a;">// 카메라 10~60도 사이에서 포탈 min~max 거리를 자동 보간</span>
+<span style="color:#c792ea;">private</span> Vector3 <span style="color:#82aaff;">CalculatePortalPosition</span>(Camera arCamera, Transform floorPlane)
+{
+    <span style="color:#c792ea;">float</span> camAngle = Vector3.Angle(arCamera.transform.forward, Vector3.down);
+    <span style="color:#c792ea;">float</span> t = Mathf.InverseLerp(<span style="color:#f78c6c;">10f</span>, <span style="color:#f78c6c;">60f</span>, camAngle);
+
+    <span style="color:#c792ea;">float</span> distance = Mathf.Lerp(_minPortalDist, _maxPortalDist, t);
+
+    <span style="color:#546e7a;">// 카메라 정면 방향으로 바닥면에 투영된 위치 계산</span>
+    Vector3 forward = arCamera.transform.forward;
+    forward.y = <span style="color:#f78c6c;">0</span>;
+    forward.Normalize();
+
+    <span style="color:#c792ea;">return</span> arCamera.transform.position + forward * distance;
+}</pre>
+    </div>
+
+    <p style="color:#bdbdbd; font-size:0.93em; margin-bottom:0.5em; font-weight:600;">▸ 3. 에디터 테스트 환경</p>
+    <p style="color:#ddd; line-height:1.7; margin-bottom:0.8em;">
+      실제 디바이스 없이도 AR 연출을 테스트할 수 있도록, 에디터 환경에서 <b>임시 바닥 평면을 자동 생성</b>하고 마우스 입력으로 카메라 각도를 조절하여 포탈 배치 및 소환 연출 전 과정을 확인할 수 있게 구현하였다.
+    </p>
+
+    <ul style="color:#ddd; line-height:1.8; padding-left:1.2em; margin-bottom:1.2em;">
+      <li><b>균열 탐색 시스템:</b> 화면 기반 균열 위치 추적, 조준 성공 시 확장 연출 + 사운드/진동 피드백 연동</li>
+      <li><b>쇼크웨이브 신호등:</b> 성공/실패 확률 기반 3단계 신호등 연출, 타이밍에 따른 결과 분기</li>
+      <li><b>속성별 차별화:</b> 소환 속성(화/수/전기 등)에 따라 배경 환경, 이펙트, 포탈 색상을 다르게 적용</li>
+      <li><b>도감 등록 연동:</b> 소환 성공 시 트랜스포머 등장 타임라인 → 홀로그램 연출 → 도감 등록 플로우 자동 연결</li>
+    </ul>
+
+    <!-- 결과 -->
+    <h4 style="color:#4fa3ff; margin:1.4em 0 0.4em;">결과</h4>
+    <div style="background:#1a2332; border-left:4px solid #4fa3ff; border-radius:0 8px 8px 0; padding:16px 20px; margin-bottom:1em;">
+      <div style="color:#fff; font-weight:700; margin-bottom:0.4em;">🎯 AR 소환게임 결과</div>
+      <ul style="color:#ddd; margin:0; padding-left:1.2em; line-height:1.7;">
+        <li><b>포탈 배치 일관성:</b> 카메라 각도 10~60° 전 범위에서 <b style="color:#4ecdc4;">자연스러운 거리 자동 보간</b>, 부자연스러운 배치 해소</li>
+        <li><b>연출 끊김 해소:</b> 균열 탐색 → 미니게임 → AR 소환까지 <b style="color:#4ecdc4;">단일 플로우로 연결</b>, 장면 전환 자연스럽게 개선</li>
+        <li><b>에디터 테스트:</b> 임시 바닥 생성 + 마우스 입력으로 <b style="color:#4ecdc4;">디바이스 빌드 없이 전 과정 테스트 가능</b></li>
+        <li><b>물리 발사 안정성:</b> 각도 45~135° 제한 + 최소 파워 보장으로 <b style="color:#4ecdc4;">의도하지 않은 궤적 방지</b></li>
+        <li><b>속성별 연출:</b> 테이블 데이터 기반으로 <b style="color:#4ecdc4;">기획자가 직접 속성별 배경/이펙트 설정 가능</b></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    © 2025 김재현 (Cyril) · <a href="https://github.com/MikLiryc" target="_blank">GitHub</a> · jay.kim1994@gmail.com<br>
+    <span style="font-size:0.85em; color:#555;">Built with Jekyll &amp; GitHub Pages</span>
+  </footer>
+
 </div>
+
+<!-- ── Intersection Observer for TOC active state ── -->
+<script>
+(function() {
+  const sections = document.querySelectorAll('.resume-section[id]');
+  const tocLinks = document.querySelectorAll('.toc a');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const id = entry.target.getAttribute('id');
+      const link = document.querySelector('.toc a[href="#' + id + '"]');
+      if (!link) return;
+      if (entry.isIntersecting) {
+        tocLinks.forEach(a => a.classList.remove('active'));
+        link.classList.add('active');
+      }
+    });
+  }, {
+    rootMargin: '-15% 0px -65% 0px',
+    threshold: 0
+  });
+
+  sections.forEach(section => observer.observe(section));
+})();
+</script>
+
 </body>
 </html>
 

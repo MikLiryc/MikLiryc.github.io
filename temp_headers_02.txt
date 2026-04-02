@@ -1,0 +1,2182 @@
+﻿commit b237b2110ccedee6c7fe2abeedd0adb5a3b8e988
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 4 18:38:27 2025 +0900
+    [김재현/전투] 피격 애니메이션을 ActionData 테이블의 값에 따라 변경하도록 수정, 전투 로직 정리
+commit 135517466167633e594114c9feb733322bbaef21
+Author: 김재현 <cyrilkim@snowpipe.co.kr>
+Date:   Fri Apr 4 12:06:24 2025 +0900
+commit ef37c0ce2fb4655e3d4ab166b9e575b7b6a2fc84
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 3 19:05:18 2025 +0900
+commit 11bd507f09ab2aff07a4360b968e8d11044a1374
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 3 19:05:02 2025 +0900
+commit 09020431971a2704ff2263a01edeaa25bfac6243
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 3 19:04:10 2025 +0900
+    [김재현/사운드] BGM 시작 데시벨을 -40으로 설정, 첫 시작시 부터 천천히 fade In 되도록 변경
+commit 2f57e47b597aabc45ba8d15dd9658b1404430d91
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 3 18:50:03 2025 +0900
+commit 9cbb8676ee2ce7274f5e1d0ddb7bdd209f5896cc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 3 18:49:08 2025 +0900
+commit 308a0561b639dfad8c8047a8212eb185f8145a82
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 3 18:46:48 2025 +0900
+    [김재현/전투] 스킬 종료 후 TotalDamage 창을 숨기도록 타이밍 조정
+commit 79c755e8351c9ca0fc5fce993a0c274486ab5e03
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 3 18:30:05 2025 +0900
+    [김재현/전투] Timeline까지 SkillIntroEnd 시그널 삭제, SkillEndSignal로 변경
+commit a4abffc8619f4f3e83548a19788e1c7eb44b57b2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Apr 3 18:17:40 2025 +0900
+    [김재현/전투] 전투 애니메이션 변경에 따른 enum 및 애니메이션 관리 로직 변경, event 명 변경
+commit a9eb478e830dcc82125a5c4c3b8cd77cefcc9f23
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 1 19:24:29 2025 +0900
+    [김재현/사운드] 추후 사운드 조정을 위해 SoundSettingConfig에 사운드 세팅 정보를 담아 관리하도록 수정
+commit 44a4885883e9ca6095afd04c391adcb9d0ee8615
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 1 18:25:16 2025 +0900
+    [김재현/PlayerPrefs] PlayerPrefs Editor window 에서 float 값을 제대로 표현하지 못하는 문제 수정
+commit 3c7552f7f4bc519e647a2b33f5f0acb220b918ea
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 1 18:23:44 2025 +0900
+    [김재현/사운드] BGM 변경 시 Fade In/Out 기능 추가
+commit 2ada5c6cbb3e321ebb5eaee4757a781ea8a23cf8
+Author: 김재현 <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 1 16:31:20 2025 +0900
+commit a3694ffda21fc8086a7bcca6d52c6acfbabd2784
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 1 11:48:35 2025 +0900
+commit a2af795cf0ed54f5eceac568be36f09517258503
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 1 11:48:20 2025 +0900
+commit 3db2e1a29e1d8dfd9815c5caa9037354010af3d9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 1 11:45:59 2025 +0900
+    [김재현/번들] 전투 배경 씬 판별용 메서드 추가
+commit a35567040e8d72a4e79d63fe687b2b1c74e80a9e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Apr 1 11:39:54 2025 +0900
+    [김재현/번들] 전투 배경 씬 변경된 폴더 위치로 로드 Path 변경
+commit 3216c765dd8eaa03677d2541d157b5d84a5aa75a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 31 19:08:54 2025 +0900
+commit c3676ee20be658fc322b4fc79cab7dc1df4c187b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 31 19:04:11 2025 +0900
+commit db966bbd5a7c4f2012eafe147f3ac86b0f2e2c00
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 31 18:58:56 2025 +0900
+    [김재현/전투] 전투 도중 적에게 다가가는 로직 계산이 반대로 되어있는 부분 및 위치 계산시 현재 위치와 비교하는 로직 수정
+commit be2e733c5d88e7677b1f1d14e391cd427e55d15f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 31 18:13:14 2025 +0900
+    [김재현/번들] Scene 번들 빌드 시 해당 씬을 연 상태로 번들을 빌드하는 로직 추가
+commit 8565907a9a51e5ec82e408dd17ab2af7af3dbf5c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 27 17:52:28 2025 +0900
+    [김재현/번들] 전투 배경씬의 모든 renderer의 이름이 겹치지 않게 하는 코드 추가, LightingData 및 renderer 세팅 캐싱기능 추가
+commit 47785c455151c5341a0ef42a59b18524a35ff901
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 27 11:15:38 2025 +0900
+    [김재현/번들] 전투 배경 scene 들을 에셋번들에서 로드할 수 있도록 코드 수정
+commit 34728f3ece3d2165e12b0e50012ea65c7c822b32
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 25 16:35:44 2025 +0900
+commit c6ac10585b0e15078ded584af91939e96b76f369
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 24 15:10:29 2025 +0900
+    [김재현/빌드] 빌드 오류로 인한 MD5Entities.cs 폴더 이동, Editor 코드에서 분리
+commit b76116c5f180097beec0f8bd56794e31108fa411
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 24 15:03:56 2025 +0900
+    [김재현/햅틱] 진동 기능을 위한 Android native wrapper 코드 추가
+commit f5f96277198295b87e3edf204f0f2c74ee58925b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 20 16:28:14 2025 +0900
+commit 47354ac5e14a1435b87b6f4067556c9eac179e9d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 19 19:33:23 2025 +0900
+    [김재현/UI] 버튼 교체 작업 중 UI 수정 누락사항 적용 및 UI가 아닌 곳에 붙어있는 버튼 관련 누락사항 수정
+commit fca83c1e373e010696de8d5db1edae87bdf524ee
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 19 17:25:57 2025 +0900
+    [김재현/버튼] OneClickButton의 CooldownTime이 0보다 작을 경우, 비활성화 시키지 않도록 수정
+commit 575098a4871c91f2c479916c7e028069a8c43d6b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 19 17:25:08 2025 +0900
+    [김재현/UI] Button -> OneClickButton 전체 UI 적용, 사용되지 않는 UI 제거
+commit 6e46186ea1cd6f723700816d62330d3db7536299
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 19 15:06:33 2025 +0900
+commit ea5426ef3c688e718ecec5b44b9964828053ef49
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 19 10:37:06 2025 +0900
+    [김재현/툴] ProjectView 에서 폴더를 선택해도 교체 작업을 할 수 있도록 기능 추가, 코드 정리
+commit d49b1a539d7ecf829e3281322c947a284b598866
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 18 18:58:33 2025 +0900
+commit a2762f8be91342546f0a92a869bb8d8a55ad3b41
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 18 18:57:56 2025 +0900
+    [김재현/툴] NestedPrefab의 override 문제 해결, Resources 폴더내의 UI에 테스트 적용
+commit ca459d8a6fb0f87b44b6e58e1593e466f7ce2976
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 18 14:26:57 2025 +0900
+    [김재현/툴] Button 으로 작성되어있는 스크립트의 멤버를 CooldownButton 으로 변경해주는 기능 테스트 적용
+commit 55626277965c4c653f7e7e1cb861b7784fb76e1f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 18 14:26:12 2025 +0900
+    [김재현/툴] CooldownButton 에 기존 button extension으로 들어가있던 AddEvent 기능 추가
+commit 80ea8c3eea67fee3fad01778e4aff1d9d388757b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 18 11:11:38 2025 +0900
+    [김재현/툴] NestedPrefab 관련 오류 수정, Resourecs 폴더 대상 테스트 완료
+commit f65918dc494d7a03383f47cba5c77763baacdb31
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 17 19:07:53 2025 +0900
+    [김재현/툴] CooldownButton 으로 교체 및 연결되어있던 스크립트 reference를 찾아 다시 연결해주는 부분 추가
+commit 5a5017693de7642ef8fdc8a79c3b1e8ea84a1e87
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 17 16:05:32 2025 +0900
+    [김재현/툴] CooldownButton 기능 개발 및 Editor 코드 작성, IngameTool 폴더 정리
+commit 931d2e22ead213b50b3f07ea491556a354ae5772
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 17 11:38:31 2025 +0900
+    [김재현/테이블] Built-in 테이블 추가에 따라 필요가 없어진 BuiltInDatabaseInfo 스크립트 삭제
+commit f1c31fd7ea64fb841b2c4e1f450fc91910a8671f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 17 10:28:22 2025 +0900
+    [김재현/테이블] BuiltInText, TipText 로 분리된 텍스트 데이터 default-db 에 포함시키는 로직 추가
+commit 60e1220b32f14bac8c482339d0ddea48c9834d0a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 14 18:19:54 2025 +0900
+    [김재현/테이블] Built-In SoundResoureces 데이터 분리, BuiltInResourcesInfo 자동화
+commit bd57794707616aeae48ad4f18717aead5356d681
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 14 16:16:54 2025 +0900
+    [김재현/LBS] LBS FocusCameraController 관련 피드백 적용
+commit 828391a0cb3d2cf4fc3d47b7f697812518fde24b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 13 18:50:41 2025 +0900
+commit ea6dc0fda1b7606d3ed83fd8cf21081de92a8605
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 13 17:09:46 2025 +0900
+    [김재현/LBS] Dynamic object 터치 시 Zoom In/Out 연출 로직을 FocusCameraController로 분리
+commit 52a3824be71b96129b471263117f4146f2d3bc24
+Author: 김재현 <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 11 15:28:51 2025 +0900
+commit d08397c232b77b010ae510ef39c50942439fe13f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 11 15:13:39 2025 +0900
+commit 0d806797dea52fe3c3253b1ddc1e1335012394db
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 11 10:56:25 2025 +0900
+    [김재현/LBS] LBSObjectManager 인터페이스 정리
+commit 9f4df3444609015b8a37916d8014a649f6149c76
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Mar 10 14:14:46 2025 +0900
+    [김재현/네트워크] DB MD5 비교용 NetworkManagerConfig를 사용하는 부분들이 모두 래핑되어있어, interface 메서드로 변경
+commit fc1efa9f84baf4127b9a9085e79acda17ec6beab
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 7 15:05:29 2025 +0900
+    [김재현/전투] 행동바 계산 시 EnemyAccumulatedCost만을 기반으로 계산이 작동하는 문제 수정
+commit 4579d0df8b11e9d5b5982a84e62c2c28c7b1448c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 7 14:40:30 2025 +0900
+    [김재현/전투] 행동바 로직 중, 1코스트 당 x 좌표 계산 시 누적 코스트가 적용되지 않는 문제 수정
+commit 347fdbc09e5b47fa9dc8c6833f71a4d41aff3f84
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 7 12:31:23 2025 +0900
+commit 51e2ae476d27d16b2013e976599b0ea55aa9ed45
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Mar 7 11:30:20 2025 +0900
+    [김재현/로그인] Resources Downloading  과 Resources Loading 텍스트가 서로 바뀌어 노출되는 문제 수정
+commit db5a350b15e2deb6f2c0087512352f704d97fe12
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 6 20:15:11 2025 +0900
+    [김재현/전투] 재전투 시 행동바의 원점이 초기화되어 스킬 순서가 잘못  표시되는 문제 수정
+commit 93fd156478863c994b6f4b01c85a5bbe4326f9ac
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 6 17:56:28 2025 +0900
+commit bbfbe13dc5cd767840cf54e3e8e178d298e16fce
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 6 17:06:40 2025 +0900
+    [김재현/에셋번들] 에셋번들 다운로드 시 나오는 팝업에 LocalizeText 적용
+commit bbd8c9ae521d4929e9697da7697f180b040d7060
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 6 16:27:18 2025 +0900
+commit 6ffed0ea1fa3561289fa041f3a6dbcbd049354c1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 6 16:03:33 2025 +0900
+commit 252a9184363ac4af9f33c029e7616ff40e20d5f4
+Author: 김재현 <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 6 15:06:15 2025 +0900
+commit 011fd5e620030fe8af836635044cfcb6b97bf263
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 6 15:03:30 2025 +0900
+commit 994a8a0525630f490d0f8c644f05aa37d943ccdb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 6 14:45:12 2025 +0900
+    [김재현/전투] 전투 종료 후 레벨업을 했을 경우 characterInfo의 체력과 최대체력을 업데이트 해주는 코드 추가
+commit d6bb7f3b0dd78876c9ad0829459614799f3839a9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 6 12:43:45 2025 +0900
+    [김재현/빌드] DEV predefine이 없을 경우에도 dev로 인식하도록 설정
+commit 5f9351d6ad8c8c0117c374207c090f3a64b36b67
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 6 11:58:32 2025 +0900
+    [김재현/전투] 전투 종료 후 레벨업으로 인한 체력 회복이 실제로는 정상적으로 적용되지 않는 현상 수정
+commit 7e720eaea7eaa6b049d012ea02e6f6ad7db2e1ca
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 6 11:49:15 2025 +0900
+commit 68af69e1670d860f24c1d6c5d22efbde1177cb5d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 6 11:49:11 2025 +0900
+    [김재현/지휘통제실] UISkillSettingPopup  Open 애니메이션에 빈 이벤트가 들어있어 삭제, OnOpenEnd 메서드 private으로 변경
+commit 310470ce0e9cf4d005e496460f2ad3c56da51bdb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Mar 6 11:01:51 2025 +0900
+commit 5c03b4d5f4782b2a9a258ff0fc2076f07d364ba4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 5 18:47:45 2025 +0900
+commit dccab146fd6fa109cb1a780a4050cd78a2b6f069
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 5 18:47:21 2025 +0900
+commit 85f5f2a57139e83cf2a950670d3ee52f93890c96
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 5 17:27:32 2025 +0900
+    [김재현/전투] 원거리 투사체의 trail이 없을 경우 대비 null 체크 추가
+commit ab3a2844e3692140dfe604826c0b9448d646af1a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 5 16:11:55 2025 +0900
+    [김재현/전투] 전투 배경맵에 따라 Background timeline 교체 기능 추가
+commit 7e299c36014b697177d7c2a6c5388c4b992e0e1a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 5 15:12:20 2025 +0900
+    [김재현/전투] 원거리 투사체 피격 시 현재 상태가 skill intro가 아닐 경우 피격 애니메이션을 실행하지 않도록 방어코드 작성
+commit 74692ff1744652486d6a92b71c0513acf3340b4d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 5 14:58:27 2025 +0900
+    [김재현/소환게임] 소환게임 도감 등록 연출의 Play On Awake 비활성화, 방어코드 추가
+commit 8aef3d5e62afe87b8886bcd66f7d643dfbb5bac8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 5 14:51:53 2025 +0900
+    [김재현/전투] 원거리 투사체의 trail 을 초기화해주는 기능 추가
+commit 555f7e7712e8e98ee65944daa56350e0e094416b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 5 13:02:12 2025 +0900
+    [김재현/전투] 원거리 투사체 피격 시 피격 애니메이션을 재생하도록 로직 수정
+commit 18eb8fea0e95d79ae4bd93fd1ea9d7c5c0746445
+Author: 김재현 <cyrilkim@snowpipe.co.kr>
+Date:   Wed Mar 5 13:01:28 2025 +0900
+commit 12b07a0661fa6eefdd94aabbfc3dd9bc8b809165
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 4 18:00:02 2025 +0900
+commit 028dec7938b65968022872916b0a45f4884d800f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 4 17:59:45 2025 +0900
+    [김재현/사운드] SoundManager에서 사용하는 volume key 필드명 변경, fade 속도 지정할 수 있도록 수정
+commit 8464c7c830e198f9c1d8eb87c74f3189d4a6f85b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 4 17:58:38 2025 +0900
+    [김재현/도감] 도감 UI의 CommonOpenUIFx 스크립트 제거, Fade out 된 이후 UI가 꺼지도록 설정
+commit 7ece7b1bb6323659606a36ae3d23f7b6101a78e5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 4 16:12:17 2025 +0900
+    [김재현/소환게임] UITFDetailPopup에서 최초 꺼줘야하는 오브젝트들을 자동으로 꺼주도록 리스트화
+commit 65999b9e7db2435e59d8fe90cb03ddb89c653c80
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 4 15:13:56 2025 +0900
+commit b6a6cf8580800c842c2e832b741d8a5e37343a80
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 4 15:13:46 2025 +0900
+    [김재현/도감] 도감 진입 시 로딩 창 추가, 퇴장 시 fade 연출 추가
+commit 49bd3e63b657ae44ef775a61bdf5064720e5a541
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Mar 4 11:25:06 2025 +0900
+commit a0ab0d7a218152e44b9f54eb98074a646b31096b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 28 19:48:31 2025 +0900
+    [김재현/소환게임] SummonGame 씬 Initialize 타이밍 원복, 도감 등록 연출이 나오지 않아도 RemoveEvent를 호출하도록 수정
+commit 2c963445376b29314abd89a154688de3b7a9adc2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 28 19:40:25 2025 +0900
+    [김재현/소환게임] 소환게임 스테이지 애니메이션 연결이 매끄럽지 않은 문제 수정
+commit 5af58ece3cd812960b1fdfc37e75c56884020d28
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 28 19:09:33 2025 +0900
+    [김재현/소환게임] 소환게임 씬 진입 시 Initialize가 awake에 있어 초기화가 다시되지 않는 문제 수정
+commit e34bfc2c37d80957acd6c59741cad5a0128bcdd4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 28 18:55:08 2025 +0900
+    [김재현/소환게임] 소환게임 재시작 시 입력 감지 코루틴 데이터가 남아있어 오류가 발생하는 문제 수정
+commit a6842a4b699a0f95c81116a5503e2ebf3166d585
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 28 18:38:51 2025 +0900
+    [김재현/소환게임] 소환게임 진입 시 ZoomIn 효과 추가
+commit 5ba4f2037a93480a7d699022f1dd9a2cbd003fd2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 28 16:47:58 2025 +0900
+    [김재현/소환게임] 사용자의 입력이 없을 경우, Swipe 안내 가이드가 노출되도록 기능 추가
+commit 8a13ebb55ffec9ab2ba1b7ec3ad7281f7232d70e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 28 14:13:02 2025 +0900
+    [김재현/소환게임] 소환게임 후 도감 등록 연출 주석으로 계속 보이게 해뒀던 부분 제거
+commit 2e2335bc22a94ac9ba83165c1b795dbb7dd7b07c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 28 12:28:42 2025 +0900
+    [김재현/소환게임] AR 종료 후 하얀색 fade out, 소환게임 intro 연출 연결 추가
+commit 1bf82ec2bb994d8dd7e783719b3d5d57eecf4465
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 27 18:02:18 2025 +0900
+    [김재현/LBS] StaticObject의 Category, Population type에 따라 전투 배경 씬이 바뀌는 기능 추가, 테이블 업데이트, DB 최신화
+commit eb07a5662959b9b80ab16fa761b8b7e25a22fd12
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 27 16:54:21 2025 +0900
+    [김재현/전투] 전투 결과에서 포션 사용 시 전투 트랜스포머의 체력에 반영이 되지 않는 문제 수정
+commit 22ae3fe6d1e485f049653d4e232ba7e34614591a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 27 14:40:28 2025 +0900
+    [김재현/로그인] 구글 로그인 버튼 임시 비활성화
+commit 8af0e52cab4a8d6ae3bf4404758254a6a0f43cbe
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 27 14:30:26 2025 +0900
+    [김재현/전투] 재전투 후 보상 데이터가 다시 세팅되지 않는 문제 수정
+commit f08213c4068b6a5628e1556479db43a57a40d69d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 26 19:19:12 2025 +0900
+    [김재현/전투] 전투 종료 후 레벨업을 했을 경우, 트랜스포머의 체력이 차는 연출 추가
+commit f01b36d43814dade0479d7245461850fec6f2da6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 26 18:34:38 2025 +0900
+commit bdda6fa6b19b75625ead3db4aaf14ad007cb43b4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 26 18:34:35 2025 +0900
+    [김재현/도구함] 임시로 모든 타입의 아이템을 사용 불가 처리하도록 수정
+commit c052fe13600a5e70de5eb48213e60a1b5e10be03
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 26 17:11:33 2025 +0900
+    [김재현/전투] 스킬 발동 실패 시 연출 (상단 메시지) 오브젝트 추가
+commit 3657d26079e5ea940b29c8de4fa434fc7cca4c20
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 26 14:02:20 2025 +0900
+    [김재현/전투] 전투 결과 로그 저장 시 오류가 발생하는 문제 수정
+commit 93d5ccc981f36c95408c61b1738373eef40a8836
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 26 12:19:30 2025 +0900
+    [김재현/전투] 에디터에서 전투 진행 시 서버의 데이터와 클라이언트의 데이터가 다를 경우 확인 할 수 있도록 로그남기는 기능 추가
+commit ffb359ecc885143911af716e15e9eb0cbb9e4e9f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 19:40:26 2025 +0900
+commit 361204cccb3a8b9b1db46b6c03e14aee9976d20a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 19:11:49 2025 +0900
+    [김재현/세팅] 안드로이드, iOS 기본 그래픽 설정을 High 로 고정
+commit 9c3a0403475a1c2612e6e0b4124fa190cdb854af
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 19:06:07 2025 +0900
+    [김재현/LBS] 전투 준비 아바타의 위치를 조정해주는 코드에 y 축 높이를 0으로 수정해주는 로직 추가
+commit 3822147742d6e0bec34ccbea52d2a6e625670d38
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 18:36:54 2025 +0900
+commit 4e7da99a72a495465c93c7a77ce5d56293078d6a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 17:23:38 2025 +0900
+    [김재현/전투] 재전투 진행 시 exitBattle 로 튕기는 현상 수정, 방어코드 추가
+commit 853322865b181852bc54b0c05e104495e94e783a
+Author: 김재현 <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 16:06:23 2025 +0900
+commit 56dd0ed98e1c6aedada1f7b0c28723d578667da5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 15:35:08 2025 +0900
+    [김재현/전투] 전투 결과 UI 레벨업 연출 로직 수정
+commit 86173bc3be2beb15485fbc0f1788869421fc6d49
+Author: 김재현 <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 15:30:47 2025 +0900
+commit 28b7858df98ae33f0e7aba29e1ed07c12c91fc9c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 14:36:50 2025 +0900
+    [김재현/전투] 재전투 시 실제 사용스킬과 행동바의 스킬이 다른 문제 수정
+commit b61a753743d8e92e2422e8b05bf9b5f733095d51
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 12:44:09 2025 +0900
+commit 1f655fbee2196ca89af673c2725c69a91f76300d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 12:43:33 2025 +0900
+    [김재현/도구함] 도구함 아이템 카테고리가 CategoryOrder에 따라 정렬되지 않는 문제 수정
+commit e656dc22aaebba0e9366f09b22e9f3d9eea4a21b
+Author: 김재현 <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 12:42:36 2025 +0900
+commit 0a52a68e73c16a3418413e0b9c8fc1b205828070
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 12:32:49 2025 +0900
+    [김재현/도구함] 도구함에서 재료 카테고리를 볼 수 있도록 추가
+commit 3744ee1e417801c76eb70a8ba1190d6a663831f5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 12:18:20 2025 +0900
+    [김재현/BuiltIn] 빌트인 사운드 리소스 중 "CVScript_Transform01_StarScream_G1" 삭제
+commit 954e8349fb867b88c8eb8d9a04fefb9fc6c6c809
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 25 12:17:28 2025 +0900
+    [김재현/UI] 전투 결과 UI의 트랜스포머 레벨업 연출 추가
+commit 3c180ede42aa858438698b207e23307d1361cd67
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 19:41:55 2025 +0900
+    [김재현/전투] 재전투를 반복할 수록 프레임이 떨어지는 문제 수정 (MonitoringWindow)
+commit bcd73100e10ef55c908c4076857e916e58068164
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 19:29:32 2025 +0900
+    [김재현/전투] 무승부 시 Draw outro가 나오지 않고 스킵되는 이슈 수정
+commit fef0eaa36d9127fd868b08c1e72c585604939716
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 17:57:48 2025 +0900
+    [김재현/전투] 무승부의 경우 game over 체크를 하는 로직 재활성화
+commit 716dccb8b269457481f00f646d1474914c374b35
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 17:46:39 2025 +0900
+    [김재현/전투] 행동바의 스킬 아이템에 보여지는 스킬 코스트 계산 로직을 MathUtil의 공용 로직을 사용하도록 변경
+commit e461a1136e1be5623df866744f259203e6f29845
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 17:45:10 2025 +0900
+commit fd4064426c71eb7ba2a3eb4daeb6ee700235b453
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 17:44:47 2025 +0900
+commit 45160e2759a00c26ab157647ca9473061307134b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 17:43:28 2025 +0900
+    [김재현/전투] 행동바의 아이콘 위치 선정 시 SkillData의 Speed에 따라 조정된 cost를 이용할 수 있도록 로직 수정
+commit 5f36766007b434da386ffbf536f95bd0315b05a5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 16:17:23 2025 +0900
+    [김재현/지휘통제실] 스킬 cost 계산 시 1이 0.999가 되는 문제 수정을 위해 MathUtil 에 ConvertByBasisPoint 함수 추가
+commit 100463cb13e0920c58c60458ef0159ee391ee70d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 14:43:13 2025 +0900
+    [김재현/전투] BattleStandalone 자동 데이터 세팅 시 ParentFolder가 없어서 오류가 발생하는 현상 수정
+commit b30b36685d01588a8f7c3e14f61c8ca4ccbd3817
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 14:30:21 2025 +0900
+commit 4dd07510aecf0c156134b361ee75ae37b53f9c3e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 14:28:51 2025 +0900
+commit fba826cc8a9653023d413d8e20f304a1882b7daa
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 14:28:06 2025 +0900
+    [김재현/테이블] ta-design r 138d953기준 테이블 업데이트, db 최신화
+commit 9cca97774bcf0afbd24d847760ca10203582366c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 13:58:30 2025 +0900
+    [김재현/전투] BattleStandalone 씬에 캐릭터 세팅정보가 없을 경우, 기본 설정으로 새로 파일을 생성하여 적용하도록 수정
+commit 7290c51b00de55640e567e8bb401ad561ef68829
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 12:28:13 2025 +0900
+    [김재현/전투] 전투 정보 팝업의 background 이미지의 alpha값을 유지할 수 있도록 수정
+commit 72e67e4077bdde9876f74e6a217d435fd7bac5a7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 24 12:19:02 2025 +0900
+    [김재현/전투] Standalone FinishBattlePacket 부분이 롤백되어 재수정
+commit 0207c3fbfbb71a262bcc463568f144df077f1842
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 21 17:30:24 2025 +0900
+commit 480896e08b85371c2b9d0b82f789ed25e48df3a2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 21 17:21:08 2025 +0900
+commit 63e2e954404f911544deff264736a1541b0bd340
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 21 17:11:40 2025 +0900
+    [김재현/전투] 전투 정보 UI의 진영 (Ally, enemy) 텍스트 키 추가
+commit 684c7c0eaa741ed5b7fb6ab74644af410347facc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 21 17:08:38 2025 +0900
+    [김재현/전투] 전투 정보 UI에 아군, 적군 이미지 색상 적용
+commit 680b85dba2a05d840120a780cabb55c173ca8dd3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 21 16:45:30 2025 +0900
+    [김재현/전투] 스킬 사용 후, 상대방 피격 시 상태에 따라 애니메이션 연출 분기를 나눌 수 있도록 수정
+commit 471d2b0e5813dc0ad610d7b7b1c33e9347d4fcee
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 21 14:35:28 2025 +0900
+    [김재현/전투] BattleStandalone 캐릭터 세팅 scriptable object로 분리
+commit 9112dd860477d2c94030ea310446e20d067d319e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 21 12:45:16 2025 +0900
+    [김재현/전투] 전투용 캐릭터 세팅 데이터를 scene 에서 분리, scriptable object로 세팅할 수 있도록 수정
+commit 6eef48e794849332276fa1ddaca976351a0e4efd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 20 19:45:11 2025 +0900
+    [김재현/전투] 스킬 실패 시에도 원본 스킬의 등급에 따라 액션 처리 로직이 나눠지는 문제 수정
+commit bd744bc46782db561fc127740e68adabc1001781
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 20 16:50:45 2025 +0900
+    [김재현/전투] 전투 행동바의 아군/적군 아이콘 연출 애니메이터 연결, 애니메이션 수정
+commit cb0f3f533f44ea23b8ed6a1a89ccf35eff91aee4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 20 15:58:33 2025 +0900
+    [김재현/전투] 전투 패배 결과 연출 추가 및 재전투 시 DefeatConfrontation 세팅 예외처리
+commit 77c1acffaa0f05d524ea003393d2a117650d3541
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 20 12:23:32 2025 +0900
+    [김재현/전투] 전투 행동바 아이콘에 스킬 사용하는 트랜스포머의 이미지를 표시하는 기능 추가
+commit 17416727094d14eae7d1aaafd788b88461e88a0e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 20 11:54:43 2025 +0900
+    [김재현/전투] BattleStandalone에서 게임 플레이 종료 시 battle monitor 윈도우를 자동으로 꺼주는 편의기능 추가
+commit accbdf8fee445a144e7aa58c9deccd8a998e1f36
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 19 19:24:34 2025 +0900
+    [김재현/전투] 전투 standalone 재전투 기능 및 회복 기능 추가
+commit 33c7ae5bbbf1d8c3e2d25459153413e342ca4160
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 19 17:06:08 2025 +0900
+    [김재현/전투] 전투 테스트용 BattleStandalone 씬 실행 시 BattleMonitor에서 정보를 확인 할 수 있도록 수정
+commit ac8f5927a2a9e210795a819869544f2ccaf13e65
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 19 15:07:52 2025 +0900
+    [김재현/전투] 전투 스킬 정보 아이콘에 스킬 아이콘 대신 MainBuffIcon이 세팅되는 문제 수정
+commit 7c98fd647cd0cb79089136b7e2008cb93e22fafb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 19 14:48:07 2025 +0900
+    [김재현/전투] 전투 중 스킬 정보 UI의 아이콘이 변하지 않는 문제 재수정
+commit 779c93d0d629c2a4b141a9d5330859c6eeecd652
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 18 18:06:49 2025 +0900
+    [김재현/전투] 전투 진입 시 적군 intro 타임라인 추가, 연출 로직에 추가
+commit bad05bb57ac0814dc1ba7f092d2d2462a97c0d29
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 18 15:25:23 2025 +0900
+    [김재현/전투] 전투 진행 도중 현재 캐릭터 상태 등 정보를 볼 수 있는 BattleMonitorWindow 코드 수정
+commit e67a6ee7c31a667cb6505c52c38f6aa0eb3e0e5f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 17 19:47:31 2025 +0900
+commit 55d63ade6a5702355293cbdc016ecf53adf8d69e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 17 19:46:59 2025 +0900
+    [김재현/도구함] Proudct_Shard의 productType 이 Product_Potion으로 되어있는 문제 수정
+commit 00a6215a304714904690e2a7a420e6c706d25629
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 17 19:21:23 2025 +0900
+    [김재현/전투] intro 씬 부터 플레이하지 않아도 전투를 테스트 할 수 있는 BattleStandalone 씬 제작
+commit 83172f728285454b0f944599291aa95185ad05ae
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 17 15:58:21 2025 +0900
+commit edc3b83cb73f24ff268f6d3ea960c4901c199095
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 14 18:52:50 2025 +0900
+    [김재현/전투] 전투 진입에서 UITFDetailPopup 을 띄울 시 오류가 발생하는 문제 수정
+commit 8b4d2f161cea9f4d2c0335eb7b53f4f004c0d2a6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 14 18:25:46 2025 +0900
+    [김재현/UI] StatusView, SkillView 등 각 view 의 애니메이터를 프로퍼티로 변경
+commit 042e3a06bfc65e8740c1652f223a554e90d0aa04
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 14 17:09:03 2025 +0900
+commit affcac60e208f0078a9f43e024cee08c1ac039e9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 14 17:07:07 2025 +0900
+commit a7644e22817689ecd904c680f4726ed1ab0fe31a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 14 16:20:16 2025 +0900
+    [김재현/전투] 전투 진입 blur 이펙트 작동 시 카메라 움직임 속도를 조절할 수 있도록 파라미터로 분리
+commit 6eae5264081211800b8c0cf08ea3dd3d210c26b2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 14 15:47:01 2025 +0900
+    [김재현/전투] 전투 진입 시 blur 이펙트 교체, Zoom in 최대 유지시간을 설정할 수 있도록 수정
+commit f20f72ebacac08f732312dfbe186844afe8c915a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 14 15:09:53 2025 +0900
+    [김재현/지휘통제실] SubMenu, StatusView 등 각 view 의 open/close 메서드 네이밍 변경
+commit 26104546a38c0cc86756eec65efee56c7ae4b502
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 14 15:03:27 2025 +0900
+    [김재현/AR] AR 오브젝트 스캔 성공 시 이펙트가 보여지도록 로직 수정
+commit 1971e325e69daf10fdbda5855f2972f1f96754bf
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 14 14:29:23 2025 +0900
+commit 4857c0b375a5c7326da40b230cc2ce98c9acd4bd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 14 14:29:20 2025 +0900
+    [김재현/지휘통제실] UITFDetailPopup submenu 연출추가
+commit b85ce50bafdcbcd47a478ead03ff48b1cb9fbe00
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 14 12:21:15 2025 +0900
+commit 05d8f1ce1cfee35589234ec5f055360448676e6f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 14 12:20:38 2025 +0900
+    [김재현/지휘통제실] UITFDetailPopup 재진입 시 초기화가 되지 않아 정상 작동하지 않는 문제 수정, 팝업 닫기 시 View의 Close가 끝난 후 실행되도록 수정
+commit 80f65c6afa31149e16aeeb52458d8e341da64838
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 14 11:25:41 2025 +0900
+    [김재현/지휘통제실] UITFDetailPopup 각 view 별 Idle/Open/Close 연출 연결, view와 Popup을 연결하는 스크립트 구조 변경
+commit e0b8fff0e4b1e44e171d6c7eb8555b91faeec39d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 13 20:45:19 2025 +0900
+    [김재현/UI] 기획 최홍조님 요청으로 스킬 아이콘 썸네일의 효과, 속성 아이콘을 모든 UI 에서 비활성화 하도록 적용
+commit 23049b970c8d10573b1e037180ed537b03008431
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 13 20:32:38 2025 +0900
+    [김재현/소환게임] 소환게임 중도 퇴장 후 재진입 시 MissingReference가 발생하는 문제 수정
+commit fec3d32e41e475f029e52ed912ee89fb165d029c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 13 20:12:26 2025 +0900
+commit 11b97887a0b83fc67f5e31ef9a2639db32569af1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 13 18:18:56 2025 +0900
+    [김재현/전투] 전투 결과 화면의 Victory/Defeat 등 결과 애니메이션의 위치를 잡는 로직 수정
+commit f74e5f92bff07a25fafd792a61f70327539c09c4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 13 16:47:08 2025 +0900
+    [김재현/UI] LBS의 Input action 을 비활성화 하기 위한 interface 부분에서 null reference 오류가 발생하는 문제 수정
+commit 3a9a630b4e67d328e7cb82445fcf6b4c0c49f578
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 13 16:45:55 2025 +0900
+    [김재현/로그인] 현종 PD님 폰에서 타이틀 씬의 배경 양옆으로 조금씩 공백이 발생하여, 검은색 판으로 뒤를 막는 작업 추가
+commit 7011168aa5dfbeea279869a5e573af1605fa3b17
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 13 16:23:58 2025 +0900
+    [김재현/빌드] built in db에 포함되어야 할 사운드 리소스들을 resources 폴더로 이동, BuiltInResourecesInfo에 추가
+commit 9af59523a0f6c9c7cd646cacc400954477c28c95
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 13 15:02:37 2025 +0900
+    [김재현/전투] 스킬 실패 시 Hit Intro 애니메이션 대신 FailedPostureCommon/MeleeStrong/RangeStrong이 실행되게 수정
+commit 55675961baf0c226c004a941bf45c94beb9becda
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 13 14:56:45 2025 +0900
+    [김재현/도감] 기존에 존재했던 Damage type, defence type 관련 아이콘, 이름 설정 부분을 비활성화
+commit ecb5d12f24e51c1e37e62c36287269669cc3bf8f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 13 14:24:40 2025 +0900
+commit 0857b21ec7594a105f83055a7d6aaa65c0c89ee7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 13 14:21:46 2025 +0900
+    [김재현/전투] 강스킬을 2번 사용 시 (재전투 또는 상대방과 동일한 스킬을 사용할 경우) Trail 등 이펙트가 초기화 되지 않는 문제 수정
+commit 94b2c4a6d3d0b714e1e461563da5334e6c9dda06
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 13 12:48:09 2025 +0900
+    [김재현/UI] Lobby 에서 CommandCenter 등 UI들을 열였을 때 Input Action이 동작하지 않도록 수정
+commit e143fa2fee6870e1709b5478856655ed9205c88f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 13 12:03:02 2025 +0900
+    [김재현/전투] 스킬 실패 시 normal skill 데이터를 잘못 들고와, 애니메이션이 잘못 실행되는 문제 수정
+commit b7677742b164222e3b9329427bf3c02816d9067f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 12 21:00:08 2025 +0900
+    [김재현/전투] 전투 보상 Reward Item 누락부분 추가, 전투 보상 아이템이 업데이트 되고 있지 않는 문제 수정
+commit a60564eba377513295aea4b7f8da955f5cce4ade
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 12 20:58:53 2025 +0900
+    [김재현/전투] 연속공격시 Transition 애니메이션이 발동하지 않도록 수정
+commit 4e85b5e047533998707b144b1b4d50ac2556aef3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 12 20:34:43 2025 +0900
+    [김재현/UI] 공용 UI 연출 스크립트 주석 추가
+commit 0429d119f1e8d5b60364f18a1ecc4fd45a35913b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 12 20:34:13 2025 +0900
+    [김재현/전투] 전투 보상 reward item 누락 스크립트 추가
+commit 18051ce244ecac6980a697fb1302fe9221c1340d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 12 20:32:41 2025 +0900
+    [김재현/전투] 전투 보상 reward item 변경
+commit e3a4c0fe4a6037a550433ceea3fd0db2820f2266
+Author: 김재현 <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 12 19:13:03 2025 +0900
+commit 51ffd050a4296ac8b5bfd22f0ccbca4695856ba3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 12 18:58:16 2025 +0900
+    [김재현/UI] UI Open/Close 애니메이터 사용 로직 변경
+commit ed5c10d267f57dd88ee8ae1fdb6bd3cec6aaf105
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 12 16:57:04 2025 +0900
+    [김재현/UI] 공통 UI 연출용 CommonUIOpenFx 스크립트 수정, 가이드 작성
+commit cb477c08772a0f7ecad07e78aa3158121ae4d97b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 12 16:50:13 2025 +0900
+    [김재현/도감] live 상황에서의 코드가 수정되지 않아 오류가 발생하는 문제 수정
+commit ab6fbb0ee3610a69a4a6ca1215335d2c1eca8fcf
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 12 12:06:06 2025 +0900
+commit 676e248811ff66969444777c02c8977894cb037b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Feb 12 12:03:53 2025 +0900
+commit b4c995474c9827a5b080fe524b3e0788fd7630d8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 11 19:09:24 2025 +0900
+    [김재현/전투] 전투 진입 UI에서 시뮬레이터 계산이 너무 빨리 끝나, 강제적으로 delay time 을 적용할 수 있도록 수정
+commit 36ae94fcf997ba0bcbf58b5177d83cae9417eafa
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 11 18:06:04 2025 +0900
+    [김재현/권능의사당] 파워칩 3D 오브젝트의 앞에 기존에 사용하던 RenderTexture가 존재해 화면이 잘려보이는 현상 수정
+commit a514be87a2452b6d23c892b53b503a47c6272a64
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 11 15:13:12 2025 +0900
+commit 6ded9a182f7fcf843ff11be03eff18cd48f6d39a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 11 15:12:16 2025 +0900
+commit 7d0a4704ddaf0aeb73faf6d2246a71b8e50f250b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 11 15:11:59 2025 +0900
+commit 8da6d3b1867cb5dab23bf887294f3b58e9fd6e46
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 11 14:29:34 2025 +0900
+    [김재현/UI] CommonUIOpenFx 코드 누락사항 추가
+commit dad728c4f283fc7b5a55befc71a3fd35bd55a6a3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 11 14:28:52 2025 +0900
+    [김재현/UI] CommonUIOpenFx의 LocalScale 에도 dim 처리 추가
+commit 8229b148a1b1f32fe21d98794ad18147bd8138c1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 11 14:24:43 2025 +0900
+    [김재현/UI] UI Open Close 추가 작업할 위치 미리 설정
+commit 17f339e988a9b41730ac2ae31819990b24f8bfbd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 11 14:20:59 2025 +0900
+    [김재현/UI] 공용 Open/Close fx 에서 DoTween을 걷어내고 Coroutine 으로 수정, 테스트 용으로 UIChangeNamePopup에 적용
+commit 56dc43bba7f49096740975b2ad5979dd1fc7222a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 11 12:29:59 2025 +0900
+    [김재현/UI] InputField 클릭 시 사운드 플레이 로직 추가
+commit bf70774cc9e7e3b4a98e2eede2a3691dd902a5a5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 11 12:29:31 2025 +0900
+    [김재현/서버] Requeset 오타 수정
+commit 75c6c22b3edb79ca44a86a02d5b1bb16785a1bf1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 11 12:21:47 2025 +0900
+    [김재현/UI] LBS Hud 메인메뉴 연출 추가
+commit f9c7c07e9b8f2dae0166dd337b5ad29fda152f3b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 11 11:54:47 2025 +0900
+    [김재현/전투] DeactivatableButton 의 SetActive 메서드 네이밍 변경 -> SetInteractable
+commit 5bf9de343deff19cc1790679348079d18becefd2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Feb 11 11:53:17 2025 +0900
+    [김재현/전투] 전투진입 UI 에서 UITFDetailPopup을 진입 할 경우, Menu button을 비활성화 상태로 만드는 deactivatableButton 추가
+commit 7be63d6efff83b2b9d04a1b6cfbe204bbbd7e489
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 10 20:05:55 2025 +0900
+    [김재현/전투] 원거리 공격 시 이펙트에도 effect position의 방향이 적용되는 버그 수정
+commit d7b83ba017a7d9034531a95c025027d907522053
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 10 19:31:17 2025 +0900
+    [김재현/전투] IAnimationControllerDelegate interface 메서드 연결 수정
+commit 85e83cf1deec96646c830d2d93dcf9dfbdf84724
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 10 19:28:58 2025 +0900
+    [김재현/전투] 강스킬을 제외한 나머지 스킬들은 Posture Common 1번만을 사용하기 때문에, 강스킬일 경우에만 order를 넣어주도록 수정
+commit cfa870d4b16ad34fe01e507fcf9462aeb260b7c6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 10 19:11:00 2025 +0900
+    [김재현/전투] ShowFx 이벤트에 Effect position 과 동일하게 rotation을 바꿔줄 것인지 선택할 수 있도록 파라미터 추가
+commit 099c7014ed034c5ef72dfa304ecfb138beca3a3a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 10 16:32:39 2025 +0900
+    [김재현/전투] 전투 시작 시 파워칩 버프가 바로 표기되지 않는 문제 수정
+commit d242596dfc4c74a54b7154d8c8358fd1d5a5cf62
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 10 16:22:28 2025 +0900
+commit e0ff106043a2f9bef0481ffe9166dddd858263b9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 10 16:20:07 2025 +0900
+commit 956ad0b32e73be0eb715c7473b26415d9aecc726
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 10 15:27:44 2025 +0900
+    [김재현/전투] 전투 결과화면에서, 보유중인 버프가 5종 초과일 경우 ... 으로 표기하는 기능 추가
+commit a37a52cfcef4cc2efc01ce9f5d010b55dfe5ae99
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 10 15:02:15 2025 +0900
+    [김재현/전투] 강스킬 사용 시 Total damage 텍스트가 Final hit 부분에서 보여지는 문제 수정
+commit a8fbc1bf725b7370ab97145498ec652ecc10de2e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 10 13:01:33 2025 +0900
+    [김재현/전투] 원거리 투사체 unassigned 오류 수정
+commit 5aea4b22bb40d188a7e967dac36a9ca5a2610744
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 10 12:06:42 2025 +0900
+    [김재현/전투] 전투 원거리 투사체의 궤적 유지시간을 1초로 수정, 이펙트들을 effect position과 같은 방향을 바라보도록 수정
+commit 76d867fed9e326e0a63a99be60432e5df019de1e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 10 11:30:38 2025 +0900
+    [김재현/전투] 전투 진입 UI 오류 수정
+commit ceb1ecc6d22f9c7e1324756cd631afe334ef3ee1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 7 12:45:02 2025 +0900
+    [김재현/전투] 전투용 CharacterInfo 생성 시 파워칩 정보를 넣지 않고 있는 문제 수정
+commit 119c5876fab508969da420f4438c97100885e187
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Feb 7 11:41:40 2025 +0900
+    [김재현/전투] 원거리 투사체  trail이 정상적으로 보이도록 수정, MuzzleFx도 상대방을 바라보도록 수정
+commit 1c40b0460f83517bc46311eb879b998cecf95db8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 6 20:09:29 2025 +0900
+    [김재현/전투] 투사체 (Beam) 의 궤적이 생성된 원점에서부터 시작되어 중간에 꺾이는 듯이 보이는 문제 수정
+commit 9e75ab2f7236ba9a1bdaedba927b31495cb01bd8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 6 19:55:32 2025 +0900
+    [김재현/전투] 전투 버그리포트 7번 - 재전투 진입 시 아군이 사망해있을 경우 포션을 사용하라는 토스트 메시지 텍스트 수정
+commit 918a86fcccc73fa7c212652475dd0e403fe46631
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 6 19:50:47 2025 +0900
+    [김재현/전투] 전투 진입 시 스킬 프리셋을 변경해도 CharacterInfo를 업데이트 해주지 않아 기존 스킬 세팅을 사용하는 문제 수정
+commit 500e733de3bf22a81fdd13c0f0090b618f5f1a7a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 6 18:26:03 2025 +0900
+commit 01d52c62178d261dc0bc82ebdabe70af2b3c41cc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 6 18:16:10 2025 +0900
+    [김재현/기지+전투] TFDetailPopup을 닫을 때 서버와 통신하고, RefreshView 를 호출하는 로직을 HashSet을 이용하도록 수정
+commit bf53742234a9a1f14dd47cffc66a758687c74250
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 6 14:57:55 2025 +0900
+commit 00c64157e304f1adadda1c326771bb543c2d9179
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 6 14:55:27 2025 +0900
+commit 116435a6b5e793f91efaee436b63b6657eeed5c1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 6 14:15:26 2025 +0900
+    [김재현/패킷] MachineForceOpenPacket 패킷의 필드 명 변경에 따른 클라이언트 코드 수정
+commit b6b281a67b83c1e3be35c10c593bc4e4a14ae4ab
+Author: 김재현 <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 6 14:10:21 2025 +0900
+commit de9485c1978832990df3fa0d0f60a618d8ea16a8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 6 14:09:51 2025 +0900
+commit a03b70098303059cb93ab7d0377ec136769b48e7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 6 14:03:39 2025 +0900
+commit e143f8d6fecbb102a7c2499bf94cb7e00bd04fff
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 6 13:53:52 2025 +0900
+    [김재현/전투] 전투 진입 시 아군 트랜스포머 체력이 0일 경우 포션 사용 토스트 메시지 출력
+commit eb0af5ca638033c9fee3e65a50bee933b726f243
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 6 12:59:15 2025 +0900
+    [김재현/전투] 전투 진입 UI 에서 TFDetailPopup 으로 진입 할 경우, 서브메뉴를 비활성화, 전투 진입 UI 에서 들어온 것인지 체크하는 로직 추가
+commit ed4f40aa025256869f5835312b65321b50d39ce6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Feb 6 11:35:45 2025 +0900
+    [김재현/전투] 아군 트랜스포머 세팅 시 속성을 정상적으로 세팅하지 않던 오류 수정
+commit fb9e520ee6aa805a3c4fbec4cfd2eb63d7d05443
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Feb 3 11:41:41 2025 +0900
+    [김재현/Tool] 애니메이션 이벤트 체커에 EnemyIntro 체크 추가
+commit fcd185578afe2bf6eba01070ab00c164f40374cd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 24 06:08:07 2025 +0900
+commit a65b1bfd7c6867ecf08218c52a42e3c13304ba03
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 24 06:06:35 2025 +0900
+    [김재현/전투] 전투 선택화면 스크롤 뷰 사이즈 오류, DamageItem 오류 try catch 추가
+commit 3b9b11c521f5852c28e0b85fbfb3237954cfef59
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 24 04:53:42 2025 +0900
+    [김재현/전투] 전투 결과 화면에서 포션을 사용 후 경험치 바가 보이는 문제 수정
+commit a2c962c9d38878a5a64e5c5c5491caaf354bb0cb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 24 04:42:49 2025 +0900
+commit cf2370d720d13963e29bd367c34167e2ded84a87
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 24 04:14:27 2025 +0900
+    [김재현/전투] 전투 패배 시 재전투 진입 연출이 없어, 무승부 연출을 사용, UI 오류 수정
+commit e05c5bef2f0d4713f32ae1f6dadb4c9ad55dd44e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 24 03:08:04 2025 +0900
+commit 8605b28c896a01afada6d9cb8cf603016c414561
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 24 02:36:35 2025 +0900
+    [김재현/지휘통제실] 스킬 아이콘의 메인 버프 아이콘 세팅 로직 추가
+commit 8776c1bec6bb123e1017c904df970eb317f95f2d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 24 02:34:48 2025 +0900
+    [김재현/지휘통제실] 스킬 아이콘의 속성 아이콘 세팅 로직 추가
+commit 04c4f73fd53fe1dc694501b5cc88049eb8330bf7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 24 01:56:25 2025 +0900
+    [김재현/도감] 도감 썸네일의 사이즈가 작아지고, 스크롤 뷰 설정이 잘못되어있는 문제 수정
+commit ef9fb9a5aab06d6f21f3d5e88f33ac07e2deb653
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 24 01:51:06 2025 +0900
+    [김재현/소환게임] 스파크가 골인했지만, 획득 실패했을 경우 Stamina vo가 없어 오류가 발생하는 문제 수정
+commit 0420305725f295310b10a564c8d1d430dea329cd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 24 01:38:00 2025 +0900
+    [김재현/LBS] 2D 모드일때 DynamicObject 를 클릭 시 3D 모드로 강제로 당겨오는 코드 추가
+commit 74e4d590ecad758bd573e77436dc863256deed9d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 24 00:47:42 2025 +0900
+    [김재현/아이콘] 속성 별 아이콘 불러오는 로직 수정, 이미지 리소스 네이밍 수정
+commit 26a0e4349d96e7f406bf1747785bd32e51d2356b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 24 00:18:31 2025 +0900
+commit 25f6e797232f61b37aa58cd6f55a2e2f06c18975
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 23:42:04 2025 +0900
+    [김재현/전투] ActionBarItem에서 발생하는 오류 확인을 위한 확인코드 작성
+commit 54912cb49d9765b9bfac5686d162d358e14743e6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 23:41:39 2025 +0900
+    [김재현/전투] 전투 진입 시 아군 정보를 확인하는 부분에서 오류가 발생하는 문제 수정
+commit 2fd162ae5b85f69f4d61aa459c124c561f009c4a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 23:41:16 2025 +0900
+    [김재현/전투] 전투 진입 UI 에서 포션 사용시 업데이트가 되지 않는 문제 수정
+commit 4f58ac045265f0b254c7b520229fe7f15996e7f0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 23:40:40 2025 +0900
+    [김재현/전투] 전투 결과 화면 수정
+commit d3edbf25c446102e4fd04d78def5a171d69040eb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 21:43:24 2025 +0900
+commit 94a7eb9650483820a94d8b1f5ba5820096fb7a64
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 21:36:29 2025 +0900
+    [김재현/전투] 액션 바 오류 방어코드 작성
+commit 34896c818f2a5d71c16ca6bbc566baed805273db
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 21:36:17 2025 +0900
+    [김재현/전투] 전투중 스킬 실패 타임라인 종료 후 타임라인 오브젝트가 사라지지 않는 문제 수정
+commit 596756f6bb6cd8b39fde791bbd14c0486b5a5218
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 21:12:49 2025 +0900
+commit de9463d4374d935402c48684d69552175889c8d3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 21:11:38 2025 +0900
+    [김재현/전투] 전투 진입 실패 (서버에러) 시  UI를 닫고, Zoom out 연출을 보여주도록 수정
+commit 561fd079064f875d3e69f6690f3279ca17e83d5c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 14:53:09 2025 +0900
+    [김재현/파워칩] 파워칩 cell item 생성 시 InfiniteCell 대신 GameObject를 생성하도록 수정
+commit 27a45d1c8ba1a0b9b1b12e84dd068d32fd907fa4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 12:54:37 2025 +0900
+    [김재현/전투] 전투 보상중 exp 보상 아이콘 추가
+commit 776d291e997848d8c765b9e8233bf43a17cd1647
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 12:48:22 2025 +0900
+commit 2df36793cca1bc10dc9db3bdeea005437dca653b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 12:47:23 2025 +0900
+    [김재현/전투] 전투 행동바 아이콘의 데이터가 초기화 되지 않는 문제 수정
+commit baab7128ca41c6d9c4c36f700a86cd95b0982e09
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 12:47:05 2025 +0900
+    [김재현/전투] 전투 시작 시 LBSObjectManager의 IsBattleReady를 false 로 돌리는 코드 추가
+commit dbc46976b95dae5909eb37cbef4d217775a052e9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 11:29:05 2025 +0900
+    [김재현/LBS] 전투진입 및 LBS 2D <-> 3D 전환 로직 수정
+commit 71d99a14fbb5b7560e4d7c1138c05d09bfd99205
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 23 11:23:47 2025 +0900
+    [김재현/전투] 전투 진입 시 저장된 CardId 데이터가 없거나, 오류가 발생했을 경우, 기본값으로 설정
+commit 02c902b0dafb6269199e4c3326a8c7afb855a4ff
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 22:13:29 2025 +0900
+    [김재현/LBS] 전투 진입 연출시 ParticleSystem Play 대신 오브젝트 On/Off로  수정
+commit 3ffc153ba48ff6b2d5ebbf1b9f4c822f0bfc659a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 21:24:23 2025 +0900
+    [김재현/LBS] Lobby 상태가 아닐 경우, BattleReady 오브젝트를 비활성화하는 코드 추가
+commit 91f8990eaa364fc30b6a937d9f15bb217d151840
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 21:06:10 2025 +0900
+    [김재현/전투] 전투 진행 도중 나갈 수 있도록 ExitButton 추가 (눈에 보이지 않음)
+commit 7c9d80a96f86938f33e6e457787a0a950bd5afd6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 20:59:58 2025 +0900
+commit 15831d086f414692b1686dd1b581c3a821d86bf2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 20:54:41 2025 +0900
+commit 6273ff2d65bed090152b25c949805cf88d58ed9b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 20:37:16 2025 +0900
+    [김재현/전투] 전투 준비화면 로컬키, 오류 시 토스트팝업 처리
+commit 3964491c95ce8dba2012e321912babc3de7f83b0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 20:08:31 2025 +0900
+    [김재현/정렬] 정렬 변경 시 정렬 아이콘 변경 기능 추가, Tuple 로 되어있던 SortOption을 별도 클래스로 분리
+commit f7bfc740b96179a868f17264e610471ffe0937a1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 18:23:19 2025 +0900
+    [김재현/지휘통제실] 지휘통제실 진입 시 정렬 버튼 아이콘 중 몇몇 아이콘이 누락되어있어 오류가 발생하는 문제 수정
+commit 15667a2349e7d5b18d52e7bf5b6de10fbe46ac11
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 18:09:47 2025 +0900
+    [김재현/전투] 전투 진입용 아바타를 하나 만들어두는 방식으로 변경
+commit 6806b4fa9d4e2262762f02444fcd862a1e12ba8c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 17:48:11 2025 +0900
+commit bd24764ef68d82d512883e6c7f79f554c033659c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 17:48:06 2025 +0900
+    [김재현/전투] 전투 진입 ZoomIn, ZoomOut 연출 다듬기
+commit 7b335a849a5d5a74516d56a332e224c10533e6fe
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 16:25:32 2025 +0900
+    [김재현/지휘통제실] UIPanelCommandCenter의 이름 검색창이 눌렀을 때 보이지 않는 문제 수정
+commit 2e4e512cd41262982dd665640cd553a9ed4f6396
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 15:18:40 2025 +0900
+    [김재현/전투] 전투 진입 UI를 닫았을 때, 다시 카메라를 원상복귀 시키는 코드 추가
+commit 6480083547d5b798473dea94960c23f7d5c44e03
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 15:06:47 2025 +0900
+commit 450ac238fd49f3927e84b2668dfec08ba789b6c6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 15:05:25 2025 +0900
+    [김재현/전투] 전투 진입용 Layer 세팅 코드 추가
+commit 36060cc78c0093f35b2bbffe79ee6ea0599602ac
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 14:27:03 2025 +0900
+    [김재현/전투] 전투 진입을 위해 LBS 카메라 관련 코드 수정, 전투 진입 Camera 추가, 연출용 오브젝트 생성 기능 추가
+commit 59f8a54dd26012652308243919e09fc06c4c173d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 10:57:07 2025 +0900
+commit 83278638e38ca007b24afb9405301ca4fd783940
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 10:56:12 2025 +0900
+commit a8e9ebeba66c9c8c2fd4541b467beb1849abad7c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 22 10:54:19 2025 +0900
+    [김재현/테이블] ta-design 34a5731 리비전 기준 테이블 업데이트, DB 최신화
+commit f8f3a03c74084772ba93d5895610a3dc4d08fa9a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 21 22:13:19 2025 +0900
+    [김재현/지휘통제실] 정렬 기능에 direction 을 따로 저장, 및 버튼에 direction 별 화살표 방향 적용하도록 수정
+commit e0359797566318269c586d49b8ea11a1492d1e3d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 21 20:17:50 2025 +0900
+commit 85ce86acddffad006a8bdca76545f7b281863901
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 21 20:15:13 2025 +0900
+    [김재현/전투] 전투 행동 바 애니메이션 연출 연결
+commit 9e33d5e11e702fa0b43ff913ba8ffb787640018b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 21 19:21:08 2025 +0900
+    [김재현/전투] 전투중 스킬 사용 실패 연출 추가
+commit 16d20d8d1ead7c5eded8ccb280611d9965a12435
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 21 19:20:48 2025 +0900
+    [김재현/전투] 전투 시뮬레이션의 결과가 저장된 BattleData 에 직접적으로 반영되는 문제 수정,
+commit 9678ec9c9ab602bef0e6fd30ca59f98a42ffe28d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 21 18:27:45 2025 +0900
+    [김재현/전투] 전투 진입 시뮬레이션 기능 추가
+commit 68946a41edb53cd878f35a64d5b31744c10df07e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 20 20:20:47 2025 +0900
+    [김재현/전투] 전투 진입 팝업에서 트랜스포머 교체, 포션, 트랜스포머 정보 팝업 연결 완료
+commit 89acac3896294a37328342fd815446f189548481
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 20 18:58:48 2025 +0900
+    [김재현/전투] PlayerPrefs에 저장된 데이터가 삭제되지 않아 오류가 발생하는 문제 수정
+commit 46cec851aa92a6d1b82b11b924c3b189f60089c0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 20 16:38:40 2025 +0900
+commit 046ebbdf9dab3453b0f4e7921dd99e78e0c1aada
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 20 16:37:39 2025 +0900
+commit d2ad8bb522dea0f2ab66dbcc733efeb1d98f5594
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 20 16:34:25 2025 +0900
+    [김재현/전투] 상대편 정보를 보여주지 않도록 버튼 비활성화
+commit acd63cffd88b1f67862d9ce455ed961cd56d143f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 20 15:46:04 2025 +0900
+    [김재현/전투] 전투 준비 팝업에서 플레이어 캐릭터를 변경할 수 있도록 기능 수정
+commit 94fdfa2a7a1a85f32e830d680ede0186552c6ea0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 20 15:44:59 2025 +0900
+    [김재현/전투] 원거리 이펙트 이벤트 (데미지x) 발생 시에도 데미지 표시를 하고 있는 문제 수정
+commit fd48206c01878db02515ad09dd54894168d733b8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 17 19:23:34 2025 +0900
+commit c419050ad2de8d5b5f39bc71f1b9fe85918d04f8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 17 19:09:03 2025 +0900
+commit c23d7dc0999aa9bd5edcc32b1f7d77640eac09bf
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 17 19:08:18 2025 +0900
+    [김재현/전투] 타임라인에 애니메이션 적용 시 인덱스를 맞춰서 적용하는 로직 추가
+commit 1b0f7ee88d5b910e139159f3e1fd1a1fb2e9dd8e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 17 12:48:47 2025 +0900
+commit 22141f3900c23f0f504dec7db8436fddcda729ca
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 16 22:00:29 2025 +0900
+    [김재현/전투] 전투 진입 UI 작업 중도 커밋, UIBattleReadyPopup 추가, DB최신화
+commit 8ea8d367b2d3ce53433f28d67ba80a186a229815
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 16 17:53:57 2025 +0900
+    [김재현/머지] develop, dev-Battle, dev-CommandCenter+PowerChip 머지 작업, 테이블 최신화, DB 최신화
+commit 6777ee4969dbe7ae298df4660ff7be8766c28b7c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 16 17:36:54 2025 +0900
+commit 66be7fef00897d92f83b352fad34e00eb52da4ee
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 16 17:01:29 2025 +0900
+    [김재현/LBS] LBS Hud의 버튼이 사라져 발생하는 문제 수정
+commit 51ded903af9dc9c00ddf78addb9c73faaeddc1c1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 16 15:12:36 2025 +0900
+    [김재현/전투] OnSkillIntroEnds 를 다른 이벤트들과 동일하게 OnSkillIntroAnimEnds 로 네이밍 수정
+commit 461a0cd66a4104ee0c75f63e4cbc932364779a91
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 15 19:35:03 2025 +0900
+    [김재현/전투] 전투 이벤트 체커 툴 오류 수정
+commit b32a74f3b858d5e5291356d0c71d335034cc4b28
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 15 15:09:24 2025 +0900
+    [김재현/머지] ServerCommon 머지, 클라이언트 적용, 테이블 최신화, 몇몇 게임 진행에 영향을 주는 이미지 네이밍 변경
+commit 6e1aa16baca49c4bdc9d9e88529df592374be804
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 15 12:44:07 2025 +0900
+commit e6d8ab6bcd5407938d2b5a9f9949d96e015a8c93
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 15 12:31:46 2025 +0900
+commit 6e8cb40d71a623a7c34499e7f906f78ea1e4acd5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 15 11:07:52 2025 +0900
+    [김재현/전투] 전투 진입 UI 작업 및 리소스 폴더 조정
+commit ad4ce494371a9d7dc4736bf3c920ebe2ffce4d54
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 14 17:11:25 2025 +0900
+    [김재현/지휘통제실] SkillInfoItem 레퍼런스가 빠진 부분 수정, 스크립트 수정
+commit 55368c422bf2d85c88e9814c265fe0dcce99eec5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 14 16:57:06 2025 +0900
+    [김재현/지휘통제실] UITFDetailPopup 레퍼런스가 사라진 부분 수정 (데이터 오류 작업중)
+commit 788dcad754b9717edb5ec73901a648678ad7fef4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 14 15:15:15 2025 +0900
+commit b3db51bdbfa0e6396e66e108910435878638d944
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 14 15:11:51 2025 +0900
+commit 1873221051c67c2f022a772dbbcac248353436bb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 14 15:00:51 2025 +0900
+    [김재현/전투] UIBattleInformationPopup, UIPanelBattle UI 수정 및 연출 추가
+commit b96606d33a1fd0fcb690691f7410bc63513dd146
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 14 14:03:49 2025 +0900
+    [김재현/전투] UIPanelBattle, UIBattleResultPopup 의 TransformerInfoItem 수정, 체력 상태에 따라 색상 변경 코드 추가
+commit febb6a92050976dfc2b06e3ed28d6621a2b33be6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 13 19:53:22 2025 +0900
+    [김재현/전투] 전투 트랜스포머 상태 프리팹 수정, popup 상황에 맞춰 이미지 변경
+commit ba271362d875e00de6a9f9c2df0a1d50a09a1386
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 13 18:18:46 2025 +0900
+    [김재현/전투] 전투 스킬 정보 UI의 스킬 이름과 트랜스포머 이름 텍스트가 반대로 되어있는 문제 수정
+commit a746986123e14d63390599b6ac634a7583acd2d5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 13 18:12:39 2025 +0900
+    [김재현/전투] 전투 결과 UI, 전투 스킬 정보 UI 리소스 적용 및 로직 수정
+commit f53662521b1fd7bc322a1e6f3973907d1138949f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 13 16:18:16 2025 +0900
+    [김재현/지휘통제실] UIPotionInventoryPopup, PotionItem 앵커 수정, 사이즈 수정
+commit b31c63e52b35b5cfbef31ca3716b00db53e76fb5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 13 15:20:33 2025 +0900
+    [김재현/지휘통제실] 포션 사용 팝업 수정
+commit 79af38e4b1d434992b99612becd9cf76dbfb5424
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 13 15:02:05 2025 +0900
+    [김재현/전투] 전투 UIPanel, ResultPopup 리소스 적용
+commit 92c0ab48778a3daf3846f4729ea9958ed8e8f6f4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 10 18:47:13 2025 +0900
+    [김재현/전투] 전투 카메라 뷰 변경에 따른 로직 및 애니메이션 이벤트 콜백 수정
+commit 3ae4368d9dd017388b559264d73d63e5fd390736
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 10 14:13:56 2025 +0900
+    [김재현/전투] 전투 종료 시 연출을 끝까지 보여주고 종료시키는 로직 추가
+commit b1dc669224ad6cae96e3662b1fa4d5b99a9676d6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 10 12:50:35 2025 +0900
+    [김재현/전투] SkillIntro (strong 제외) 마지막에 호출되는 이벤트 이름을 OnSkillIntroEnds 로 통일
+commit 8e39eb55d522530fa403db27f79208d417c880bd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 9 20:01:30 2025 +0900
+    [김재현/전투] 전투 종료 판정 시, 남아있는 애니메이션이 있다면 대기했다가 종료시키는 로직 추가
+commit 560df02a75d8d3b6bf9edf1d49349a0c075751fd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 9 18:43:13 2025 +0900
+    [김재현/등급] UITFGradePopup 의 Slider 가 2개 빠져있는 문제 수정
+commit 1f6bcb0f7fef66a9951d7bfa3283a1bb641dd09c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 9 18:37:03 2025 +0900
+    [김재현/성장] UITFPowerUpPopup 연출 변경으로 인한 기존 오브젝트 정리
+commit 8694dfae11240bc9f4c57362ee1c1c68486b6c7e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 9 18:12:15 2025 +0900
+commit 829c0d9ac66aa26d436a7466d1e6d17690324343
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 9 17:52:25 2025 +0900
+    [김재현/전투] 전투 카메라 뷰를 아군 숄더뷰로 고정, 꼬여있는 전투 로직 수정 및 정리
+commit 810147b189de17096ad68c6aa6c14e0c06ee8b59
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 9 15:00:43 2025 +0900
+    [김재현/전투] 전투 카메라 뷰 및 연출 수정
+commit 624502d97e3bd1c144cb5bae79359031e01a4ceb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 8 19:39:56 2025 +0900
+commit 4a444a600b203910cefd1bd5d77cae352df5fbeb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 8 19:37:23 2025 +0900
+    [김재현/전투] 기존 임시로 사용하던 AutoBattle 명칭을 완전 삭제, Battle 로 통일, UI DB 최신화
+commit 9d4ad0d91d5a053fa8ec19f53496671f7b4f02a2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jan 8 17:32:27 2025 +0900
+    [김재현/전투] 신규 행동바 로직 구현
+commit 7018b6229d2c47e1a0d73b93a4f0e87fdda3966c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 7 16:54:33 2025 +0900
+commit 1ce60cf17d684435c35f80dca617831e3c04ee05
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 7 16:27:47 2025 +0900
+commit 0095c4b888f861e8ab8827d67d6370a6f1faa862
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 7 15:44:37 2025 +0900
+    [김재현/권능의사당] Lobby <-> TempleOfPower 진입 로직 정리
+commit 6ba3ab90b2e39497f0c3ec9e691f44b115957d1d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 7 14:55:29 2025 +0900
+    [김재현/권능의사당] SubClass 를 상위로 이동
+commit fea51b245bf6e13600c71368bb54f8d43586689e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 7 14:53:09 2025 +0900
+    [김재현/Entities] PowerChipReferenceData의 시트에 따라 Entity 생성
+commit 60f7961c8c0b977684cba595709aa24dbbe363a9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 7 14:39:57 2025 +0900
+    [김재현/권능의사당] 로그인 오류 수정
+commit 9140928b10ee76acafd11112de7e3f7ca034f40a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 7 14:37:12 2025 +0900
+    [김재현/권능의사당] TempleOfPower 관련 패킷 수정 클라이언트 적용
+commit 60c8d0e3090bda0b2adbc6881c7d1a053197ab26
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 7 14:35:02 2025 +0900
+    [김재현/권능의사당] 파워칩 생산시설 관련 데이터를 관리할 TempleOfPowerDataManager, 로그인 시 데이터 로드 로직 추가
+commit a07c76a0bee3692c12476dcb5056299adae51f39
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 7 14:33:51 2025 +0900
+    [김재현/테이블] PowerChipReference 테이블 최신화 (r ffcf365 기준), db 최신화
+commit 67111574811c44be7711271df89d7674c62b1656
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 7 11:05:29 2025 +0900
+commit 2fa4fe244812a48a2928405d4b66ce44b3ecda0a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jan 7 11:00:55 2025 +0900
+    [김재현/파워칩] 기록된 파워칩 체크 로직 수정
+commit 663e8751c3d73cac6ee53d1c5c2861b6218858f1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 6 20:31:34 2025 +0900
+    [김재현/전투] 전투 행동바 기초 제작, 움직이는 기능 및 거리계산 로직 미완
+commit 1244c2a5c7383cdde68384af9c50f1b30cf549e7
+Author: 김재현 <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 6 15:08:46 2025 +0900
+commit b6670d7dc53f919b598bd2ffc60f8f87b8f2b816
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jan 6 12:14:27 2025 +0900
+    [김재현/생산시설] 권능의 사당(파워칩 생산시설) 개발을 위한 Additive scene 기초 추가
+commit 98a13f1463da5955a4d5ca48b2bc3d02f62e29d0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 3 19:22:19 2025 +0900
+    [김재현/전투] finishBattleData가 없어 오류가 발생하는 문제 수정
+commit ea5a39c71654a1348276c903c2d6a1cfca2292d1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 3 18:22:37 2025 +0900
+    [김재현/전투] 기존 전투 코드 때문에, 미리 세팅된 팀 덱이 없으면 오류 발생하는 현상 수정
+commit 75b6ff2431d903ce95d9f22b6cb04031f24d20f5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 3 17:20:58 2025 +0900
+    [김재현/전투] BattleRandomSeed 추가 사항 클라이언트 적용, 전투 이탈 시 FinishBattleData 삭제
+commit 2c4bd0450f06cdb54a121001cf8e32473caf8d8a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 3 16:35:43 2025 +0900
+    [김재현/전투] 전투로직 오류 수정 클라이언트 적용
+commit 98b25544487d7bdc17cc1bf6ad4150436b7f0d1e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 3 16:20:15 2025 +0900
+commit 822a306d3401af1822d737f44b4965c1879b3685
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 3 16:13:23 2025 +0900
+    [김재현/계정] 계정 관련 정보가 ResLogin패킷과 SharedValueObject의 AccountInfoVo 두 종류를 사용하고 있어서, 임시로 클라이언트 가공데이터 생성
+commit 20699b15efd7d78b322dcf5c4d4add5e538a5751
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jan 3 14:01:55 2025 +0900
+    [김재현/전투] 대치 장면에서 보여주던 ConfrontationPopup 삭제, UIPanelAutoBattle 세팅 타이밍 조정
+commit 4f364fa4d8d7ae4d5ac9528a7997eb28cdb259b9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 2 19:57:41 2025 +0900
+    [김재현/전투] 전투 결과에서 UIPotionInventoryPopup 연결 (실사용은 테스트 하지 못함)
+commit 4292037002a5da98fd0c17c14c8ec014ea885f07
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 2 19:01:03 2025 +0900
+    [김재현/전투] 원거리 공격 시 Muzzle, hit 이펙트가 존재하지 않아 에러가 발생하는 문제 수정
+commit fa84cb38e412cf6ca5d3210f0137c7ad3d2399ed
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 2 18:09:38 2025 +0900
+    [김재현/전투] UIPanelAutoBattle 총 데미지 표시 로직 추가, 트랜스포머의 애니메이션이 Index에 따라 변경되지 않는 문제 수정
+commit b6ee455a4cd6c27703a64a347cb4b01c52ed70cb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 2 15:59:41 2025 +0900
+    [김재현/Tool] 전투 애니메이션 체크 툴에 피격 애니메이션 체크 추가
+commit 04eed18df8c9163d5132a470e2f9e801ad438f66
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 2 14:58:42 2025 +0900
+commit a38dc8fb14d82a8871f5de402bed397c4c85e66e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 2 14:46:29 2025 +0900
+commit 1bc4ca1a2ade103f87992797ca6343cdefd95393
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 2 14:16:09 2025 +0900
+commit eba0d877497182ba39d158119c7bcb9241b01e8b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 2 12:53:56 2025 +0900
+    [김재현/전투] 전투 결과 화면의 보상 아이템 개발 중간 커밋
+commit 0de136bf33f17c1a29734dda152cb4080342d1ed
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jan 2 12:52:43 2025 +0900
+    [김재현/전투] 전투 배경 씬 네이밍 변경에 따른 코드 수정
+commit 358c3c8291f3c2bfd527e6a7232993c19cd97f94
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 31 11:22:02 2024 +0900
+    [김재현/배경] 전투 배경 네이밍 변경 누락 파일 추가
+commit 8c360f71b20a18cced31301bb245dde1ee3193a8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 31 11:19:10 2024 +0900
+    [김재현/배경] 전투 배경 네이밍 변경에 따른 배경오브젝트, timeline 생성 로직부분 수정
+commit 743987d21be4da2c55969c162a7f19274e79308a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Dec 30 15:22:28 2024 +0900
+    [김재현/전투] InstanceBattle을 재생성하는 문제 및 SharedTableData를 계속 재생성하는 문제 수정
+commit 3d6c494dc0fc45b9c29918e6f3b993b75e9821cd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Dec 30 14:35:44 2024 +0900
+    [김재현/전투] 전투 결과 UI에서 승리 시 LBS 로 돌아가는 기능 추가
+commit ba769f7c7003813c7ef033367df924b31e0f6acc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Dec 27 13:00:14 2024 +0900
+commit 2516361e4cba534a3c764a9b9c86c9e2d3040def
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Dec 27 13:00:10 2024 +0900
+    [김재현/지휘통제실] 트랜스포머 포션 사용 팝업 앵커 수정, 체력 텍스트 수정
+commit 1052806fae22f4d85806e6833e7e90bc1bad0584
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Dec 27 10:57:29 2024 +0900
+    [김재현/Enum] E_EFFECT_POSITION 이 ServerCommon 과 클라이언트 두곳에 있어 발생하는 오류 수정
+commit 84f794a88a30a097607a0f05e852ecbe4f8195cc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Dec 27 10:30:23 2024 +0900
+    [김재현/전투] UIPanelAutoBattle 수정, 버프 생성/소멸 시 보여줄 BuffItem 수정
+commit 070dbe88620fc27a27a350a7f027cd3c87edd5dc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Dec 26 16:19:51 2024 +0900
+    [김재현/전투] 데미지가 없는 투사체 이펙트용 ShowProjectileFx() 애니메이션 이벤트 생성
+commit 7df17b09683a77192724f5688c459cdca4d0476c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Dec 26 15:53:42 2024 +0900
+    [김재현/전투] 원거리 스킬 Projectile을 테이블 값에 따라 설정하도록 수정
+commit d66c9134bdc224875cfac67af54856841f5cf7ca
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Dec 26 15:24:06 2024 +0900
+    [김재현/전투] 재전투 진입 로직 추가, 전투 결과 UI 변경
+commit b8cec0612becccf038217d2e07dcfb8ae3b0587d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 24 16:48:35 2024 +0900
+    [김재현/전투] 전투 서버 코드적용을 위한 수정사항 추가
+commit d057b8964cb058881ae23b31f50ee1853ee5a037
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 24 15:51:23 2024 +0900
+commit 7699db6f632747a4f01d1ffde36c854ba4114f6d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 24 15:36:59 2024 +0900
+commit 5277694a3700b1ad585a27d0e207cb1bcfe87fbc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 24 15:30:53 2024 +0900
+    [김재현/파워칩] 파워칩 관련 ServerCommon 변경사항 클라 적용
+commit 2a8496ef7d37d195fc62b1fda1333f0155e1338e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 24 15:20:31 2024 +0900
+    [김재현/파워칩] PowerChipReferenceData 테이블 적용, Product_EnergyAmplifier 추가, DB 최신화
+commit 762c871a690c37c9aca9114e410d36025eff61d6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 24 12:04:37 2024 +0900
+commit 07141ae8522715a248990c4cd46998e419a397a8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 24 12:03:41 2024 +0900
+    [김재현/전투] 전투 결과 UI 정리, 새로운 플로우에 맞게 수정 (미완)
+commit e2027af9a493c3f0b62b4e2ec8c9142dee89f858
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Dec 19 20:18:38 2024 +0900
+    [김재현/지휘통제실] 트랜스포머 닉네임 변경 시 트랜스포머 리스트를 갱신해주도록 코드 수정
+commit 7c9e3d3b45705ed41b838c1647a667084791af94
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Dec 19 15:47:00 2024 +0900
+    [김재현/스킬] 스킬 프리셋 이름 변경 시 트랜스포머의 닉네임이 변경되는 문제 수정
+commit cdcf27486046dc61650a6c7b346f94cf3f0797cf
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Dec 19 15:13:59 2024 +0900
+    [김재현/전투] 머지 중 발생한 오류 수정, Ready, Start, Finish battle packet 관련 코드 수정
+commit 71b485cf93104909302ef538f36c9d5494c41dda
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Dec 19 12:46:23 2024 +0900
+commit ad60978094934b8395206e0b20b8f08d2504e426
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Dec 19 12:38:40 2024 +0900
+commit 58a11dd5d9f05d1ead012a7a683cd113febaef2c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Dec 19 12:21:05 2024 +0900
+    [김재현/지휘통제실] 테이블 변경사항에 따라 클라이언트 코드 수정
+commit a81c017ee6139c5c962ce51d92818075d6095e70
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Dec 19 12:18:15 2024 +0900
+    [김재현/테이블] 2025년 1월 타겟 테이블로 업데이트, DB 최신화
+commit 225dfe3e4a3d34b0500b1bb2b68068d49dcea0dd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 17 19:53:20 2024 +0900
+    [김재현/UI] 지휘통제실 UIPanelCommandCenter 수정, 닉네임 기준 이름 검색 기능 추가
+commit f2a8b47c988f246244ee23530fc9c7b2126da7bc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 17 19:52:38 2024 +0900
+    [김재현/지휘통제실] TransformerInfo 의 Nickname이 비어있을 경우, 테이블에 있는 기본 트랜스포머 이름으로 설정해주는 코드추가
+commit f33c8226a12f0947c11633042788402d8b27bb4f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 17 18:38:49 2024 +0900
+    [김재현/UI] 보유중인 트랜스포머 리스트를 보여주는 UIPanelCommandCenter 수정, 필요없는 부분 삭제, 리소스 추가
+commit b6c995033a6f53d3ece53fbbb80655d4d995794a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 17 18:16:28 2024 +0900
+    [김재현/UI] VerticalGridInfiniteScrollView 스크립트를 조금 더 알아보기 쉽게 로직 수정, 관련 코드 수정
+commit 24e02508e016cd814437d87c8fd8913d96058f97
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 17 13:01:37 2024 +0900
+    [김재현/UI] InfiniteScrollView 중 VerticalGridInfiniteScrollView 에 중앙정렬 기능 추가
+commit e624fc20fa6fe32c6ed94d8128f4dc6bf1259353
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 17 13:01:01 2024 +0900
+    [김재현/지휘통제실] 기존에 사용하던 UIPanelBarrack --> UIPanelCommandCenter 로 네이밍 변경
+commit 284f11c3ec26a89d6de8154e4bfa3f0462d585d9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Dec 13 17:32:46 2024 +0900
+    [김재현/지휘통제실] 지휘통제실 TFDetailPopup 수정, Skill view 에서 프리셋 이름을 바꿀 수 있도록 수정
+commit 41d1da96e6d395655c09591074ba94de317af8eb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Dec 13 15:11:40 2024 +0900
+    [김재현/지휘통제실] 스킬 프리셋 데이터 관리 구조 변경, 닉네임 변경 팝업 공용으로 사용하기 위해 구조 변경
+commit 8565fa11efd500a29baa58566642db89b5b5b39d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Dec 13 14:29:32 2024 +0900
+    [김재현/UI] UITFDetaionPopup 에서 skill view 로 넘어가는 기능 코드 원복
+commit ceefdf1dd9359f87e4ef08a1aa817d089022d681
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Dec 13 13:59:14 2024 +0900
+    [김재현/기지] 사용하지않는 using 삭제
+commit 4ef610907489aa3b0f00cae662d6a2f42266f66e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Dec 13 12:45:41 2024 +0900
+    [김재현/테이블] 스킬 타입 관련 enum 네이밍 테이블에 맞춰 변경
+commit 1fbf582406253874b8fbb172b517f65feab791b0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Dec 12 20:52:41 2024 +0900
+    [김재현/전투] 전투 대치 UI, 스킬 정보 UI, 결과 UI 에서 공통으로 사용하는 TransformerInfoItem 제작 및 세팅 로직 공통 적용
+commit 9e0ec17c72778a408ffcde6fb2ee6dcc59f9818e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Dec 11 17:20:44 2024 +0900
+    [김재현/전투] 스킬 준비, 스킬 실패 연출 임시 연결
+commit 805e2505513ada0de457e9ddcaf6e192c2ebe943
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Dec 11 17:02:41 2024 +0900
+    [김재현/소환게임] AR 종료 후 소환게임 진입 시 터널 연출 삭제
+commit c65f917d15e6b6e706b586ef0cab6a3db778c6e5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Dec 11 15:16:49 2024 +0900
+    [김재현/전투] 메가트론 방패 이펙트 임시 적용
+commit a09a03010c2db00f48564e206008a188ca652fbc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 10 17:00:00 2024 +0900
+    [김재현/전투] 전투 연출 중 트랜스포머의 bone 에 붙어야하는 이펙트를 bind 해주는 함수 개발
+commit 28a87cfe583c89a0b244e00042623c741cfb5562
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 10 15:16:55 2024 +0900
+    [김재현/기지] BarrackDataManager 이름 변경 및 singleton 화
+commit 043e91b1983467af8801008848a32134b0944d50
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 10 10:54:20 2024 +0900
+commit dbd306052019c94aff4be4045b49e9002503c36a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 10 10:54:13 2024 +0900
+commit d4aba814ed3fae5c96e4ae070c31ec0ba43e6577
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Dec 9 19:01:25 2024 +0900
+commit eab05e8493a9835ff3a0ea5268f5c69547d79ef1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Dec 9 15:34:24 2024 +0900
+    [김재현/LBS] Stamina 정보가 변경되어 로직 수정, ServerCommon 클라이언트 적용
+commit 6a2340bb45d490f2e52d13df05c1459349f10b74
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Dec 9 14:00:53 2024 +0900
+    [김재현/테이블] 테이블 변경 및 ServerCommon 적용에 따른 오류 수정
+commit 553f8d47ef6d2c4ba5cd3c154bcf13d8ebc9a479
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 3 16:27:25 2024 +0900
+    [김재현/툴] 빈 신규 Entity 스크립트를 만들 수 있는 Creator 스크립트 생성
+commit e33ba0575aa732adc7baa833b5681c5eb81b9c69
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Dec 3 16:26:57 2024 +0900
+    [김재현/시스템] 기획 테이블 시트 및 데이터 변경에 따른 수정사항 커밋
+commit 00835f1c42da07d0e07ecf33e8d15a48047086b8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Dec 2 20:34:39 2024 +0900
+    [김재현/지휘통제실] 기존 전투 코드 삭제, Transformer management 관련 ServerCommon 코드 클라이언트 적용, Vo 변경사항 적용
+commit 1c6f8ffe12e126e8f798ae2cec085047153bf6fd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Nov 29 16:19:21 2024 +0900
+    [김재현/전투] 타임라인 receiver 쪽에 signal을 다시 세팅하는 코드 오류 수정
+commit 16ce5cf34459ffda88cccdbbc9cb184f4a8a96ec
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Nov 29 12:29:27 2024 +0900
+    [김재현/전투] 전투 진행 시 타임라인에서 타임라인으로 바로 이어지는 부분에서 한프레임 카메라 위치가 튀는 현상 수정
+commit b1b40c45587088d1a9c634a814710eebf4b8dbf2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Nov 29 11:51:24 2024 +0900
+    [김재현/전투] 전투 트랜스포머를 리소스에서 생성해오는 방식 원복
+commit d0e794340447f6f9248b092652e7407177e32b50
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Nov 29 11:10:22 2024 +0900
+commit 5079d9a367fa84bf1d4eba58b749ae101b93cf8a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Nov 28 20:15:32 2024 +0900
+    [김재현/전투] 에셋번들에서 타임라인을 받아올 경우 signal과 signalReceiver 간의 연결이 끊기는 문제 해결
+commit ffe6f2ccf48e5e62884fdd2aaffe2ec39d5f9a8b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 27 16:00:41 2024 +0900
+    [김재현/전투] 트랜스포머 EffectPosition 중 Right, Left Weapon 무기 위치 세팅, 신규 enum 값에 맞춰서 코드 수정
+commit 8f2996d0a8b75baca68531c1dabb6b90481972fd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 27 12:25:24 2024 +0900
+    [김재현/전투] 전투 이펙트 생성 위치 관련 enum 값 변경, 로직 수정
+commit 2ac0729bbe0046be7aeb40caea84205318598f97
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 26 19:29:53 2024 +0900
+    [김재현/전투] 시네머신 안에 넣어둔 애니메이션 클립을 현재 트랜스포머의 애니메이션으로 덮어씌우는 기능 수정
+commit 367b15f19d49e13f980d0ce63b3726fe6d377ab0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 26 19:28:13 2024 +0900
+    [김재현/전투] 원거리 투사체의 궤적이 남아야 하는 문제로 BulletController 로직 수정
+commit e6f1d340e437b29d25af2d15a260c26230e00d75
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 26 17:33:53 2024 +0900
+    [김재현/모델] 전투용 범블비, 메가트론 이펙트 위치 오브젝트 재설정
+commit 9d6f0a055e40d9f6be6302ac8b46213ca1354e2d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 20 19:03:44 2024 +0900
+    [김재현/로비] 리비전 f330999 _lbsObjectRoot 를 비활성화 하도록 되돌림
+commit 6489d337edb9465854ed970f5d14d76868b7e5f2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 20 18:50:45 2024 +0900
+    [김재현/전투] 총알 오브젝트가 pool 에서 가져와질 때 데이터가 초기화 되지 않는 이슈 수정
+commit c305db6fff6b66d49fb135f88064c58dabc83e9d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 20 17:36:01 2024 +0900
+    [김재현/전투] 하드코딩으로 스턴건 이펙트 (총알) 발사가 가능하도록 수정, 총알이 자체적으로 사라지는 로직 수정
+commit 6e63d3f2665baea0932082b5de3e1830eed84702
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 20 16:21:01 2024 +0900
+    [김재현/UI] 소환게임 중 나가기 기능으로 LBS 로 돌아올 경우, 소환게임 UI가 남아있는 문제 임시 수정
+commit 3657873bcaa4a63eee2e45640b55ef0cd80ee087
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 20 16:12:43 2024 +0900
+    [김재현/전투] 총알이 자동적으로 사라지지 않는 문제, HP바의 위치가 변하는 문제 수정
+commit f33099926fed758446605ec53412c5e3d8a268a5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 20 15:47:04 2024 +0900
+    [김재현/로비] ClearLbs 도중 lbs object root 가 비활성화 되어 코루틴이 멈추는 현상 임시 수정
+commit 92c208e8faeba31477b5c50281742de47adf4821
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 20 14:32:02 2024 +0900
+    [김재현/전투] 전투 이펙트를 애니메이션 이벤트에 정해진 위치에 생성할지, 상대방의 가슴에 생성할 지 테스트 할 수 있도록 디버그용 필드 추가
+commit 6f94da58dd5708f2d203541c33899e207f28a015
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 20 14:24:32 2024 +0900
+    [김재현/전투] 총알 오브젝트가 1초 지나면 자동적으로 삭제되도록 수정, DamageItem이 위로 움직이는 연출 추가
+commit 8f6dfee7d8fcdc70ce656409e72e7dfce1067d91
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 20 12:49:16 2024 +0900
+    [김재현/전투] 11월 시연을 위해 임시로 이펙트가 밀리지 않게 상대방 가슴 중앙에 생성하도록 수정
+commit 35ca7840961a6a4265460b87f372417121660189
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 20 12:12:03 2024 +0900
+    [김재현/전투] 메가트론 HP바 위치 살짝 아래로 수정, 전투 진입 시 서버에러 발생 처리 로직 추가
+commit 822eac51629bfa5da9272ecca3673dcec3ac8a23
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 20 12:02:06 2024 +0900
+    [김재현/전투] 원거리 공격 발사 이펙트 추가, 데미지 UI 노출 시간 1초에서 0.5초로 수정
+commit 7e2f9a8b3a8f08dfa9749fde93b7e464f7111c2c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 19 21:27:40 2024 +0900
+    [김재현/전투] 보유 버프표시가 되지 않기 때문에 UI 비활성화, 스킬 이름 텍스트 적용, 결과 화면 이미지 수정
+commit 7e7c8a5626943989948a9f770a02860616ed6ea9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 19 21:26:24 2024 +0900
+    [김재현/전투] 원거리 공격 투사체 속도 조정, 전투중이 아니더라도 이펙트를 표시할 수 있도록 코드 수정
+commit 5396ca39aa6cdc461523bb3a978bbcf5d96bf3bd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 19 19:43:44 2024 +0900
+    [김재현/전투] 원거리 공격 로직 개발, 임시로 사용할 총알 오브젝트 추가
+commit a837d338293b1a3f0e78435ca1e61db416493e71
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 19 14:53:45 2024 +0900
+    [김재현/전투] 전투 랜덤시드를 임시로 1로 설정, 항상 동일한 루틴을 확인할 수 있도록 수정
+commit 3bd1c61e643101bb64c4399a6be3d3f1abc29f4b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 19 14:29:49 2024 +0900
+    [김재현/전투] 애니메이션 이벤트로 원하는 타이밍에 이펙트 생성 로직 추가, fx들 Start on awake 체크
+commit 4d2c0df07e87b15e8d3d10b41acd63f4b6988649
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Nov 18 22:14:40 2024 +0900
+    [김재현/전투] 행동바 연출 및 로직 작성, UI 애니메이션 작업
+commit a1512fd8115616dda685943be4778f186e1782ca
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Nov 18 17:59:40 2024 +0900
+    [김재현/전투] 전투 로딩 화면이 사라짐과 동시에 Battle_BGM을 플레이하도록 수정
+commit 42109c43498e0eb961246edface40927c622f628
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Nov 18 16:01:30 2024 +0900
+    [김재현/전투] Action 단위 damage 표시 기능 추가 (현재 계속 avoid 만 발생)
+commit 11fb78407c221f54c80d60181deffaac9ed6013e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Nov 18 15:41:51 2024 +0900
+    [김재현/LBS] DebugText가 세팅되지 않아 오류가 발생하는 부분 수정
+commit 6b853e12004bfdbe78af101eda55fead1f942549
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Nov 18 12:55:12 2024 +0900
+    [김재현/전투] 메가트론 이미지 이름이 변경전 이름 (Magnus) 으로 되어있었던 문제 수정
+commit 79535d386425aa432dd4d8037dcdacaf7cc7d7a5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Nov 18 12:36:00 2024 +0900
+    [김재현/전투] 버프 알림 기능 추가, 데미지 알림 기능 개발중 중간 커밋
+commit a824f4b534b4c5ef8ae25ef181a2d00b227e40f7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Sun Nov 17 14:03:44 2024 +0900
+    [김재현/전투] 버프 오브젝트 생성/소멸 기능 수정
+commit 266e236523a5bd5cfa477f91cdde7b2ef941a764
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 13 23:27:14 2024 +0900
+    [김재현/리소스] 전투용 timeline 생성을 Resources 폴더에서 가져올 수 있도록 수정
+commit 1934eeeb1de4cf1bd470ef1b5ea6fc9cba7a49df
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Nov 15 18:16:04 2024 +0900
+    [김재현/전투] 생성/소멸 버프를 UI에 표시해주기 위한 로직 추가, 생성 후 자동 삭제 기능 추가
+commit cb9f4d76636bb47e57ad981b9ce87a75c4b5699a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 13 17:28:35 2024 +0900
+    [김재현/배경] 전투 배경 addtive scene 이름이 scene dictionary에 없어서 오류나는 현상 수정
+commit 5a1e4cc9e7416d4fec69f06d9a7505cbbe325390
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 13 16:21:06 2024 +0900
+    [김재현/전투] SpecialSkill timeline 에 action 이벤트 연결, 사용되지 않는 lightmap 삭제, assetBundle 최신화
+commit 0625db9235c041184085f28ec93eaef91070af25
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 13 14:31:53 2024 +0900
+    [김재현/전투] 전투 종료 후 LBS로 돌아가기 위한 팝업 임시 생성
+commit 01723aaced0a7f33bacd67e59930eead98e95ad8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 13 12:17:58 2024 +0900
+    [김재현/전투] 강 스킬 사용 시 타임라인용 action signal 추가, timeline의 audio track에 audio source를 바인드할수 있게 기능 개발
+commit 51d0905ba904bbaf9ed23bbbc585bf2161c6132d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 12 21:03:37 2024 +0900
+    [김재현/UI] 전투 스킬정보 표시용 팝업에 Underlay용 텍스트 추가
+commit 85b3a5dfce4977379662ea641e8326dc0efc437b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 12 20:56:44 2024 +0900
+    [김재현/전투] 전투 스킬 사용 시 상대방 트랜스포머 2.5 거리 안으로 접근하는 코드 추가, FinishBattle 패킷 연결
+commit e4393e22d4d7f001eb53425e55e99076f7d37168
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 12 17:26:57 2024 +0900
+    [김재현/전투] 전투 UI enum 누락사항 추가
+commit 2b412878a8fdde5c25b2403ec6fca3c4cf04a07e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 12 17:04:11 2024 +0900
+    [김재현/전투] 전투 UI 추가 -> 스킬 사용 전 스킬정보 팝업 제작 및 구조 설계
+commit 7cd0a70c4da8132ea43334cd875e6ab0cc6a0ab8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Nov 11 17:35:00 2024 +0900
+    [김재현/전투] 기존 전투 세팅이 되어있지 않은 계정으로 진입 시 아군 팀 세팅을 할 수 없는 문제 수정
+commit eecd9f37232bf4711b636290ef87a44580457577
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Nov 8 19:07:16 2024 +0900
+    [김재현/전투] 전투 연출용 상태 enum 추가
+commit 890179599f0961b40edb4723ca4e25dc85b15acb
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Nov 8 18:39:30 2024 +0900
+    [김재현/전투] 전투 종료 연출 (승/무/패) 타임라인 연결
+commit 1ba480437594791070f843fb38d0846154c74e63
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Nov 8 16:29:02 2024 +0900
+    [김재현/전투] 스킬 사용 시 적 방향으로 이동하는 이벤트 이름 변경
+commit 53e41ae461b5cb92dd42f1c67b3dc9839f40a741
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Nov 8 11:37:48 2024 +0900
+    [김재현/LBS] 전투용 dynamic object 에 메가트론만 보이도록 임시 설정
+commit 23fa1f3f1873aceeec0a69f74be499eb1d37f8b4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Nov 8 11:36:52 2024 +0900
+    [김재현/전투] 스킬 시작 시 상대방 앞으로 이동해야 할 프레임 or 시간을 지정하는 이벤트 추가
+commit 0689469fb24d9178444f9bb88aee0c0297a79008
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Nov 7 20:23:42 2024 +0900
+    [김재현/전투] 전투 연출 추가사항 커밋, PlayableDirector에 데이터 바인딩하는 방식 변경
+commit 115e8129f5ed8210653adabe55fa9bea79268d07
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Nov 7 18:11:57 2024 +0900
+    [김재현/전투] 전투 초반 연출 ~ 전투 종료 까지 연결
+commit 94a190fafd0080dd9765b45398d35ef83bc581d8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Nov 7 16:20:44 2024 +0900
+    [김재현/전투] OnActionEventOccurs 애니메이션 이벤트의 parameter 제거
+commit 1a92fe4313574b016a65d12a3f02bb30c292b422
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Nov 7 14:09:38 2024 +0900
+    [김재현/전투] 전투 트랜스포머 Information 연출 추가
+commit 462c75c3c39de24711e12a35aea909562cdacdea
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 6 18:53:48 2024 +0900
+    [김재현/전투] region 명령어 오류가 발생하는 부분 삭제
+commit eab7537b2e97ad7d05acd9db90a5da958f859118
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Nov 6 18:50:29 2024 +0900
+    [김재현/전투] 전투 서버 공용 로직의 끝 까지 (각자 정해진 스킬을 모두 사용할 때 까지) 연출 연결
+commit 8f74bb16aaddc15d011e815b09d5c9afe4a37396
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 5 17:29:21 2024 +0900
+    [김재현/전투] 전투 연출 타임라인 내부의 카메라를 다시 비활성화로 변경, 전투용 이펙트의 layer를 BattleFX로 변경
+commit 46ac82b7dc5d303e170a3165bdcb887fc4dc3505
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 5 16:49:52 2024 +0900
+    [김재현/전투] 전투 연출 타임라인 중 이펙트를 보여줘야 하기 때문에 작업중 비활성화했던 카메라를 다시 활성화
+commit c713b5ee594bdbb51085ae87b64a735c8fcf58c0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Nov 5 16:38:30 2024 +0900
+    [김재현/전투] 전투 진입 -> 스킬 사용까지 연출 코드 연결, 테스트용으로 몇 애니메이션에 임의 이벤트 삽입
+commit 9eb478c8b8c0e275f31d410d56988e81c8bb67d8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Nov 4 20:06:21 2024 +0900
+    [김재현/전투] 전투 연출용 타임라인 프리팹 네이밍 변경에 따른 에셋번들 데이터 업데이트, 스크립트 누락사항 추가
+commit 609f8b436f23e2baf8fe8010fc42032303dfa290
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Nov 4 20:03:45 2024 +0900
+    [김재현/전투] 전투 등장 연출, 스킬 연출 시작부분 기능 개발
+commit e4067452e135c9ffa145fa9dd57c9e599dfc7fb8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Nov 1 17:03:47 2024 +0900
+    [김재현/전투] ServerCommons에 interface 수정 누락사항 추가
+commit bb7201daa832e5faf903f120a78ee1e38e0d6304
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Nov 1 16:07:22 2024 +0900
+    [김재현/전투] 전투 플로우에 맞춰 인트로 연출 및 각종 연출 추가 가능하도록 코드 수정
+commit 67f0cea0d489f1a23dad948aaba1b2cdc959b2a8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Oct 31 17:50:16 2024 +0900
+    [김재현/테이블] 테이블 변환 오류 수정
+commit e165549ac9468c0656ee4a8c10b68ad397a22efa
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Oct 31 13:09:20 2024 +0900
+    [김재현/전투] 범블비, 메가트론 신규 전투용 애니메이터 및 신규 애니메이터 오버라이드 기능 개발
+commit 9e8e02ce540b5dbf7d7acf7833e208f4c103195b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Oct 29 14:13:30 2024 +0900
+    [김재현/전투] 클라이언트 전투 연출 로직 변경 + 구조 변경 중도 커밋
+commit 7aa4c7385efd060c92efd6f5061c0dfca16dddac
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Oct 29 14:11:11 2024 +0900
+    [김재현/테이블] 신규 테이블 적용, 서버와 테이블 관련 데이터 동기화
+commit 1d480746e6378c7d05d98e48bba72b1c2445ebe1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Oct 29 14:05:27 2024 +0900
+    [김재현/툴] 애니메이션 툴 종료 시 복귀 씬을 TestBuildScene 에서 intro로 변경
+commit 6b3bc9747f2443c692b422ca8f5d16b8311b593b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Oct 28 10:19:54 2024 +0900
+commit 99334c16a1be0b0e86a4b2b17c82a919322faea3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Oct 24 19:17:37 2024 +0900
+    [김재현/전투] 전투 로직 변경사항 클라이언트 적용
+commit a31359d41fee520b16a91b8a577247bf479b5cfc
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Oct 23 17:26:47 2024 +0900
+    [김재현/전투] 전투 배경 Normal city 추가, 신규 전투 로직에 포함
+commit 9175ee73a5f71579e48e25a7b69cf097362f03ec
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Oct 23 12:11:26 2024 +0900
+    [김재현/전투] 튜토리얼 시 전투 진입이 되지 않게 막던 튜토리얼 코드 수정 및 삭제
+commit a5b3ab7601339b830313d60a475f49aa2461f43e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Oct 22 18:23:45 2024 +0900
+    [김재현/전투] LBS 전투 오브젝트 클릭 시 기존 전투 대신 신규 자동전투로 넘어갈 수 있도록 코드 수정 및 진입 UI 추가
+commit 267e5071b61e9ddc9c1a964ab6384330d08a905d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Oct 16 12:34:50 2024 +0900
+    [김재현/전투] AutoBattleScene 및 클라이언트 전투 연출 로직 변경
+commit 046102a226b255528d377fc51f4ae05051aa1db7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Oct 10 18:32:36 2024 +0900
+    [김재현/전투] BattleTestScene 에서 UI로만 돌아가던 전투를 AutoBattleScene으로 이전, 배경 및 TF 임시 생성기능 추가
+commit 4eed69cee261ec6bf65d697d03ea0cbf92e8c0da
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Oct 8 19:02:35 2024 +0900
+    [김재현/전투] 전투 배경 Additive Scene으로 분리 작업
+commit 057032e0be4060955c1691e85980ff646a7cfe19
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Oct 2 17:37:28 2024 +0900
+    [김재현/전투] 테스트용 전투 모션 중 버프 사용 모션을 Victory 에서 TagIn 으로 변경
+commit 6836a674b23c2fef30c434128a240aa2b70c6565
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Oct 2 17:35:12 2024 +0900
+commit 8f6412ab5fa1de0cd2144fef9be560c5fa60b51c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Oct 2 17:30:05 2024 +0900
+    [김재현/최적화] CombineMesh 스크립트 위치 수정, public field를 property로 변경, field 들 네이밍 룰에 맞춰 수정
+commit b8b0237ee6b38324a405301ab55b3fe0f84633da
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Oct 2 16:56:08 2024 +0900
+commit 96190eb1b2a30e9d24ab1e2086a5f4097427c28c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Oct 2 16:01:39 2024 +0900
+    [김재현/전투] 신규 전투 자동전투 기능 오류 수정
+commit cd36f5f2f7fa330b0e5c3e3a52209d7205dc4eca
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Oct 2 15:29:54 2024 +0900
+    [김재현/전투진입] 간단하게 전투 진입 시 camera zoom 기능 추가 (추후 연출 추가 필요)
+commit a5b228d2abd2cb2363646f5862eaf494eab89c62
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Oct 2 13:07:44 2024 +0900
+    [김재현/전투] 전투 스크립트 머지 오류 수정
+commit a30769a9ceccee0065a168bd957092c970ad26d0
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Oct 2 12:53:07 2024 +0900
+    [김재현/전투] 신규 전투 테스트용 스킵 기능 추가 및 자동 진행 기능 추가
+commit dc0a861d6d8c08e4157ba6a68a9fac1a2b63a926
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Oct 2 12:03:33 2024 +0900
+    [김재현/전투] 전투로직 변경사항 클라 적용
+commit 4ad08d451b4cf9403d90d71963d97348b6b67696
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Sep 11 17:39:23 2024 +0900
+    [김재현/최적화] CombineMesh 주석 추가및 사용하지않는 List 삭제
+commit 4b8f62a8ab65d38d6f23946a2cb664a41456a4b7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Sep 11 15:41:13 2024 +0900
+    [김재현/최적화] GoMap 타일 생성 시 호출되는 OnTileCreated 호출 위치 변경
+commit 2868fb981f70cf004e98f5015ff69b14191fb610
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Sep 11 15:39:50 2024 +0900
+    [김재현/빌드] 빌드 시 오류를 유발하는 EditorWindow 사용코드를 if 문으로 묶음
+commit 326b0afaceb24b806400546806aa9f079b4d534e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Sep 11 15:39:19 2024 +0900
+    [김재현/최적화] CombineMesh 코드 적용
+commit 786b5ce118e89b095bbc379f70cdb9ccce0368c8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Sep 3 14:01:49 2024 +0900
+    [김재현/LBS] 로비에서 소환게임 등 씬이동 시 LBS 데이터를 삭제하여 소환게임 진입 후 DynamicObjectData를 찾지 못해 오류가 발생하는 버그 수정
+commit 8caa9a096ac27553e35c9e33bf70b4d0a06632c1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Sep 3 11:57:41 2024 +0900
+    [김재현/LBS] MapCoordinates -> GoMap의 Coordinates 를 직접 사용하도록 수정
+commit 44fc17b575eb22c6ef3241ee550d3eb501efcc05
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Aug 30 15:36:45 2024 +0900
+    [김재현/LBS] 맵 타일상의 Static object 해제 중 다시 동일한 타일로 진입 시  삭제되지 않은 staticObjectData가 남아있어 새로 생성되지 않는 버그 수정
+commit dc65cc548af896bcb3c717e435bdcb0f951936d5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Aug 30 15:35:22 2024 +0900
+    [김재현/LBS] Tuple 로 되어있던 맵 타일 중심 좌표를 MapCoordinates로 변경, HashCode 비교로 수정
+commit a381d3b6d0a8a2f26f3f13c59cb31bf3303f457e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Aug 21 14:33:24 2024 +0900
+    [김재현/LBS] 코루틴이 존재하지 않는데도 StopCoroutine 을 작동시키는 코드에 Null 체크 추가
+commit 1fee6adfb8f78db6cada169a7db3f0c501153b7d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Aug 21 14:10:06 2024 +0900
+commit 058527bfd711081ee0f6f92595a3def91ae66974
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Aug 21 14:03:14 2024 +0900
+    [김재현/서버] 개발 서버 신규 IP 적용
+commit 42b64443e5eb6a9b0f72790ac45aafa7358dbd68
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jul 16 10:58:32 2024 +0900
+    [김재현/LBS] DEV 가 아닐 경우 Static object, Dynamic object, 캐릭터 위의 debug text가 사라지도록 수정
+commit 6befa1c3cb18d6100acf7bf23b553dc35035f29c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jul 16 10:44:56 2024 +0900
+    [김재현/전투] Pull request 후 수정 사항 적용
+commit 63aa208c1373594f27a430fb5f819c093376b307
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 12 14:32:02 2024 +0900
+    [김재현/패키지] AssetUsageDetector 플러그인 추가
+commit 3545c2173a001c92fd3e307f3759c0ff8672a46b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jul 12 11:48:26 2024 +0900
+    [김재현/LBS] 오브젝트 생성/해제 로직을 Coroutine 으로 변경, 순간적으로 CPU 및 메모리가 튀는 현상을 방지
+commit 0fdc78f94561477dc77f4a99a3169e584042bc63
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 11 14:16:08 2024 +0900
+    [김재현/LBS] LobbySceneController와 LocationManager 사이의 callback을 Event 대신 interface로 변경
+commit 5ac95237c9068d53e4bdda0604cfc5f59d5b48dd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jul 11 11:34:04 2024 +0900
+    [김재현/LBS] LBSObjectManager에서 event로 데이터 전달을 하던 코드를 interface로 변경
+commit 343be7f30126993f6a6f8ce73000e7fac5a2803c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jul 10 16:06:37 2024 +0900
+    [김재현/전투] 클라이언트 전투 테스트용 코드 추가, BattleMonitor, BattleResultCalculator 추가
+commit 7c51aa22033c5521f69ad8e18f4bf0313193d66b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 1 11:30:13 2024 +0900
+    [김재현/전투] 전투 공용 로직 테스트 및 asnyc 작업 테스트용 코드, UI 추가
+commit 95df37f95561a7e9ff6f13adf35d39208c10ad65
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jul 1 11:27:34 2024 +0900
+commit 0bf5a3cbc3ce95ad09091337c4e591b13d82381b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 27 19:21:36 2024 +0900
+    [김재현/도감] 도감 오브젝트를 Lobby에서 7_album scene으로 분리, additive scene으로 사용
+commit d4d876789deb5dbf5d733901aa8a5c7c1d4c111b
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 27 17:13:38 2024 +0900
+    [김재현/Lighting] LightingSettingManager 코드 수정, LightingSettingConfig ScriptableObject 수정 및 AssetBundle에 추가
+commit d93022b075b1ed5285ef0acc8e5862588030386d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 26 18:08:38 2024 +0900
+    [김재현/ObjectPool] 필드명 네이밍룰에 맞게 수정, Property로 분리
+commit 0925a67e526a3c35c89f6500e27bf89618ebd978
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 26 17:52:15 2024 +0900
+    [김재현/ObjectPool] 오브젝트 Release 시 해당 오브젝트의 이름을 기준으로 Pool parent를 찾고 있는 문제 수정
+commit b1adf04df968284d881d1f4913518b1ce9a5d862
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 26 16:03:00 2024 +0900
+    [김재현/ObjectPool] ObjectPool로 생성한 GameObject를 해제할 때 발생하는 경고 처리
+commit 9990323e978eddc444e7c4e3ea4b3f13552db83d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 26 11:14:49 2024 +0900
+commit 887955ade756ea3a8cc705d96bb3688ffe57c6fd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 25 17:57:50 2024 +0900
+    [김재현/LBS] LBS -> 도감 진입 시 LBS Hud가 사라지지 않아 화면을 가리는 문제 수정
+commit 664678cf09848198ca0cbf90f4e133a6edc1ef4c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 24 11:09:36 2024 +0900
+    [김재현/Battle] ServerCommon 코드 클라이언트에 이식, StateMachine 용 Stateless 패키지 설치
+commit 138de31b5ac0ed8edc604c2ca31260ed84abb7b2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 21 17:54:03 2024 +0900
+commit 647503c71aacc6416808d0d31bba3d052e311327
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 21 17:52:10 2024 +0900
+    [김재현/LBS] LobbySceneController 와 LobbySceneController_LBS를 통합, ChangeState 로직 정리
+commit 08725903eb91d18b2785f360cae871d5b84e346c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 21 16:44:12 2024 +0900
+    [김재현/시스템] SceneLoadingManager 수정
+commit a71a6c30158b22a2c526bc15343400d31cc3c600
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 21 16:33:23 2024 +0900
+    [김재현/시스템] Base 스크립트 폴더 네이밍 변경 -> Common
+commit afe8ace91830bb3779391cbe99284ee0d723b3aa
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri Jun 21 11:06:07 2024 +0900
+    [김재현/LBS] #e955563 Cherry-pick
+commit faa663128ce1bbbc528e64bde95a495ecb4be9db
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 20 14:04:11 2024 +0900
+commit cf8bad4dbe7616fe73139bc671e74831848b6669
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 20 12:40:56 2024 +0900
+    [김재현/LBS] TableManager 외부에서 삼항 연산자로 복잡하게 처리하고 있던 로직을 TableManager 내부로 옮김
+commit 706df7167ab6c7b6f63437de238bd95aadfb23e6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 20 12:10:27 2024 +0900
+    [김재현/Battle] 서버 공용로직용 코드 추가, SharedTableManager에서 사용할 BuffData 관련 코드 추가
+commit ca1a7ffb6c5b2030b740763ce3914c16294ca60d
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu Jun 20 12:09:01 2024 +0900
+    [김재현/Battle] 임시  Buff, Skill 테이블 데이터 추가, DB 최신화
+commit 44ad294868043e83c62d3842c748cff401d17a00
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed Jun 19 17:03:13 2024 +0900
+    [김재현/LBS+AR] LBS 코드 중 피드백 받은 부분 수정, AR+소환게임 코드 수정
+commit 7a42eb17061d24f422fb3bfe2f91388de5f26fd5
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 18 18:29:56 2024 +0900
+    [김재현/LBS] 내부적으로 동일하게 사용되고 있는 BattleInfoVo 와 SummonGameInfoVo를 IDynamicObjectInfoVo 로 통합
+commit 7c61cbae9b09c0caa5e67d05dc375c7b72d4471c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 17 16:01:38 2024 +0900
+    [김재현/AR] #e955563 Cherry-pick
+commit 74b345737ba113cca52f31842b18c222c0a91331
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 17 14:01:23 2024 +0900
+    [김재현/AR] #0450858 Cherry-pick
+commit d48f024d01541539d8e02879ed53e36f842ee3ed
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 17 12:39:18 2024 +0900
+    [김재현/AR] #513656f Cherry-pick, LBS 수정사항과 오류가 발생하는 코드 수정
+commit 40d0db8f33d06084f874e365ad40bd498d790f5f
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 11 16:15:57 2024 +0900
+    [김재현/LBS] 카메라 줌 테스트용 로그 메시지 삭제
+commit 50ee3636a7001764b3ed5db94d5b964e88039888
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 11 11:13:49 2024 +0900
+    [김재현/타이머] 타이머 오류 메시지에 stack trace 추가
+commit 31e6c9d1f2585a87039de5f77abcd6b56cce1df3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 11 11:09:33 2024 +0900
+    [김재현/타이머] 타이머 작동 중 Delegate dictionary에서 지속적으로 발생하는 Index 오류 처리
+commit b7e209f2d51b12f314d538bfd4f60eaaaacd70e8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue Jun 4 17:13:05 2024 +0900
+    [김재현/Editor] PlayerPrefsEditor 폴더, PlayerPrefManager 스크립트의 네이밍 변경 및 로직 수정
+commit 9b3a5937a39676e4e4e10411f19f4882fff852a9
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 3 17:14:16 2024 +0900
+    [김재현/LBS] 멀리 떨어져 있는 오브젝트 터치 시 알림 텍스트 적용
+commit 90acc6f41ac28644bb381084d4ecacf4895347e4
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 3 17:07:06 2024 +0900
+    [김재현/LBS] 기존 오브젝트의 이름이 충돌체의 이름과 같은지 체크하는 것을 Instance ID로 체크하도록 수정
+commit a0efeca80248a6bcceb4ef57ca4bc0188476c25c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 3 17:02:45 2024 +0900
+    [김재현/LBS] 위치 변경 시 사용될 충돌체 사이의 추가 최소 거리, 반복 횟수를 유니티 인스펙터로 조절 할 수 있도록 수정
+commit a5773e86dcc7814dc2f47c70beb1f8c57012a487
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon Jun 3 16:47:12 2024 +0900
+    [김재현/LBS] Nearby object 위치 변경 시 다른 오브젝트와 겹치지 않게 하는 로직 추가
+commit 473af012c561935fc93660720e5f52a7a23e6b7e
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 31 17:33:16 2024 +0900
+    [김재현/LBS] 기존 GoOrbit 에서 Update로 처리하던 LBS 카메라 회전, 줌 로직을 Input system으로 교체
+commit ca9b3f3cc1763973f48494b21742d98bb5240fec
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 30 15:35:16 2024 +0900
+commit ece21f2f7984cb9e2ce428c7a36d9a48fe30cc28
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 30 15:17:43 2024 +0900
+    [김재현/LBS] LBS 에서 사용하던 Legacy input 을 Input System으로 교체 (Zoom, mouse scroll 추가적용)
+commit cafb2a5ce30f6a21aa38fcc54b7e7d862c1035a8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 29 17:58:44 2024 +0900
+    [김재현/LBS] 테이블데이터에 따라 Static object의 속성을 변경해주는 로직 및 타이머 이벤트 추가
+commit cf931b542aaec807c945581c0ab27ee58ffe30f3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 29 16:31:22 2024 +0900
+    [김재현/LBS] LBSDataManager 사용되지 않는 using 삭제
+commit 86bff372f09fa39673c2636e666f88d9b2d985a8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 29 16:29:22 2024 +0900
+    [김재현/LBS] Static object reward 관련 데이터 저장/관리 개발
+commit 909b366d7db3016b8cd4499ee95b428f25576bf7
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Tue May 28 14:13:41 2024 +0900
+    [김재현/테이블] 테이블 최신화, DB 업데이트
+commit d88140827063db63e4c856d77b4d0369b184efa8
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 27 17:18:40 2024 +0900
+    [김재현/LBS] LBS 관련 코드 정리 및 디버그용 텍스트 (3D 오브젝트 위에 띄우는 텍스트)가 DEV 이외에는 보이지 않게 수정
+commit 04a0aad9eb50f28b768ee9923d3dc7b97d833d8c
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 24 15:33:45 2024 +0900
+    [김재현/LBS] 튜토리얼 관련 오류 수정
+commit e2235c6f99fd07950f048f7a405e3dcc72c82a34
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 24 12:38:39 2024 +0900
+    [김재현/LBS] Dynamic object의 생성 시 위치 선정 로직 수정
+commit d27304b8c370761f416175d817bfc8ca39546fde
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 23 19:03:45 2024 +0900
+    [김재현/LBS] LocationData 요청 및 StaticObject 관련 로직 수정
+commit 8f89e6e10c04f41cb897b88d5b4188aa5eda5474
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 23 10:51:33 2024 +0900
+    [김재현/LBS] TableManager 메서드명 변경사항이 누락되어 추가
+commit c71b6c7eb7719064d2206e7c9d50d68ba1729bf3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 22 14:51:53 2024 +0900
+    [김재현/LBS] 스태미나 관련 누락 사항 커밋
+commit 8cc721dd950fac9be8bd79092518185c9469bbc3
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Wed May 22 12:04:29 2024 +0900
+    [김재현/LBS] Dynamic object 위치 지정 및 Reposition 로직 수정,  오브젝트가 겹쳐 생성되는 문제 수정
+commit 2bdc20836f295ddc53b4de2edc7973180690aea2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 20 17:20:28 2024 +0900
+commit c937155a1e80adb976f3d505c36b694598483b75
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 20 17:20:22 2024 +0900
+    [김재현/LBS] StaticObject 및 Nearby 스태미나 기능 개발 + 적용
+commit c7096f21243aec3dcbc4bac20b9fa1ae428a8460
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 17 18:17:03 2024 +0900
+    [김재현/LBS] 전투 퇴장/패배 시 BattleInfoVo가 서버에서 null 로 내려와 오류가 발생하는 문제 수정
+commit 8802b64e0748b15e294bce39a27beea11288b83a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 17 18:10:09 2024 +0900
+    [김재현/LBS] LBS Dynamic object pool에 신규 테이블 데이터 적용
+commit 3fcc6a65946fc04921bca4bf1ba74b144bae0303
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 17 16:42:46 2024 +0900
+    [김재현/LBS] LBS 신규 테이블 일부 적용 및 변경된 테이블에 따라 클래스 변경, 로직 수정
+commit c1ffb58865a03c825d142d4e58bbb1ec21f314ed
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 17 15:39:17 2024 +0900
+    [김재현/LBS] 튜토리얼 진입 시 클라이언트에서 강제로 CurrentStep을 100으로 만들어버리는 테스트 코드 삭제
+commit 65ef52a930df792347d14bd124f3fce1d80550f1
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 17 13:01:41 2024 +0900
+commit 045c43c0a4559fd6cf09b577411ca8c0dd1098cd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 16 18:11:26 2024 +0900
+    [김재현/LBS] LBS 소환게임 패킷 적용 및 Dynamic object 소환게임 관련 코드 추가
+commit ba33357d5d1978c84d37dd6c514a86d0d579cdf6
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 16 11:57:59 2024 +0900
+    [김재현/LBS] 기존 Singleton 이었던 LBSDataManager를 GameManager 하위 필드로 변경, GameManager를 통해 접근하도록 수정
+commit 7deceef4b010baf9b091f5a19010694b278939bd
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 16 11:36:56 2024 +0900
+    [김재현/LBS] Dynamic object 들의 pooling 시스템 개발 및 기존 static object, dynamic object refresh 개선
+commit 00c1c9566b2afa340f13b098ddabb61d00fe8c10
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 13 12:03:40 2024 +0900
+    [김재현/LBS] ImmutableList 삭제 후 사용되지 않는 System.Collecitons.Immutable using 삭제
+commit 68fe80654a65240f1833db8a9de186cc3f4c3285
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 13 11:50:38 2024 +0900
+commit c5f5d88e66b6841b1ee5829c47a5293a0a116993
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Mon May 13 11:50:06 2024 +0900
+    [김재현/LBS] ImmutableList를 사용하는 부분들을 List 로 변경
+commit 4b6f2074a2f9d92970142be94bc7c81f34ca7766
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 10 18:29:50 2024 +0900
+    [김재현/LBS] Interaction range 에서 벗어난 오브젝트 클릭 시 정상클릭이 되던 문제 수정
+commit e5db423866b869b65ffc8561cd4e5480c8101ed2
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Fri May 10 15:44:54 2024 +0900
+    [김재현/LBS] LBS 전투 패킷 적용, 관련 코드 정리
+commit 7abad9a894e7fb23516ba4d646aa6d177e40e66a
+Author: Cyril <cyrilkim@snowpipe.co.kr>
+Date:   Thu May 9 18:16:21 2024 +0900
+    [김재현/LBS] Dynamic object 위치 변경 이후 상태 체크 로직 추가

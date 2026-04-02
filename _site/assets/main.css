@@ -1,4 +1,7 @@
-﻿html, body {
+﻿html {
+  scroll-behavior: smooth;
+}
+html, body {
   height: 100%;
   min-height: 100vh;
   margin: 0;
@@ -146,6 +149,26 @@ body {
   font-weight: 600;
   font-size: 1.04em;
 }
+.project-group-title {
+  font-size: 1.15em;
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 4px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #333;
+}
+.project-group-title .project-group-sub {
+  font-size: 0.85em;
+  font-weight: 400;
+  color: #bdbdbd;
+  margin-left: 10px;
+}
+.project-group-wrapper {
+  margin-bottom: 32px;
+}
+.project-group-wrapper:last-child {
+  margin-bottom: 0;
+}
 .hr {
   border: 0;
   border-top: 1.5px solid #444;
@@ -158,6 +181,67 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* ── Sticky TOC ── */
+.toc {
+  position: fixed;
+  top: 56px;
+  left: calc((100vw - 900px) / 2 - 210px);
+  width: 180px;
+  z-index: 100;
+  font-size: 0.85em;
+  line-height: 1.7;
+}
+.toc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.toc li {
+  margin-bottom: 2px;
+}
+.toc li.toc-sub {
+  padding-left: 14px;
+  font-size: 0.92em;
+}
+.toc a {
+  display: block;
+  color: #888;
+  text-decoration: none;
+  padding: 3px 0 3px 12px;
+  border-left: 2px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+.toc a:hover {
+  color: #4fa3ff;
+  text-decoration: none;
+}
+.toc a.active {
+  color: #4fa3ff;
+  border-left: 3px solid #4fa3ff;
+  font-weight: 700;
+}
+
+/* ── Footer ── */
+.site-footer {
+  width: 900px;
+  text-align: center;
+  color: #666;
+  font-size: 0.9em;
+  border-top: 1px solid #333;
+  padding: 28px 0 16px 0;
+  margin-top: 8px;
+}
+.site-footer a {
+  color: #888;
+}
+
+@media (max-width: 1350px) {
+  .toc {
+    display: none;
+  }
+}
+
 @media (max-width: 1100px) {
   .page-center {
     padding: 32px 16px 32px 16px;
@@ -172,6 +256,10 @@ a:hover {
     min-width: 90px;
     max-width: 90px;
     margin-right: 16px;
+  }
+  .site-footer {
+    width: calc(100vw - 32px);
+    max-width: 900px;
   }
 }
 @media (max-width: 700px) {
@@ -193,5 +281,9 @@ a:hover {
     width: calc(100vw - 16px);
     max-width: 900px;
     padding: 20px 16px 20px 16px;
+  }
+  .site-footer {
+    width: calc(100vw - 16px);
+    max-width: 900px;
   }
 }
